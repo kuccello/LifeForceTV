@@ -9,7 +9,7 @@ module LifeForceAdminHelpers
         return true
       else
         session[:return_to] = request.fullpath
-        redirect '/login'
+        redirect '/admin/login'
         return false
       end
     end
@@ -31,7 +31,7 @@ module LifeForceAdminHelpers
     end
 
     def authenticated
-      logged_in?
+      !!session[:user]
     end
 
     def auth_required?(uri)

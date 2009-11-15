@@ -27,8 +27,6 @@ require ::File.join(::File.dirname(__FILE__), 'setup/setup')
 
 use Rack::Session::Pool, :expire_after => 60 * 30 #60 * 60 * 24 * 365
 use Rack::Flash
-#use LifeForceSetup
-
 
 map '/' do
   run LifeForceSite

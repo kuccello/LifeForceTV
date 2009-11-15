@@ -36,7 +36,7 @@ class LifeForceAdmin < Sinatra::Base
     LifeForceAdmin.set :base_uri, request.env["REQUEST_PATH"].sub(@current_uri, "")
 
     if auth_required?(@current_uri) && !authenticated
-      puts "#{__FILE__}:#{__LINE__} #{__method__} #{@current_uri}"
+      puts "#{__FILE__}:#{__LINE__} #{__method__} #{@current_uri} -- is authenticated? #{authenticated}"
       redirect "/admin/login"
     end
   end
@@ -58,9 +58,8 @@ class LifeForceAdmin < Sinatra::Base
 
     admin = Lifeforce::Member.authenticate_as_admin(email, password)
 
-
     if admin then
-      session[:user_token] = admin.token
+      session[:user] = admin.token
       redirect to_path('/dashboard')
     else
       # TODO -- log this somewhere ---- !!!!!

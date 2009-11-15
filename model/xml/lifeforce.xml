@@ -22,7 +22,7 @@
           last-login=""
           last-ip=""
           status="active|disabled"
-          is-admin="true|false"
+          is-admin="yes|no"
           email=""/>
 
   <!--

@@ -1,15 +1,5 @@
 require 'sinatra/base'
 
-module LifeForceSetupHelpers
-  module Link
-
-    def to_path(uri)
-      "#{options.base_uri}#{uri}"
-    end
-
-  end
-end
-
 require File.join(File.dirname(__FILE__), "../model/init")
 
 class LifeForceSetup < Sinatra::Base
@@ -37,34 +27,35 @@ class LifeForceSetup < Sinatra::Base
         redirect '/setup/' if $lifeforce_configuration_setup_flag && !request.env["REQUEST_PATH"].include?('/setup')
       end
     end
-  end
 
-  helpers LifeForceSetupHelpers::Link
-
-  get '/' do
-    haml :begin unless $LIFEFORCE_INSTALLED
-    haml :finish if $LIFEFORCE_INSTALLED
-  end
-
-  post '/' do
-    unless $LIFEFORCE_INSTALLED
-      # params - email, pass
-      session[:setup] = {:admin=>{:email=>params[:email], :pass=>params[:pass]}}
-      redirect '/setup/finish'
-    else
-      haml :finish
+    get '/' do
+      puts "#{__FILE__}:#{__LINE__} #{__method__} HERE"
+      unless $LIFEFORCE_INSTALLED
+        haml :begin
+      else
+        haml :finish
+      end
     end
-  end
 
-  get '/finish' do
-    unless $LIFEFORCE_INSTALLED
-      email, password = session[:setup][:admin][:email], session[:setup][:admin][:pass]
-      Lifeforce::Member.create_default_administrator(email, password)
+    post '/' do
+      unless $LIFEFORCE_INSTALLED
+        # params - email, pass
+        session[:setup] = {:admin=>{:email=>params[:email], :pass=>params[:pass]}}
+        redirect '/setup/finish'
+      else
+        haml :finish
+      end
+    end
 
-      # here we will create the installed.rb file
-      local_filename = File.dirname(__FILE__)+"/../installed.rb"
-      stamp = Time.now
-      doc = <<-INSTALLED
+    get '/finish' do
+      unless $LIFEFORCE_INSTALLED
+        email, password = session[:setup][:admin][:email], session[:setup][:admin][:pass]
+        Lifeforce::Member.create_default_administrator(email, password)
+
+        # here we will create the installed.rb file
+        local_filename = File.dirname(__FILE__)+"/../installed.rb"
+        stamp = Time.now
+        doc = <<-INSTALLED
 # REMOVE THIS FILE TO HAVE SETUP RUN AGAIN
 puts "=============================================="
 puts " LifeForce v#{$LIFEFORCE_VERSION} has been setup - #{stamp.strftime("%b. %d, %Y")}"
@@ -74,14 +65,16 @@ $lifeforce_configuration_setup_flag = false
 $transaction_context = "lifeforce-#{stamp.strftime('%Y-%m-%d-%H-%M-%S')}"
 
 # PUTS SETTINGS IN PLACE FOR THIS INSTANCE OF THE APPLICATION
-      INSTALLED
-      File.open(local_filename, 'w') {|f| f.write(doc) }
+        INSTALLED
+        File.open(local_filename, 'w') {|f| f.write(doc) }
 
-      require File.join(File.dirname(__FILE__), '../installed')
+        require File.join(File.dirname(__FILE__), '../installed')
 
-      session[:setup] = nil
+        session[:setup] = nil
+      end
+      haml :finish
     end
-    haml :finish
   end
+
 
 end
