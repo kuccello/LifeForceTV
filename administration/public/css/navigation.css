@@ -1,0 +1,86 @@
+/* Navigation */
+ 
+#navigation {
+	min-width: 760px;
+	height: 30px;
+	display: block; 
+	margin: 0 20px 25px 20px; 
+	padding: 0; 
+	position: relative; 
+	background: url('../images/navigation-line.gif') left no-repeat;
+	z-index: 2;
+}
+
+#navigation li { 
+	display: block; 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	float: left; 
+	position: relative; 
+	line-height: 30px;
+	background: url('../images/navigation-line.gif') right no-repeat;
+}
+
+#navigation a { 
+	display: block; 
+	padding: 0 15px; 
+}
+
+#navigation ul { 
+	display: none; 
+	position: absolute; 
+	left: 0; 
+	margin: 0; 
+	padding: 0; 
+}
+
+* html #navigation ul { line-height: 0; } /* IE6 "fix" */
+#navigation ul a { zoom: 1; } /* IE6/7 fix */
+#navigation ul li { float: none; }
+#navigation ul ul { top: 0; }
+    
+/* Subnavigation Width */
+
+#navigation ul { width: 140px; }
+#navigation ul ul { left: 141px; }
+
+/* Colors and Fonts */
+
+#navigation a { 
+	font-size: 12px;
+	font-weight: bold; 
+	color: #000;
+	text-decoration: none; 
+}
+
+#navigation li.current {
+	background: #000;
+}
+
+#navigation li.hover a { 
+	background-color: #000; 
+	color: #fff; 
+}
+
+#navigation ul { 
+	top: 30px; 
+}
+
+#navigation ul li a { 
+	background-color: #000; 
+	color: #fff; 
+	font-size: 11px; 
+}
+
+#navigation ul a.hover { 
+	background-color: #4a4a4a; 
+}
+
+#navigation ul a { 
+	border-bottom: 1px solid white; 
+	border-right: none;
+}
+
+/* #navigation ul a { border-bottom: none; } - I also needed this for IE6/7 */
+

@@ -1,0 +1,341 @@
+﻿/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size:12px;
+	color: #333;
+	background: #f4f4f4 url('../images/navigation-bg.gif') 0 100px repeat-x;
+}
+
+a {
+	color: #1b67b2;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	border: 0;
+}
+
+a img {
+	border: none;
+}
+
+p {
+	line-height: 18px;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+ul {
+	margin: 0 0 15px 15px;
+	padding: 0;
+}
+
+ol {
+	margin: 0 0 15px 22px;
+	padding: 0;
+}
+
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+
+/* Header */
+
+#header {
+	min-width: 760px;
+	height: 100px;
+	padding: 0 20px;
+	background: #1e1e1e url('../images/header-bg.jpg') left no-repeat;
+}
+
+#header h1 {
+	float: left;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 100px;
+}
+
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+	width: 400px;
+	height: 100px;
+	display: block;
+}
+
+/* Global Navigation */
+
+#global_nav {
+	float: right;
+	margin: 43px 0 0 0;
+}
+
+#global_nav li {
+	float: left;
+	list-style: none;
+	padding: 0 5px;
+	border-right: 1px solid #666;
+	color: #666;
+	font-size: 12px;
+}
+
+#global_nav li a {
+	color: #ccc;
+}
+
+#global_nav li.last {
+	border-right: none;
+}
+
+/* Main */
+
+#main {
+	min-width: 760px;
+	margin: 0 20px;
+	display: block;
+	position: relative;
+	height: 100%;
+	z-index: 1;
+}
+
+#content {
+	margin-right: 310px;
+}
+
+#content-container {
+	float: left;
+	width: 100%;
+	margin-right: -200px;
+}
+
+#title {
+	margin: 0 0 30px;
+	padding: 15px;
+	background: #1e1e1e;
+}
+
+#title h1 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	line-height: 22px;
+	color: #fff;
+}
+
+#title span {
+	line-height: 22px;
+	color: #999;
+}
+
+.box {
+	margin: 0 0 35px;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #e4e4e4;
+}
+
+.box h2 {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 15px;
+}
+
+.box h3 {
+	color: #1b57aa;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 15px;
+}
+
+.box h4 {
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 0 15px;
+}
+
+/* Tab */
+
+.idTabs {
+	margin: 0 0 15px;
+	padding: 0;
+	list-style: none;
+}
+
+.idTabs li {
+	display: inline;
+	padding: 0 10px 0 0;
+	margin: 0 10px 0 0;
+	border-right: 1px  solid #c4c4c4;
+}
+
+.idTabs li a.selected {
+	color: #ca0002;
+}
+
+.idTabs li.last {
+	border-right: none;
+}
+
+.idTabs li a {
+	color: #999;
+	text-decoration: none;
+}
+
+.idTabs li a:hover {
+	text-decoration: underline;
+}
+
+.idTabs li a:active,
+.idTabs li a:visited {
+	outline: none;
+}
+
+/* Pagination */
+
+#pagination {
+	margin: 0 0 15px;
+	padding: 0;
+	border: none;
+}
+
+#pagination li {
+	border:0; 
+	margin:0; 
+	padding:0;
+	list-style:none;
+}
+
+#pagination li, #pagination a {
+	margin-right:2px;
+	display: inline;
+}
+
+#pagination .previous-off,
+#pagination .next-off {
+	color:#999;
+	display:block;
+	float:left;
+	font-weight:bold;
+	padding:0 4px;
+}
+	
+#pagination .next a,
+#pagination .previous a {
+	border:none;
+	font-weight:bold;
+}
+	
+#pagination .active {
+	color:#000000;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:0 4px;
+}
+
+#pagination a:link, 
+#pagination a:visited {
+	display:block;
+	float:left;
+	padding:0 4px;
+	text-decoration:underline;
+}
+
+#pagination a:hover {
+	text-decoration:none;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	margin: 10px 0;
+	width: 280px;
+	font-size: 11px;
+	color: #666;
+}
+
+.side-box {
+	margin: 0 0 30px;
+}
+
+.side-box h3 {
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+	color: #222;
+	font-size: 16px;
+}
+
+.side-box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.side-box ul li {
+	margin: 0 0 15px;
+	padding: 0 0 15px;
+	border-bottom: 1px solid #d8d8d8;
+	line-height: 16px;
+}
+
+.side-box ul li a {
+	font-weight: bold;
+}
+
+/* Search */
+
+#search {
+	height: 23px;
+	margin: 0 0 15px;
+}
+
+#search-text {
+	margin: 0;
+	padding: 3px 5px;
+	border: 1px solid #c4c4c4;
+	position: absolute;
+	width: 243px;
+	height: 17px;
+}
+
+#search-btn {
+	margin: 0 0 0 254px;
+	padding: 0;
+	position: absolute;
+}
+
+/* Footer */
+
+#footer {
+	min-width: 760px;
+	clear: both;
+	background: #1e1e1e;
+	color: #999;
+	height: 40px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0 20px;
+	line-height: 40px;
+	font-size: 11px;
+}
+
+#footer p a {
+	color: #ccc;
+}

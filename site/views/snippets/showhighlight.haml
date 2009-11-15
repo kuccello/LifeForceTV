@@ -1,0 +1,41 @@
+.entry
+  %a{ :href => show.uri }
+    %img{ :src => show.highlight_image, :alt => show.name }
+  .date.clearfix
+    .date_holder
+      %span.new_episode_label
+        Latest Episode
+      %span.month
+        = show.latest_episode.month_str
+        %span.year
+          = show.latest_episode.year
+      %span.day
+        = show.latest_episode.day_of_month
+    /
+      END "date_holder"  //
+  /
+    END "date"  //
+  .title_holder
+    %h1
+      %a.title{ :href => show.uri }
+        = show.name
+      %a.comment_counter{ :href => show.uri }
+        = show.episode_count
+    %h3
+      Generas
+      %span
+        - genera_size = show.generas.size
+        - show.generas.each_with_index do |genera,idx|
+          %a{ :href => "#" }
+            Articles
+          = ((idx+1) < genera_size ) ? "," : ''
+
+  /
+    END "title_holder"  //
+  .entry_content
+    %p
+      = show.highlight_description
+  /
+    END "entry_content"  //
+/
+  END "entry"  //

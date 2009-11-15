@@ -1,0 +1,14 @@
+Requires RUBY 1.9.1p243 or better
+
+-- You need to install this
+http://1978th.net/tokyocabinet/tokyocabinet-1.4.39.tar.gz
+http://1978th.net/tokyocabinet/rubypkg/tokyocabinet-ruby-1.29.tar.gz
+
+-- RMagick / ImageMagick
+
+sudo gem install hutch-xamplr
+sudo gem install cucumber
+sudo gem install shoulda
+sudo gem install rmagick
+sudo gem install sinatra
+sudo gem install haml

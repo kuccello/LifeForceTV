@@ -1,0 +1,97 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :dir => "ltr", :lang => "en-US" }
+  %head
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8" }
+    %title
+      $SITE_NAME &rsaquo; Administration
+    %link{ :rel => "stylesheet", :href => "/css/style.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "/css/navigation.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "/css/form.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "/css/table.css", :type => "text/css", :media => "all" }
+    %script{ :type => "text/javascript", :src => "/js/minmax.js" }
+    %script{ :type => "text/javascript", :src => "/js/jquery.js" }
+    %script{ :type => "text/javascript", :src => "/js/jquery.droppy.js" }
+    %script{ :type => "text/javascript", :src => "/js/jquery.curvycorners.js" }
+    %script{ :type => "text/javascript", :src => "/js/jquery.pngFix.js" }
+    %script{ :type => "text/javascript", :src => "/js/jquery.idTabs.js" }
+    %script{ :type => "text/javascript" }
+      $(document).ready(function(){
+      \/* Navigation */
+      $('#navigation').droppy({
+      \/* dropdown speed */
+      speed: 10
+      });
+      \/* PNG fix */
+      $(document).pngFix();
+      \/* Round corner */
+      $('.round').corner({
+      \/* top left */
+      tl: { radius: 5 },
+      \/* top right */
+      tr: { radius: 5 },
+      \/* bottom left */
+      bl: { radius: 5 },
+      \/* bottom right */
+      br: { radius: 5 }
+      });
+      });
+  %body
+    #header
+      %h1
+        %a{ :href => "#" }
+          %img{ :src => "/images/logo.png", :alt => "#{$SITE_NAME} Administration" }
+      #global_nav
+        %ul
+          %li
+            Welcome
+            %a{ :href => "#" }
+              ne-design
+          %li
+            %a{ :href => "#" }
+              Settings
+          %li.last
+            %a{ :href => "#" }
+              Log Out
+    %ul#navigation
+      %li
+        %a{ :href => "#" }
+          Dashboard
+      %li
+        %a{ :href => "#" }
+          Clients
+        %ul
+          %li
+            %a{ :href => "#" }
+              New Clients
+          %li
+            %a{ :href => "#" }
+              Top Clients
+          %li
+            %a{ :href => "#" }
+              Search
+      %li
+        %a{ :href => "#" }
+          Reports
+      %li
+        %a{ :href => "#" }
+          System
+
+    = yield
+
+    #footer
+      %p.left
+        \&copy; Copyright
+        = $SITE_NAME
+        2009
+      %p.right
+        %a{ :href => "#" }
+          Dashboard
+        |
+        %a{ :href => "#" }
+          Clients
+        |
+        %a{ :href => "#" }
+          Reports
+        |
+        %a{ :href => "#" }
+          System

@@ -1,0 +1,266 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %script{ :type => "text/javascript", :src => "http://code.jquery.com/jquery-latest.js" }
+    /
+      [if lt IE 7.]>
+      <script ype="text/javascript" src="js/DD_belatedPNG.js"></script>
+      <script>
+      DD_belatedPNG.fix('#search input.field, #search input.field:focus, #featured_home .bigimg .post_category a,#featured_home .bigimg .post_name a, #message_buttons .button2 a, #message_buttons .button2 a:hover, #inner_content .date, img');
+      </script>
+      <![endif]
+    %script{ :src => "js/dropdown.js", :type => "text/javascript" }
+    %script{ :src => "js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "css/style.css" }
+    %link{ :rel => "stylesheet", :href => "css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
+    %title
+      LondonCreative+
+  %body
+    #wrapper
+      #border_top
+      /
+        END "border_top"  //
+      #header.clearfix
+        #logo
+          %a{ :href => "index.php" }
+            %img#lclogo{ :src => "images/logo.png", :alt => "LondonCreative+" }
+        /
+          END "logo"  //
+        #header_contacts
+          phone: +420 776 223 443
+          %br
+          e-mail: support@londoncreative.co.uk
+      /
+        END "header"  //
+      #container.clearfix
+        #toppanel.clearfix
+          #navigation
+            %ul
+              %li
+                %a.main_category{ :href => "index.php" }
+                  Home
+              %li
+                %a.main_category{ :href => "theme_description.html" }
+                  About
+                %ul
+                  %li
+                    %a{ :href => "testpage.html" }
+                      HTML Test Page
+                  %li
+                    %a{ :href => "theme_description.html" }
+                      Theme Description
+                  %li
+                    %a{ :href => "#" }
+                      Dropdown Test
+                    %ul
+                      %li
+                        %a{ :href => "#" }
+                          Dropdown Test
+                        %ul
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                        /
+                          END dropdown level 3  //
+                      %li
+                        %a{ :href => "#" }
+                          Dropdown Test
+                        %ul
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                        /
+                          END dropdown level 3  //
+                      %li
+                        %a{ :href => "#" }
+                          Dropdown Test
+                    /
+                      END dropdown level 2  //
+                /
+                  END dropdown level 1  //
+              %li.active
+                %a.main_category{ :href => "portfolio.html" }
+                  Portfolio
+                %ul
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Web design
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Print Design
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Corporate Identity
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Branding
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Advertising
+                /
+                  END dropdown level 1  //
+              %li
+                %a.main_category{ :href => "blog.html" }
+                  Blog
+              %li
+                %a.main_category{ :href => "contact.php" }
+                  Contact
+            /
+              END for whole navigation UL  //
+          /
+            END "navigation"  //
+          #search
+            %form#searchform{ :action => "###", :method => "get" }
+              %input#s.field{ :type => "text", :onblur => "if (this.value == '') {this.value = 'Enter keywords...';}", :onfocus => "if (this.value == 'Enter keywords...') {this.value = '';}", :value => "Enter keywords...", :name => "s" }
+              %input.submit{ :type => "submit", :name => "submit", :value => "Search" }
+          /
+            END "search"  //
+        /
+          END "toppanel"  //
+        #content_wrap
+          #inner_content
+            .entry
+              %a{ :href => "images/port1_big.jpg", :rel => "prettyPhoto[portfolio]", :title => "Project No.1" }
+                %img{ :src => "images/port1.jpg", :alt => "port1.jpg" }
+              .title_holder
+                %h1
+                  %a.title{ :href => "#" }
+                    How To Be A Rockstar Freelancer
+              /
+                END "title_holder"  //
+              .entry_content
+                %p
+                  This is one of those projects you will totally love. My client was so awesome he let me do what I wanted and paid me two times more than a regular customer.
+              /
+                END "entry_content"  //
+            /
+              END "entry"  //
+            .entry
+              %a{ :href => "images/port2_big.jpg", :rel => "prettyPhoto[portfolio]", :title => "Project No.2" }
+                %img{ :src => "images/port2.jpg", :alt => "port2.jpg" }
+              .title_holder
+                %h1
+                  %a.title{ :href => "#" }
+                    Business Cards Sneak Peak
+              /
+                END "title_holder"  //
+              .entry_content
+                %p
+                  This is one of those projects you will totally love. My client was so awesome he let me do what I wanted and paid me two times more than a regular customer.
+              /
+                END "entry_content"  //
+            /
+              END "entry"  //
+            .entry
+              %a{ :href => "images/port3_big.jpg", :rel => "prettyPhoto[portfolio]", :title => "Project No.3" }
+                %img{ :src => "images/port3.jpg", :alt => "port3.jpg" }
+              .title_holder
+                %h1
+                  %a.title{ :href => "#" }
+                    New Creative Ways How To Print
+              /
+                END "title_holder"  //
+              .entry_content
+                %p
+                  This is one of those projects you will totally love. My client was so awesome he let me do what I wanted and paid me two times more than a regular customer.
+              /
+                END "entry_content"  //
+            /
+              END "entry"  //
+          /
+            END "inner_content"  //
+          #sidebar_home
+            .widget
+              %h3.widget_title
+                This is a text widget
+              .widget_content
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less...
+              /
+                END "widget_content"  //
+            /
+              END "widget"  //
+            .widget
+              %h3.widget_title
+                INFORMATIONS ABOUT THIS THEME
+              .widget_content
+                %img{ :src => "images/screen_widget.jpg", :alt => "Screenshot", :style => "float:left; margin:0 10px 2px 0;" }
+                %p
+                  This is a text widget. You can have them as many as you like.
+                  %br
+                  %br
+                  This theme comes with fully working contact form, awesome slider for your featured images, nasty spinning slider buttons (never saw them anywhere else, so you can call it unique), 2 message buttons under the slider, PrettyPhoto plugin (better clone of Lightbox).
+                  %br
+                  %br
+                  You will also have user-friendly dropdown navigation with infinite dropdown levels where you can style every even list item via Jquery, so no more hassle, it's automatic, you can just change the colors etc. in stylesheet and you are ready to go!
+              /
+                END "widget_content"  //
+            /
+              END "widget"  //
+            .widget
+              %h3.widget_title
+                Categories
+              .widget_content
+                %ul.widget_ul
+                  %li
+                    %a{ :href => "#" }
+                      Articles
+                  %li
+                    %a{ :href => "#" }
+                      Music
+                  %li
+                    %a{ :href => "#" }
+                      Photography
+                  %li
+                    %a{ :href => "#" }
+                      Collections
+                  %li
+                    %a{ :href => "#" }
+                      World News
+                  %li
+                    %a{ :href => "#" }
+                      Wordpress
+              /
+                END "widget_content"  //
+            /
+              END "widget"  //
+          /
+            END "sidebar_home"  //
+        /
+          END "content_wrap"  //
+      /
+        END "container"  //
+      #footer.clearfix
+        #footer_left
+          © Copyright 2009 by LondonCreative+
+        #footer_right
+          %a{ :href => "index.php" }
+            %img{ :src => "images/logo_footer.png", :alt => "Logo" }
+        #footer_bottom
+      /
+        END "footer"  //
+    /
+      END "wrapper"  //
+    /
+      Initialize PrettyPhoto JS Plugin  //
+    %script{ :type => "text/javascript", :charset => "utf-8" }
+      $(document).ready(function(){
+      $("a[rel^='prettyPhoto']").prettyPhoto();
+      });
+    /
+      END PrettyPhoto Initialization  //

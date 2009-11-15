@@ -1,0 +1,51 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :dir => "ltr", :lang => "en-US" }
+  %head
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8" }
+    %title
+      = $SITE_NAME
+      Administration &rsaquo; Login
+    %link{ :rel => "stylesheet", :href => to_path("/css/login.css"), :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => to_path("/css/form.css"), :type => "text/css", :media => "all" }
+    %script{ :type => "text/javascript", :src => to_path("/js/jquery.js") }
+    %script{ :type => "text/javascript", :src => to_path("/js/jquery.curvycorners.js") }
+    %script{ :type => "text/javascript", :src => to_path("/js/jquery.pngFix.js") }
+    %script{ :type => "text/javascript" }
+      $(document).ready(function(){
+      \/* PNG fix */
+      $(document).pngFix();
+      \/* Round corner */
+      $('.round').corner({
+      tl: { radius: 5 },
+      tr: { radius: 5 },
+      bl: { radius: 5 },
+      br: { radius: 5 }
+      });
+      });
+  %body
+    #login
+      %h1
+        %a{ :href => to_path("#") }
+          %img{ :src => to_path("/images/logo.png"), :alt => "#{$SITE_NAME} Administration" }
+      %form.round{ :action => to_path('/login'), :method=>"post" }
+        = flash_message
+        %ul
+          %li
+            %label
+              Email
+            %div
+              %input.text.max{ :type => "text", :name => "email", :value => "" }
+          %li
+            %label
+              Password
+            %div
+              %input.text.max{ :type => "password", :name => "pass", :value => "" }
+            %label.note
+              %a{ :href => to_path("password.html") }
+                Forgot password?
+
+          %li
+            %input#submit.button{ :type => "submit", :name => "submit", :value => "Login" }
+            or
+            %a{ :href => "/" }
+              Return To Site

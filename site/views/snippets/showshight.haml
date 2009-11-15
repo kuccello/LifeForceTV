@@ -1,0 +1,22 @@
+#message_buttons
+  .button1
+    %a{ :href => "contact.php" }
+      Looking for something to watch?
+  .button2
+    %a{ :href => "portfolio.html" }
+      Complete show line up
+/
+  END "message_buttons"  //
+#content_wrap
+  #inner_content
+    = haml :'snippets/entry', :layout=>false
+    = haml :'snippets/entry', :layout=>false
+  /
+    END "inner_content"  //
+  #sidebar_home
+    = haml :'snippets/widgit', :layout=>false
+    = haml :'snippets/widgit', :layout=>false
+  /
+    END "sidebar_home"  //
+/
+  END "content_wrap"  //

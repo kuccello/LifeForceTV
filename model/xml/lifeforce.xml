@@ -1,0 +1,141 @@
+<!--
+  Copyright notice
+  =============================================================================
+  Copyright (c) 2008-2009 Soldier Of Code all rights reserved
+
+  Material published by Soldier Of Code in this file is copyright Soldier Of Code
+  and may not be reproduced without permission. Copyright exists in all other
+  original material published on the internet by employees of Soldier Of Code and
+  may belong to the author or to Soldier Of Code. depending on the circumstances of
+  publication.
+  ==============================================================================
+-->
+<lifeforce pid="" xmlns="http://www.soldierofcode.com/lifeforce">
+
+  <!--
+    Member
+  -->
+  <member pid="email@example.com"
+          name="duh"
+          handle=""
+          md5-password=""
+          last-login=""
+          last-ip=""
+          status="active|disabled"
+          is-admin="true|false"
+          email=""/>
+
+  <!--
+    Showcase
+  -->
+  <showcase pid="">
+    <showcase-episode id="" order="" episode="" status="active|inactive"/>
+  </showcase>
+
+  <!--
+    Show
+  -->
+  <show pid=""
+        name=""
+        status="pending|released|deleted"
+        release-date="2009-10-17 11:55"
+        release-date-unix="epoc time stamp"
+        big-image=""
+        highlight-image=""
+        small-image=""
+        description=""
+        rating=""
+        poster=""
+        url-id="">
+
+    <!--
+      Season
+    -->
+    <season id=""
+            air-date="">
+      <episode pid=""/>
+    </season>
+
+    <!--
+      Episode
+    -->
+    <episode pid=""
+             name=""
+             status="pending|released"
+             release-date="mm-dd-yyyy HH:MM"
+             sequence-order=""
+             language=""
+             length=""
+             content-rating=""
+             thumbnail=""
+             poster=""
+             url-id=""
+             show="show pid here"
+             season="season pid here"
+             embed-hd=""
+             embed-sd="">
+
+      <!--
+        Description
+      -->
+      <description id="short|long|highlight"><![CDATA[some long description or short one here]]></description>
+
+      <genera pid=""/>
+
+      <!--
+        Note
+      -->
+      <note id=""><![CDATA[THIS IS WHERE THE A NOTE GOES]]></note>
+
+      <ad pid=""/>
+
+      <!--
+        Video
+      -->
+      <video id=""
+             file-size=""
+             height=""
+             width=""
+             is-default=""
+             mime-type=""
+             url=""/>
+    </episode>
+
+    <!--
+      Related Show
+    -->
+    <related-show id="" show-pid=""/>
+    <genera pid=""/>
+  </show>
+
+  <!--
+    Ad
+  -->
+  <ad pid=""
+      clicks=""
+      target-url=""
+      format="ad format here ###x###"
+      start-date=""
+      end-date="">
+
+    <embed><![CDATA[THIS IS WHERE THE EMBED CODE GOES]]></embed>
+    <tracking>
+      <track id=""
+             agent=""
+             ip=""
+             reffer=""
+             valid="true|false"
+             date=""/>
+    </tracking>
+  </ad>
+
+  <!--
+    Genera
+  -->
+  <genera pid="word-url-safe" name="">
+    <show pid=""/>
+    <episode pid=""/>
+  </genera>
+</lifeforce>
+
+

@@ -1,0 +1,115 @@
+/* Form Style */
+
+form ul {
+	margin: 0;
+	padding: 0;
+}
+
+form ul li {
+	margin: 0 0 15px;
+	padding: 0;
+	list-style: none;
+}
+
+form ul li label {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+label.note {
+	color: #999;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+label.choice {
+	margin: 0 15px 0 0;
+	font-weight: normal;
+	font-size: 12px;
+	color: #666;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+}
+
+input.text,
+textarea {
+	margin: 5px 0 0 0;
+	padding: 3px 5px;
+	border: 1px solid #c4c4c4;
+	background: #fbfbfb;
+	font-size: 12px;
+}
+
+input.radio,
+input.checkbox,
+input.file {
+	margin: 5px 5px 0 0;
+}
+
+input.button {
+	font-size: 12px;
+	margin: 0 10px  0 0;
+}
+
+select.drop {
+	font-size: 12px;
+	margin: 5px 5px 0 0;
+	border: 1px solid #d2d2d2;
+}
+
+input.short { width: 20%;}
+input.medium { width: 45%;}
+input.long { width: 75%;}
+input.max { width: 96%;}
+
+.req {
+	color: #d8122d;
+	font-weight: normal;
+}
+
+/* Notice */
+
+.success {
+	font-size: 11px;
+	margin: 0 0 25px;
+	padding: 10px 15px;
+	background: #d3f2bf;
+	border: 1px solid #a7c394;	
+}
+
+.message {
+	font-size: 11px;
+	margin: 0 0 25px;
+	padding: 10px 15px;
+	background: #ffffe0;
+	border: 1px solid #e6db55;
+}
+
+.error_message {
+	font-size: 11px;
+	margin: 0 0 25px;
+	padding: 10px 15px;
+	background: #ffebe8;
+	border: 1px solid #cc0000;
+}
+
+/* Button */
+
+.button {
+    font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+	background: #000;
+	border: none;
+	padding: 0.25em 6px;
+	cursor: pointer;
+}
+
+.button:hover {
+  background: #4a4a4a;
+}

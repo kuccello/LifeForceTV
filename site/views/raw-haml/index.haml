@@ -1,0 +1,393 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %script{ :type => "text/javascript", :src => "http://code.jquery.com/jquery-latest.js" }
+    /
+      [if lt IE 7.]>
+      <script ype="text/javascript" src="js/DD_belatedPNG.js"></script>
+      <script>
+      DD_belatedPNG.fix('#search input.field, #search input.field:focus, #featured_home .bigimg .post_category a,#featured_home .bigimg .post_name a, #message_buttons .button2 a, #message_buttons .button2 a:hover, #inner_content .date, img');
+      </script>
+      <![endif]
+    %script{ :type => "text/javascript", :src => "/js/jquery.rotate.js" }
+    %script{ :src => "/js/dropdown.js", :type => "text/javascript" }
+    %script{ :src => "/js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
+    %script{ :src => "/js/slider.js", :type => "text/javascript" }
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
+    %link{ :rel => "stylesheet", :href => "/css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
+    %title
+      LondonCreative+
+  %body
+    /
+      \//PHP FIX IE BUG WITH ROTATION, AND THIS IS THE ONLY WAY HOW TO DISPLAY THIS CODE ONLY IN IE BROWSERS
+      if (isset($_SERVER['HTTP_USER_AGENT']) &amp;&amp; (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
+      {
+      echo "<!- - Include the VML behavior - ->\n";
+      echo "<style>v\:image { behavior:url(#default#VML); display:inline-block ; -ms-interpolation-mode: bicubic}</style>\n";
+      echo "<!- - Declare the VML namespace - ->\n";
+      echo "<xml:namespace ns=\"urn:schemas-microsoft-com:vml\" prefix=\"v\" />\n";
+      }
+    #wrapper
+      #border_top
+      /
+        END "border_top"  //
+      #header.clearfix
+        #logo
+          %a{ :href => "/" }
+            %img#lclogo{ :src => "/images/logo.png", :alt => "LondonCreative+" }
+        /
+          END "logo"  //
+        #header_contacts
+          phone: +420 776 223 443
+          %br
+          e-mail: support@londoncreative.co.uk
+      /
+        END "header"  //
+      #container.clearfix
+        #toppanel.clearfix
+          #navigation
+            %ul
+              %li.active
+                %a.main_category{ :href => "index.php" }
+                  Home
+              %li
+                %a.main_category{ :href => "theme_description.html" }
+                  About
+                %ul
+                  %li
+                    %a{ :href => "testpage.html" }
+                      HTML Test Page
+                  %li
+                    %a{ :href => "theme_description.html" }
+                      Theme Description
+                  %li
+                    %a{ :href => "#" }
+                      Dropdown Test
+                    %ul
+                      %li
+                        %a{ :href => "#" }
+                          Dropdown Test
+                        %ul
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                        /
+                          END dropdown level 3  //
+                      %li
+                        %a{ :href => "#" }
+                          Dropdown Test
+                        %ul
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                          %li
+                            %a{ :href => "#" }
+                              Dropdown Test
+                        /
+                          END dropdown level 3  //
+                      %li
+                        %a{ :href => "#" }
+                          Dropdown Test
+                    /
+                      END dropdown level 2  //
+                /
+                  END dropdown level 1  //
+              %li
+                %a.main_category{ :href => "portfolio.html" }
+                  Portfolio
+                %ul
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Web design
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Print Design
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Corporate Identity
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Branding
+                  %li
+                    %a{ :href => "portfolio.html" }
+                      Advertising
+                /
+                  END dropdown level 1  //
+              %li
+                %a.main_category{ :href => "blog.html" }
+                  Blog
+              %li
+                %a.main_category{ :href => "contact.php" }
+                  Contact
+            /
+              END for whole navigation UL  //
+          /
+            END "navigation"  //
+          #search
+            %form#searchform{ :action => "###", :method => "get" }
+              %input#s.field{ :type => "text", :onblur => "if (this.value == '') {this.value = 'Enter keywords...';}", :onfocus => "if (this.value == 'Enter keywords...') {this.value = '';}", :value => "Enter keywords...", :name => "s" }
+              %input.submit{ :type => "submit", :name => "submit", :value => "Search" }
+          /
+            END "search"  //
+        /
+          END "toppanel"  //
+        #featured_home.clearfix
+          .bigimg
+            %img#slider_main_img{ :src => "/scripts/timthumb.php?src=/images/img1.jpg&amp;h=350&amp;w=920&amp;zc=1", :alt => "Big Image" }
+            .post_info_holder.clearfix
+              .post_category
+                %a#slider_img_tit{ :href => "#" }
+                  \/ Portfolio /
+              .post_name
+                %a#slider_img_desc{ :href => "#" }
+                  1000s of Images In My Mind
+            /
+              END "post_info_holder"  //
+          /
+            END "bigimg"  //
+          #slider.slider
+            #slider_max.minus
+              %img#round_max.round{ :src => "/images/slider_round.png", :alt => "round" }
+              %img#sign_max.sign{ :src => "/images/slider_round_minus.png", :alt => "minus" }
+            #thumbs.thumbs
+              #sl_content.slider_content
+                %ul#slider_ul
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img1.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ Portfolio /
+                    %a.slider_desc{ :href => "#" }
+                      1000s of Images In My Mind
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img1.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img2.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ PEOPLE /
+                    %a.slider_desc{ :href => "#" }
+                      Victor and his Last Shot
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img2.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img3.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ Celebrities /
+                    %a.slider_desc{ :href => "#" }
+                      Pssst-Don't talk, the wall's are thin
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img3.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img4.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ PEOPLE /
+                    %a.slider_desc{ :href => "#" }
+                      My New Buddy Is a DJ
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img4.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img5.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ People /
+                    %a.slider_desc{ :href => "#" }
+                      Pure And Clear Diamond
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img5.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img6.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ Cars /
+                    %a.slider_desc{ :href => "#" }
+                      My New Ride
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img6.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img7.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ London /
+                    %a.slider_desc{ :href => "#" }
+                      Underground Scene
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img7.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img8.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ London /
+                    %a.slider_desc{ :href => "#" }
+                      Underground Station
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img8.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img9.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ Celebrities /
+                    %a.slider_desc{ :href => "#" }
+                      Riders on The Storm
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img9.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                  %li
+                    %img{ :src => "/scripts/timthumb.php?src=/images/img10.jpg&amp;h=100&amp;w=152&amp;zc=1", :alt => "img" }
+                    %a.slider_tit{ :href => "#" }
+                      \/ People /
+                    %a.slider_desc{ :href => "#" }
+                      Rock 'n' Rolla
+                    %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img10.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+                /
+                  END "slider_ul"  //
+              /
+                END "sl_content"  //
+            /
+              END "thumbs"  //
+            #slider_min.plus
+              %img#round_min.round{ :src => "/images/slider_round.png", :alt => "round" }
+              %img#sign_min.sign{ :src => "/images/slider_round_plus.png", :alt => "plus" }
+            /
+              END "slider_min"  //
+          /
+            END "slider"  //
+        /
+          END "featured_home"  //
+        #message_buttons
+          .button1
+            %a{ :href => "contact.php" }
+              Are you ready to meet the creatives?
+          .button2
+            %a{ :href => "portfolio.html" }
+              See complete portfolio
+        /
+          END "message_buttons"  //
+        #content_wrap
+          #inner_content
+            .entry
+              %a{ :href => "#" }
+                %img{ :src => "/images/postimg1.jpg", :alt => "postimg1" }
+              .date.clearfix
+                .date_holder
+                  %span.month
+                    Dec
+                    %span.year
+                      2009
+                  %span.day
+                    23
+                /
+                  END "date_holder"  //
+              /
+                END "date"  //
+              .title_holder
+                %h1
+                  %a.title{ :href => "#" }
+                    Lost Behind Alice In Wonderland
+                  %a.comment_counter{ :href => "###" }
+                    3
+                %h3
+                  Posted In
+                  %span
+                    %a{ :href => "#" }
+                      Articles
+                    ,
+                    %a{ :href => "#" }
+                      Music
+              /
+                END "title_holder"  //
+              .entry_content
+                %p
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that good [..]
+              /
+                END "entry_content"  //
+            /
+              END "entry"  //
+            .entry
+              %a{ :href => "#" }
+                %img{ :src => "/images/postimg2.jpg", :alt => "postimg2" }
+              .date.clearfix
+                .date_holder
+                  %span.month
+                    Sep
+                    %span.year
+                      2009
+                  %span.day
+                    17
+                /
+                  END "date_holder"  //
+              /
+                END "date"  //
+              .title_holder
+                %h1
+                  %a.title{ :href => "#" }
+                    My New Digital Camera Joko VFX-5000
+                  %a.comment_counter{ :href => "###" }
+                    52
+                %h3
+                  Posted In
+                  %span
+                    %a{ :href => "#" }
+                      Articles
+                    ,
+                    %a{ :href => "#" }
+                      Music
+              /
+                END "title_holder"  //
+              .entry_content
+                %p
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that good [..]
+              /
+                END "entry_content"  //
+            /
+              END "entry"  //
+          /
+            END "inner_content"  //
+          #sidebar_home
+            .widget
+              %h3.widget_title
+                This is a text widget
+              .widget_content
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less...
+              /
+                END "widget_content"  //
+            /
+              END "widget"  //
+            .widget
+              %h3.widget_title
+                Informations about this theme
+              .widget_content
+                %img{ :src => "/images/screen_widget.jpg", :alt => "Screenshot", :style => "float:left; margin:0 10px 2px 0;" }
+                %p
+                  This is a text widget. You can have them as many as you like.
+                  %br
+                  %br
+                  This theme comes with fully working contact form, awesome slider for your featured images, nasty spinning slider buttons (never saw them anywhere else, so you can call it unique), 2 message buttons under the slider, PrettyPhoto plugin (better clone of Lightbox).
+                  %br
+                  %br
+                  You will also have user-friendly dropdown navigation with infinite dropdown levels where you can style every even list item via Jquery, so no more hassle, it's automatic, you can just change the colors etc. in stylesheet and you are ready to go!
+              /
+                END "widget_content"  //
+            /
+              END "widget"  //
+          /
+            END "sidebar_home"  //
+        /
+          END "content_wrap"  //
+      /
+        END "container"  //
+      #footer.clearfix
+        #footer_left
+          © Copyright 2009 by LondonCreative+
+        #footer_right
+          %a{ :href => "index.php" }
+            %img{ :src => "/images/logo_footer.png", :alt => "Logo" }
+        #footer_bottom
+      /
+        END "footer"  //
+    /
+      END "wrapper"  //
+    /
+      Initialize PrettyPhoto JS Plugin  //
+    %script{ :type => "text/javascript", :charset => "utf-8" }
+      $(document).ready(function(){
+      $("a[rel^='prettyPhoto']").prettyPhoto();
+      });
+    /
+      END PrettyPhoto Initialization  //

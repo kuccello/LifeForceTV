@@ -1,0 +1,63 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :dir => "ltr", :lang => "en-US" }
+  %head
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8" }
+    %title
+      KuroAdmin &rsaquo; Login
+    %link{ :rel => "stylesheet", :href => "css/login.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "css/form.css", :type => "text/css", :media => "all" }
+    %script{ :type => "text/javascript", :src => "js/jquery.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.curvycorners.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.pngFix.js" }
+    %script{ :type => "text/javascript" }
+      $(document).ready(function(){
+      \/* PNG fix */
+      $(document).pngFix();
+      \/* Round corner */
+      $('.round').corner({
+      tl: { radius: 5 },
+      tr: { radius: 5 },
+      bl: { radius: 5 },
+      br: { radius: 5 }
+      });
+      });
+  %body
+    #login
+      %h1
+        %a{ :href => "#" }
+          %img{ :src => "images/logo.png", :alt => "KuroAdmin" }
+      %form.round{ :action => "#" }
+        .success.round
+          %strong
+            Congratulation!
+          You are now logged in.
+        .message.round
+          Any message can go here.
+        .error_message.round
+          %strong
+            ERROR:
+          All fields need to be filled.
+        %ul
+          %li
+            %label
+              Username
+            %div
+              %input.text.max{ :type => "text", :name => "", :value => "" }
+          %li
+            %label
+              Password
+            %div
+              %input.text.max{ :type => "text", :name => "", :value => "" }
+            %label.note
+              %a{ :href => "password.html" }
+                Forgot password?
+          %li
+            %div
+              %input.checkbox{ :type => "checkbox", :name => "", :value => "" }
+              %label.choice
+                Remember Me
+          %li
+            %input#submit.button{ :type => "submit", :name => "submit", :value => "Login" }
+            or
+            %a{ :href => "#" }
+              Return Home

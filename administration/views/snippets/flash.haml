@@ -1,0 +1,17 @@
+- success = flash[:success]
+- message = flash[:message]
+- err = flash[:error]
+
+- if success then
+  .success.round
+    = success
+
+- if message then
+  .message.round
+    = message
+
+- if err then
+  .error_message.round
+    %strong
+      ERROR:
+    = err

@@ -1,0 +1,456 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :dir => "ltr", :lang => "en-US" }
+  %head
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8" }
+    %title
+      KuroAdmin &rsaquo; Dashboard
+    %link{ :rel => "stylesheet", :href => "css/style.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "css/navigation.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "css/form.css", :type => "text/css", :media => "all" }
+    %link{ :rel => "stylesheet", :href => "css/table.css", :type => "text/css", :media => "all" }
+    %script{ :type => "text/javascript", :src => "js/minmax.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.droppy.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.curvycorners.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.pngFix.js" }
+    %script{ :type => "text/javascript", :src => "js/jquery.idTabs.js" }
+    %script{ :type => "text/javascript" }
+      $(document).ready(function(){
+      \/* Navigation */
+      $('#navigation').droppy({
+      \/* dropdown speed */
+      speed: 10
+      });
+      \/* PNG fix */
+      $(document).pngFix();
+      \/* Round corner */
+      $('.round').corner({
+      \/* top left */
+      tl: { radius: 5 },
+      \/* top right */
+      tr: { radius: 5 },
+      \/* bottom left */
+      bl: { radius: 5 },
+      \/* bottom right */
+      br: { radius: 5 }
+      });
+      });
+  %body
+    #header
+      %h1
+        %a{ :href => "#" }
+          %img{ :src => "images/logo.png", :alt => "KuroAdmin" }
+      #global_nav
+        %ul
+          %li
+            Welcome
+            %a{ :href => "#" }
+              ne-design
+          %li
+            %a{ :href => "#" }
+              Settings
+          %li.last
+            %a{ :href => "#" }
+              Log Out
+    %ul#navigation
+      %li
+        %a{ :href => "#" }
+          Dashboard
+      %li
+        %a{ :href => "#" }
+          Clients
+        %ul
+          %li
+            %a{ :href => "#" }
+              New Clients
+          %li
+            %a{ :href => "#" }
+              Top Clients
+          %li
+            %a{ :href => "#" }
+              Search
+      %li
+        %a{ :href => "#" }
+          Reports
+      %li
+        %a{ :href => "#" }
+          System
+    #main
+      #title.round
+        %h1
+          Dashboard
+        %span.right
+          This is the dashboard
+      #content
+        #content-container
+          .box.round
+            %h2
+              Text Sample
+            %ul.idTabs
+              %li
+                %a{ :href => "#tab1" }
+                  Default Tab
+              %li
+                %a{ :href => "#tab2" }
+                  Another Tab
+              %li.last
+                %a{ :href => "#tab3" }
+                  Last Tab
+            #tab1
+              %h3
+                Subtitle Sample
+              %h4
+                Subtitle Sample
+              %p
+                %strong
+                  Integer et purus at tellus porta rhoncus.
+                Fusce consequat est rutrum magna tincidunt vitae dictum magna gravida.
+                In ut sagittis metus.
+                Integer ac eros libero, ac
+                %a{ :href => "#" }
+                  imperdiet ante
+                \.
+                Integer sit amet enim dolor, id venenatis neque.
+                %a{ :href => "#" }
+                  %strong
+                    Proin
+                at orci vel dolor hendrerit dapibus.
+                Aliquam at metus interdum nunc posuere euismod.
+                Cras id nisi orci.
+              %ul
+                %li
+                  Integer ullamcorper luctus eros, vel lacinia augue vulputate imperdiet.
+                %li
+                  Integer convallis nisi ac turpis dapibus a cursus tellus molestie.
+                %li
+                  Sed ornare elit et nunc pulvinar posuere.
+              %ol
+                %li
+                  Integer ullamcorper luctus eros, vel lacinia augue vulputate imperdiet.
+                %li
+                  Integer convallis nisi ac turpis dapibus a cursus tellus molestie.
+                %li
+                  Sed ornare elit et nunc pulvinar posuere.
+            #tab2
+              %h3
+                Subtitle Sample
+              %p
+                Etiam sapien ipsum, consectetur eu suscipit ac, pulvinar ac quam.
+                In rutrum, massa quis rhoncus molestie, lectus nisi sagittis elit, eget tincidunt arcu ipsum sed risus.
+                Aenean in diam felis, eu tincidunt turpis.
+            #tab3
+              %ul
+                %li
+                  Integer ullamcorper luctus eros, vel lacinia augue vulputate imperdiet.
+                %li
+                  Integer convallis nisi ac turpis dapibus a cursus tellus molestie.
+                %li
+                  Sed ornare elit et nunc pulvinar posuere.
+          .box.round
+            %h2
+              Form Sample
+            .success.round
+              %strong
+                Congratulation!
+              You are now logged in.
+            .message.round
+              Any message can go here.
+            .error_message.round
+              %strong
+                ERROR:
+              All fields need to be filled.
+            %form{ :method => "post", :action => "#" }
+              %ul
+                %li
+                  %label
+                    Short Input
+                    %span.req
+                      *
+                  %div
+                    %input.short.text{ :type => "text", :name => "", :value => "" }
+                    %input.short.text{ :type => "text", :name => "", :value => "" }
+                  %label.note
+                    Input note message goes here.
+                %li
+                  %label
+                    Medium Input
+                  %div
+                    %input.text.medium{ :type => "text", :name => "", :value => "" }
+                %li
+                  %label
+                    Long Input
+                  %div
+                    %input.text.long{ :type => "text", :name => "", :value => "" }
+                %li
+                  %label
+                    Radio Sample
+                  %div
+                    %input.radio{ :type => "radio", :name => "", :value => "", :checked => "checked" }
+                    %label.choice
+                      Radio Button 1
+                    %input.radio{ :type => "radio", :name => "", :value => "" }
+                    %label.choice
+                      Radio Button 2
+                    %input.radio{ :type => "radio", :name => "", :value => "" }
+                    %label.choice
+                      Radio Button 3
+                %li
+                  %label
+                    Checkbox Sample
+                  %div
+                    %input.checkbox{ :type => "checkbox", :name => "", :value => "", :checked => "checked" }
+                    %label.choice
+                      Checkbox Button 1
+                    %input.checkbox{ :type => "checkbox", :name => "", :value => "" }
+                    %label.choice
+                      Checkbox Button 2
+                    %input.checkbox{ :type => "checkbox", :name => "", :value => "" }
+                    %label.choice
+                      Checkbox Button 3
+                %li
+                  %label
+                    Dropdown Sample
+                  %div
+                    %select.drop{ :name => "" }
+                      %option{ :selected => "selected", :value => "day" }
+                        Day &nbsp;
+                      %option{ :value => "1" }
+                        1 &nbsp;
+                      %option{ :value => "1" }
+                        2 &nbsp;
+                      %option{ :value => "1" }
+                        3 &nbsp;
+                      %option{ :value => "1" }
+                        4 &nbsp;
+                      %option{ :value => "1" }
+                        5 &nbsp;
+                    %select.drop{ :name => "" }
+                      %option{ :selected => "selected", :value => "month" }
+                        Month &nbsp;
+                      %option{ :value => "1" }
+                        1 &nbsp;
+                      %option{ :value => "1" }
+                        2 &nbsp;
+                      %option{ :value => "1" }
+                        3 &nbsp;
+                      %option{ :value => "1" }
+                        4 &nbsp;
+                      %option{ :value => "1" }
+                        5 &nbsp;
+                    %select.drop{ :name => "" }
+                      %option{ :selected => "selected", :value => "month" }
+                        Year &nbsp;
+                      %option{ :value => "1" }
+                        1980 &nbsp;
+                      %option{ :value => "1" }
+                        1981 &nbsp;
+                      %option{ :value => "1" }
+                        1982 &nbsp;
+                      %option{ :value => "1" }
+                        1983 &nbsp;
+                      %option{ :value => "1" }
+                        1984 &nbsp;
+                %li
+                  %label
+                    Upload Sample
+                  %div
+                    %input.file{ :type => "file", :name => "" }
+                %li
+                  %label
+                    Textarea Sample
+                  %div
+                    %textarea.textarea{ :name => "", :rows => "6", :cols => "55", :tabindex => "1" }
+                %li
+                  %input#submit.button{ :type => "submit", :name => "submit", :value => "Submit" }
+                  %input#reset.button{ :type => "submit", :name => "reset", :value => "Reset" }
+          .box.round
+            %h2
+              Table Sample
+            %table
+              %thead
+                %tr
+                  %th{ :scope => "col" }
+                    Name
+                  %th{ :scope => "col" }
+                    Website Address
+                  %th{ :scope => "col" }
+                    Email Address
+                  %th{ :scope => "col" }
+                    Action
+              %tbody
+                %tr.odd
+                  %td
+                    John Adams
+                  %td
+                    http://themeforest.net?ref=ne-design
+                  %td
+                    sample@sample.com
+                  %td
+                    %a{ :href => "#" }
+                      Add
+                    |
+                    %a{ :href => "#" }
+                      Edit
+                    |
+                    %a{ :href => "#" }
+                      Remove
+                %tr
+                  %td
+                    John Adams
+                  %td
+                    http://themeforest.net?ref=ne-design
+                  %td
+                    sample@sample.com
+                  %td
+                    %a{ :href => "#" }
+                      Add
+                    |
+                    %a{ :href => "#" }
+                      Edit
+                    |
+                    %a{ :href => "#" }
+                      Remove
+                %tr.odd
+                  %td
+                    John Adams
+                  %td
+                    http://themeforest.net?ref=ne-design
+                  %td
+                    sample@sample.com
+                  %td
+                    %a{ :href => "#" }
+                      Add
+                    |
+                    %a{ :href => "#" }
+                      Edit
+                    |
+                    %a{ :href => "#" }
+                      Remove
+                %tr
+                  %td
+                    John Adams
+                  %td
+                    http://themeforest.net?ref=ne-design
+                  %td
+                    sample@sample.com
+                  %td
+                    %a{ :href => "#" }
+                      Add
+                    |
+                    %a{ :href => "#" }
+                      Edit
+                    |
+                    %a{ :href => "#" }
+                      Remove
+            %ul#pagination
+              %li.previous-off
+                \&laquo; Previous
+              %li.active
+                1
+              %li
+                %a{ :href => "?page=2" }
+                  2
+              %li
+                %a{ :href => "?page=3" }
+                  3
+              %li
+                %a{ :href => "?page=4" }
+                  4
+              %li
+                %a{ :href => "?page=5" }
+                  5
+              %li
+                %a{ :href => "?page=6" }
+                  6
+              %li
+                %a{ :href => "?page=7" }
+                  7
+              %li.next
+                %a{ :href => "?page=2" }
+                  Next &raquo;
+      #sidebar
+        .side-box
+          %h3
+            Search
+          %p
+            Here you can have a search box for the page.
+          %form#search{ :method => "post", :action => "#" }
+            %input#search-text{ :type => "text", :name => "keywords", :value => "" }
+            %input#search-btn{ :type => "image", :value => "submit", :src => "images/search-button.gif", :alt => "Go" }
+        .side-box
+          %h3
+            Sidebar Menu
+          %ul.links
+            %li
+              %a{ :href => "#" }
+                In the Woods
+            %li
+              %a{ :href => "#" }
+                Down the Foxhole
+            %li
+              %a{ :href => "#" }
+                The River Current
+        .side-box
+          %h3
+            What's New?
+          %ul
+            %li
+              %a{ :href => "#" }
+                Useful .htaccess Tricks for Webmasters
+              %br
+              I just did a little google search and found a lot of .htaccess tricks that you might want to use for your websites. Those who are new to .htaccess Password Robot Blog has a good quick introduction. There's also a online .htaccess editor that can be useful available in English, French, Spanish, Chinese and more.
+            %li
+              %a{ :href => "#" }
+                4 Traditional Japanese Styled Flash Websites
+              %br
+              Sometimes flash is a good tool to use to design your website. You can give your visitors the feeling that you can't give using xhtml+css. Here are some of the cool websites I found that gave a taste of how Japanese tradition is. Oh, don't forget to have your volume low.
+            %li
+              %a{ :href => "#" }
+                PHP Tricks for Non-Programmer
+              %br
+              There are several PHP tricks you can use easily on your websites. I do recommend reading Jeffery Way's "Learn PHP from Scratch: A Training Regimen" at NETUTS. These tricks will make it easy for you to maintain your website. If you have used a CMS like WordPress before this might be nothing new.
+          %input#more.button{ :type => "submit", :name => "more", :value => "Read More" }
+        .side-box
+          %h3
+            5 Top FAQ
+          %ul
+            %li
+              %strong
+                Lorem ipsum dolor sit amet?
+              %br
+              Sed in imperdiet eros. Ut sagittis rhoncus neque, ut aliquet odio interdum sit amet. Maecenas vestibulum pulvinar magna, porta lacinia felis laoreet vitae. Morbi at erat velit.
+            %li
+              %strong
+                Proin molestie?
+              %br
+              Quisque semper suscipit ornare.
+            %li
+              %strong
+                Nunc ac velit libero?
+              %br
+              Curabitur semper ultricies pulvinar. Nunc gravida congue libero, sed molestie neque euismod sollicitudin. Praesent in enim nulla.
+            %li
+              %strong
+                Morbi iaculis nisl nec neque?
+              %br
+              Duis fringilla felis eget felis aliquam dapibus. Mauris nibh lacus, gravida vel suscipit lobortis, vulputate vel quam.
+            %li
+              %strong
+                Mauris mauris enim?
+              %br
+              Vestibulum fermentum malesuada quam eu luctus.
+    #footer
+      %p.left
+        \&copy; Copyright KuroAdmin 2009
+      %p.right
+        %a{ :href => "#" }
+          Dashboard
+        |
+        %a{ :href => "#" }
+          Clients
+        |
+        %a{ :href => "#" }
+          Reports
+        |
+        %a{ :href => "#" }
+          System
