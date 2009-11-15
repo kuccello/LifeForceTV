@@ -1,0 +1,17 @@
+%h1
+  Setup complete.
+
+%p
+  Redirecting in 5 seconds...
+
+%p
+  If the redirect does not work then
+  %a{:href=>"/"}
+    click here.
+
+
+
+%script{:type=>"text/javascript"}
+  redirTime = "5000";
+  redirURL = "/";
+  function redirTimer() { self.setTimeout("self.location.href = redirURL;",redirTime); }

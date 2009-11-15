@@ -43,6 +43,11 @@ module Lifeforce
       nil
     end
 
+    # TODO ----
+    def self.create_default_administrator(email, password)
+      puts "#{__FILE__}:#{__LINE__} #{__method__} TODO ____ create_default_admin"
+    end
+
     protected
     def self.encrypt(pass)
       Digest::SHA1.hexdigest(pass)

@@ -36,7 +36,7 @@ module LifeForceAdminHelpers
 
     def auth_required?(uri)
 
-      return false if uri.starts_with?("/css") || uri.starts_with?("/js") || uri.starts_with?("/images")
+      return false if uri.starts_with?("/css") || uri.starts_with?("/js") || uri.starts_with?("/images") || uri.starts_with?("/setup")
 
       no_auth_paths = []
       no_auth_paths << "/login"

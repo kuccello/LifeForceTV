@@ -1,4 +1,5 @@
 .idea
 .DS_Store
+installed.rb
 repo
 model/generated_model

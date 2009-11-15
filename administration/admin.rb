@@ -16,18 +16,33 @@ class LifeForceAdmin < Sinatra::Base
   helpers LifeForceAdminHelpers::Flash
   helpers LifeForceAdminHelpers::Auth
 
+
+  # this will run once (or at least thats what I'm told)
+  configure do
+    #puts "#{__FILE__}:#{__LINE__} #{__method__} I AM CONFIGURING LifeForceAdmin"
+  end
+
+#  unless $LIFEFORCE_INSTALLED
+#    before do
+#      unless $LIFEFORCE_INSTALLED
+#        redirect '/setup' if $lifeforce_configuration_setup_flag && !request.env["REQUEST_PATH"].include?('/setup')
+#      end
+#    end
+#  end
+
   # This will be evaluated before static files are accessable too
   before do
     @current_uri = request.env["PATH_INFO"]
-    LifeForceAdmin.set :base_uri, request.env["REQUEST_PATH"].sub(@current_uri,"")
+    LifeForceAdmin.set :base_uri, request.env["REQUEST_PATH"].sub(@current_uri, "")
 
     if auth_required?(@current_uri) && !authenticated
-      redirect to_path("/login")
+      puts "#{__FILE__}:#{__LINE__} #{__method__} #{@current_uri}"
+      redirect "/admin/login"
     end
   end
 
   get '/' do
-    "Site not implemented"
+    redirect '/admin/dashbard'
   end
 
   # deliver the login page
@@ -41,7 +56,7 @@ class LifeForceAdmin < Sinatra::Base
     email = params[:email]
     password = params[:pass]
 
-    admin = Lifeforce::Member.authenticate_as_admin(email,password)
+    admin = Lifeforce::Member.authenticate_as_admin(email, password)
 
 
     if admin then
@@ -52,7 +67,7 @@ class LifeForceAdmin < Sinatra::Base
       STDERR.puts "Invalid Login Attempt: --- add details here"
       # FLASH MESSAGE -- BAD LOGIN
       flash[:error] = "Bad login attempt."
-      haml :login,:layout=>false,:locals=>{:email=>email}
+      haml :login, :layout=>false, :locals=>{:email=>email}
     end
 
   end

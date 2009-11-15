@@ -50,4 +50,5 @@ module Lifeforce
     string.downcase.gsub(/[ \/\\:\?'"%!@#\$\^&\*\(\)\+]/, '')
   end
 
+
 end
