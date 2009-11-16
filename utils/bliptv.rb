@@ -62,6 +62,10 @@ module Lifeforce
       show
     end
 
+    def get_swf_code(blip_hash)
+      "http://blip.tv/play/#{blip_hash}"
+    end
+
     def get_embed_code(blip_hash)
 
       embed = <<-EMBED
@@ -129,7 +133,9 @@ module Lifeforce
 
         emb = temp[0].content if temp.size == 1
 
+        swf_link = get_swf_code(emb)
         emb = get_embed_code(emb)
+
 
         epid = get_data(x_item, 'blip:item_id')
         dest_dir = File.join(File.dirname(__FILE__),"../site/public/images/shows/#{show.url_id}/episodes/#{epid}")
@@ -144,7 +150,8 @@ module Lifeforce
                 :ep_runtime => get_data(x_item, "blip:runtime", "0"),
                 :ep_rating => get_data(x_item, "blip:contentRating", "TV-G"),
                 :ep_descrip => get_data(x_item, "blip:puredescription"),
-                :ep_title => get_data(x_item, "title", "Untitled")
+                :ep_title => get_data(x_item, "title", "Untitled"),
+                :ep_swf => swf_link
         }
 
         episode = get_episode(show, data[:ep_pid], data, emb)
@@ -203,6 +210,8 @@ module Lifeforce
           ep.show = show.pid
           ep.embed_hd = embed
           ep.embed_sd = embed
+          ep.hd_swf_url = data[:ep_swf]
+          ep.sd_swf_url = data[:ep_swf]
 
           desc_short = ep.new_description('short')
           desc_short.content = data[:ep_descrip]

@@ -238,6 +238,10 @@
             
           $("#slider_img_desc").html($(this).find("a.slider_desc").html());
           $("#slider_img_desc").attr("href", $(this).find("a.slider_desc").attr("href"));
+
+          // slider_video
+          $("#slider_video").html($(this).find("a.slider_swf").html());
+          $("#slider_video").attr("href", $(this).find("a.slider_swf").attr("href"));
           
           // FLIPPING THE IMAGE
           $("#slider_main_img").attr("src",$(this).find("a.slider_img").attr("href")); 

@@ -266,6 +266,10 @@ body {
 	background-image: url(../images/white-75-bg.png);
 }
 
+.slider_swf{
+	display: none;
+}
+
 #featured_home .bigimg .post_category a {
 	background-image: url(../images/transparent_black_80.png);
 	font-size: 15px;

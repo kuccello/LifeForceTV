@@ -110,6 +110,8 @@ module Lifeforce
       episode_url = params[:episode_url]
       episode_poster_image = params[:episode_poster_image]
       episode_thumbnail_image = params[:episode_thumbnail_image]
+      episode_hd_swf_url = params[:hd_swf_url]
+      episode_sd_swf_url = params[:sd_swf_url]
       video_is_default = params[:video_is_default]
 
       ep_showcase_rm = params[:episode_showcase_remove]
@@ -132,6 +134,8 @@ module Lifeforce
       Lifeforce.transaction do
 
         self.name = episode_name
+        self.hd_swf_url = episode_hd_swf_url
+        self.sd_swf_url = episode_sd_swf_url
         self.status = episode_status
         self.release_date = episode_release_date
         self.sequence_order = episode_sequence

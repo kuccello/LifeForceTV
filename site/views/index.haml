@@ -13,7 +13,7 @@
           %a#slider_img_desc{ :href => showcase_episodes[0].ep.uri }
             = showcase_episodes[0].ep.name
         .post_category
-          %a#slider_video{:href=>"http://a.blip.tv/scripts/flash/showplayer.swf?file=http%3A%2F%2Fblip.tv%2Frss%2Fflash%2F1662606%3Freferrer%3Dhttp%25253A%25252F%25252Flocalhost%25253A8080%25252F%26source%3D3&showplayerpath=http%3A%2F%2Fblip.tv%2Fscripts%2Fflash%2Fshowplayer.swf&feedurl=http%3A%2F%2Fbyteclub.blip.tv%2Frss%2Fflash&brandname=LifeforceTV&brandlink=http%3A%2F%2Fwww.lifeforcetv.com%2Fbyteclub&enablejs=true&allowm4v=true&preferredRole=Web+High+Resolution&backcolor=0x0E2B40&lightcolor=0xFFFFFF&showguidebutton=false&smokeduration=0&frontcolor=0x225577", :rel=>"shadowbox;width=715;height=405;player=swf"}
+          %a#slider_video{:href=>showcase_episodes[0].ep.hd_swf_url, :rel=>"shadowbox;width=715;height=405;player=swf"}
             \/ PLAY /
         /
           #post_details
@@ -39,6 +39,7 @@
                 %a.slider_desc{ :href => episode.ep.uri }
                   = episode.ep.name
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
+                %a.slider_swf{ :href => episode.ep.hd_swf_url}
             %li
 
           /

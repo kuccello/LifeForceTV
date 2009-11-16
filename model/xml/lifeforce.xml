@@ -74,7 +74,9 @@
              show="show pid here"
              season="season pid here"
              embed-hd=""
-             embed-sd="">
+             embed-sd=""
+             hd-swf-url=""
+             sd-swf-url="">
 
       <!--
         Description

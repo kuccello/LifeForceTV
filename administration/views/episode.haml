@@ -47,10 +47,20 @@
                 = episode.description['long'].content
 
           %li
+            %label
+              HD SWF Url
+            %input.text.medium{:type=>"text",:name=>"hd_swf_url",:value=>episode.hd_swf_url}
+
+          %li
             HD EMBED CODE:
             %br
             %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_hd"}
               = episode.embed_hd
+
+          %li
+            %label
+              SD SWF Url
+            %input.text.medium{:type=>"text",:name=>"hd_swf_url",:value=>episode.sd_swf_url}    
 
           %li
             SD EMBED CODE:
