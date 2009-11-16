@@ -27,7 +27,7 @@
         - genera_size = show.generas.size
         - show.generas.each_with_index do |genera,idx|
           %a{ :href => "#" }
-            Articles
+            = genera.name
           = ((idx+1) < genera_size ) ? "," : ''
 
   /
