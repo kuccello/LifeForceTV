@@ -1,0 +1,45 @@
+.box.round
+  %h2
+    Notes (
+    = notes.size
+    )
+    - deleted = Lifeforce::Note.deleted_notes
+    - pending = Lifeforce::Note.pending_notes
+    - live = Lifeforce::Note.live_notes
+  %ul.idTabs
+    %li
+      %a{ :href => "#tab_published_Notes" }
+        Published Notes (
+        = live.size
+        )
+    %li
+      %a{ :href => "#tab_pending_Notes" }
+        Pending Notes (
+        = pending.size
+        )
+    %li.last
+      %a{ :href => "#tab_deleted_Notes" }
+        Deleted Notes (
+        = deleted.size
+        )
+  #tab_published_Notes
+    %h3
+      Published Notes
+    %h4
+      These are live Notes
+    = partial("notes_table",{ :notes => live })
+
+
+  #tab_pending_Notes
+    %h3
+      Pending Notes
+    %h4
+      These are pending Notes
+    = partial("notes_table",{ :notes => pending })
+
+  #tab_deleted_Notes
+    %h3
+      Deleted Notes
+    %h4
+      These are deleted Notes and may dissapear from the system at any time
+    = partial("notes_table",{ :notes => deleted })

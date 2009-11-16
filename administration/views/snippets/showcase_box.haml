@@ -60,3 +60,34 @@
 - else
   %h2
     Show Showcase is empty
+
+
+%h2
+  Notes
+- if notes && notes.size > 0
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Title
+        %th{ :scope => "col" }
+          Actions
+    %tbody
+      - notes.each_with_index do |note, idx|
+        %tr{:class=>"#{(is_odd_index(idx) ? 'odd' : '')}"}
+          %td
+            %a{ :href=>"/admin/note/#{note.note}" }
+              = note.n.title
+          %td
+            %form{:action=>"/admin/showcase/adjust-note/#{note.id}", :method=>"post"}
+              %input{:type=>"submit",:value=>"up",:name=>"action"}
+              |
+              %input{:type=>"submit",:value=>"down",:name=>"action"}
+              |
+              %input{:type=>"submit",:value=>"remove",:name=>"action"}
+
+
+
+- else
+  %h2
+    Note Showcase is empty

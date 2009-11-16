@@ -133,6 +133,33 @@ class LifeForceAdmin < Sinatra::Base
     haml :showcase
   end
 
+  get '/notes' do
+    notes = Lifeforce::Note.all
+    haml :notes, :locals=>{:notes=>notes}
+  end
+
+  get '/note/new' do
+    note = Lifeforce::Note.make_new_note    
+    redirect "/admin/note/#{note.pid}"
+  end
+
+  get '/note/:note_pid' do
+    note = Lifeforce::Note.get_by_pid(params[:note_pid])
+    haml :note, :locals=>{:note=>note}
+  end
+
+  post '/note/:note_pid' do
+    note = Lifeforce::Note.get_by_pid(params[:note_pid])
+
+    if note.update(params) then
+      flash[:success] = "Successfully updated note."
+    else
+      flash[:error] = "Failed to update note."
+    end
+
+    haml :note, :locals=>{:note=>note}
+  end
+
   get '/shows' do
     
 

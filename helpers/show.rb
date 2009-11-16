@@ -37,5 +37,10 @@ module Lifeforce
       false
 
     end
+
+    def note_is_showcased(note)
+      return showcase.contains_note?(note) if showcase
+      false
+    end
   end
 end

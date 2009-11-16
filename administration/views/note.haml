@@ -1,0 +1,62 @@
+#title.round
+  %h1
+    = note.title
+  %span.right
+    You may edit the note here
+#content
+  #content-container
+
+    .box.round
+      = flash_message()
+
+      %a{:href=>"/admin/note/#{note.pid}"}
+        = note.title
+
+
+      %form{ :method=>"post", :action=>"/admin/note/#{note.pid}" }
+
+
+        %h2
+          Details
+
+        %ul
+          %li
+            %label{:for=>"note_title"}
+              Title
+            %input.text.medium{:type=>"text",:name=>"note_title",:value=>note.title}
+
+
+
+          %li
+            Body
+            %br
+            %textarea{:rows=>"10",:cols=>"50",:name=>"note_body"}
+              = note.content
+
+          #curcon
+            = note.html_content
+
+          %li
+            %label
+              Status:
+            %select{:name=>"note_status"}
+              %option{:value=>note.status}
+                = note.status
+              %option{:value=>"pending"}
+                Pending
+              %option{:value=>"live"}
+                Live
+              %option{:value=>"deleted"}
+                Deleted
+
+          %li
+            %label
+
+            - if note_is_showcased(note)
+              Remove from showcase:
+              %input{:type=>"checkbox", :name=>"note_showcase_remove", :value=>"false"}
+            - else
+              Add to showcase:
+              %input{:type=>"checkbox", :name=>"note_showcase_add", :value=>"true"}
+
+          %input{:type=>"submit", :value=>"Save"}

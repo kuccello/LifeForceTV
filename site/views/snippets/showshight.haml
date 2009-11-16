@@ -1,10 +1,10 @@
 #message_buttons
   .button1
-    %a{ :href => "contact.php" }
+    %a{ :href => "/shows" }
       Looking for something to watch?
   .button2
-    %a{ :href => "portfolio.html" }
-      Complete show line up
+    %a{ :href => "/generas" }
+      Generas
 /
   END "message_buttons"  //
 #content_wrap
@@ -15,8 +15,9 @@
 
   
   #sidebar_home
-    = haml :'snippets/widgit', :layout=>false
-    = haml :'snippets/widgit', :layout=>false
+    - default_showcase.sorted_notes.each do |note|
+      = partial("widgit",{:note=>note.n})
+
   /
     END "sidebar_home"  //
 /

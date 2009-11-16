@@ -31,7 +31,19 @@
   <showcase pid="">
     <showcase-episode id="" order="" episode="" status="active|inactive"/>
     <showcase-show id="" order="" show="" status="active|inactive"/>
+    <showcase-note id="" order="" title="" note=""/>
   </showcase>
+
+  <note pid=""
+        title=""
+        status="active|inactive"><![CDATA[Content - MARKDOWN goes here]]></note>
+
+  <resource pid=""
+            url=""
+            type="image|file"
+            status="active|inactive"
+            name=""
+            description=""/>
 
   <!--
     Show
@@ -88,7 +100,7 @@
       <!--
         Note
       -->
-      <note id=""><![CDATA[THIS IS WHERE THE A NOTE GOES]]></note>
+      <note pid=""/>
 
       <ad pid=""/>
 

@@ -12,10 +12,8 @@
             = show_episodes[0].name
 
         .post_name
-          %a#slider_img_tit{ :href => "#" }
-            \/
-            PLAY
-            \/
+          %a#slider_video{:href=>show_episodes[0].hd_swf_url, :rel=>"shadowbox;width=715;height=405;player=swf"}
+            \/ PLAY /
         #post_details
           = show_episodes[0].long_description
       /
@@ -39,6 +37,8 @@
                 %a.slider_desc{ :href => "#" }
                   = episode.name
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
+                %a.slider_swf{ :href => episode.hd_swf_url, :rel=>"shadowbox;width=715;height=405;player=swf"}
+                  \/ PLAY /
             %li
 
           /

@@ -40,6 +40,14 @@ class LifeForceSite < Sinatra::Base
     haml :'raw-haml/index', :layout=>false
   end
 
+  get '/shows' do
+
+  end
+
+  get '/generas' do
+    
+  end
+
   get '/:show_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
