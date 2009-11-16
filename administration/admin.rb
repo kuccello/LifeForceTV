@@ -53,7 +53,7 @@ class LifeForceAdmin < Sinatra::Base
   end
 
   get '/' do
-    redirect '/admin/dashbard'
+    redirect '/admin/dashboard'
   end
 
   # deliver the login page
@@ -150,8 +150,9 @@ class LifeForceAdmin < Sinatra::Base
 
   post '/note/:note_pid' do
     note = Lifeforce::Note.get_by_pid(params[:note_pid])
-
+    puts "#{__FILE__}:#{__LINE__} #{__method__} HERE"
     if note.update(params) then
+      puts "#{__FILE__}:#{__LINE__} #{__method__} HERE"
       flash[:success] = "Successfully updated note."
     else
       flash[:error] = "Failed to update note."

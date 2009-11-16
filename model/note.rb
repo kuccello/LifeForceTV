@@ -60,13 +60,13 @@ module Lifeforce
       note_title = params[:note_title]
       note_status = params[:note_status]
       note_body = params[:note_body]
-
+puts "#{__FILE__}:#{__LINE__} #{__method__} HERE"
       Lifeforce.transaction do
         self.title = note_title
         self.content = note_body
         self.status = note_status
       end
-
+puts "#{__FILE__}:#{__LINE__} #{__method__} HERE"
       note_showcase_rm = params[:note_showcase_remove]
       note_showcase_add = params[:note_showcase_add]
 

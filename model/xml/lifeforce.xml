@@ -31,7 +31,7 @@
   <showcase pid="">
     <showcase-episode id="" order="" episode="" status="active|inactive"/>
     <showcase-show id="" order="" show="" status="active|inactive"/>
-    <showcase-note id="" order="" title="" note=""/>
+    <showcase-note id="" order="" title="" note="" status="active|inactive"/>
   </showcase>
 
   <note pid=""
