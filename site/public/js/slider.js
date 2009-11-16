@@ -242,6 +242,14 @@
           // slider_video
           $("#slider_video").html($(this).find("a.slider_swf").html());
           $("#slider_video").attr("href", $(this).find("a.slider_swf").attr("href"));
+          $("#slider_video").attr("rel", $(this).find("a.slider_swf").attr("rel"));
+            Shadowbox.setup("#slider_video", {
+                player:     "swf",
+                height:     715,
+                width:      405,
+                autoplayMovies:     true
+            });
+
           
           // FLIPPING THE IMAGE
           $("#slider_main_img").attr("src",$(this).find("a.slider_img").attr("href")); 

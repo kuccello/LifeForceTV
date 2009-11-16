@@ -39,7 +39,8 @@
                 %a.slider_desc{ :href => episode.ep.uri }
                   = episode.ep.name
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
-                %a.slider_swf{ :href => episode.ep.hd_swf_url}
+                %a.slider_swf{ :href => episode.ep.hd_swf_url, :rel=>"shadowbox;width=715;height=405;player=swf"}
+                  \/ PLAY /
             %li
 
           /

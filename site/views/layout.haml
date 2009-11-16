@@ -20,9 +20,10 @@
     %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/js/shadowbox-build-3.0rc1/shadowbox.css"}
     %script{ :type=>"text/javascript", :src=>"/js/shadowbox-build-3.0rc1/shadowbox.js"}
     %script{ :type=>"text/javascript"}
-      Shadowbox.init(
-      {players:    ["swf"]}
-      );
+      Shadowbox.init({
+      skipSetup: true,
+      players:    ["swf"]
+      });
 
 
 
