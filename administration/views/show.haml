@@ -43,6 +43,11 @@
                 Deleted
 
           %li
+            %label
+              Genera List (comma seperated)
+            %input{:type=>"text",:name=>"genera_list",:value=>show.generas_as_list}
+
+          %li
             %label{:for=>"show_url_id"}
               URL ID:
             %input{:type=>"text",:name=>"show_url_id",:value=>show.url_id}

@@ -1,0 +1,38 @@
+.box.round
+  %h2
+    Generas (
+    = generas.size
+    )
+
+  - if generas && generas.size > 0
+    %table
+      %thead
+        %tr
+          %th{ :scope => "col" }
+            Name
+          %th{ :scope => "col" }
+            Shows
+          %th{ :scope => "col" }
+            Episodes
+          %th{ :scope => "col" }
+            Actions
+      %tbody
+        - generas.each_with_index do |genera, idx|
+
+          %tr{:class=>"#{is_odd_index(idx) ? 'odd' : ''}"}
+
+            %td
+              = genera.name
+            %td
+              = genera.show_ref.size
+            %td
+              = genera.episode_ref.size
+
+            %td
+              %a.cal{ :href => "/admin/genera/#{genera.pid}/delete", :id => "delete_#{genera.pid}" }
+                Delete
+
+
+  - else
+    %h2
+      No generas found matching criteria

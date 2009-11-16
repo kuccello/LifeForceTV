@@ -69,6 +69,11 @@
               = episode.embed_sd
 
           %li
+            %label
+              Genera List (comma seperated)
+            %input{:type=>"text",:name=>"genera_list",:value=>episode.generas_as_list}
+
+          %li
             %label{:for=>"episode_status"}
               Status:
             %select{:name=>"episode_status"}

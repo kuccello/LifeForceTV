@@ -14,6 +14,39 @@ module Lifeforce
 
     end
 
+    def generas_as_list
+      str = ""
+      flag = true
+      generas.each do |i|
+        str = "#{str}#{flag ? '' : ','}#{i.name}"
+        flag = false
+      end
+      str
+    end
+
+#    def generas
+#      generas = []
+#      self.genera.each do |genera|
+#        generas <<   [genera.pid , genera.name]
+#      end
+#      generas
+#    end
+
+    def has_genera?(genera)
+      generas.each do |g|
+        return true if g.pid==genera.pid
+      end
+      false
+    end
+
+    def do_remove_genera(genera)
+      if genera
+        Lifeforce.transaction do
+          self.remove_genera(genera)
+        end
+      end
+    end
+
     def release_date_unix
       Chronic.parse(self).to_i
     end
@@ -41,13 +74,13 @@ module Lifeforce
     # report self as json
     def to_json
       {:pid=>self.pid,
-        :name=>self.name,
-        :status=>self.status,
-        :release_date=>self.release_date,
-        :sequence_order=>self.sequence_order,
-        :descriptions=>[{:long=>self.long_description,:short=>self.short_description}],
-        :generas=>self.generas,
-        :video=>self.video.last.to_json
+       :name=>self.name,
+       :status=>self.status,
+       :release_date=>self.release_date,
+       :sequence_order=>self.sequence_order,
+       :descriptions=>[{:long=>self.long_description, :short=>self.short_description}],
+       :generas=>self.generas,
+       :video=>self.video.last.to_json
       }
     end
 
@@ -86,14 +119,14 @@ module Lifeforce
     def s
       Show.get_by_pid(self.show)
     end
-    
+
     def uri
       "/#{s.url_id}/#{self.url_id}"
     end
-    
+
     def update(params)
       show = s
-      
+
       # process form save
 
       episode_name = params[:episode_name]
@@ -131,6 +164,19 @@ module Lifeforce
 
       # I don't think we need to process the individual videos....
 
+      genera_list = params[:genera_list]
+
+      new_generas = []
+      if genera_list then
+        sp_generas = genera_list.split(",")
+
+        sp_generas.each do |g|
+          gen = Genera.make_new_genera(g)
+          gen.add_show(self)
+          new_generas << gen
+        end
+      end
+
       Lifeforce.transaction do
 
         self.name = episode_name
@@ -150,6 +196,15 @@ module Lifeforce
         self.video.each do |video|
           video.is_default = "true" if video_is_default == video.id
           video.is_default = "false" unless video_is_default == video.id
+        end
+
+        self.generas.each do |gx|
+          self.do_remove_genera(gx)
+        end
+
+        new_generas.each do |gc|
+          self << gc
+          
         end
       end
 
@@ -203,6 +258,6 @@ module Lifeforce
         end
       end
     end
-    
+
   end
 end

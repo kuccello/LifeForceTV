@@ -8,33 +8,33 @@
           Actions
     %tbody
       - notes.each_with_index do |note, idx|
-        - if is_odd_index(idx) then
-          %tr{:class=>"#{is_odd_index(idx) ? 'odd' : ''}"}
 
-            %td
-              %a{ :href=>"/admin/note/#{note.pid}" }
-                = note.title
+        %tr{:class=>"#{is_odd_index(idx) ? 'odd' : 'even'}"}
 
-            %td
-              - if note.status != 'live'
+          %td
+            %a{ :href=>"/admin/note/#{note.pid}" }
+              = note.title
+
+          %td
+            - if note.status != 'live'
+              %a.cal{ :href => "#", :id => "live_#{note.pid}" }
+                Make Live
+              |
+            - if note.status == 'live'
+              - if note_is_showcased(note)
+                %img{:src=>"/images/showcased.png"}
+                |
+              - else
                 %a.cal{ :href => "#", :id => "live_#{note.pid}" }
-                  Make Live
+                  Add to showcase
                 |
-              - if note.status == 'live'
-                - if note_is_showcased(note)
-                  %img{:src=>"/images/showcased.png"}
-                  |
-                - else
-                  %a.cal{ :href => "#", :id => "live_#{note.pid}" }
-                    Add to showcase
-                  |
-                %a.cal{ :href => "#", :id => "pending_#{note.pid}" }
-                  Make Pending
-                |
+              %a.cal{ :href => "#", :id => "pending_#{note.pid}" }
+                Make Pending
+              |
 
 
-              %a.cal{ :href => "#", :id => "delete_#{note.pid}" }
-                Delete
+            %a.cal{ :href => "#", :id => "delete_#{note.pid}" }
+              Delete
 
 
 - else

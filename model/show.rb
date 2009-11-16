@@ -124,12 +124,37 @@ This show has no highlight description.
       }
     end
 
-    def generas
-      generas = []
-      self.genera.each do |genera|
-        generas << {genera.pid.to_sym => genera.name}
+    def generas_as_list
+      str = ""
+      flag = true
+      generas.each do |i|
+        str = "#{str}#{flag ? '' : ','}#{i.name}"
+        flag = false
       end
-      generas
+      str
+    end
+
+#    def generas
+#      generas = []
+#      self.genera.each do |genera|
+#        generas <<   [genera.pid , genera.name]
+#      end
+#      generas
+#    end
+
+    def has_genera?(genera)
+      generas.each do |g|
+        return true if g.pid==genera.pid
+      end
+      false
+    end
+
+    def do_remove_genera(genera)
+      if genera
+        Lifeforce.transaction do
+          self.remove_genera(genera)
+        end
+      end
     end
 
     def related_shows
@@ -233,6 +258,19 @@ This show has no highlight description.
       show_rating = params[:show_rating]
       show_url_id = params[:show_url_id]
 
+      genera_list = params[:genera_list]
+
+      new_generas = []
+      if genera_list then
+        sp_generas = genera_list.split(",")
+
+        sp_generas.each do |g|
+          gen = Genera.make_new_genera(g)
+          gen.add_show(self)
+          new_generas << gen
+        end
+      end
+
       Lifeforce.transaction do
         self.name = show_name
         self.description = show_description
@@ -240,6 +278,16 @@ This show has no highlight description.
         self.release_date = show_release_date
         self.rating = show_rating
         self.url_id = show_url_id
+
+        self.generas.each do |gx|
+          self.do_remove_genera(gx)
+        end
+
+        new_generas.each do |gc|
+          self << gc
+          
+        end
+
       end
 
       show_showcase_rm = params[:show_showcase_remove]

@@ -148,8 +148,8 @@
     Genera
   -->
   <genera pid="word-url-safe" name="">
-    <show pid=""/>
-    <episode pid=""/>
+    <show-ref id="" show=""/>
+    <episode-ref id="" episode=""/>
   </genera>
 </lifeforce>
 

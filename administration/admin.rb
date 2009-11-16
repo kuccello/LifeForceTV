@@ -260,4 +260,26 @@ class LifeForceAdmin < Sinatra::Base
 
   end
 
+  get '/generas' do
+    generas = Lifeforce::Genera.all
+#    puts "#{__FILE__}:#{__LINE__} #{__method__} #{generas[0].pp_xml}"
+    haml :generas, :locals => {:generas=>generas}
+  end
+
+  post '/genera/new' do
+    name = params[:genera_name]
+    genera = Lifeforce::Genera.make_new_genera( name)
+    flash[:success] = "Created gener #{name}" if genera
+    redirect '/admin/generas'
+  end
+
+  get '/genera/:pid/delete' do
+    genera = Lifeforce::Genera.get_by_pid(params[:pid])
+    if genera then
+      Lifeforce::Genera.remove_from_system(genera)
+      
+    end
+    redirect '/admin/generas'
+  end
+
 end

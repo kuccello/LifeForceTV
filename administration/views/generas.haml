@@ -1,0 +1,22 @@
+#title.round
+  %h1
+    Generas
+  %span.right
+    These are the generas
+#content
+  #content-container
+    = partial("generas_box",{ :generas => generas})
+
+    %form{:action=>"/admin/genera/new",:method=>"post"}
+      %h2
+        New Genera
+
+      %ul
+        %li
+          %label
+            Name:
+          %input.text.medium{:type=>"text",:name=>"genera_name",:value=>""}
+
+      %input{:type=>"submit", :value=>"Save"}
+
+= sidebar
