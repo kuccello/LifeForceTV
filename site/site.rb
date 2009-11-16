@@ -1,12 +1,29 @@
 require 'sinatra/base'
 require File.join(File.dirname(__FILE__), '../utils/krispythumb')
 
+require File.join(File.dirname(__FILE__), "../helpers/general")
+require File.join(File.dirname(__FILE__), "../helpers/show")
+require File.join(File.dirname(__FILE__), "helpers/show")
+
 class LifeForceSite < Sinatra::Base
 
   set :views, File.dirname(__FILE__) + '/views'
   set :public, File.dirname(__FILE__) + '/public'
   set :root, File.dirname(__FILE__)
   set :static, true
+
+  helpers Lifeforce::GeneralHelpers
+  helpers Lifeforce::ShowHelpers
+
+  helpers LifeForceSiteHelpers::Content
+
+  not_found do
+    "NOT FOUND!!! 404"
+  end
+
+  error do
+    'Sorry there was a nasty error - ' + env['sinatra.error'].name
+  end
 
   get '/' do
     haml :index
@@ -21,6 +38,13 @@ class LifeForceSite < Sinatra::Base
 
   get '/1' do
     haml :'raw-haml/index', :layout=>false
+  end
+
+  get '/:show_url_id' do
+
+    show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
+
+    haml :show, :locals=>{:show=>show}
   end
 
 end

@@ -4,6 +4,10 @@ require File.join(File.dirname(__FILE__),"generated_model/Lifeforce")
 
 module Lifeforce
 
+  STATUS_PENDING = "pending"
+  STATUS_LIVE = "live"
+  STATUS_DELETED = "deleted"
+
   Xampl.set_default_persister_kind(:tokyo_cabinet)
   Xampl.set_default_persister_format(:xml_format)
 

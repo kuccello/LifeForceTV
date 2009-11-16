@@ -1,0 +1,42 @@
+#title.round
+  %h1
+    Add Show From Blip
+  %span.right
+    Use this to add shows from Blip.tv
+#content
+  #content-container
+    .box.round
+      %h2
+        Add Show
+      = flash_message
+      %form{ :method => "post", :action => "/admin/show/add-blip" }
+        %ul
+          %li
+            %label
+              Blip.tv Show Name
+              %span.req
+                *
+            %div
+              %input.short.text{ :type => "text", :name => "blip-show-name" }
+
+            %label.note
+              Example: mensroom or byteclub
+          %li
+            %label
+              Blip.tv Username
+            %div
+              %input.short.text{ :type => "text", :name => "blip-user" }
+
+            %label.note
+              Put the username for blip rss feed here
+          %li
+            %label
+              Blip.tv Password
+            %div
+              %input.short.text{ :type => "password", :name => "blip-pass" }
+            %label.note
+              Put the password for the blip user here
+          %li
+            %input#submit.button{ :type => "submit", :name => "submit", :value => "Submit" }
+
+= sidebar

@@ -9,10 +9,11 @@
   END "message_buttons"  //
 #content_wrap
   #inner_content
-    = haml :'snippets/entry', :layout=>false
-    = haml :'snippets/entry', :layout=>false
-  /
-    END "inner_content"  //
+    - showcase_shows = default_showcase.sorted_shows
+    - showcase_shows.each do |show_showcase|
+      = partial("showhighlight",{:show=>show_showcase.s})
+
+  
   #sidebar_home
     = haml :'snippets/widgit', :layout=>false
     = haml :'snippets/widgit', :layout=>false

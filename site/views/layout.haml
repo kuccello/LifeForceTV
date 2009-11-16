@@ -16,8 +16,18 @@
     %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
     %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
     %link{ :rel => "stylesheet", :href => "/css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
+
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/js/shadowbox-build-3.0rc1/shadowbox.css"}
+    %script{ :type=>"text/javascript", :src=>"/js/shadowbox-build-3.0rc1/shadowbox.js"}
+    %script{ :type=>"text/javascript"}
+      Shadowbox.init(
+      {players:    ["swf"]}
+      );
+
+
+
     %title
-      $SITE_NAME
+      = $SITE_NAME
   %body
     /
       \//PHP FIX IE BUG WITH ROTATION, AND THIS IS THE ONLY WAY HOW TO DISPLAY THIS CODE ONLY IN IE BROWSERS
@@ -46,102 +56,8 @@
         END "header"  //
       #container.clearfix
         #toppanel.clearfix
-          #navigation
-            %ul
-              %li.active
-                %a.main_category{ :href => "index.php" }
-                  Home
-              %li
-                %a.main_category{ :href => "theme_description.html" }
-                  About
-                %ul
-                  %li
-                    %a{ :href => "testpage.html" }
-                      HTML Test Page
-                  %li
-                    %a{ :href => "theme_description.html" }
-                      Theme Description
-                  %li
-                    %a{ :href => "#" }
-                      Dropdown Test
-                    %ul
-                      %li
-                        %a{ :href => "#" }
-                          Dropdown Test
-                        %ul
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                        /
-                          END dropdown level 3  //
-                      %li
-                        %a{ :href => "#" }
-                          Dropdown Test
-                        %ul
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                          %li
-                            %a{ :href => "#" }
-                              Dropdown Test
-                        /
-                          END dropdown level 3  //
-                      %li
-                        %a{ :href => "#" }
-                          Dropdown Test
-                    /
-                      END dropdown level 2  //
-                /
-                  END dropdown level 1  //
-              %li
-                %a.main_category{ :href => "portfolio.html" }
-                  Portfolio
-                %ul
-                  %li
-                    %a{ :href => "portfolio.html" }
-                      Web design
-                  %li
-                    %a{ :href => "portfolio.html" }
-                      Print Design
-                  %li
-                    %a{ :href => "portfolio.html" }
-                      Corporate Identity
-                  %li
-                    %a{ :href => "portfolio.html" }
-                      Branding
-                  %li
-                    %a{ :href => "portfolio.html" }
-                      Advertising
-                /
-                  END dropdown level 1  //
-              %li
-                %a.main_category{ :href => "blog.html" }
-                  Blog
-              %li
-                %a.main_category{ :href => "contact.php" }
-                  Contact
-            /
-              END for whole navigation UL  //
-          /
-            END "navigation"  //
-          #search
-            %form#searchform{ :action => "###", :method => "get" }
-              %input#s.field{ :type => "text", :onblur => "if (this.value == '') {this.value = 'Enter keywords...';}", :onfocus => "if (this.value == 'Enter keywords...') {this.value = '';}", :value => "Enter keywords...", :name => "s" }
-              %input.submit{ :type => "submit", :name => "submit", :value => "Search" }
-          /
-            END "search"  //
+          
+
         /
           END "toppanel"  //
 

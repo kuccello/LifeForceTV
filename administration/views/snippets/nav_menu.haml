@@ -1,0 +1,35 @@
+%ul#navigation
+  %li
+    %a{ :href => to_path("/") }
+      Dashboard
+  %li
+    %a{ :href => to_path("/shows") }
+      Shows
+    %ul
+      %li
+        %a{ :href => to_path("/show/add-bliptv") }
+          Import From Blip
+      %li
+        %a{ :href => to_path("#") }
+          Export To XML
+      %li
+        %a{ :href => "#" }
+          Search
+  %li
+    %a{:href=>to_path("/showcase")}
+      Showcase
+  %li
+    %a{:href=>to_path("/generas")}
+      Generas
+  %li
+    %a{:href=>to_path("/accounts")}
+      Accounts
+  %li
+    %a{:href=>to_path("/ads")}
+      Ads
+  %li
+    %a{ :href => "#" }
+      Reports
+  %li
+    %a{ :href => "#" }
+      System

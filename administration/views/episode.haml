@@ -1,0 +1,144 @@
+%script{ :type => "text/javascript" }
+  $().ready(function() {
+  $("#release_date").datepicker({showOn: 'button', buttonImage: '/admin/images/Calendar.png', buttonImageOnly: true});
+  });
+
+#title.round
+  %h1
+    = episode.name
+  %span.right
+    You may edit the episode here
+#content
+  #content-container
+
+    .box.round
+      = flash_message()
+
+      %a{:href=>"/admin/show/#{show.pid}/edit"}
+        = show.name
+
+      %a{:href=>episode.uri}
+        = episode.uri
+
+      %form{ :method=>"post", :action=>"/admin/episode/#{episode.pid}/edit", :enctype=>"multipart/form-data" }
+
+
+        %h2
+          Details
+
+        %ul
+          %li
+            %label{:for=>"episode_name"}
+              Name:
+            %input.text.medium{:type=>"text",:name=>"episode_name",:value=>episode.name}
+
+          %li
+            Short Description 30 words or less:
+            %br
+            %textarea{:rows=>"3",:cols=>"50",:name=>"episode_short_description"}
+              - if episode.description['short']
+                = episode.description['short'].content
+
+          %li
+            Long Description:
+            %br
+            %textarea{:rows=>"10",:cols=>"50",:name=>"episode_long_description"}
+              - if episode.description['long']
+                = episode.description['long'].content
+
+          %li
+            HD EMBED CODE:
+            %br
+            %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_hd"}
+              = episode.embed_hd
+
+          %li
+            SD EMBED CODE:
+            %br
+            %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_sd"}
+              = episode.embed_sd
+
+          %li
+            %label{:for=>"episode_status"}
+              Status:
+            %select{:name=>"episode_status"}
+              %option{:value=>episode.status}
+                = episode.status
+              %option{:value=>"pending"}
+                Pending
+              %option{:value=>"live"}
+                Live
+              %option{:value=>"deleted"}
+                Deleted
+          %li
+            %label{:for=>"episode_release_date",:style=>"float:left"}
+              Release Date:
+            %input{:type=>"text",:id=>"release_date", :name=>"episode_release_date", :value=>episode.release_date, :style=>"float:left"}
+
+          %li
+            %label{:for=>"episode_rating"}
+              Content Rating [G, PG, PG-13, R, NC-17, XXX]:
+            %input{:type=>"text",:name=>"episode_rating",:value=>episode.content_rating}
+
+          %li
+            GENERAS
+
+          %li
+            %label{:for=>"episode_language"}
+              Language
+            %input{:type=>"text",:name=>"episode_language",:value=>episode.language}
+
+          %li
+            SEASON - TODO
+
+          %li
+            %label{:for=>"episode_sequence"}
+              Sequence Order [episode # accross all seasons] - ex. 101, 102, 103, 201, 202, 203, 3001, 3002 etc...:
+            %input{:type=>"text",:name=>"episode_sequence",:value=>episode.sequence_order}
+
+          %li
+            %label{:for=>"episode_length"}
+              Episode length [hh:mm:ss]
+            %input{:type=>"text",:name=>"episode_length",:value=>episode.length}
+
+          %li
+            %label{:for=>"episode_url"}
+              URL ID: for seo stuff
+            %input{:type=>"text",:name=>"episode_url",:value=>episode.url_id}
+
+          %li
+            Videos (
+            = episode.video.size
+            )
+            %hr
+
+          - episode.video.each do |video|
+            = partial("episode_video_li",{:video=>video, :episode=>episode})
+            
+
+          %li
+            %hr
+
+          %li
+            %label{:for=>"episode_poster_image"}
+              Poster Image:
+            %input{:type=>"file",:name=>"episode_poster_image"}
+            %img{:src=>episode.poster}
+
+          %li
+            %label{:for=>"episode_thumbnail_image"}
+              Thumbnail Image:
+            %input{:type=>"file",:name=>"episode_thumbnail_image"}
+            %img{:src=>episode.thumbnail}
+
+          %li
+            %label{:for=>"episode_showcase"}
+
+            - if episdode_is_showcased(episode)
+              Remove from showcase:
+              %input{:type=>"checkbox", :name=>"episode_showcase_remove", :value=>"false"}
+            - else
+              Add to showcase:
+              %input{:type=>"checkbox", :name=>"episode_showcase_add", :value=>"true"}
+
+          %input{:type=>"submit", :value=>"Save"}

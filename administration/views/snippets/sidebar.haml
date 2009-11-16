@@ -1,0 +1,72 @@
+#sidebar
+  .side-box
+    %h3
+      Search
+    %p
+      Here you can have a search box for the page.
+    %form#search{ :method => "post", :action => "#" }
+      %input#search-text{ :type => "text", :name => "keywords", :value => "" }
+      %input#search-btn{ :type => "image", :value => "submit", :src => "/themes/AdminV1/images/search-button.gif", :alt => "Go" }
+  .side-box
+    %h3
+      Sidebar Menu
+    %ul.links
+      %li
+        %a{ :href => "#" }
+          In the Woods
+      %li
+        %a{ :href => "#" }
+          Down the Foxhole
+      %li
+        %a{ :href => "#" }
+          The River Current
+  .side-box
+    %h3
+      What's New?
+    %ul
+      %li
+        %a{ :href => "#" }
+          Useful .htaccess Tricks for Webmasters
+        %br
+        I just did a little google search and found a lot of .htaccess tricks that you might want to use for your websites. Those who are new to .htaccess Password Robot Blog has a good quick introduction. There's also a online .htaccess editor that can be useful available in English, French, Spanish, Chinese and more.
+      %li
+        %a{ :href => "#" }
+          4 Traditional Japanese Styled Flash Websites
+        %br
+        Sometimes flash is a good tool to use to design your website. You can give your visitors the feeling that you can't give using xhtml+css. Here are some of the cool websites I found that gave a taste of how Japanese tradition is. Oh, don't forget to have your volume low.
+      %li
+        %a{ :href => "#" }
+          PHP Tricks for Non-Programmer
+        %br
+        There are several PHP tricks you can use easily on your websites. I do recommend reading Jeffery Way's "Learn PHP from Scratch: A Training Regimen" at NETUTS. These tricks will make it easy for you to maintain your website. If you have used a CMS like WordPress before this might be nothing new.
+    %input#more.button{ :type => "submit", :name => "more", :value => "Read More" }
+  .side-box
+    %h3
+      5 Top FAQ
+    %ul
+      %li
+        %strong
+          Lorem ipsum dolor sit amet?
+        %br
+        Sed in imperdiet eros. Ut sagittis rhoncus neque, ut aliquet odio interdum sit amet. Maecenas vestibulum pulvinar magna, porta lacinia felis laoreet vitae. Morbi at erat velit.
+      %li
+        %strong
+          Proin molestie?
+        %br
+        Quisque semper suscipit ornare.
+      %li
+        %strong
+          Nunc ac velit libero?
+        %br
+        Curabitur semper ultricies pulvinar. Nunc gravida congue libero, sed molestie neque euismod sollicitudin. Praesent in enim nulla.
+      %li
+        %strong
+          Morbi iaculis nisl nec neque?
+        %br
+        Duis fringilla felis eget felis aliquam dapibus. Mauris nibh lacus, gravida vel suscipit lobortis, vulputate vel quam.
+      %li
+        %strong
+          Mauris mauris enim?
+        %br
+        Vestibulum fermentum malesuada quam eu luctus.
+

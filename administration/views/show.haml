@@ -1,0 +1,104 @@
+%script{ :type => "text/javascript" }
+  $().ready(function() {
+  $("#release_date").datepicker({showOn: 'button', buttonImage: '/admin/images/Calendar.png', buttonImageOnly: true});
+  });
+
+#title.round
+  %h1
+    = show.name
+  %span.right
+    You may edit the show here
+#content
+  #content-container
+
+    .box.round
+      = flash_message
+
+      %form{ :method=>"post", :action=>to_path("/show/#{show.pid}/edit"), :enctype=>"multipart/form-data" }
+        %h2
+          Details
+        %ul
+          %li
+            %label{:for=>"show_name"}
+              Name:
+            %input{:type=>"text",:name=>"show_name",:value=>show.name}
+
+          %li
+            Description
+            %br
+            %textarea{:rows=>"10",:cols=>"30",:name=>"show_description"}
+              = show.description
+
+          %li
+            %label{:for=>"show_status"}
+              Status:
+            %select{:name=>"show_status"}
+              %option{:value=>show.status}
+                = show.status
+              %option{:value=>"pending"}
+                Pending
+              %option{:value=>"live"}
+                Live
+              %option{:value=>"deleted"}
+                Deleted
+
+          %li
+            %label{:for=>"show_url_id"}
+              URL ID:
+            %input{:type=>"text",:name=>"show_url_id",:value=>show.url_id}
+
+          %li
+            %label{:for=>"show_release_date",:style=>"float:left"}
+              Release Date:
+            %input{:type=>"text",:id=>"release_date", :name=>"show_release_date", :value=>show.release_date, :style=>"float:left"}
+
+          %li
+            %label{:for=>"show_rating"}
+              Rating:
+            %input{:type=>"text",:name=>"show_rating",:value=>show.rating}
+
+          %li
+            %label{:for=>"show_big_image"}
+              Big Image:
+            %input{:type=>"file",:name=>"show_big_image"}
+            %img{:src=>show.big_image}
+
+          %li
+            %label{:for=>"show_highlight_image"}
+              Highlight Image:
+            %input{:type=>"file",:name=>"show_highlight_image"}
+            %img{:src=>show.highlight_image}
+
+
+          %li
+            %label{:for=>"show_small_image"}
+              Small Image:
+            %input{:type=>"file",:name=>"show_small_image"}
+            %img{:src=>show.small_image}
+
+          %li
+            %label{:for=>"show_poster_image"}
+              Poster Image:
+            %input{:type=>"file",:name=>"show_poster_image"}
+            %img{:src=>show.poster}
+
+          %li
+            %label{:for=>"show_showcase"}
+
+            - if show_is_showcased(show)
+              Remove from showcase:
+              %input{:type=>"checkbox", :name=>"show_showcase_remove", :value=>"false"}
+            - else
+              Add to showcase:
+              %input{:type=>"checkbox", :name=>"show_showcase_add", :value=>"true"}
+
+        %input{:type=>"submit", :value=>"Save"}
+
+    = partial("episodes_box",{ :show => show })
+    
+
+    .box.round
+      %h2
+        Credits
+
+= sidebar

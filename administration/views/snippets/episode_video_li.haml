@@ -1,0 +1,27 @@
+%li.video_details
+  %input{:type=>"radio", :name=>"video_is_default", :value=>video.id, :style=>"float:left"}
+  &nbsp; Video [
+  = video.id
+  ]: select to make default
+
+  %ul
+    %li
+      %label{:for=>"episode_video_url_#{video.id}"}
+        File Size
+      %input.text.long{:type=>"text",:name=>"episode_video_url_#{video.id}",:value=>video.url}
+    %li
+      %label{:for=>"episode_video_file_size_#{video.id}"}
+        File Size
+      %input{:type=>"text",:name=>"episode_video_file-size_#{video.id}",:value=>video.file_size}
+    %li
+      %label{:for=>"episode_video_height_#{video.id}"}
+        Height:
+      %input{:type=>"text",:name=>"episode_video_height_#{video.id}",:value=>video.height}
+    %li
+      %label{:for=>"episode_video_width_#{video.id}"}
+        Width:
+      %input{:type=>"text",:name=>"episode_video_width_#{video.id}",:value=>video.width}
+    %li
+      %label{:for=>"episode_video_mime_#{video.id}"}
+        Mime Type:
+      %input{:type=>"text",:name=>"episode_video_mime_#{video.id}",:value=>video.mime_type}

@@ -30,6 +30,7 @@
   -->
   <showcase pid="">
     <showcase-episode id="" order="" episode="" status="active|inactive"/>
+    <showcase-show id="" order="" show="" status="active|inactive"/>
   </showcase>
 
   <!--
@@ -62,7 +63,7 @@
     <episode pid=""
              name=""
              status="pending|released"
-             release-date="mm-dd-yyyy HH:MM"
+             release-date=""
              sequence-order=""
              language=""
              length=""

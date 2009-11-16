@@ -1,108 +1,64 @@
-#featured_home.clearfix
-  .bigimg
-    %img#slider_main_img{ :src => "/scripts/timthumb.php?src=/images/img1.jpg&amp;h=350&amp;w=920&amp;zc=1", :alt => "Big Image" }
-    .post_info_holder.clearfix
-      .post_category
-        %a#slider_img_tit{ :href => "#" }
-          \/ Portfolio /
-      .post_name
-        %a#slider_img_desc{ :href => "#" }
-          1000s of Images In My Mind
-    /
-      END "post_info_holder"  //
-  /
-    END "bigimg"  //
-  #slider.slider
-    #slider_max.minus
-      %img#round_max.round{ :src => "/images/slider_round.png", :alt => "round" }
-      %img#sign_max.sign{ :src => "/images/slider_round_minus.png", :alt => "minus" }
-    #thumbs.thumbs
-      #sl_content.slider_content
-        %ul#slider_ul
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img1.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ Portfolio /
-            %a.slider_desc{ :href => "#" }
-              1000s of Images In My Mind
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img1.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img2.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ PEOPLE /
-            %a.slider_desc{ :href => "#" }
-              Victor and his Last Shot
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img2.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img3.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ Celebrities /
-            %a.slider_desc{ :href => "#" }
-              Pssst-Don't talk, the wall's are thin
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img3.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img4.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ PEOPLE /
-            %a.slider_desc{ :href => "#" }
-              My New Buddy Is a DJ
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img4.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img5.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ People /
-            %a.slider_desc{ :href => "#" }
-              Pure And Clear Diamond
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img5.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img6.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ Cars /
-            %a.slider_desc{ :href => "#" }
-              My New Ride
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img6.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img7.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ London /
-            %a.slider_desc{ :href => "#" }
-              Underground Scene
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img7.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img8.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ London /
-            %a.slider_desc{ :href => "#" }
-              Underground Station
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img8.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img9.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ Celebrities /
-            %a.slider_desc{ :href => "#" }
-              Riders on The Storm
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img9.jpg&amp;h=350&amp;w=920&amp;zc=1" }
-          %li
-            %img{ :src => "/scripts/timthumb.php?src=/images/img10.jpg&amp;h=100&amp;w=52&amp;zc=1", :alt => "img" }
-            %a.slider_tit{ :href => "#" }
-              \/ People /
-            %a.slider_desc{ :href => "#" }
-              Rock 'n' Rolla
-            %a.slider_img{ :href => "/scripts/timthumb.php?src=/images/img10.jpg&amp;h=350&amp;w=920&amp;zc=1" }
+- showcase_episodes = default_showcase.sorted
+- if showcase_episodes.size > 0
+  #featured_home.clearfix
+    .bigimg
+      %img#slider_main_img{ :src => "/scripts/timthumb.php?src=#{(showcase_episodes.size > 0 ? showcase_episodes[0].ep.poster : '/images/img1.jpg')}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => showcase_episodes[0].ep.name }
+      .post_info_holder.clearfix
+        .post_category
+          %a#slider_img_tit{ :href => showcase_episodes[0].ep.s.uri }
+            \/
+            = showcase_episodes[0].ep.s.name
+            \/
+        .post_name
+          %a#slider_img_desc{ :href => showcase_episodes[0].ep.uri }
+            = showcase_episodes[0].ep.name
+        .post_category
+          %a#slider_video{:href=>"http://a.blip.tv/scripts/flash/showplayer.swf?file=http%3A%2F%2Fblip.tv%2Frss%2Fflash%2F1662606%3Freferrer%3Dhttp%25253A%25252F%25252Flocalhost%25253A8080%25252F%26source%3D3&showplayerpath=http%3A%2F%2Fblip.tv%2Fscripts%2Fflash%2Fshowplayer.swf&feedurl=http%3A%2F%2Fbyteclub.blip.tv%2Frss%2Fflash&brandname=LifeforceTV&brandlink=http%3A%2F%2Fwww.lifeforcetv.com%2Fbyteclub&enablejs=true&allowm4v=true&preferredRole=Web+High+Resolution&backcolor=0x0E2B40&lightcolor=0xFFFFFF&showguidebutton=false&smokeduration=0&frontcolor=0x225577", :rel=>"shadowbox;width=715;height=405;player=swf"}
+            \/ PLAY /
         /
-          END "slider_ul"  //
+          #post_details
+            THis is some text
       /
-        END "sl_content"  //
+        END "post_info_holder"  //
     /
-      END "thumbs"  //
-    #slider_min.plus
-      %img#round_min.round{ :src => "/images/slider_round.png", :alt => "round" }
-      %img#sign_min.sign{ :src => "/images/slider_round_plus.png", :alt => "plus" }
-    /
-      END "slider_min"  //
-  /
-    END "slider"  //
-/
-  END "featured_home"  //
+      END "bigimg"  //
+    #slider.slider
+      #slider_max.minus
+        %img#round_max.round{ :src => "/images/slider_round.png", :alt => "round" }
+        %img#sign_max.sign{ :src => "/images/slider_round_minus.png", :alt => "minus" }
+      #thumbs.thumbs
+        #sl_content.slider_content
+          %ul#slider_ul
+            - showcase_episodes.each do |episode|
+              %li
+                %img{ :src => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=100&amp;w=52&amp;zc=0", :alt => episode.ep.name }
+                %a.slider_tit{ :href => episode.ep.s.uri }
+                  \/
+                  = episode.ep.s.name 
+                  \/
+                %a.slider_desc{ :href => episode.ep.uri }
+                  = episode.ep.name
+                %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
+            %li
 
-= haml :'snippets/showshight', :layout=>false
+          /
+            END "slider_ul"  //
+        /
+          END "sl_content"  //
+      /
+        END "thumbs"  //
+      #slider_min.plus
+        %img#round_min.round{ :src => "/images/slider_round.png", :alt => "round" }
+        %img#sign_min.sign{ :src => "/images/slider_round_plus.png", :alt => "plus" }
+      /
+        END "slider_min"  //
+    /
+      END "slider"  //
+  /
+    END "featured_home"  //
+
+  = partial("showshight")
+
+- else
+
+  = showcase_episodes.size

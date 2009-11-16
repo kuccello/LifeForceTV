@@ -1,0 +1,17 @@
+#title.round
+  %h1
+    Showcase
+  %span.right
+    Setup the showcase
+
+#content
+  #content-container
+
+    .box.round
+      = flash_message()
+
+      = partial("showcase_box",{:episodes=>showcase.sorted, :shows=>showcase.sorted_shows})
+      
+
+
+= sidebar

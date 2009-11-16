@@ -1,0 +1,45 @@
+.box.round
+  %h2
+    Episodes (
+    = show.episode.size
+    )
+    - deleted = show.deleted_episodes
+    - pending = show.pending_episodes
+    - live = show.live_episodes
+  %ul.idTabs
+    %li
+      %a{ :href => "#tab_published_episodes" }
+        Published Episodes (
+        = live.size
+        )
+    %li
+      %a{ :href => "#tab_pending_episodes" }
+        Pending Episodes (
+        = pending.size
+        )
+    %li.last
+      %a{ :href => "#tab_deleted_episodes" }
+        Deleted Episodes (
+        = deleted.size
+        )
+  #tab_published_episodes
+    %h3
+      Published Episodes
+    %h4
+      These are live episodes
+    = partial("episodes_table",{ :episodes => live, :show => show})
+
+
+  #tab_pending_episodes
+    %h3
+      Pending Episodes
+    %h4
+      These are pending episodes
+    = partial("episodes_table",{ :episodes => pending, :show => show})
+
+  #tab_deleted_episodes
+    %h3
+      Deleted Episodes
+    %h4
+      These are deleted episodes and may dissapear from the system at any time
+    = partial("episodes_table",{ :episodes => deleted, :show => show})

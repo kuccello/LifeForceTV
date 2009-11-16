@@ -1,0 +1,35 @@
+.box.round
+  %h2
+    Shows
+  %ul.idTabs
+    %li
+      %a{ :href => "#tab1" }
+        Published Shows
+    %li
+      %a{ :href => "#tab2" }
+        Pending Shows
+    %li.last
+      %a{ :href => "#tab3" }
+        Deleted Shows
+  #tab1
+    %h3
+      Published Shows
+    %h4
+      These are live shows
+    - live = live_shows()
+    = partial("shows_table",{ :shows => live})
+
+  #tab2
+    %h3
+      Pending Shows
+    %h4
+      These are live shows
+    = partial("shows_table",{ :shows => pending_shows})
+
+  #tab3
+    %h3
+      Deleted Shows
+    %h4
+      These are deleted shows and may dissapear from the system at any time
+    = partial("shows_table",{ :shows => deleted_shows})
+    

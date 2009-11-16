@@ -2,6 +2,7 @@ require 'rubygems'
 require 'xampl'
 require 'haml'
 require 'rack-flash'
+require 'chronic'
 
 require ::File.join(::File.dirname(__FILE__), 'utils/string')
 

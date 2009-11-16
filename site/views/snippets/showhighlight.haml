@@ -1,6 +1,6 @@
 .entry
   %a{ :href => show.uri }
-    %img{ :src => show.highlight_image, :alt => show.name }
+    %img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=315&amp;w=560&amp;zc=1&amp;zw=560&amp;zh=170&amp;zow=0&amp;zoh=70", :alt => show.name }
   .date.clearfix
     .date_holder
       %span.new_episode_label

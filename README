@@ -12,3 +12,4 @@ sudo gem install shoulda
 sudo gem install rmagick
 sudo gem install sinatra
 sudo gem install haml
+

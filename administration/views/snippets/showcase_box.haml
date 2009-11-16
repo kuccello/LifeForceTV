@@ -1,0 +1,62 @@
+%h2
+  Episodes
+- if episodes && episodes.size > 0
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Episode
+        %th{ :scope => "col" }
+          Show
+        %th{ :scope => "col" }
+          Actions
+    %tbody
+      - episodes.each_with_index do |episode, idx|
+        %tr{:class=>"#{(is_odd_index(idx) ? 'odd' : '')}"}
+          %td
+            %a{ :href=>"/admin/episode/#{episode.episode}/edit" }
+              = episode.ep.name
+          %td
+            %a{ :href=>"/admin/show/#{episode.ep.s.pid}/edit" }
+              = episode.ep.s.name
+          %td
+            %form{:action=>"/admin/showcase/adjust/#{episode.id}", :method=>"post"}
+              %input{:type=>"submit",:value=>"up",:name=>"action"}
+              |
+              %input{:type=>"submit",:value=>"down",:name=>"action"}
+              |
+              %input{:type=>"submit",:value=>"remove",:name=>"action"}
+
+- else
+  %h2
+    Episode Showcase is empty
+
+%h2
+  Shows
+- if shows && shows.size > 0
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Show
+        %th{ :scope => "col" }
+          Actions
+    %tbody
+      - shows.each_with_index do |show, idx|
+        %tr{:class=>"#{(is_odd_index(idx) ? 'odd' : '')}"}
+          %td
+            %a{ :href=>"/admin/show/#{show.s.pid}/edit" }
+              = show.s.name
+          %td
+            %form{:action=>"/admin/showcase/adjust-show/#{show.id}", :method=>"post"}
+              %input{:type=>"submit",:value=>"up",:name=>"action"}
+              |
+              %input{:type=>"submit",:value=>"down",:name=>"action"}
+              |
+              %input{:type=>"submit",:value=>"remove",:name=>"action"}
+
+
+
+- else
+  %h2
+    Show Showcase is empty

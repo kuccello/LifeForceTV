@@ -3,6 +3,13 @@ require 'sinatra/base'
 require File.join(File.dirname(__FILE__), "helpers/auth")
 require File.join(File.dirname(__FILE__), "helpers/flash")
 require File.join(File.dirname(__FILE__), "helpers/link")
+require File.join(File.dirname(__FILE__), "helpers/content")
+
+require File.join(File.dirname(__FILE__), "../helpers/general")
+require File.join(File.dirname(__FILE__), "../helpers/show")
+
+require File.join(File.dirname(__FILE__), '../utils/krispythumb')
+require File.join(File.dirname(__FILE__), '../utils/bliptv')
 
 class LifeForceAdmin < Sinatra::Base
 
@@ -15,20 +22,16 @@ class LifeForceAdmin < Sinatra::Base
   helpers LifeForceAdminHelpers::Link
   helpers LifeForceAdminHelpers::Flash
   helpers LifeForceAdminHelpers::Auth
+  helpers LifeForceAdminHelpers::Content
+
+  helpers Lifeforce::GeneralHelpers
+  helpers Lifeforce::ShowHelpers
 
 
   # this will run once (or at least thats what I'm told)
   configure do
     #puts "#{__FILE__}:#{__LINE__} #{__method__} I AM CONFIGURING LifeForceAdmin"
   end
-
-#  unless $LIFEFORCE_INSTALLED
-#    before do
-#      unless $LIFEFORCE_INSTALLED
-#        redirect '/setup' if $lifeforce_configuration_setup_flag && !request.env["REQUEST_PATH"].include?('/setup')
-#      end
-#    end
-#  end
 
   # This will be evaluated before static files are accessable too
   before do
@@ -39,6 +42,14 @@ class LifeForceAdmin < Sinatra::Base
       puts "#{__FILE__}:#{__LINE__} #{__method__} #{@current_uri} -- is authenticated? #{authenticated}"
       redirect "/admin/login"
     end
+  end
+
+  not_found do
+    "NOT FOUND!!! 404"
+  end
+
+  error do
+    'Sorry there was a nasty error - ' + env['sinatra.error'].name
   end
 
   get '/' do
@@ -86,5 +97,140 @@ class LifeForceAdmin < Sinatra::Base
 
   end
 
+  get '/dashboard' do
+    haml :dashboard
+  end
+
+  get '/showcase' do
+    haml :showcase
+  end
+
+  post '/showcase/adjust/:showcase_episode_id' do
+    action = params[:action]
+    ep_id = params[:showcase_episode_id]
+    case action
+      when 'up' then
+        Lifeforce::Showcase.default.move_episode_up( ep_id)
+      when 'down' then
+        Lifeforce::Showcase.default.move_episode_down( ep_id)
+      when 'remove' then
+        Lifeforce::Showcase.default.remove_episode( ep_id)
+    end
+    haml :showcase
+  end
+
+  post '/showcase/adjust-show/:showcase_show_id' do
+    action = params[:action]
+    show_id = params[:showcase_show_id]
+    case action
+      when 'up' then
+        Lifeforce::Showcase.default.move_show_up( show_id)
+      when 'down' then
+        Lifeforce::Showcase.default.move_show_down( show_id)
+      when 'remove' then
+        Lifeforce::Showcase.default.remove_show( show_id)
+    end
+    haml :showcase
+  end
+
+  get '/shows' do
+    
+
+    shows = Lifeforce::Show.all
+
+    haml :shows, :locals => { :shows => shows }
+  end
+
+  get '/show/add-bliptv' do
+    
+
+    haml :bliptv
+  end
+
+  post '/show/add-blip' do
+    
+
+    blip_usr = params["blip-user"]
+    blip_pass = params["blip-pass"]
+    blip_show = params["blip-show-name"]
+
+    blip = Lifeforce::Blip.new
+
+    msg = blip.capture(blip_usr, blip_pass, blip_show)
+
+    if msg.error then
+      flash[:error] = "There was a problem pulling the show! - #{msg.message}"
+      haml :bliptv
+    else
+      flash[:message] = "Successfully pulled show!"
+      redirect "/admin/show/#{blip.show.pid}/edit"
+    end
+  end
+
+  get '/show/:show_pid/edit' do
+    
+
+    show_pid = params[:show_pid]
+    show = Lifeforce::Show.get_by_pid(show_pid)
+
+    pass unless show
+
+    haml :show, :locals => {:show=>show}
+  end
+
+  post '/show/:show_pid/edit' do
+
+
+    show_pid = params[:show_pid]
+    show = Lifeforce::Show.get_by_pid(show_pid)
+    pass unless show
+
+    begin
+      # get params:
+
+      success = show.update(params)
+
+      flash[:success] = "Success! You updated the show!" if success
+      flash[:error] = "Failed to update show." unless success
+    rescue => e
+      flash[:error] = "ERROR: there was a serious problem -- #{e}"
+    end
+
+    haml :show, :locals => {:show=>show}
+  end
+
+  get '/episode/:episode_pid/edit' do
+    
+
+    episode_pid = params[:episode_pid]
+    episode = Lifeforce::Episode.get_by_pid(episode_pid)
+
+    show = Lifeforce::Show.get_by_pid(episode.show)
+
+    pass unless episode
+
+    haml :episode, :locals => {:episode=>episode, :show=>show}
+  end
+
+  post '/episode/:episode_pid/edit' do
+    
+
+    episode_pid = params[:episode_pid]
+    episode = Lifeforce::Episode.get_by_pid(episode_pid)
+
+    pass unless episode
+
+    begin
+
+      episode.update(params)
+
+      flash[:success] = "Successfully updated episode!"
+    rescue => e
+      flash[:error] = "ERROR: there was a problem - #{e}"
+    end
+
+    haml :episode, :locals => {:episode=>episode, :show=>episode.s}
+
+  end
 
 end

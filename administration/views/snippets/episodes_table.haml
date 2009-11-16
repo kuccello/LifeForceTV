@@ -1,0 +1,90 @@
+- if episodes && episodes.size > 0
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Title
+        %th{ :scope => "col" }
+          Season
+        %th{ :scope => "col" }
+          Sequence Num.
+        %th{ :scope => "col" }
+          Air Date
+        %th{ :scope => "col" }
+          Views
+        %th{ :scope => "col" }
+          Actions
+    %tbody
+      - episodes.each_with_index do |episode, idx|
+        - if is_odd_index(idx) then
+          %tr.odd
+
+            %td
+              %a{ :href=>"/admin/episode/#{episode.pid}/edit" }
+                = episode.name
+            %td
+              = show.find_season_of_episode(episode)
+            %td
+              = episode.sequence_order
+            %td
+              = episode.release_date
+            %td
+              TODO
+            %td
+              - if episode.status != 'live'
+                %a.cal{ :href => "#", :id => "live_#{episode.pid}" }
+                  Make Live
+                |
+              - if episode.status == 'live'
+                - if episdode_is_showcased(episode)
+                  %img{:src=>"/images/showcased.png"}
+                  |
+                - else
+                  %a.cal{ :href => "#", :id => "live_#{episode.pid}" }
+                    Add to showcase
+                  |
+                %a.cal{ :href => "#", :id => "pending_#{episode.pid}" }
+                  Make Pending
+                |
+
+
+              %a.cal{ :href => "#", :id => "delete_#{episode.pid}" }
+                Delete
+
+        - else
+          %tr
+
+            %td
+              %a{ :href=>"/admin/episode/#{episode.pid}/edit" }
+                = episode.name
+            %td
+              = show.find_season_of_episode(episode)
+            %td
+              = episode.sequence_order
+            %td
+              = episode.release_date
+            %td
+              TODO
+            %td
+              - if episode.status != 'live'
+                %a.cal{ :href => "#", :id => "live_#{episode.pid}" }
+                  Make Live
+                |
+              - if episode.status == 'live'
+                - if episdode_is_showcased(episode)
+                  %img{:src=>"/images/showcased.png"}
+                  |
+                - else
+                  %a.cal{ :href => "#", :id => "live_#{episode.pid}" }
+                    Add to showcase
+                  |
+                %a.cal{ :href => "#", :id => "pending_#{episode.pid}" }
+                  Make Pending
+                |
+
+
+              %a.cal{ :href => "#", :id => "delete_#{episode.pid}" }
+                Delete
+- else
+  %h2
+    No episodes found matching criteria
