@@ -45,7 +45,8 @@ class LifeForceSite < Sinatra::Base
   end
 
   get '/generas' do
-    
+    generas = Lifeforce::Genera.all
+    haml :generas, :locals=>{:generas=>generas}
   end
 
   get '/:show_url_id' do

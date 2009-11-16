@@ -463,6 +463,222 @@ body {
 	float: left;
 }
 
+#genera_content {
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+}
+
+#genera_content h1{
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+#genera_content .entry {
+	float: left;
+	width: 900px;
+	padding: 10px;
+	background: #E5E5E5;
+	position: relative;
+	margin: 0 0 10px 0;
+}
+
+#genera_content .entry .entry_content {
+	margin: 5px 10px 10px 10px;
+}
+
+#genera_content .entry .entry_content p {
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+#genera_content .entry img {
+	
+}
+
+#genera_content .entry .title_holder {
+	width: 530px;
+	margin: 10px 10px 0 10px;
+	color: #00b5f8;
+}
+
+#genera_content .entry .title_holder h1 {
+	font-size: 28px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#genera_content .entry .title_holder	h3 a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #00b5f8;
+}
+
+#genera_content .entry .title_holder	h3 a:hover {
+	text-decoration: underline;
+}
+
+#genera_content .entry .title_holder	h3 {
+	margin: 0 0 0 0;
+	font-size: 11px;
+}
+
+#genera_content .entry a.title {
+	color: #383838;
+	line-height: 30px;
+	position: relative;
+}
+
+#genera_content .entry a.title:hover {
+	background: #00b5f8;
+	color: #FFF;
+}
+
+#genera_content .entry a.comment_counter {
+	position: absolute;
+	width: 23px;
+	height: 21px;
+	background: url(../images/comment_counter.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 4px 0 0px 10px;
+	line-height: 17px;
+}
+
+#genera_content .entry a.comment_counter:hover {
+	background-position: 0 -21px;
+	color: #00b5f8;
+}
+
+/* Entries - Post Meta Date */
+
+#genera_content .date {
+	background: url(../images/transparent_black_80.png);
+	color: #FFF;
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+
+#genera_content .date .date_holder {
+/*	margin: 10px 9px 0 0;*/
+}
+
+#genera_content .date span.day {
+	display: block;
+	float: right;
+	line-height: 28px;
+	font-size: 38px;
+	letter-spacing: -2px;
+}
+
+#genera_content .date span.month {
+	width: 40px;
+	display: block;
+	float: right;
+	font-size: 16px;
+	line-height: 14px;
+	padding-left: 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#genera_content .date span.year {
+	font-size: 16px;
+	width: 40px;
+	display: block;
+}
+
+#genera_content .wp-pagenavi {
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	width: 880px;
+	height: 25px;
+	background: #E5E5E5;
+	float: left;
+	position: relative;
+	padding: 20px 20px 15px 20px;
+}
+
+#genera_content .wp-pagenavi a, .wp-pagenavi a:link {
+	padding: 7px 11px 7px 11px;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	background: #808080;
+}
+
+#genera_content .wp-pagenavi a:visited {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	background: #808080;
+}
+
+#genera_content .wp-pagenavi a:hover {
+	color: #FFF;
+	background-color: #00b5f8;
+}
+
+#genera_content .wp-pagenavi a:active {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #00b5f8;
+}
+
+#genera_content .wp-pagenavi span.pages {
+	padding: 0 5px 0 0;
+	color: #808080;
+	float: right;
+}
+
+#genera_content .wp-pagenavi span.current {
+	padding: 7px 11px 7px 11px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #00b5f8;
+}
+
+#genera_content .wp-pagenavi span.extend {
+	color: #808080;
+}
+
+#genera_content .entry span.genera_bloc {
+	float: left;	
+}
+
+#genera_content .entry span.genera_bloc .genera{
+	font-weight: bold;
+	text-decoration: none;
+	color: #79a3fd;
+	font-size: large;
+	padding: 9px;
+}
+
+#genera_content .entry a.generax{
+	text-decoration: none;
+	color: #79a3fd;
+	font-size: x-small;
+	position: relative;
+	bottom: 15px;
+}
+
+#genera_content .entry a:hover.generax{
+	text-decoration: none;
+	color: #FFF;
+	background-color: #00b5f8;
+	font-size: x-small;
+	position: relative;
+	bottom: 15px;
+}
+
+/** ----- **/
+
 #inner_content .entry {
 	float: left;
 	width: 560px;

@@ -29,5 +29,9 @@ module LifeForceSiteHelpers
     def default_showcase
       Lifeforce::Showcase.default
     end
+
+    def all_generas
+      Lifeforce::Genera.all
+    end
   end
 end

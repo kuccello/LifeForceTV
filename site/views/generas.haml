@@ -1,0 +1,63 @@
+#content_wrap
+  #genera_content.wide_me
+    .entry
+      %h1
+        Generas
+      %hr
+
+      - all_generas.each do |genera|
+        - if genera.show_ref.size > 0 || genera.episode_ref.size > 0
+          %span.genera_bloc
+            .genera
+              = genera.name
+            - if genera.show_ref.size > 0
+              %span.show_count
+                %a.generax{:href=>"/shows?genera=#{genera.pid}"}
+                  (
+                  = genera.show_ref.size
+                  show
+                  = "#{genera.show_ref.size > 1 ? 's' : ''}"
+                  )
+            - if genera.episode_ref.size > 0
+              %span.episode_count
+                %a.generax{:href=>"/episodes?genera=#{genera.pid}"}
+                  (
+                  = genera.episode_ref.size
+                  episode
+                  = "#{genera.episode_ref.size > 1 ? 's' : ''}"
+                  )
+      /
+        END "entry_content"  //
+    /
+      END "entry"  //
+    
+    .wp-pagenavi
+      %span.pages
+        Page 1 of 78
+      %span.current
+        1
+      %a.page{ :href => "##", :title => "2" }
+        2
+      %a.page{ :href => "###", :title => "3" }
+        3
+      %a.page{ :href => "####", :title => "4" }
+        4
+      %a.page{ :href => "#####", :title => "5" }
+        5
+      %a.page{ :href => "######", :title => "6" }
+        6
+      %a.page{ :href => "#######", :title => "7" }
+        7
+      %a.page{ :href => "########", :title => "8" }
+        8
+      %a{ :href => "#########" }
+        \&raquo;
+      %span.extend
+        \...
+      %a.last{ :href => "###", :title => "&raquo;&raquo;" }
+        \&raquo;&raquo;
+    /
+      END "wp-pagenavi"  //
+  /
+    END "inner_content"  //
+
