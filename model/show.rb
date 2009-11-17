@@ -75,7 +75,7 @@ This show has no highlight description.
       show = nil
       Lifeforce.transaction do
         Lifeforce.root.show.each do |s|
-          show = s if s.url_id = uid
+          show = s if s.url_id == uid
         end
       end
       show
