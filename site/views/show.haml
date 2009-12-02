@@ -1,19 +1,31 @@
-- show_episodes = show.sorted_episodes
+- show_episodes = ( show ? show.sorted_episodes : [] )
 
-%img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show.name }
+-# if show && show.poster
+-#  %img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show.name }
+%a.appear.show_details_link{:href=>show.uri}
+  Show Details
 
 - if show_episodes.size > 0
   #featured_home.clearfix
     .bigimg
-      %img#slider_main_img{ :src => "/scripts/timthumb.php?src=#{(show_episodes.size > 0 ? show_episodes[0].poster : '/images/img1.jpg')}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show_episodes[0].name }
+      -# %img#slider_main_img{ :src => "/scripts/timthumb.php?src=#{(show_episodes.size > 0 ? show_episodes[0].poster : '/images/img1.jpg')}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show_episodes[0].name }
+      %img#slider_main_img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show.name }
       .post_info_holder.clearfix
         .post_category
           %a#slider_img_desc{ :href => "#" }
-            = show_episodes[0].name
+            = show.name
+
+        .disappear
+          = show.description
 
         .post_name
-          %a#slider_video{:href=>show_episodes[0].hd_swf_url, :rel=>"shadowbox;width=715;height=405;player=swf"}
-            \/ PLAY /
+          %a#slider_video{:rel=>"shadowbox;width=715;height=435;player=swf"}
+            %script{:type=>"text/javascript"}
+              $().ready(function(){
+              $('#slider_video').hide();
+              $('.appear').hide();
+              });
+
         #post_details
           = show_episodes[0].long_description
       /
@@ -37,7 +49,7 @@
                 %a.slider_desc{ :href => "#" }
                   = episode.name
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
-                %a.slider_swf{ :href => episode.hd_swf_url, :rel=>"shadowbox;width=715;height=405;player=swf"}
+                %a.slider_swf{ :href => episode.hd_swf_url, :rel=>"shadowbox;width=715;height=435;player=swf"}
                   \/ PLAY /
             %li
 
@@ -56,6 +68,11 @@
       END "slider"  //
   /
     END "featured_home"  //
+
+  %div
+    RELATED SHOWS?
+  %div
+    External Links?
 
 - else
   Nothing here yet

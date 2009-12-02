@@ -33,5 +33,9 @@ module LifeForceSiteHelpers
     def all_generas
       Lifeforce::Genera.all
     end
+
+    def all_shows(params={})
+      Lifeforce::Show.all
+    end
   end
 end

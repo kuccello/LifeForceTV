@@ -23,6 +23,7 @@ class KrispyThumb
     zoom_crop_width = request.params['zw'] ? request.params['zw'].to_i : 100
     zoom_crop_width_offset = request.params['zow'] ? request.params['zow'].to_i : 0
     zoom_crop_height_offset = request.params['zoh'] ? request.params['zoh'].to_i : 0
+    force_rebuild = request.params['force'] ? request.params['force'] : false
     quality = request.params['q'] ? request.params['q'].to_i : 80
     filters = request.params['f']
 
@@ -34,25 +35,28 @@ class KrispyThumb
 
     wh = "-#{new_width}x#{new_height}"
     append_filename = append_filename(path, wh)
-    if File.exists?(append_filename) && (Time.new.to_i - last_modified.to_i > 60000) # one minute cache?
+    if File.exists?(append_filename) && force_rebuild
       begin
+        puts "#{__FILE__}:#{__LINE__} #{__method__} #{last_modified.to_i} - #{Time.new.to_i} = #{Time.new.to_i - last_modified.to_i} DELETING FILE #{append_filename}"
         File.delete(append_filename)
       rescue
       end
     end
 
+    unless File.exists?(append_filename)
 
-    convert = "convert #{path} -resize #{wh} #{append_filename}"
+      convert = "convert #{path} -resize #{wh} #{append_filename}"
 
 
-    begin
-      system( convert )
-      if zoom_crop == 1 then
-        puts "#{__FILE__}:#{__LINE__} #{__method__} ZOOM WIDTHxHEIGHT: #{zoom_crop_width}x#{zoom_crop_height}"
-        system "convert #{append_filename} -crop #{zoom_crop_width}x#{zoom_crop_height}+#{zoom_crop_width_offset}+#{zoom_crop_height_offset} +repage #{append_filename}"
+      begin
+        system( convert )
+        if zoom_crop == 1 then
+          puts "#{__FILE__}:#{__LINE__} #{__method__} ZOOM WIDTHxHEIGHT: #{zoom_crop_width}x#{zoom_crop_height}"
+          system "convert #{append_filename} -crop #{zoom_crop_width}x#{zoom_crop_height}+#{zoom_crop_width_offset}+#{zoom_crop_height_offset} +repage #{append_filename}"
+        end
+      rescue => e
+        puts "#{__FILE__}:#{__LINE__} #{__method__} #{e}"
       end
-    rescue => e
-      puts "#{__FILE__}:#{__LINE__} #{__method__} #{e}"
     end
 
     append_filename.sub(@base_path, "")

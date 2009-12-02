@@ -20,12 +20,15 @@
     %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/js/shadowbox-build-3.0rc1/shadowbox.css"}
     %script{ :type=>"text/javascript", :src=>"/js/shadowbox-build-3.0rc1/shadowbox.js"}
     %script{ :type=>"text/javascript"}
+
+      $().ready(function(){
       Shadowbox.init({
       skipSetup: true,
       players:    ["swf"]
       });
+      });
 
-
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/fixes.css"}
 
     %title
       = $SITE_NAME

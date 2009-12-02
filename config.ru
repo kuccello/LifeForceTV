@@ -3,6 +3,7 @@ require 'xampl'
 require 'haml'
 require 'rack-flash'
 require 'chronic'
+require 'mcnamara'
 
 require ::File.join(::File.dirname(__FILE__), 'utils/string')
 

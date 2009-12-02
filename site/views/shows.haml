@@ -1,0 +1,15 @@
+#content_wrap
+  #inner_content
+    - shows = all_shows
+    - shows.each do |show|
+      = partial("showhighlight",{:show=>show})
+
+
+  #sidebar_home
+    - default_showcase.sorted_notes.each do |note|
+      = partial("widgit",{:note=>note.n})
+
+  /
+    END "sidebar_home"  //
+/
+  END "content_wrap"  //

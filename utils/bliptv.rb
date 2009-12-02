@@ -257,9 +257,9 @@ module Lifeforce
       resp = []
       begin
         resp = process_rss(url)
-        # puts "#{__FILE__}:#{__LINE__} #{__method__} RESP: #{resp}"
+         puts "#{__FILE__}:#{__LINE__} #{__method__} RESP: #{resp} - URL: #{url}"
       rescue => e
-        puts "#{__FILE__}:#{__LINE__} #{__method__} ERROR: #{e}"
+        puts "#{__FILE__}:#{__LINE__} #{__method__} #{e} - #{e.backtrace}"
       end
 
       msg = SysMessage.new
@@ -269,6 +269,9 @@ module Lifeforce
         msg.message = "Successfully parsed #{show}"
         msg.data = resp
       else
+
+        puts "#{__FILE__}:#{__LINE__} #{__method__} RESPONSE: #{resp}"
+
         msg.error = true
         msg.message = "Error parsing #{show}"
         msg.data = nil

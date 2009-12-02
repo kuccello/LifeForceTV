@@ -246,9 +246,12 @@
             Shadowbox.setup("#slider_video", {
                 player:     "swf",
                 height:     715,
-                width:      405,
+                width:      435,
                 autoplayMovies:     true
             });
+          $("#slider_video").show();
+          $('.disappear').hide();
+          $('.appear').show();
 
           
           // FLIPPING THE IMAGE

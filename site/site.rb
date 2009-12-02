@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'dirge'
 require File.join(File.dirname(__FILE__), '../utils/krispythumb')
 
 require File.join(File.dirname(__FILE__), "../helpers/general")
@@ -14,8 +15,10 @@ class LifeForceSite < Sinatra::Base
 
   helpers Lifeforce::GeneralHelpers
   helpers Lifeforce::ShowHelpers
-
   helpers LifeForceSiteHelpers::Content
+
+  use SOC::McNamara, "#{File.dirname(__FILE__) + '/public/css'}"
+
 
   not_found do
     "NOT FOUND!!! 404"
@@ -32,7 +35,7 @@ class LifeForceSite < Sinatra::Base
   get '/scripts/timthumb.php' do
     kt = KrispyThumb.new(File.join(File.dirname(__FILE__), 'public'))
     uri = kt.process(request)
-    puts "#{__FILE__}:#{__LINE__} #{__method__} URI: #{uri}"
+#    puts "#{__FILE__}:#{__LINE__} #{__method__} URI: #{uri}"
     redirect uri
   end
 
@@ -41,7 +44,7 @@ class LifeForceSite < Sinatra::Base
   end
 
   get '/shows' do
-
+    haml :shows
   end
 
   get '/generas' do

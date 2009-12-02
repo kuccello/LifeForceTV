@@ -12,26 +12,23 @@
           Actions
     %tbody
       - shows.each_with_index do |show, idx|
-        - if is_odd_index(idx) then
-          %tr.odd
-        - else
-          %tr
-            %td
-              %a{ :href=>"/admin/show/#{show.pid}/edit" }
-                = show.name
-            %td
-              = show.season.size
-            %td
-              = show.episode.size
-            %td
-              %a{ :href => "#" }
-                Make Live
-              |
-              %a{ :href => "#" }
-                Make Pending
-              |
-              %a{ :href => "#" }
-                Delete
+        %tr{:class=>"#{is_odd_index(idx) ? 'odd' : 'even'}"}
+          %td
+            %a{ :href=>"/admin/show/#{show.pid}/edit" }
+              = show.name
+          %td
+            = show.season.size
+          %td
+            = show.episode.size
+          %td
+            %a{ :href => "#" }
+              Make Live
+            |
+            %a{ :href => "#" }
+              Make Pending
+            |
+            %a{ :href => "#" }
+              Delete
 - else
   %h2
     No shows found matching criteria

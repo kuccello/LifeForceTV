@@ -270,6 +270,10 @@ body {
 	display: none;
 }
 
+#logo{
+	margin-top: 30px;
+}
+
 #featured_home .bigimg .post_category a {
 	background-image: url(../images/transparent_black_80.png);
 	font-size: 15px;
@@ -290,6 +294,33 @@ body {
 #featured_home .bigimg .post_name a {
 	background: url(../images/transparent_black_80.png);
 	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	letter-spacing: -0.4px;
+	padding: 10px 15px 10px 15px;
+	float: right;
+	display: inline;
+	clear: both;
+}
+
+.appear{
+	
+}
+
+.show_details_link{
+	top: 20px;
+	float: left;
+	z-index: 5;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00b5f8;
+}
+
+.disappear{
+	background: url(../images/transparent_black_80.png);
+	font-size: 14px;
 	font-weight: bold;
 	color: #FFF;
 	letter-spacing: -0.4px;
@@ -367,11 +398,18 @@ body {
 }
 
 #featured_home .slider .thumbs img {
-	margin: 0 10px 0 0;
 	display: block;
 	float: left;
 	cursor: pointer;
 	display: inline;
+	position: relative;
+	bottom: 12px;
+	right: 40px;
+	margin-right: 10px;
+	margin-top: 0;
+	margin-left: 0;
+	top: 0px;
+	left: 0px;
 }
 
 #featured_home ul {
@@ -415,10 +453,12 @@ body {
 	color: #FFF;
 	letter-spacing: -0.6px;
 	overflow: hidden;
+	text-decoration: none;
 }
 
 #message_buttons .button1 a:hover {
 	background-position: 0px -50px;
+	text-decoration: none;
 }
 
 #message_buttons .button2 {
@@ -439,6 +479,7 @@ body {
 	color: #FFF;
 	letter-spacing: -0.6px;
 	overflow: hidden;
+	text-decoration: none;
 }
 
 #message_buttons .button2 a:hover {
@@ -865,6 +906,8 @@ body {
 #sidebar_home .widget {
 	width: 330px;
 	margin: 0 0 10px 0;
+	bottom: 14px;
+	position: relative;
 }
 
 #sidebar_home h3.widget_title {
@@ -880,6 +923,8 @@ body {
 	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
 	background: #E5E5E5;
 	padding: 15px 15px 25px 15px;
+	position: relative;
+	bottom: 14px;
 }
 
 #sidebar_home ul.widget_ul {

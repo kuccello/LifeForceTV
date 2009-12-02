@@ -26,7 +26,7 @@
       %span
         - genera_size = show.generas.size
         - show.generas.each_with_index do |genera,idx|
-          %a{ :href => "#" }
+          %a{ :href => "/genera/#{genera.pid}" }
             = genera.name
           = ((idx+1) < genera_size ) ? "," : ''
 

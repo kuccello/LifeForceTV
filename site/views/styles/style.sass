@@ -1,0 +1,1054 @@
+@charset "utf-8"[]
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-weight: inherit
+  font-style: inherit
+  font-size: 100%
+  font-family: inherit
+  vertical-align: baseline
+  text-decoration: none
+
+
+img
+  -ms-interpolation-mode: bicubic
+
+
+a:hover
+  background-position: 0 0
+
+
+body
+  background: #e5e5e5 url(../images/background.jpg)
+  background-repeat: no-repeat
+  background-position: top center
+  padding-bottom: 60px
+
+
+#wrapper
+  width: 960px
+  margin: 0 auto
+
+
+.clear
+  clear: both
+
+
+.clearfix:after
+  content: "."
+  visibility: hidden
+  display: block
+  height: 0px
+  clear: both
+
+
+body
+  font-family: Arial, Helvetica, sans-serif
+  color: #666
+  font-size: 13px
+  line-height: 20px
+
+
+#border_top
+  background: url(../images/border_top.gif)
+  width: 960px
+  height: 40px
+  background-repeat: no-repeat
+
+
+#header
+  width: 960px
+
+
+#logo
+  float: left
+  margin: 20px 0 30px 20px
+  display: inline
+
+
+#header_contacts
+  float: right
+  margin: 20px 20px 30px 0
+  display: inline
+  text-align: right
+  color: #818181
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+  font-size: 13px
+
+
+#container
+  width: 920px
+  background: #FFF
+  padding: 0px 20px 10px 20px
+
+
+#toppanel
+  width: 920px
+
+
+#navigation
+  float: left
+  position: relative
+  z-index: 99
+
+  ul
+    font-weight: bold
+    font-size: 14px
+    text-transform: uppercase
+    list-style: none
+
+  li
+    position: relative
+    float: left
+
+    a
+      color: #666
+      text-decoration: none
+      float: left
+      padding: 15px 15px 15px 15px
+      letter-spacing: 0.6px
+
+      &.main_category:hover
+        color: #FFF
+
+  .active
+    background: url(../images/navigation_active.gif)
+    background-position: top center
+    background-position: 0px 10px
+    background-repeat: no-repeat
+
+  li.active a
+    color: #FFF
+
+  ul li ul
+    position: absolute
+    top: 50px
+    left: 0px
+    display: none
+    list-style-type: none
+    list-style-image: none
+    list-style-position: outside
+    width: 230px
+
+    li a
+      color: #666
+      padding: 15px 0 15px 36px
+      width: 194px
+
+  li a
+    &.odd
+      background: #EEE url(../images/navigation_dot.gif)
+      background-repeat: no-repeat
+      background-position: 18px 23px
+      text-transform: uppercase
+      color: #666
+
+    &.even
+      background: #E5E5E5 url(../images/navigation_dot.gif)
+      background-repeat: no-repeat
+      background-position: 18px 23px
+      color: #666
+
+    &.odd:hover, &.even:hover
+      background: #FFF url(../images/navigation_dot.gif)
+      color: #666
+      background-repeat: no-repeat
+      background-position: 18px 23px
+
+
+#search
+  float: right
+  height: 30px
+  margin: 10px 0 0 0
+
+  input
+    &.field
+      font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+      background: #808080 url(../images/search_icon.png)
+      background-position: top right
+      background-repeat: no-repeat
+      width: 160px
+      padding: 7px
+      outline: none
+      font-size: 13px
+      color: #FFF
+      border: none
+      z-index: 1
+      height: 16px
+      float: left
+      padding-right: 30px
+
+      &:focus
+        background: #737373 url(../images/search_icon.png)
+        background-position: top right
+        background-repeat: no-repeat
+
+    &.submit
+      width: 70px
+      height: 30px
+      background: #00b5f8
+      color: #FFF
+      font-weight: bold
+      float: left
+      border: none
+      font-family: Arial, Helvetica, sans-serif
+      font-size: 13px
+      cursor: pointer
+      margin: 0 0 0 1px
+
+
+#featured_home
+  width: 920px
+  position: relative
+  margin-top: 20px
+
+  .bigimg
+    width: 920px
+    height: 350px
+    margin: 0 0 10px 0
+
+    img
+      float: left
+
+    .post_info_holder
+      position: absolute
+      top: 10px
+      right: 0px
+
+
+#post_details
+  position: relative
+  top: 5px
+  text-align: right
+  float: right
+  background-image: url(../images/white-75-bg.png)
+
+
+.slider_swf
+  display: none
+
+
+#logo
+  margin-top: 30px
+
+
+#featured_home
+  .bigimg
+    .post_category a
+      background-image: url(../images/transparent_black_80.png)
+      font-size: 15px
+      font-weight: bold
+      color: #00b5f8
+      letter-spacing: -0.5px
+      padding: 3px 15px 3px 15px
+      float: right
+      display: inline
+      text-transform: uppercase
+      margin: 0 0 2px 0
+
+    .post_name a
+      background: url(../images/transparent_black_80.png)
+      font-size: 22px
+      font-weight: bold
+      color: #FFF
+      letter-spacing: -0.4px
+      padding: 10px 15px 10px 15px
+      float: right
+      display: inline
+      clear: both
+
+      &:hover
+        color: #00b5f8
+
+  .slider_tit
+    display: none
+    visibility: hidden
+
+
+.slider_desc, .slider_img
+  display: none
+  visibility: hidden
+
+
+#featured_home
+  img.slider_img
+    display: none
+    visibility: hidden
+
+  .slider
+    width: 920px
+    height: 100px
+
+    .minus
+      position: relative
+      background: #00b5f8
+      width: 50px
+      height: 100px
+      cursor: pointer
+
+
+.plus
+  position: relative
+  background: #00b5f8
+  width: 50px
+  height: 100px
+  cursor: pointer
+
+
+#featured_home
+  .slider
+    .minus
+      float: left
+      background-position: center center
+      background-repeat: no-repeat
+
+      img
+        &.round
+          margin: 37px 12px 37px 12px
+          width: 30px
+          height: 30px
+
+        &.sign
+          top: 43px
+          left: 18px
+          position: absolute
+
+    .plus
+      float: right
+      background-position: center center
+      background-repeat: no-repeat
+
+      img
+        &.round
+          margin: 37px 12px 37px 12px
+          width: 30px
+          height: 30px
+
+        &.sign
+          top: 43px
+          left: 18px
+          position: absolute
+
+    .thumbs
+      width: 800px
+      height: 100px
+      margin: 0 0 0 10px
+      float: left
+      overflow: hidden
+
+      img
+        display: block
+        float: left
+        cursor: pointer
+        display: inline
+        position: relative
+        bottom: 12px
+        right: 40px
+        margin-right: 10px
+        margin-top: 0
+        margin-left: 0
+        top: 0px
+        left: 0px
+
+  ul
+    text-decoration: none
+    list-style: none
+
+  li
+    float: left
+
+  .slider_content
+    width: 900px
+
+
+#message_buttons
+  width: 920px
+  height: 50px
+  clear: both
+  margin: 10px 0 10px 0
+  float: left
+
+  .button1
+    float: left
+
+    a
+      width: 510px
+      height: 50px
+      display: block
+      background: #666 url(../images/people_icon.jpg)
+      background-repeat: no-repeat
+      background-position: 0px 0px
+      font-size: 22px
+      font-weight: bold
+      line-height: 50px
+      padding: 0 0 0 70px
+      color: #FFF
+      letter-spacing: -0.6px
+      overflow: hidden
+      text-decoration: none
+
+      &:hover
+        background-position: 0px -50px
+        text-decoration: none
+
+  .button2
+    float: right
+
+    a
+      width: 255px
+      height: 50px
+      display: block
+      background: #666 url(../images/camera_icon.png)
+      background-repeat: no-repeat
+      background-position: 20px 10px
+      font-size: 22px
+      font-weight: bold
+      line-height: 50px
+      padding: 0 0 0 75px
+      color: #FFF
+      letter-spacing: -0.6px
+      overflow: hidden
+      text-decoration: none
+
+      &:hover
+        background: #00b5f8 url(../images/camera_icon.png)
+        background-repeat: no-repeat
+        background-position: 20px 10px
+
+
+#content_wrap
+  width: 920px
+  float: left
+  clear: both
+  margin: 0 0 0 0
+
+
+#inner_content
+  width: 580px
+  float: left
+
+
+#genera_content
+  width: 100%
+  margin-top: 20px
+  float: left
+
+  h1
+    font-weight: bold
+    font-size: xx-large
+
+  .entry
+    float: left
+    width: 900px
+    padding: 10px
+    background: #E5E5E5
+    position: relative
+    margin: 0 0 10px 0
+
+    .entry_content
+      margin: 5px 10px 10px 10px
+
+      p
+        font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+
+    img
+    .title_holder
+      width: 530px
+      margin: 10px 10px 0 10px
+      color: #00b5f8
+
+      h1
+        font-size: 28px
+        letter-spacing: -1px
+        font-weight: bold
+
+      h3
+        margin: 0 0 0 0
+        font-size: 11px
+
+        a
+          text-decoration: none
+          font-weight: bold
+          color: #00b5f8
+
+          &:hover
+            text-decoration: underline
+
+    a
+      &.title
+        color: #383838
+        line-height: 30px
+        position: relative
+
+        &:hover
+          background: #00b5f8
+          color: #FFF
+
+      &.comment_counter
+        position: absolute
+        width: 23px
+        height: 21px
+        background: url(../images/comment_counter.gif)
+        background-repeat: no-repeat
+        text-align: center
+        text-decoration: none
+        color: #FFF
+        font-size: 15px
+        font-weight: bold
+        margin: 4px 0 0px 10px
+        line-height: 17px
+
+        &:hover
+          background-position: 0 -21px
+          color: #00b5f8
+
+  .date
+    background: url(../images/transparent_black_80.png)
+    color: #FFF
+    width: 100px
+    height: 50px
+    font-weight: bold
+    position: absolute
+    right: 10px
+    top: 20px
+
+    .date_holder
+    span
+      &.day
+        display: block
+        float: right
+        line-height: 28px
+        font-size: 38px
+        letter-spacing: -2px
+
+      &.month
+        width: 40px
+        display: block
+        float: right
+        font-size: 16px
+        line-height: 14px
+        padding-left: 2px
+        text-align: center
+        text-transform: uppercase
+
+      &.year
+        font-size: 16px
+        width: 40px
+        display: block
+
+  .wp-pagenavi
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+    width: 880px
+    height: 25px
+    background: #E5E5E5
+    float: left
+    position: relative
+    padding: 20px 20px 15px 20px
+
+    a
+      padding: 7px 11px 7px 11px
+      text-decoration: none
+      color: #FFF
+      font-weight: bold
+      background: #808080
+
+
+.wp-pagenavi a:link
+  padding: 7px 11px 7px 11px
+  text-decoration: none
+  color: #FFF
+  font-weight: bold
+  background: #808080
+
+
+#genera_content
+  .wp-pagenavi
+    a
+      &:visited
+        text-decoration: none
+        color: #FFF
+        font-weight: bold
+        background: #808080
+
+      &:hover
+        color: #FFF
+        background-color: #00b5f8
+
+      &:active
+        text-decoration: none
+        color: #FFF
+        background-color: #00b5f8
+
+    span
+      &.pages
+        padding: 0 5px 0 0
+        color: #808080
+        float: right
+
+      &.current
+        padding: 7px 11px 7px 11px
+        font-weight: bold
+        color: #FFF
+        background-color: #00b5f8
+
+      &.extend
+        color: #808080
+
+  .entry
+    span.genera_bloc
+      float: left
+
+      .genera
+        font-weight: bold
+        text-decoration: none
+        color: #79a3fd
+        font-size: large
+        padding: 9px
+
+    a
+      &.generax
+        text-decoration: none
+        color: #79a3fd
+        font-size: x-small
+        position: relative
+        bottom: 15px
+
+      &:hover.generax
+        text-decoration: none
+        color: #FFF
+        background-color: #00b5f8
+        font-size: x-small
+        position: relative
+        bottom: 15px
+
+
+#inner_content
+  .entry
+    float: left
+    width: 560px
+    padding: 10px
+    background: #E5E5E5
+    position: relative
+    margin: 0 0 10px 0
+
+    .entry_content
+      margin: 5px 10px 10px 10px
+
+      p
+        font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+
+    img
+    .title_holder
+      width: 530px
+      margin: 10px 10px 0 10px
+      color: #00b5f8
+
+      h1
+        font-size: 28px
+        letter-spacing: -1px
+        font-weight: bold
+
+      h3
+        margin: 0 0 0 0
+        font-size: 11px
+
+        a
+          text-decoration: none
+          font-weight: bold
+          color: #00b5f8
+
+          &:hover
+            text-decoration: underline
+
+    a
+      &.title
+        color: #383838
+        line-height: 30px
+        position: relative
+
+        &:hover
+          background: #00b5f8
+          color: #FFF
+
+      &.comment_counter
+        position: absolute
+        width: 23px
+        height: 21px
+        background: url(../images/comment_counter.gif)
+        background-repeat: no-repeat
+        text-align: center
+        text-decoration: none
+        color: #FFF
+        font-size: 15px
+        font-weight: bold
+        margin: 4px 0 0px 10px
+        line-height: 17px
+
+        &:hover
+          background-position: 0 -21px
+          color: #00b5f8
+
+  .date
+    background: url(../images/transparent_black_80.png)
+    color: #FFF
+    width: 100px
+    height: 50px
+    font-weight: bold
+    position: absolute
+    right: 10px
+    top: 20px
+
+    .date_holder
+    span
+      &.day
+        display: block
+        float: right
+        line-height: 28px
+        font-size: 38px
+        letter-spacing: -2px
+
+      &.month
+        width: 40px
+        display: block
+        float: right
+        font-size: 16px
+        line-height: 14px
+        padding-left: 2px
+        text-align: center
+        text-transform: uppercase
+
+      &.year
+        font-size: 16px
+        width: 40px
+        display: block
+
+
+.wp-pagenavi
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+  width: 540px
+  height: 25px
+  background: #E5E5E5
+  float: left
+  position: relative
+  padding: 20px 20px 15px 20px
+
+  a
+    padding: 7px 11px 7px 11px
+    text-decoration: none
+    color: #FFF
+    font-weight: bold
+    background: #808080
+
+    &:link
+      padding: 7px 11px 7px 11px
+      text-decoration: none
+      color: #FFF
+      font-weight: bold
+      background: #808080
+
+    &:visited
+      text-decoration: none
+      color: #FFF
+      font-weight: bold
+      background: #808080
+
+    &:hover
+      color: #FFF
+      background-color: #00b5f8
+
+    &:active
+      text-decoration: none
+      color: #FFF
+      background-color: #00b5f8
+
+  span
+    &.pages
+      padding: 0 5px 0 0
+      color: #808080
+      float: right
+
+    &.current
+      padding: 7px 11px 7px 11px
+      font-weight: bold
+      color: #FFF
+      background-color: #00b5f8
+
+    &.extend
+      color: #808080
+
+
+#sidebar_home
+  width: 330px
+  float: right
+
+  .widget
+    width: 330px
+    margin: 0 0 10px 0
+    bottom: 14px
+    position: relative
+
+  h3.widget_title
+    font-size: 14px
+    font-weight: bold
+    color: #FFF
+    background: #00b5f8
+    text-transform: uppercase
+    padding: 7px 10px 7px 10px
+
+  .widget_content
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+    background: #E5E5E5
+    padding: 15px 15px 25px 15px
+    position: relative
+    bottom: 14px
+
+  ul.widget_ul
+    list-style: square
+    padding: 0 20px 0 20px
+    color: #666
+
+    li
+      padding: 5px 10px 5px 10px
+
+    a
+      text-decoration: none
+      margin-left: -10px
+      color: #666
+      padding: 5px 10px 5px 10px
+      display: inline
+      font-weight: bold
+      font-family: Arial, Helvetica, sans-serif
+      text-transform: uppercase
+
+      &:hover
+        background: #00b5f8
+        color: #FFF
+
+
+#footer
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
+  width: 960px
+  background: #808080 url(../images/footer_top.jpg)
+  background-repeat: repeat-x
+
+  #footer_left
+    float: left
+    margin: 25px 0 25px 30px
+    display: inline
+    color: #FFF
+
+  #footer_right
+    float: right
+    margin: 25px 30px 25px 0
+    display: inline
+    text-align: right
+
+  #footer_bottom
+    width: 960px
+    height: 20px
+    float: left
+    background: #E5E5E5 url(../images/footer_bottom_border.gif)
+    background-repeat: no-repeat
+
+
+form.contact_form
+  margin: 25px 0 30px 0
+
+  input.alert
+    border: 1px solid #00b5f8
+
+
+textarea.alert
+  border: 1px solid #00b5f8
+
+
+form.contact_form input, textarea
+  background: #DDD
+  border: 1px solid #BBB
+  color: #666
+
+
+form.contact_form input:focus, textarea:focus
+  background: #EEE
+
+
+form.contact_form
+  input
+    padding: 5px
+    width: 260px
+
+  label
+    padding: 0 0 0 10px
+
+  textarea
+    padding: 8px
+    width: 520px
+
+  #send
+    width: 70px
+    background: #00b5f8
+    font-weight: bold
+    cursor: pointer
+    color: #FFF
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 13px
+    border: none
+
+
+#inner_content .entry .entry_content
+  h1
+    font-size: 28px
+    letter-spacing: -1px
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold
+    margin: 30px 0 20px 0
+    color: #383838
+
+    a
+      color: #383838
+
+      &:hover
+        background: #00b5f8
+        color: #FFF
+        text-decoration: none
+
+  h2
+    font-size: 24px
+    letter-spacing: -1px
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold
+    margin: 30px 0 20px 0
+    color: #383838
+
+    a
+      color: #383838
+
+      &:hover
+        background: #00b5f8
+        color: #FFF
+        text-decoration: none
+
+  h3
+    font-size: 20px
+    letter-spacing: -1px
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold
+    margin: 30px 0 20px 0
+    color: #383838
+
+    a
+      color: #383838
+
+      &:hover
+        background: #00b5f8
+        color: #FFF
+        text-decoration: none
+
+  h4
+    font-size: 16px
+    letter-spacing: -1px
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold
+    margin: 30px 0 20px 0
+    color: #383838
+
+    a
+      color: #383838
+
+      &:hover
+        background: #00b5f8
+        color: #FFF
+        text-decoration: none
+
+  a
+    color: #00b5f8
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline
+
+  acronym
+    cursor: help
+    border-bottom: 1px dotted
+
+  code
+    margin: 10px 20px
+    padding: 20px
+    border: 1px solid #BBB
+    background: #DDD no-repeat 12px 12px
+    font-weight: normal
+    color: #666
+    display: block
+    overflow: auto
+    text-align: left
+
+  blockquote
+    margin: 10px 20px
+    padding: 20px 10px 10px 20px
+    border: 1px solid #BBB
+    background: #DDD
+    font-weight: normal
+    color: #666
+    font-style: italic
+
+  strong
+    font-weight: bold
+
+  del
+    text-decoration: line-through
+
+  p
+    margin: 0 0 15px 0
+
+  ul
+    margin: 0 0 0 20px
+
+
+ol
+  margin: 0 0 0 20px
+
+
+#inner_content .entry .entry_content
+  table
+    border-collapse: collapse
+    margin: 10px 0px
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif
+
+  tr
+    background: #DDD
+
+
+    &:hover
+      background: #EEE
+
+  th
+    text-align: left
+    border-width: 1px
+    border-style: solid
+
+
+td
+  text-align: left
+  border-width: 1px
+  border-style: solid
+
+
+#inner_content .entry .entry_content
+  th
+    background-color: #00b5f8
+    padding: 10px 10px
+    border-color: #DDD
+    font-weight: bold
+    color: #FFF
+
+  td
+    border-color: #BBB
+    padding: 10px 10px
+
+  img.float_left
+    float: left
+    padding: 0 15px 5px 0

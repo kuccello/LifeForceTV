@@ -1,0 +1,15 @@
+/* SAFARI FIX */
+#featured_home .slider .thumbs img {
+	display: block;
+	float: left;
+	cursor: pointer;
+	display: inline;
+	position: relative;
+	bottom: 12px;
+	right: 40px;
+	margin-right: 10px;
+	margin-top: 0;
+	margin-left: 0;
+	top: -12px;
+	left: -37px;
+}
