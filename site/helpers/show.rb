@@ -41,5 +41,9 @@ module LifeForceSiteHelpers
     def all_shows(params={})
       Lifeforce::Show.all
     end
+
+    def all_released_shows(params={})
+      Lifeforce::Show.all.select { |show| show.released?  }
+    end
   end
 end

@@ -1,3 +1,5 @@
+require 'chronic'
+
 module Lifeforce
 
   class ShowDate
@@ -91,6 +93,11 @@ module Lifeforce
       sd
     end
 
+    def released?
+      puts "#{__FILE__}:#{__LINE__} #{__method__} #{self.release_date_unix}"
+      (self.status == STATUS_LIVE) && (self.release_date_unix.to_i < Time.new.to_i)
+    end
+
     def episode_count
       self.episode.size
     end
@@ -108,9 +115,11 @@ module Lifeforce
 #    end
 
     def highlight_description
-      desc = self.description['highlight']
+      desc = ''
+      desc = self.description['highlight'] if self.description
       if desc then
-        return desc.content
+        return desc.content if desc.class.name != "String"
+        return desc
       else
         return <<-c
 This show has no highlight description.
@@ -343,6 +352,12 @@ This show has no highlight description.
         self.description = show_description
         self.status = show_status
         self.release_date = show_release_date
+        # we need to chronic this date string...
+        begin
+        self.release_date_unix =  Chronic.parse(show_release_date).to_i  # Date.parse(show_release_date).to_i.to_s
+        rescue => e
+          puts "#{__FILE__}:#{__LINE__} #{__method__} ERROR PROCESSING DATE: #{show_release_date} -- #{e}"
+        end
         self.rating = show_rating
         self.url_id = show_url_id
 

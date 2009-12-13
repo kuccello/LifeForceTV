@@ -46,7 +46,7 @@ class LifeForceSite < Sinatra::Base
   get '/shows' do
 
     genera = Lifeforce::Genera.get_by_pid(params[:genera])
-    shows = all_shows unless genera
+    shows = all_released_shows unless genera
     shows = Lifeforce::Show.find_by_genera(genera) if genera
 
     haml :shows, :locals=>{:shows=>shows}

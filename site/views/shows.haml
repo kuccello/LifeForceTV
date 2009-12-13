@@ -9,9 +9,83 @@
 
 
   #sidebar_home
-    - if search
-      - search.sorted_notes.each do |note|
-        = partial("widgit",{:note=>note.n})
+    .widget
+      %h3.widget_title
+        Genera Filter
+      .widget_content
+        %ul
+          %li
+
+            %a{:href=>"#"}
+              Genera1
+          %li
+            %a{:href=>"#"}
+              Genera2
+          %li
+            %a{:href=>"#"}
+              Genera3
+
+
+    .widget
+      %h3.widget_title
+        Rating Filter
+      .widget_content
+        %ul
+          %li
+
+            %a{:href=>"#"}
+              TV-G
+          %li
+            %a{:href=>"#"}
+              TV-PG
+          %li
+            %a{:href=>"#"}
+              TV-R
+
+
+    .widget
+      %h3.widget_title
+        Sort Order
+      .widget_content
+        %ul
+
+          %li
+            %a{:href=>"#"}
+              Alphabetical Descending
+
+          %li
+            %a{:href=>"#"}
+              Alphabetical Assending
+          %li
+            %a{:href=>"#"}
+              Newest Episode First
+          %li
+            %a{:href=>"#"}
+              Newest Episode Last
+          %li
+            %a{:href=>"#"}
+              Newest Show First
+          %li
+            %a{:href=>"#"}
+              Newest Show Last
+
+    .widget
+      %h3.widget_title
+        Production Company
+      .widget_content
+        %ul
+          %li
+
+            %a{:href=>"#"}
+              LifeForce Entertainment
+          %li
+            %a{:href=>"#"}
+              CBC
+          %li
+            %a{:href=>"#"}
+              Handful
+          %li
+            \...
 
   /
     END "sidebar_home"  //
