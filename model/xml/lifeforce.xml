@@ -34,6 +34,10 @@
     <showcase-note id="" order="" title="" note="" status="active|inactive"/>
   </showcase>
 
+  <search-results pid=''>
+    <search-note id="" order="" title="" note="" status="active|inactive"/>
+  </search-results>
+
   <note pid=""
         title=""
         status="active|inactive"><![CDATA[Content - MARKDOWN goes here]]></note>

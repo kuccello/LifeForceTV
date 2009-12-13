@@ -5,9 +5,14 @@ class KrispyThumb
   end
 
   def append_filename(filename, suffix)
+    result = ''
+    begin
     extrac = filename.split('.')
     extrac[-2] += suffix
-    extrac.join('.')
+    result = extrac.join('.')
+    rescue
+    end
+    return result
   end
 
   def process(request)

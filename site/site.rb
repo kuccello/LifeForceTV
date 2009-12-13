@@ -44,12 +44,34 @@ class LifeForceSite < Sinatra::Base
   end
 
   get '/shows' do
-    haml :shows
+
+    genera = Lifeforce::Genera.get_by_pid(params[:genera])
+    shows = all_shows unless genera
+    shows = Lifeforce::Show.find_by_genera(genera) if genera
+
+    haml :shows, :locals=>{:shows=>shows}
   end
 
   get '/generas' do
     generas = Lifeforce::Genera.all
     haml :generas, :locals=>{:generas=>generas}
+  end
+
+  get '/genera/:genera_id' do
+    # search for all shows and episodes that have the genera identified
+
+    shows = nil
+    episodes = nil
+
+    haml "NOT IMPLEMENTED YET"
+  end
+
+  get '/:show_url_id/:episode_url_id' do
+
+    show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
+    episode_id = params[:episode_url_id]
+
+    haml :show, :locals=>{:show=>show,:episode_id=>episode_id}
   end
 
   get '/:show_url_id' do

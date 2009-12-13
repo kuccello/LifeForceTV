@@ -3,13 +3,13 @@ module Lifeforce
 
 
     def Genera.get_by_pid(pid)
-
+      g = nil
       Lifeforce.transaction do
 
-        Genera[pid]
+        g = Genera[pid] if pid
 
       end
-
+      g
     end
 
     def Genera.all

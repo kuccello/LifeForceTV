@@ -48,7 +48,7 @@ module Lifeforce
     end
 
     def release_date_unix
-      Chronic.parse(self).to_i
+      Chronic.parse(self.release_date).to_i
     end
 
     def Episode.get_by_uid(uid)

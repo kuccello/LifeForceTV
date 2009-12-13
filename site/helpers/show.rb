@@ -30,6 +30,10 @@ module LifeForceSiteHelpers
       Lifeforce::Showcase.default
     end
 
+    def search
+      Lifeforce::SearchResults.default
+    end
+
     def all_generas
       Lifeforce::Genera.all
     end

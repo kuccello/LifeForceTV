@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Team Leader</title>
+<link>http://lftvteamleader.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<description>Team Leader</description>
+
+
+<itunes:block>no</itunes:block>
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Thu, 18 Jun 2009 13:24:05 +0000</lastBuildDate>
+<pubDate>Thu, 18 Jun 2009 13:24:05 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">4C195A3A-5C0B-11DE-A78A-8E48B0CC9FB4</guid>
+  <link>http://blip.tv/file/2256871</link>
+  <title>Ep 12 - The Presentation</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2268826</blip:posts_id>
+  <blip:item_id>2256871</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T13:24:05Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>466</blip:runtime>
+  <blip:embedLookup>AYGKvX4C</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKvX4C</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2268826&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep12ThePresentation511.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[It all comes down to this moment. Brooke, Alice and Reggie attempt to dazzle the clients with an over the top presentation. Will they be able to pull it off and save the company? Probably not... ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep12ThePresentation511-787.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKvX4C" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+It all comes down to this moment. Brooke, Alice and Reggie attempt to dazzle the clients with an over the top presentation. Will they be able to pull it off and save the company? Probably not... <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2256871</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 13:24:05 +0000</pubDate>
+  <enclosure length="82358982" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep12ThePresentation192.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep12ThePresentation511.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="82358982" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep12ThePresentation192.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="30724856" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep12ThePresentation432.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2256871"><![CDATA[<embed src="http://blip.tv/play/AYGKvX4C" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 12 - The Presentation</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep12ThePresentation511.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">8DEC8CA8-5BBF-11DE-898A-924E6D73F241</guid>
+  <link>http://blip.tv/file/2255356</link>
+  <title>Ep 10 - Babbles in Crisis</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267232</blip:posts_id>
+  <blip:item_id>2255356</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T04:21:54Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>225</blip:runtime>
+  <blip:embedLookup>AYGKsUQC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsUQC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267232&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep10BabblesInCrisis153.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[With the clients coming in on Monday, it looks like they&#8217;re screwed. Until Alice comes up with a plan that&#8217;ll save them all. Now all they need is a presentation... ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep10BabblesInCrisis153-410.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsUQC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+With the clients coming in on Monday, it looks like they&#8217;re screwed. Until Alice comes up with a plan that&#8217;ll save them all. Now all they need is a presentation... <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2255356</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 04:21:54 +0000</pubDate>
+  <enclosure length="39170420" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep10BabblesInCrisis335.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep10BabblesInCrisis153.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="39170420" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep10BabblesInCrisis335.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="15875539" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep10BabblesInCrisis328.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255356"><![CDATA[<embed src="http://blip.tv/play/AYGKsUQC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 10 - Babbles in Crisis</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep10BabblesInCrisis153.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">1EE92A56-5BBE-11DE-AB1C-E588F3A00E53</guid>
+  <link>http://blip.tv/file/2255358</link>
+  <title>Ep 11 - Reservoir Frogs</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267234</blip:posts_id>
+  <blip:item_id>2255358</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T04:11:38Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>236</blip:runtime>
+  <blip:embedLookup>AYGKsUYC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsUYC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267234&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep11ReservoirFrogs554.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Moments before the greatest show of his life, Reggie must keep Roxanne in the dark about the nature of the report... ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep11ReservoirFrogs554-780.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsUYC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Moments before the greatest show of his life, Reggie must keep Roxanne in the dark about the nature of the report... <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2255358</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 04:11:38 +0000</pubDate>
+  <enclosure length="41072295" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep11ReservoirFrogs441.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep11ReservoirFrogs554.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="41072295" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep11ReservoirFrogs441.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="15915868" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep11ReservoirFrogs433.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255358"><![CDATA[<embed src="http://blip.tv/play/AYGKsUYC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 11 - Reservoir Frogs</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep11ReservoirFrogs554.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3B419214-5BBA-11DE-B838-B6C4A0761A48</guid>
+  <link>http://blip.tv/file/2255305</link>
+  <title>Ep 9 - A New Team Leader</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267181</blip:posts_id>
+  <blip:item_id>2255305</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T03:43:48Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>363</blip:runtime>
+  <blip:embedLookup>AYGKsREC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsREC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267181&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep9ANewTeamLeader324.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Reggie puts all of his skills at public speaking into eulogizing Cake, only to be upstaged by Roxanne&#8217;s surprise announcement of a new team leader. Who will lead the troops into battle? Meanwhile, Alice takes their deal very seriously. ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep9ANewTeamLeader324-107.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsREC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Reggie puts all of his skills at public speaking into eulogizing Cake, only to be upstaged by Roxanne&#8217;s surprise announcement of a new team leader. Who will lead the troops into battle? Meanwhile, Alice takes their deal very seriously. <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2255305</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 03:43:48 +0000</pubDate>
+  <enclosure length="64051540" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep9ANewTeamLeader604.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep9ANewTeamLeader324.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="64051540" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep9ANewTeamLeader604.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="25018339" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep9ANewTeamLeader782.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255305"><![CDATA[<embed src="http://blip.tv/play/AYGKsREC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 9 - A New Team Leader</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep9ANewTeamLeader324.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">AB0011AE-5BB8-11DE-BE51-8D6304008703</guid>
+  <link>http://blip.tv/file/2255278</link>
+  <title>Ep 8 - Heart to Heart</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267154</blip:posts_id>
+  <blip:item_id>2255278</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T03:32:36Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>335</blip:runtime>
+  <blip:embedLookup>AYGKsHYC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsHYC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267154&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep8HeartToHeart734.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Alice locks Brooke out of their apartment, smokes his weed without him, and then she really gets nasty. ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep8HeartToHeart734-876.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsHYC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Alice locks Brooke out of their apartment, smokes his weed without him, and then she really gets nasty. <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2255278</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 03:32:36 +0000</pubDate>
+  <enclosure length="58773836" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep8HeartToHeart505.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep8HeartToHeart734.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="58773836" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep8HeartToHeart505.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="23146520" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep8HeartToHeart638.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255278"><![CDATA[<embed src="http://blip.tv/play/AYGKsHYC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 8 - Heart to Heart</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep8HeartToHeart734.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">7883C06A-5BB6-11DE-B92F-DA3F4D8B02A4</guid>
+  <link>http://blip.tv/file/2255253</link>
+  <title>Ep 7 - Pub Problems</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267129</blip:posts_id>
+  <blip:item_id>2255253</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T03:16:53Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>181</blip:runtime>
+  <blip:embedLookup>AYGKsF0C</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsF0C</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267129&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep7PubProblems722.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[It&#8217;s trivia night for Brooke and Alice. Only the news Brooke has is anything but trivial. And Alice doesn&#8217;t take the news very well at all... ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep7PubProblems722-718.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsF0C" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+It&#8217;s trivia night for Brooke and Alice. Only the news Brooke has is anything but trivial. And Alice doesn&#8217;t take the news very well at all... <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2255253</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 03:16:53 +0000</pubDate>
+  <enclosure length="31325494" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep7PubProblems721.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep7PubProblems722.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="31325494" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep7PubProblems721.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="12443917" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep7PubProblems376.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255253"><![CDATA[<embed src="http://blip.tv/play/AYGKsF0C" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 7 - Pub Problems</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep7PubProblems722.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">B95F4152-5BB3-11DE-B2DB-835104B0F113</guid>
+  <link>http://blip.tv/file/2255203</link>
+  <title>Ep 5 - It's Only Cricket</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267079</blip:posts_id>
+  <blip:item_id>2255203</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T02:57:13Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>308</blip:runtime>
+  <blip:embedLookup>AYGKsCsC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsCsC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267079&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep5ItsOnlyCricket198.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[In the aftermath of Cake&#8217;s death, Roxanne addresses the troops for the first time. What she has to say will threaten the one thing the office staff hold most dear... their weekend plans. And that&#8217;s nothing compared with what she has in store for Brooke.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep5ItsOnlyCricket198-136.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsCsC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+In the aftermath of Cake&#8217;s death, Roxanne addresses the troops for the first time. What she has to say will threaten the one thing the office staff hold most dear... their weekend plans. And that&#8217;s nothing compared with what she has in store for Brooke.
+
+]]></description>
+  <comments>http://blip.tv/file/2255203</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 02:57:13 +0000</pubDate>
+  <enclosure length="54193833" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep5ItsOnlyCricket355.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep5ItsOnlyCricket198.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="54193833" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep5ItsOnlyCricket355.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="20820843" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep5ItsOnlyCricket882.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255203"><![CDATA[<embed src="http://blip.tv/play/AYGKsCsC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 5 - It's Only Cricket</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep5ItsOnlyCricket198.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">A7ECB08A-5BB3-11DE-BB08-F237735E74FF</guid>
+  <link>http://blip.tv/file/2255202</link>
+  <title>Ep 4 - The Spill, Scrapbooks, and Sally</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267078</blip:posts_id>
+  <blip:item_id>2255202</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T02:56:44Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>357</blip:runtime>
+  <blip:embedLookup>AYGKsCoC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsCoC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267078&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep4TheSpillScrapbooksAndSally994.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After Brooke tells Roxanne, the boss, about Cake&#8217;s death, everyone assumes he&#8217;s been fired. Alice has an escape plan ready to go, and she hits the panic button. But what really went on between Brooke and Roxanne?]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep4TheSpillScrapbooksAndSally994-143.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsCoC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After Brooke tells Roxanne, the boss, about Cake&#8217;s death, everyone assumes he&#8217;s been fired. Alice has an escape plan ready to go, and she hits the panic button. But what really went on between Brooke and Roxanne?
+
+]]></description>
+  <comments>http://blip.tv/file/2255202</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 02:56:44 +0000</pubDate>
+  <enclosure length="63048928" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep4TheSpillScrapbooksAndSally445.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep4TheSpillScrapbooksAndSally994.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="63048928" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep4TheSpillScrapbooksAndSally445.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="25012470" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep4TheSpillScrapbooksAndSally779.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255202"><![CDATA[<embed src="http://blip.tv/play/AYGKsCoC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 4 - The Spill, Scrapbooks, and Sally</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep4TheSpillScrapbooksAndSally994.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3A2473A4-5BB2-11DE-A32A-B544CDA58C89</guid>
+  <link>http://blip.tv/file/2255176</link>
+  <title>Ep 6 - Last One Out</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267052</blip:posts_id>
+  <blip:item_id>2255176</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T02:46:30Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>208</blip:runtime>
+  <blip:embedLookup>AYGKsBAC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKsBAC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267052&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep6LastOneOut141.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[With the rest of the office left for home, Captain Annoy-o pushes Brooke over the edge... and Brooke gets his revenge.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep6LastOneOut141-472.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKsBAC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+With the rest of the office left for home, Captain Annoy-o pushes Brooke over the edge... and Brooke gets his revenge.
+
+]]></description>
+  <comments>http://blip.tv/file/2255176</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 02:46:30 +0000</pubDate>
+  <enclosure length="36251991" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep6LastOneOut179.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep6LastOneOut141.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="36251991" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep6LastOneOut179.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="14520826" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep6LastOneOut988.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255176"><![CDATA[<embed src="http://blip.tv/play/AYGKsBAC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 6 - Last One Out</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep6LastOneOut141.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3875B3AE-5BAF-11DE-94FE-DE331100777B</guid>
+  <link>http://blip.tv/file/2255135</link>
+  <title>Ep 3 - Uncle Reggie Saves The Day</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2267010</blip:posts_id>
+  <blip:item_id>2255135</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T02:24:59Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>138</blip:runtime>
+  <blip:embedLookup>AYGKr2YC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKr2YC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2267010&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep3UncleReggieSavesTheDay287.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Okay, so she killed herself. But now for the really crucial question - who&#8217;s gonna tell the boss? ]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep3UncleReggieSavesTheDay287-547.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKr2YC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Okay, so she killed herself. But now for the really crucial question - who&#8217;s gonna tell the boss? <br />
+
+]]></description>
+  <comments>http://blip.tv/file/2255135</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 02:24:59 +0000</pubDate>
+  <enclosure length="23841450" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep3UncleReggieSavesTheDay388.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep3UncleReggieSavesTheDay287.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="23841450" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep3UncleReggieSavesTheDay388.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="9696095" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep3UncleReggieSavesTheDay801.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255135"><![CDATA[<embed src="http://blip.tv/play/AYGKr2YC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 3 - Uncle Reggie Saves The Day</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep3UncleReggieSavesTheDay287.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">DA9709D8-5BAC-11DE-BC83-AC72BDBC6F25</guid>
+  <link>http://blip.tv/file/2255095</link>
+  <title>Ep 2 - Kitchen Confidential</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2266970</blip:posts_id>
+  <blip:item_id>2255095</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-18T02:08:02Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>117</blip:runtime>
+  <blip:embedLookup>AYGKrz4C</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGKrz4C</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2266970&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep2KitchenConfidential597.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After a shocking discovery, Brooke, Alice and Reggie head to the kitchen to regroup, have some coffee, and eat a dead woman&#8217;s cake.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep2KitchenConfidential597-482.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGKrz4C" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After a shocking discovery, Brooke, Alice and Reggie head to the kitchen to regroup, have some coffee, and eat a dead woman&#8217;s cake.
+
+]]></description>
+  <comments>http://blip.tv/file/2255095</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Thu, 18 Jun 2009 02:08:02 +0000</pubDate>
+  <enclosure length="20436494" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep2KitchenConfidential542.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep2KitchenConfidential597.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="20436494" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep2KitchenConfidential542.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="8201813" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep2KitchenConfidential433.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2255095"><![CDATA[<embed src="http://blip.tv/play/AYGKrz4C" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 2 - Kitchen Confidential</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep2KitchenConfidential597.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">5BC023FA-5432-11DE-8947-DAE376CF89BF</guid>
+  <link>http://blip.tv/file/2214542</link>
+  <title>Ep 1 - The Discovery</title>
+  <blip:user>lftvteamleader</blip:user>
+  <blip:userid>444901</blip:userid>
+  <blip:safeusername>lftvteamleader</blip:safeusername>
+  <blip:show>Team Leader</blip:show>
+  <blip:showpage>http://lftvteamleader.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2225452</blip:posts_id>
+  <blip:item_id>2214542</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-08T13:43:33Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>265</blip:runtime>
+  <blip:embedLookup>AYGH6xAC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGH6xAC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2225452&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Ep1TheDiscovery518.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[For Brooke and Alice, it&#8217;s like every other day - show up late and run down the clock - until they notice their team leader asleep at her desk. Only no one sleeps that soundly... do they? Brooke&#8217;s life is about to be changed forever by one game of rock, paper scissors...]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Ep1TheDiscovery518-131.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGH6xAC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+For Brooke and Alice, it&#8217;s like every other day - show up late and run down the clock - until they notice their team leader asleep at her desk. Only no one sleeps that soundly... do they? Brooke&#8217;s life is about to be changed forever by one game of rock, paper scissors...
+
+]]></description>
+  <comments>http://blip.tv/file/2214542</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>leader</category>
+  <pubDate>Mon, 08 Jun 2009 13:43:33 +0000</pubDate>
+  <enclosure length="46180897" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep1TeamLeader668.m4v"/>
+  <itunes:keywords>team, leader</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Ep1TheDiscovery518.jpg</itunes:artwork>
+  <media:keywords>team, leader</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="46180897" height="480" isDefault="true" type="video/x-m4v" url="http://blip.tv/file/get/LifeforceTV-Ep1TeamLeader668.m4v" width="854"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="18507798" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep1TeamLeader675.flv" width="853"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2214542"><![CDATA[<embed src="http://blip.tv/play/AYGH6xAC" type="application/x-shockwave-flash" width="480" height="299" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 1 - The Discovery</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Ep1TheDiscovery518.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>

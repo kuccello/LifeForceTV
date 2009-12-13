@@ -1,0 +1,23 @@
+%h3
+  Genera: PUT GENERA HERE
+
+#content_wrap
+  #inner_content
+    %h1
+      Shows
+    - shows.each do |show|
+      = partial("showhighlight",{:show=>show})
+
+    %h1
+      Episodes
+    - episodes.each do |episode|
+      = partial("episoderesult",{:episode=>episode})
+
+  #sidebar_home
+    - search.sorted_notes.each do |note|
+      = partial("widgit",{:note=>note.n})
+
+  /
+    END "sidebar_home"  //
+/
+  END "content_wrap"  //

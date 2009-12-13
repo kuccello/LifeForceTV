@@ -4,13 +4,10 @@ module Lifeforce
 
     attr_accessor :year, :month, :day_of_week, :day_of_month, :timestamp
 
-    @@months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Sept", "Oct", "Nov", "Dec"]
-    @@days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
-
     def initialize(timestamp)
       t = Time.at(timestamp)
 
-      @month = t.month - 1
+      @month = t.month
       @year = t.year
       @day_of_week = t.wday
       @day_of_month = t.day
@@ -18,11 +15,51 @@ module Lifeforce
     end
 
     def month_str
-      @@months[@month]
+      case @month
+        when 1
+          'Jan'
+        when 2
+          'Feb'
+        when 3
+          'Mar'
+        when 4
+          'Apr'
+        when 5
+          'May'
+        when 6
+          'Jun'
+        when 7
+          'Jul'
+        when 8
+          'Aug'
+        when 9
+          'Sept'
+        when 10
+          'Oct'
+        when 11
+          'Nov'
+        when 12
+          'Dec'
+      end
     end
 
     def day_of_week_str
-      @@days[@@day_of_week]
+      case @day_of_week
+        when 1
+          'Sun'
+        when 2
+          'Mon'
+        when 3
+          'Tues'
+        when 4
+          'Wed'
+        when 5
+          'Thurs'
+        when 6
+          'Fri'
+        when 7
+          'Sat'
+      end
     end
   end
 
@@ -39,7 +76,19 @@ module Lifeforce
     def latest_episode
       # TODO -- this is not right
 #      ShowDate.new(self.release_date_unix.to_i)
-      ShowDate.new(Time.new.to_i)
+      latest_ep = nil
+      self.live_episodes.each do |ep|
+#        puts "#{__FILE__}:#{__LINE__} #{__method__} #{ep.release_date_unix} - #{ep.name}"
+        latest_ep = ep if latest_ep == nil
+        latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+      end
+
+      sd = ShowDate.new(latest_ep.release_date_unix.to_i) if latest_ep
+      sd = ShowDate.new(Time.new.to_i) unless latest_ep
+
+#      puts "#{__FILE__}:#{__LINE__} #{__method__} SD: #{sd.timestamp} - #{self.name} - #{sd.inspect} - #{sd.month_str}, #{sd.day_of_month} ,#{sd.year}"
+
+      sd
     end
 
     def episode_count
@@ -49,6 +98,14 @@ module Lifeforce
     def generas
       self.genera
     end
+
+#    def has_genera?(genera_id)
+#      flag = false
+#      self.generas.each do |g|
+#        flag = true if g.pid = genera_id
+#      end
+#      flag
+#    end
 
     def highlight_description
       desc = self.description['highlight']
@@ -84,11 +141,21 @@ This show has no highlight description.
     # return a list of shows refined by the filteres passed in
     def self.list(filters={})
       found = []
-      Xampl.transaction($transaction_context) do
+      Lifeforce.transaction do
         Lifeforce.root.show.each do |show|
           %w{ pending released deleted }.each do |filter|
             found << show.to_json if filters[filter.to_sym] && show.status == filters[filter.to_sym]
           end
+        end
+      end
+      found
+    end
+
+    def self.find_by_genera(genera)
+      found = []
+      Lifeforce.transaction do
+        Lifeforce.root.show.each do |s|
+          found << s if s.has_genera?(genera)
         end
       end
       found
@@ -144,7 +211,7 @@ This show has no highlight description.
 
     def has_genera?(genera)
       generas.each do |g|
-        return true if g.pid==genera.pid
+        return true if genera && g.pid==genera.pid
       end
       false
     end
@@ -285,7 +352,7 @@ This show has no highlight description.
 
         new_generas.each do |gc|
           self << gc
-          
+
         end
 
       end

@@ -13,5 +13,5 @@ require File.join(File.dirname(__FILE__),"genera")
 require File.join(File.dirname(__FILE__),"related-show")
 require File.join(File.dirname(__FILE__),"resource")
 require File.join(File.dirname(__FILE__),"season")
-
+require File.join(File.dirname(__FILE__),"search")
 puts ">> done loading models"
