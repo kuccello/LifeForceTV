@@ -273,6 +273,7 @@ This show has no highlight description.
       show_release_date = params[:show_release_date]
       show_rating = params[:show_rating]
       show_url_id = params[:show_url_id]
+      show_css = params[:show_css]
 
       genera_list = params[:genera_list]
 
@@ -309,7 +310,20 @@ This show has no highlight description.
           self << gc
 
         end
-
+        if self.css.first then
+          self.css.first.content = show_css
+        else
+          css = self.new_css
+          css.content = show_css
+        end
+        dir = File.join(File.dirname(__FILE__), "../site/public/css/shows")
+        css_filepath = "#{dir}/#{self.pid}.css"
+        if File.exists?(css_filepath)
+          File.delete(css_filepath)
+        end
+        File.open( css_filepath, "w" ) do |cfile|
+          cfile.write(show_css)
+        end
       end
 
       show_showcase_rm = params[:show_showcase_remove]
@@ -326,8 +340,6 @@ This show has no highlight description.
       end
 
       dir = File.join(File.dirname(__FILE__), "../site/public/images/shows/#{self.pid}")
-
-
       if params[:show_big_image] &&
               (biu_tmp = params[:show_big_image][:tempfile]) &&
               (name = params[:show_big_image][:filename]) then
@@ -416,6 +428,28 @@ This show has no highlight description.
 
         Lifeforce.transaction do
           self.poster = "/images/shows/#{self.pid}/poster.#{fn_ext}"
+        end
+      end
+
+      if params[:show_bg_image] &&
+              (biu_tmp = params[:show_bg_image][:tempfile]) &&
+              (name = params[:show_bg_image][:filename]) then
+
+        fn_ext_split = name.split(".")
+        fn_ext = fn_ext_split[fn_ext_split.size-1]
+
+        # we have a big image file
+
+        big_file = "#{dir}/bg.#{fn_ext}"
+
+        big = File.open( big_file, "wb" )
+
+        while blk = biu_tmp.read(65536)
+          big.write(blk)
+        end
+
+        Lifeforce.transaction do
+          self.bgimage = "/images/shows/#{self.pid}/bg.#{fn_ext}"
         end
       end
 

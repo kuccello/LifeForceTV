@@ -58,9 +58,7 @@
         /
           END "logo"  //
         #header_contacts
-          Canada's ONLINE Broadcast Network
-          %br
-          e-mail: info@lifeforcetv.com
+          = layout_ad
       /
         END "header"  //
       #container.clearfix
@@ -75,6 +73,30 @@
       /
         END "container"  //
       #footer.clearfix
+        %br
+
+        |
+        %a{:href=>"/about"}
+          About
+        |
+        %a{:href=>"/faq"}
+          FAQ
+        |
+        %a{:href=>"/advertising"}
+          Advertising
+        |
+        %a{:href=>"/addshow"}
+          Add Your Show
+        |
+        %a{:href=>"/contact"}
+          Contact
+        |
+        %a{:href=>"/tos"}
+          Terms Of Service
+        |
+        %a{:href=>"/privacy"}
+          Privacy Policy
+        |
         #footer_left
           &copy; Copyright 2009
           = $SITE_NAME
@@ -82,6 +104,8 @@
           %a{ :href => "/" }
             %img{ :src => "/images/logo_footer.png", :alt => "Logo" }
         #footer_bottom
+
+
       /
         END "footer"  //
     /

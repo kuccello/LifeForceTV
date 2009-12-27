@@ -97,6 +97,20 @@
               Add to showcase:
               %input{:type=>"checkbox", :name=>"show_showcase_add", :value=>"true"}
 
+          %li
+            %label
+              CSS:
+            ="<textarea rows='10' cols='40' name='show_css'>#{(show.css.first ? show.css.first.content : '')}</textarea>"
+
+          %li
+            %label{:for=>"show_bg_image"}
+              BG Image:
+            %input{:type=>"file",:name=>"show_bg_image"}
+            %p
+              PATH:
+              = show.bgimage
+            %img{:src=>show.bgimage,:width=>"530px"}
+
         %input{:type=>"submit", :value=>"Save"}
 
     = partial("episodes_box",{ :show => show })

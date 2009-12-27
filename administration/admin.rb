@@ -313,12 +313,25 @@ class LifeForceAdmin < Sinatra::Base
 
   get '/ad/:ad_pid' do
     ad = Lifeforce::AdSense.get_by_pid(params[:ad_pid])
-
+    
     unless ad then
       ad = Lifeforce::AdSense.make_ad
     end
 
     haml :ad, :locals=>{:ad=>ad}
+  end
+
+  get '/ad/delete/:ad_pid' do
+    ad = Lifeforce::AdSense.get_by_pid(params[:ad_pid])
+
+    if ad then
+      Lifeforce::AdSense.delete_this_ad(ad)
+    end
+
+    flash[:message] = "Deleted ad"
+    ads = Lifeforce.root.ad_sense
+
+    haml :ads, :locals=>{:ads=>ads}
   end
 
   post '/ad/:ad_pid' do

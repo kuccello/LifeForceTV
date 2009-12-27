@@ -63,6 +63,7 @@
         description=""
         rating=""
         poster=""
+        bgimage=""
         url-id="">
 
     <!--
@@ -127,6 +128,7 @@
     -->
     <related-show id="" show-pid=""/>
     <genera pid=""/>
+    <css><![CDATA[THE CSS FOR THE EPISODE]]></css>
   </show>
 
   <!--
@@ -150,9 +152,7 @@
     </tracking>
   </ad>
 
-  <ad-sense pid="this should be the width-height" title="">
-    Ad sense code goes here
-  </ad-sense>
+  <ad-sense pid="this should be the width-height" title=""><![CDATA[Woot]]></ad-sense>
 
   <!--
     Genera

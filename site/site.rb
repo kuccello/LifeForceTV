@@ -32,6 +32,28 @@ class LifeForceSite < Sinatra::Base
     haml :index
   end
 
+  get '/about' do
+    haml :about
+  end
+  get '/faq' do
+    haml :faq
+  end
+  get '/advertising' do
+    haml :advertising
+  end
+  get '/addshow' do
+    haml :addshow
+  end
+  get '/contact' do
+    haml :contact
+  end
+  get '/tos' do
+    haml :tos
+  end
+  get '/privacy' do
+    haml :privacy
+  end
+
   get '/scripts/timthumb.php' do
     kt = KrispyThumb.new(File.join(File.dirname(__FILE__), 'public'))
     uri = kt.process(request)
@@ -78,7 +100,7 @@ class LifeForceSite < Sinatra::Base
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
 
-    haml :show, :locals=>{:show=>show,:override_style=>"/css/shows/#{show.pid}.css"}
+    haml :show, :locals=>{:show=>show,:override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
 
 end

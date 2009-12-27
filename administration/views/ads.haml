@@ -13,6 +13,7 @@
           = ad.title
         %a{:href=>to_path("/ad/#{ad.pid}")}
           [ EDIT THIS AD CODE ]
-        
+        %a{:href=>to_path("/ad/delete/#{ad.pid}")}
+          [ DELETE THIS AD ]
 
 = sidebar

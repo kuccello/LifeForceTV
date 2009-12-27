@@ -45,5 +45,9 @@ module LifeForceSiteHelpers
     def all_released_shows(params={})
       Lifeforce::Show.all.select { |show| show.released?  }
     end
+
+    def layout_ad
+      Lifeforce::AdSense.get_layout_ad
+    end
   end
 end
