@@ -93,7 +93,26 @@
           %li
             %label{:for=>"episode_rating"}
               Content Rating [G, PG, PG-13, R, NC-17, XXX]:
-            %input{:type=>"text",:name=>"episode_rating",:value=>episode.content_rating}
+            %select{:name=>"episode_rating"}
+              - if episode.content_rating
+                %option
+                  = episode.content_rating
+              %option
+                TV-C
+              %option
+                TV-8
+              %option
+                TV-G
+              %option
+                TV-PG
+              %option
+                TV-14
+              %option
+                TV-18
+
+
+
+            - #%input{:type=>"text",:name=>"episode_rating",:value=>episode.content_rating}
 
           %li
             GENERAS

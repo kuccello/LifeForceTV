@@ -10,7 +10,7 @@
   publication.
   ==============================================================================
 -->
-<lifeforce pid="" xmlns="http://www.soldierofcode.com/lifeforce">
+<lifeforcetv pid="" xmlns="http://www.soldierofcode.com/lifeforce">
 
   <!--
     Member
@@ -101,6 +101,8 @@
 
       <genera pid=""/>
 
+      <tag pid=""/>
+
       <!--
         Note
       -->
@@ -148,6 +150,10 @@
     </tracking>
   </ad>
 
+  <ad-sense pid="this should be the width-height" title="">
+    Ad sense code goes here
+  </ad-sense>
+
   <!--
     Genera
   -->
@@ -155,6 +161,20 @@
     <show-ref id="" show=""/>
     <episode-ref id="" episode=""/>
   </genera>
-</lifeforce>
+
+  <!--
+    Tag
+  -->
+  <tag pid="word-url-safe" name="">
+    <episode-ref id="" episode=""/>
+  </tag>
+
+  <!--
+    Analytics
+  -->
+  <analytics pid="">
+    This is where the analytics code block goes
+  </analytics>
+</lifeforcetv>
 
 

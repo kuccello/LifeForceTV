@@ -14,7 +14,12 @@
     %script{ :src => "/js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
     %script{ :src => "/js/slider.js", :type => "text/javascript" }
     %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
+
     %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
+
+    - if defined? override_style
+      %link{ :rel => "stylesheet", :type => "text/css", :href => override_style }
+
     %link{ :rel => "stylesheet", :href => "/css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
 
     %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/js/shadowbox-build-3.0rc1/shadowbox.css"}

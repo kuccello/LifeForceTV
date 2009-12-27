@@ -39,10 +39,12 @@ module Lifeforce
     end
 
     def self.find_by_email(email)
+#      puts "#{__FILE__}:#{__LINE__} #{__method__} #{Lifeforce.root.pp_xml}"
       m = nil
       Lifeforce.root.member.each do |member|
+#        puts "#{__FILE__}:#{__LINE__} #{__method__} #{member.pp_xml}"
 #        puts "#{__FILE__}:#{__LINE__} #{__method__} MEMBER: #{member.pp_xml} \n\n#{email}\n\n was a match? #{member.email.downcase == email.downcase}"
-        m = member if (member.email.downcase == email.downcase)
+        m = member if member.email && (member.email.downcase == email.downcase)
       end
       m
     end

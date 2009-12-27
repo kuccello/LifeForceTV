@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Angels Local 437</title>
+<link>http://angels437.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+	<itunes:image href="http://a.images.blip.tv/Angels437-300x300_show_image112.jpg" />
+	<amp:logo>http://a.images.blip.tv/Angels437-300x300_show_image112.jpg</amp:logo>
+
+
+
+
+
+
+<description>Angels Local 437</description>
+
+
+
+<itunes:author>Angels: Local 437</itunes:author>
+<itunes:block>no</itunes:block>
+
+<itunes:category text="Comedy" />
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Mon, 16 Feb 2009 23:45:00 +0000</lastBuildDate>
+<pubDate>Mon, 16 Feb 2009 23:45:00 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">662DA7E6-EC03-11DD-B61C-BB5C4CC15BA4</guid>
+  <link>http://blip.tv/file/1706410</link>
+  <title>Ep5 - The Oscar Pool</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1715013</blip:posts_id>
+  <blip:item_id>1706410</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-02-16T23:45:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>197</blip:runtime>
+  <blip:embedLookup>grMg6NcpAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg6NcpAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1715013&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep5TheOscarPool974.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep5TheOscarPool974-517.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg6NcpAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+
+
+]]></description>
+  <comments>http://blip.tv/file/1706410</comments>
+  <category>Default Category</category>
+  <pubDate>Mon, 16 Feb 2009 23:45:00 +0000</pubDate>
+  <enclosure length="19901979" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep5TheOscarPool414.flv"/>
+  <itunes:keywords></itunes:keywords>
+  <itunes:artwork>Angels437-Ep5TheOscarPool974.jpg</itunes:artwork>
+  <media:keywords></media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="19901979" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep5TheOscarPool414.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="41102434" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep5TheOscarPool239.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1706410"><![CDATA[<embed src="http://blip.tv/play/grMg6NcpAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep5 - The Oscar Pool</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep5TheOscarPool974.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">0FF4EA40-FC77-11DD-A682-FE0430AA254D</guid>
+  <link>http://blip.tv/file/1780909</link>
+  <title>Ep4 - Yearly Review</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1790108</blip:posts_id>
+  <blip:item_id>1780909</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-02-10T22:13:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>183</blip:runtime>
+  <blip:embedLookup>grMg7aIAAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg7aIAAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1790108&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep4YearlyReviewNew417.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The results for the annual performance reviews are in and it takes excellence to get ahead, which neither of them have. Joel reveals a new secret and worries about the future of his job, which Nate is late for his job... again.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep4YearlyReviewNew417-373.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg7aIAAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The results for the annual performance reviews are in and it takes excellence to get ahead, which neither of them have. Joel reveals a new secret and worries about the future of his job, which Nate is late for his job... again.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1780909</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Tue, 10 Feb 2009 22:13:00 +0000</pubDate>
+  <enclosure length="18643058" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep4YearlyReviewNew159.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep4YearlyReviewNew417.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="18643058" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep4YearlyReviewNew159.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="38319798" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep4YearlyReviewNew209.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1780909"><![CDATA[<embed src="http://blip.tv/play/grMg7aIAAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep4 - Yearly Review</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep4YearlyReviewNew417.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3747AD6E-F19E-11DD-88B6-B01D89411887</guid>
+  <link>http://blip.tv/file/1731461</link>
+  <title>Ep10 - The Cleaning Lady</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1740077</blip:posts_id>
+  <blip:item_id>1731461</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-02-03T02:56:12Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>131</blip:runtime>
+  <blip:embedLookup>grMg6psRAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg6psRAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1740077&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep10TheCleaningLady558.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After working late one night, Nate has a run in with the cleaning lady, while Joel appreciates a good night in sports.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep10TheCleaningLady558-327.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg6psRAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After working late one night, Nate has a run in with the cleaning lady, while Joel appreciates a good night in sports.
+
+]]></description>
+  <comments>http://blip.tv/file/1731461</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Tue, 03 Feb 2009 02:56:12 +0000</pubDate>
+  <enclosure length="13126705" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep10TheCleaningLady198.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep10TheCleaningLady558.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="13126705" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep10TheCleaningLady198.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="26823888" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep10TheCleaningLady585.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1731461"><![CDATA[<embed src="http://blip.tv/play/grMg6psRAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep10 - The Cleaning Lady</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep10TheCleaningLady558.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">68E1ED8C-ECC9-11DD-BBE9-8DA16DFF9BEE</guid>
+  <link>http://blip.tv/file/1710102</link>
+  <title>Special Feature: Gag Reel</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1718706</blip:posts_id>
+  <blip:item_id>1710102</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-27T23:22:48Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>419</blip:runtime>
+  <blip:embedLookup>grMg6PQWAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg6PQWAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1718706&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-AngelsGagReel642.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[A compilation of bloopers, gags, and flubs, from shooting Angels Local 437.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-AngelsGagReel642-470.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg6PQWAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+A compilation of bloopers, gags, and flubs, from shooting Angels Local 437.
+
+]]></description>
+  <comments>http://blip.tv/file/1710102</comments>
+  <category>Default Category</category>
+  <category>angels</category>
+  <category>local</category>
+  <category>437</category>
+  <category>angelslocal437</category>
+  <category>gag reel</category>
+  <category>bloopers</category>
+  <category>comedy</category>
+  <category>flubs</category>
+  <category>behind the scenes</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>lifeforce entertainment</category>
+  <category>funny</category>
+  <category>humor</category>
+  <pubDate>Tue, 27 Jan 2009 23:22:48 +0000</pubDate>
+  <enclosure length="43238994" type="video/flv" url="http://blip.tv/file/get/Angels437-AngelsGagReel704.flv"/>
+  <itunes:keywords>angels, local, 437, angelslocal437, gag reel, bloopers, comedy, flubs, behind the scenes, web show, series, ennis esmer, tom barnett, lifeforce entertainment, funny, humor</itunes:keywords>
+  <itunes:artwork>Angels437-AngelsGagReel642.jpg</itunes:artwork>
+  <media:keywords>angels, local, 437, angelslocal437, gag reel, bloopers, comedy, flubs, behind the scenes, web show, series, ennis esmer, tom barnett, lifeforce entertainment, funny, humor</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="43238994" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-AngelsGagReel704.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="90321170" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-AngelsGagReel405.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1710102"><![CDATA[<embed src="http://blip.tv/play/grMg6PQWAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Special Feature: Gag Reel</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-AngelsGagReel642.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">4CD07462-EC9F-11DD-A48C-A0EA9B0A3168</guid>
+  <link>http://blip.tv/file/1709077</link>
+  <title>Ep9 - Animal Heaven</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1717680</blip:posts_id>
+  <blip:item_id>1709077</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-27T18:21:22Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>178</blip:runtime>
+  <blip:embedLookup>grMg6OwUAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg6OwUAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1717680&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep9AnimalHeaven814.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Joel is intrigued that Nate was sent to work Animal Heaven for the day. Joel offers to take Nates place next time around which Nate gladly accepts.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep9AnimalHeaven814-685.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg6OwUAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Joel is intrigued that Nate was sent to work Animal Heaven for the day. Joel offers to take Nates place next time around which Nate gladly accepts.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1709077</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Tue, 27 Jan 2009 18:21:22 +0000</pubDate>
+  <enclosure length="17796360" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep9AnimalHeaven508.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep9AnimalHeaven814.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="17796360" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep9AnimalHeaven508.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="36977931" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep9AnimalHeaven639.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1709077"><![CDATA[<embed src="http://blip.tv/play/grMg6OwUAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep9 - Animal Heaven</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep9AnimalHeaven814.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">8026C4B2-E99B-11DD-9D55-AE5BCF633C55</guid>
+  <link>http://blip.tv/file/1697382</link>
+  <title>Ep7 - Fountain of Youth</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1705969</blip:posts_id>
+  <blip:item_id>1697382</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-23T22:16:37Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>192</blip:runtime>
+  <blip:embedLookup>grMg6JBVAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg6JBVAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1705969&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep7FountainOfYouth625.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[A trip to the fountain of youth reveals that Mother Theresa has a naughty side... and a jealous boyfriend.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep7FountainOfYouth625-847.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg6JBVAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+A trip to the fountain of youth reveals that Mother Theresa has a naughty side... and a jealous boyfriend.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1697382</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Fri, 23 Jan 2009 22:16:37 +0000</pubDate>
+  <enclosure length="19297729" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep7FountainOfYouth823.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep7FountainOfYouth625.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="19297729" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep7FountainOfYouth823.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="40233963" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep7FountainOfYouth172.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1697382"><![CDATA[<embed src="http://blip.tv/play/grMg6JBVAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep7 - Fountain of Youth</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep7FountainOfYouth625.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">4F296402-E8DB-11DD-9006-EACD13FBF949</guid>
+  <link>http://blip.tv/file/1694142</link>
+  <title>Ep6 - Door Policy</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1702729</blip:posts_id>
+  <blip:item_id>1694142</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-22T23:20:51Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>169</blip:runtime>
+  <blip:embedLookup>grMg5_ctAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5_ctAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1702729&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep6DoorPolicy648.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Nate is fed up with the new door policy and laxed entry qualifications. Joel defends St. Peter's choices... for the most part.www.lifeforcetv.com/angels]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep6DoorPolicy648-390.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5_ctAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Nate is fed up with the new door policy and laxed entry qualifications. Joel defends St. Peter's choices... for the most part.<br />www.lifeforcetv.com/angels
+
+]]></description>
+  <comments>http://blip.tv/file/1694142</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Thu, 22 Jan 2009 23:20:51 +0000</pubDate>
+  <enclosure length="17182563" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep6DoorPolicy784.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep6DoorPolicy648.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="17182563" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep6DoorPolicy784.flv" width="640"></media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="35304659" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep6DoorPolicy422.mp4" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1694142"><![CDATA[<embed src="http://blip.tv/play/grMg5_ctAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep6 - Door Policy</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep6DoorPolicy648.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3BF910C4-E0B3-11DD-814B-84E1377FAE95</guid>
+  <link>http://blip.tv/file/1659916</link>
+  <title>Ep8 - The E-Card</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1668474</blip:posts_id>
+  <blip:item_id>1659916</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-12T14:13:50Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>231</blip:runtime>
+  <blip:embedLookup>grMg5eteAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5eteAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1668474&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep8TheECard745.png</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[When Joel gets an E-Card from Lucifer, it's a sore spot for Nate who doesn't like talking about how Lucifer's betrayed him and made him look like a jackass.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep8TheECard442-413.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5eteAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+When Joel gets an E-Card from Lucifer, it's a sore spot for Nate who doesn't like talking about how Lucifer's betrayed him and made him look like a jackass.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1659916</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Mon, 12 Jan 2009 14:13:50 +0000</pubDate>
+  <enclosure length="23505122" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep5TheECard855.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep8TheECard745.png</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="23505122" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep5TheECard855.flv" width="640"></media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="48671754" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep5TheECard192.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1659916"><![CDATA[<embed src="http://blip.tv/play/grMg5eteAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep8 - The E-Card</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep8TheECard745.png"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">FA2E1ECE-E0B1-11DD-8FB4-DDBA5BB29A4A</guid>
+  <link>http://blip.tv/file/1659902</link>
+  <title>Ep3 - The Capra</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1668460</blip:posts_id>
+  <blip:item_id>1659902</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-12T14:04:50Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>285</blip:runtime>
+  <blip:embedLookup>grMg5etQAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5etQAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1668460&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep3TheCapra286.png</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After a divine intervention goes terribly wrong for Joel, it's up to Nate to cheer him and restore the balance.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep3TheCapra934-721.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5etQAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After a divine intervention goes terribly wrong for Joel, it's up to Nate to cheer him and restore the balance.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1659902</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Mon, 12 Jan 2009 14:04:50 +0000</pubDate>
+  <enclosure length="29084617" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep3TheCapra379.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep3TheCapra286.png</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="29084617" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep3TheCapra379.flv" width="640"></media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="60491502" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep3TheCapra570.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1659902"><![CDATA[<embed src="http://blip.tv/play/grMg5etQAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep3 - The Capra</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep3TheCapra286.png"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">1D07BA14-E0B1-11DD-A49C-C6DF7CDA31F0</guid>
+  <link>http://blip.tv/file/1659887</link>
+  <title>Ep2 - We Missed the Boat</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1668445</blip:posts_id>
+  <blip:item_id>1659887</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-12T13:58:39Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>192</blip:runtime>
+  <blip:embedLookup>grMg5etBAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5etBAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1668445&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep2WeMissedTheBoat538.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Nate and Joel bitch about company policy and remember how things used to be before the new management arrived.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep2WeMissedTheBoat538-414.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5etBAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Nate and Joel bitch about company policy and remember how things used to be before the new management arrived.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1659887</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Mon, 12 Jan 2009 13:58:39 +0000</pubDate>
+  <enclosure length="19693239" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep2WeMissedTheBoat497.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep2WeMissedTheBoat538.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="19693239" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep2WeMissedTheBoat497.flv" width="640"></media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="40470539" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep2WeMissedTheBoat200.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1659887"><![CDATA[<embed src="http://blip.tv/play/grMg5etBAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep2 - We Missed the Boat</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep2WeMissedTheBoat538.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">8940DC5C-E0B0-11DD-AABA-A70D42E73BB4</guid>
+  <link>http://blip.tv/file/1659877</link>
+  <title>Ep1 - The Christmas Party</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1668435</blip:posts_id>
+  <blip:item_id>1659877</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-12T13:54:31Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>212</blip:runtime>
+  <blip:embedLookup>grMg5es3Ag</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5es3Ag</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1668435&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Ep1TheChristmasParty634.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[When Nate mouths off to the boss at the company Christmas party he is faced with the next day awkwardness when no one will talk to him.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Ep1TheChristmasParty634-659.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5es3Ag%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+When Nate mouths off to the boss at the company Christmas party he is faced with the next day awkwardness when no one will talk to him.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1659877</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>jokes</category>
+  <category>lifeforcetv</category>
+  <category>entertainment</category>
+  <pubDate>Mon, 12 Jan 2009 13:54:31 +0000</pubDate>
+  <enclosure length="21703548" type="video/flv" url="http://blip.tv/file/get/Angels437-Ep1TheChristmasParty334.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</itunes:keywords>
+  <itunes:artwork>Angels437-Ep1TheChristmasParty634.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, web show, series, jokes, lifeforcetv, entertainment</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="21703548" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Ep1TheChristmasParty334.flv" width="640"></media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="44722780" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Ep1TheChristmasParty511.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1659877"><![CDATA[<embed src="http://blip.tv/play/grMg5es3Ag%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep1 - The Christmas Party</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Ep1TheChristmasParty634.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">E77EDF54-E0AF-11DD-BDE6-9E366C242FB0</guid>
+  <link>http://blip.tv/file/1659866</link>
+  <title>Teaser 2 - Egg Salad</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1668424</blip:posts_id>
+  <blip:item_id>1659866</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-12T13:49:59Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>39</blip:runtime>
+  <blip:embedLookup>grMg5essAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5essAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1668424&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Teaser2EggSalad542.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Nate & Joel talk about one of God's greatest creations; Egg Salad.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Teaser2EggSalad542-800.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5essAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Nate & Joel talk about one of God's greatest creations; Egg Salad.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1659866</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>bible</category>
+  <category>biblical</category>
+  <category>new testament</category>
+  <category>corporate</category>
+  <category>st peter</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>theology</category>
+  <category>jesus</category>
+  <category>god</category>
+  <category>pearly gates</category>
+  <category>lunch</category>
+  <category>anecdotes</category>
+  <category>jokes</category>
+  <category>lifeforce entertainment</category>
+  <category>lucifer</category>
+  <category>wings</category>
+  <category>union</category>
+  <category>divine intervention</category>
+  <pubDate>Mon, 12 Jan 2009 13:49:59 +0000</pubDate>
+  <enclosure length="4049651" type="video/flv" url="http://blip.tv/file/get/Angels437-Teaser2EggSalad385.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, bible, biblical, new testament, corporate, st peter, web show, series, theology, jesus, god, pearly gates, lunch, anecdotes, jokes, lifeforce entertainment, lucifer, wings, union, divine intervention</itunes:keywords>
+  <itunes:artwork>Angels437-Teaser2EggSalad542.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, bible, biblical, new testament, corporate, st peter, web show, series, theology, jesus, god, pearly gates, lunch, anecdotes, jokes, lifeforce entertainment, lucifer, wings, union, divine intervention</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="4049651" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Teaser2EggSalad385.flv" width="640"></media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="8358340" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Teaser2EggSalad351.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1659866"><![CDATA[<embed src="http://blip.tv/play/grMg5essAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Teaser 2 - Egg Salad</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Teaser2EggSalad542.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">C6AAB65E-E0AF-11DD-B9B4-ACFE6AF0C2EF</guid>
+  <link>http://blip.tv/file/1659864</link>
+  <title>Teaser 1 - Knockin' Off</title>
+  <blip:user>Angels437</blip:user>
+  <blip:userid>306833</blip:userid>
+  <blip:safeusername>angelslocal437</blip:safeusername>
+  <blip:show>Angels Local 437</blip:show>
+  <blip:showpage>http://angelslocal437.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1668422</blip:posts_id>
+  <blip:item_id>1659864</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-PG</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-12T13:49:04Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>29</blip:runtime>
+  <blip:embedLookup>grMg5esqAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grMg5esqAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1668422&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Angels437-Teaser1KnockinOff497.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[When works gets tiring, it's time to knock off early.www.lifeforcetv.com/angels437]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Angels437-Teaser1KnockinOff497-827.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grMg5esqAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+When works gets tiring, it's time to knock off early.<br />www.lifeforcetv.com/angels437
+
+]]></description>
+  <comments>http://blip.tv/file/1659864</comments>
+  <category>Comedy</category>
+  <category>angels</category>
+  <category>local 437</category>
+  <category>comedy</category>
+  <category>ennis esmer</category>
+  <category>tom barnett</category>
+  <category>heaven</category>
+  <category>bible</category>
+  <category>biblical</category>
+  <category>new testament</category>
+  <category>corporate</category>
+  <category>st peter</category>
+  <category>web show</category>
+  <category>series</category>
+  <category>theology</category>
+  <category>jesus</category>
+  <category>god</category>
+  <category>pearly gates</category>
+  <category>lunch</category>
+  <category>anecdotes</category>
+  <category>jokes</category>
+  <category>lifeforce entertainment</category>
+  <category>lucifer</category>
+  <category>wings</category>
+  <category>union</category>
+  <category>divine intervention</category>
+  <pubDate>Mon, 12 Jan 2009 13:49:04 +0000</pubDate>
+  <enclosure length="3025477" type="video/flv" url="http://blip.tv/file/get/Angels437-Teaser1SecondLunch904.flv"/>
+  <itunes:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, bible, biblical, new testament, corporate, st peter, web show, series, theology, jesus, god, pearly gates, lunch, anecdotes, jokes, lifeforce entertainment, lucifer, wings, union, divine intervention</itunes:keywords>
+  <itunes:artwork>Angels437-Teaser1KnockinOff497.jpg</itunes:artwork>
+  <media:keywords>angels, local 437, comedy, ennis esmer, tom barnett, heaven, bible, biblical, new testament, corporate, st peter, web show, series, theology, jesus, god, pearly gates, lunch, anecdotes, jokes, lifeforce entertainment, lucifer, wings, union, divine intervention</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="3025477" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/Angels437-Teaser1SecondLunch904.flv" width="640"></media:content>
+    <media:content blip:role="web" expression="full" fileSize="314868" height="360" isDefault="false" type="audio/mpeg" url="http://blip.tv/file/get/Angels437-Teaser1SecondLunch406.mp3" width="640"></media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="6263317" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/Angels437-Teaser1SecondLunch898.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1659864"><![CDATA[<embed src="http://blip.tv/play/grMg5esqAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Teaser 1 - Knockin' Off</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Angels437-Teaser1KnockinOff497.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>

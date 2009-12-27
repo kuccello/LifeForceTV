@@ -84,7 +84,8 @@ class LifeForceAdmin < Sinatra::Base
 
 # process logout
   get '/logout' do
-
+    session[:user] = nil
+    redirect to_path('/dashboard')
   end
 
 # deliver the forgot password form
@@ -139,7 +140,7 @@ class LifeForceAdmin < Sinatra::Base
   end
 
   get '/note/new' do
-    note = Lifeforce::Note.make_new_note    
+    note = Lifeforce::Note.make_new_note
     redirect "/admin/note/#{note.pid}"
   end
 
@@ -162,7 +163,7 @@ class LifeForceAdmin < Sinatra::Base
   end
 
   get '/shows' do
-    
+
 
     shows = Lifeforce::Show.all
 
@@ -170,13 +171,15 @@ class LifeForceAdmin < Sinatra::Base
   end
 
   get '/show/add-bliptv' do
-    
-
     haml :bliptv
   end
 
+  get '/show/add-file' do
+    haml :rss_file
+  end
+
   post '/show/add-blip' do
-    
+
 
     blip_usr = params["blip-user"]
     blip_pass = params["blip-pass"]
@@ -195,8 +198,26 @@ class LifeForceAdmin < Sinatra::Base
     end
   end
 
-  get '/show/:show_pid/edit' do
+  post '/show/add-file' do
+
+    blip = Lifeforce::Blip.new
     
+    if params['blip-rss'] &&
+            (biu_tmp = params['blip-rss'][:tempfile]) &&
+            (name = params['blip-rss'][:filename]) then
+
+      file = ""
+      while blk = biu_tmp.read(65536)
+        file += blk
+      end
+      blip.eat_file(file)
+    end
+    flash[:message] = "Successfully processed show!"
+    haml :rss_file
+  end
+
+  get '/show/:show_pid/edit' do
+
 
     show_pid = params[:show_pid]
     show = Lifeforce::Show.get_by_pid(show_pid)
@@ -228,7 +249,7 @@ class LifeForceAdmin < Sinatra::Base
   end
 
   get '/episode/:episode_pid/edit' do
-    
+
 
     episode_pid = params[:episode_pid]
     episode = Lifeforce::Episode.get_by_pid(episode_pid)
@@ -241,7 +262,7 @@ class LifeForceAdmin < Sinatra::Base
   end
 
   post '/episode/:episode_pid/edit' do
-    
+
 
     episode_pid = params[:episode_pid]
     episode = Lifeforce::Episode.get_by_pid(episode_pid)
@@ -278,9 +299,32 @@ class LifeForceAdmin < Sinatra::Base
     genera = Lifeforce::Genera.get_by_pid(params[:pid])
     if genera then
       Lifeforce::Genera.remove_from_system(genera)
-      
+
     end
     redirect '/admin/generas'
+  end
+
+  get '/ads' do
+
+    ads = Lifeforce.root.ad_sense
+
+    haml :ads, :locals=>{:ads=>ads}
+  end
+
+  get '/ad/:ad_pid' do
+    ad = Lifeforce::AdSense.get_by_pid(params[:ad_pid])
+
+    unless ad then
+      ad = Lifeforce::AdSense.make_ad
+    end
+
+    haml :ad, :locals=>{:ad=>ad}
+  end
+
+  post '/ad/:ad_pid' do
+    ad = Lifeforce::AdSense.get_by_pid(params[:ad_pid])
+    ad.update_data(params)
+    haml :ad, :locals=>{:ad=>ad}
   end
 
 end

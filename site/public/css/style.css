@@ -270,6 +270,32 @@ body {
 	display: none;
 }
 
+.slider_airdate{
+	display: none;
+}
+
+.slider_description{
+    display: none;
+}
+
+#slider_description{
+    margin-top: 125px;
+    max-height: 100px;
+    overflow: auto;
+
+    SCROLLBAR-FACE-COLOR:#2CB8FB;
+SCROLLBAR-HIGHLIGHT-COLOR:#000;
+SCROLLBAR-SHADOW-COLOR:#000;
+SCROLLBAR-3DLIGHT-COLOR:#2CB8FB;
+SCROLLBAR-ARROW-COLOR:#fff;
+SCROLLBAR-TRACK-COLOR:#000;
+SCROLLBAR-DARKSHADOW-COLOR:#2CB8FB; 
+}
+
+.slider_rating{
+    display: none;
+}
+
 #logo{
 	margin-top: 30px;
 }

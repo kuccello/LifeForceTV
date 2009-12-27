@@ -1,4 +1,8 @@
 module Lifeforce
+
+  class EpisodeDate < HelperDate
+  end
+
   class Episode
     STATUS_PENDING = "pending"
     STATUS_LIVE = "live"
@@ -12,6 +16,10 @@ module Lifeforce
 
       end
 
+    end
+
+    def released_date
+      EpisodeDate.new(self.release_date_unix.to_i)
     end
 
     def generas_as_list

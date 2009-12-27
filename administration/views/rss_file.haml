@@ -1,0 +1,25 @@
+#title.round
+  %h1
+    Add Show From Blip RSS File
+  %span.right
+    Use this to add shows from Blip.tv Saved RSS
+#content
+  #content-container
+    .box.round
+      %h2
+        Add Show From RSS File
+      = flash_message
+      %form{ :method => "post", :action => "/admin/show/add-file", :enctype=>"multipart/form-data" }
+        %ul
+          %li
+            %label
+              Blip.tv RSS File
+              %span.req
+                *
+            %div
+              %input.short.text{ :type => "file", :name => "blip-rss" }
+
+          %li
+            %input#submit.button{ :type => "submit", :name => "submit", :value => "Submit" }
+
+= sidebar

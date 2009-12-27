@@ -1,6 +1,7 @@
 require 'uri'
 require 'net/http'
 require 'xml'
+require 'nokogiri'
 require 'digest/md5'
 require 'fileutils'
 require File.join(File.dirname(__FILE__), "../model/init" )
@@ -84,7 +85,7 @@ module Lifeforce
       "http://a.images.blip.tv/#{img}"
     end
 
-    def download_image(src,dest_dir,dest_path)
+    def download_image(src, dest_dir, dest_path)
       # TODO -- this needs to be cached etc.
       if src.starts_with?("http") then
 
@@ -111,41 +112,35 @@ module Lifeforce
     end
 
     def itemize_rss(rss_body)
-
       items = []
 
-      doc = XML::Parser.string(rss_body).parse
+      doc = Nokogiri::XML::Document.parse(rss_body)
+      show_title = doc.root.at_xpath('//channel/title').content
+      show_description = doc.root.at_xpath('//channel/description').content
 
-      show_title = doc.root.find('//channel/title')[0].content
-      show_description = doc.root.find('//channel/description')[0].content
-
-      doc.root.find('//channel/item').each do |x_item|
-#      puts "#{__FILE__}:#{__LINE__} #{__method__} ===="
-        blip_pid = x_item.find('blip:show')
-        next if blip_pid.size ==0 # if there is no show then move on
-#      puts "#{__FILE__}:#{__LINE__} #{__method__} #{blip_pid[0].content}-#{show_title}-#{show_description}"
-        show = get_show(blip_pid[0].content, show_title, show_description) if blip_pid.size == 1
-#      puts "#{__FILE__}:#{__LINE__} #{__method__} GOT SHOW: #{show.pp_xml}"
+      doc.xpath('//channel/item').each do |x_item|
+        blip_pid = x_item.at_xpath('blip:show').content
+        next if blip_pid.size == 0 # if there is no show then move on
+        show = get_show(blip_pid, show_title, show_description) if blip_pid.size > 0
         items << show
 
         emb = ""
-        temp = x_item.find('blip:embedLookup')
-
-        emb = temp[0].content if temp.size == 1
+        temp = x_item.at_xpath('blip:embedLookup')
+        emb = temp.content if temp
 
         swf_link = get_swf_code(emb)
         emb = get_embed_code(emb)
 
 
         epid = get_data(x_item, 'blip:item_id')
-        dest_dir = File.join(File.dirname(__FILE__),"../site/public/images/shows/#{show.url_id}/episodes/#{epid}")
+        dest_dir = File.join(File.dirname(__FILE__), "../site/public/images/shows/#{show.url_id}/episodes/#{epid}")
         dest_path = "/images/shows/#{show.url_id}/episodes/#{epid}"
 
 
         data = {
                 :ep_pid => epid,
-                :ep_big_img => download_image(get_data(x_item, "blip:thumbnail_src"),dest_dir,dest_path),
-                :ep_small_img => download_image(get_data(x_item, "blip:smallThumbnail"),dest_dir,dest_path),
+                :ep_big_img => download_image(get_data(x_item, "blip:thumbnail_src"), dest_dir, dest_path),
+                :ep_small_img => download_image(get_data(x_item, "blip:smallThumbnail"), dest_dir, dest_path),
                 :ep_lang => get_data(x_item, "blip:language"),
                 :ep_runtime => get_data(x_item, "blip:runtime", "0"),
                 :ep_rating => get_data(x_item, "blip:contentRating", "TV-G"),
@@ -155,34 +150,38 @@ module Lifeforce
         }
 
         episode = get_episode(show, data[:ep_pid], data, emb)
-        #puts "#{__FILE__}:#{__LINE__} #{__method__} GOT EPISODE: #{episode.pp_xml}"
 
-        enc = x_item.find('enclosure')[0]
+        enc = x_item.xpath('enclosure')
 
-        eg = x_item.find('media:group')[0]
+        eg = x_item.xpath('media:group')
 
-        cgs = eg.find('media:content')
+        cgs = eg.xpath('media:content')
 
         cgs.each do |cg|
-          #puts "#{__FILE__}:#{__LINE__} #{__method__} GOT ENCLOSURE GROUP: #{eg}"
+
+          cg_hash = {}
+          cg.attributes.each do |attr|
+            cg_hash[attr[0]]=attr[1]
+          end
+
           Lifeforce.transaction do
+            begin
+              cg_url = cg_hash["url"]
+              video_id = Digest::MD5.hexdigest( cg_url )
+              video = episode.video[video_id]
+              unless video then
+                video = episode.new_video(video_id)
+                video.file_size   = cg_hash["fileSize"]
+                video.height      = cg_hash["height"]
+                video.width       = cg_hash["width"]
+                video.is_default  = cg_hash["isDefault"]
+                video.mime_type   = cg_hash["type"]
+                video.url = cg_url
 
-            cg_url = cg.attributes.get_attribute("url").value
-            puts "#{__FILE__}:#{__LINE__} #{__method__} #{cg_url}"
-            video_id = Digest::MD5.hexdigest( cg_url )
-            video = episode.video[video_id]
-            unless video then
-              video = episode.new_video(video_id)
-              video.file_size = cg.attributes.get_attribute("fileSize").value if cg.attributes.get_attribute("fileSize")
-              video.height = cg.attributes.get_attribute("height").value if cg.attributes.get_attribute("height")
-              video.width = cg.attributes.get_attribute("width").value if cg.attributes.get_attribute("width")
-              video.is_default = cg.attributes.get_attribute("isDefault").value if cg.attributes.get_attribute("isDefault")
-              video.mime_type = cg.attributes.get_attribute("type").value if cg.attributes.get_attribute("type")
-              video.url = cg_url
-
+              end
+            rescue => e
+              puts "#{__FILE__}:#{__LINE__} #{__method__} ERROR: #{e}\n#{e.backtrace}"
             end
-
-
           end
         end
       end
@@ -195,48 +194,53 @@ module Lifeforce
       ep = show.episode[ep_pid]
       unless ep then
         Lifeforce.transaction do
-          ep = show.new_episode(ep_pid)
 
-          ep.status = Episode::STATUS_PENDING
-          ep.release_date = "0"
-          ep.sequence_order = "0"
-          ep.language = data[:ep_lang]
-          ep.length = data[:ep_runtime]
-          ep.content_rating = data[:ep_rating]
-          ep.thumbnail = data[:ep_small_img]
-          ep.poster = "http://a.images.blip.tv/#{data[:ep_big_img]}"
-          ep.url_id = Lifeforce.pid_from_string(data[:ep_title])
-          ep.name = data[:ep_title]
-          ep.show = show.pid
-          ep.embed_hd = embed
-          ep.embed_sd = embed
-          ep.hd_swf_url = data[:ep_swf]
-          ep.sd_swf_url = data[:ep_swf]
+          begin
+            ep = show.new_episode(ep_pid)
 
-          desc_short = ep.new_description('short')
-          desc_short.content = data[:ep_descrip]
+            ep.status = Episode::STATUS_PENDING
+            ep.release_date = "0"
+            ep.sequence_order = "0"
+            ep.language = data[:ep_lang]
+            ep.length = data[:ep_runtime]
+            ep.content_rating = data[:ep_rating]
+            ep.thumbnail = data[:ep_small_img]
+            ep.poster = "http://a.images.blip.tv/#{data[:ep_big_img]}"
+            ep.url_id = Lifeforce.pid_from_string(data[:ep_title])
+            ep.name = data[:ep_title]
+            ep.show = show.pid
+            ep.embed_hd = embed
+            ep.embed_sd = embed
+            ep.hd_swf_url = data[:ep_swf]
+            ep.sd_swf_url = data[:ep_swf]
 
-          desc_long = ep.new_description('long')
-          desc_long.content = data[:ep_descrip]
+            desc_short = ep.new_description('short')
+            desc_short.content = data[:ep_descrip]
 
-          # ok, lets make sure that the show image directory exists
-          show_dir = File.join(File.dirname(__FILE__), "../site/public/images/shows/#{show.pid}")
-          show_dir_exists = File.directory?( show_dir )
+            desc_long = ep.new_description('long')
+            desc_long.content = data[:ep_descrip]
 
-          unless show_dir_exists then
-            # lets create it
-            Dir.mkdir(show_dir)
-            Dir.mkdir("#{show_dir}/episodes")
+            # ok, lets make sure that the show image directory exists
+            show_dir = File.join(File.dirname(__FILE__), "../site/public/images/shows/#{show.pid}")
+            show_dir_exists = File.directory?( show_dir )
 
-            ep_dir = "#{show_dir}/episodes/#{ep.pid}"
-            ep_dir_exists = File.directory?( ep_dir )
-
-            unless ep_dir_exists then
+            unless show_dir_exists then
               # lets create it
-              Dir.mkdir(ep_dir)
+              Dir.mkdir(show_dir)
+              Dir.mkdir("#{show_dir}/episodes")
+
+              ep_dir = "#{show_dir}/episodes/#{ep.pid}"
+              ep_dir_exists = File.directory?( ep_dir )
+
+              unless ep_dir_exists then
+                # lets create it
+                Dir.mkdir(ep_dir)
+
+              end
 
             end
-
+          rescue => e
+            puts "#{__FILE__}:#{__LINE__} #{__method__} #{e}\n#{e.backtrace}"
           end
 
         end
@@ -246,8 +250,8 @@ module Lifeforce
 
     def get_data(node, node_name, default="")
       data = default
-      temp = node.find(node_name)
-      data = temp[0].content if temp.size == 1
+      temp = node.at_xpath(node_name)
+      data = temp.content if temp
       data
     end
 
@@ -257,7 +261,7 @@ module Lifeforce
       resp = []
       begin
         resp = process_rss(url)
-         puts "#{__FILE__}:#{__LINE__} #{__method__} RESP: #{resp} - URL: #{url}"
+        puts "#{__FILE__}:#{__LINE__} #{__method__} RESP: #{resp} - URL: #{url}"
       rescue => e
         puts "#{__FILE__}:#{__LINE__} #{__method__} #{e} - #{e.backtrace}"
       end
@@ -278,6 +282,10 @@ module Lifeforce
       end
 
       msg
+    end
+
+    def eat_file(file_string)
+      itemize_rss(file_string)
     end
 
     def test_blip

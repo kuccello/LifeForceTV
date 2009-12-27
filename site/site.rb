@@ -71,14 +71,14 @@ class LifeForceSite < Sinatra::Base
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
     episode_id = params[:episode_url_id]
 
-    haml :show, :locals=>{:show=>show,:episode_id=>episode_id}
+    haml :show, :locals=>{:show=>show,:episode_id=>episode_id,:override_style=>"/css/shows/#{show.pid}.css"}
   end
 
   get '/:show_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
 
-    haml :show, :locals=>{:show=>show}
+    haml :show, :locals=>{:show=>show,:override_style=>"/css/shows/#{show.pid}.css"}
   end
 
 end

@@ -1,0 +1,18 @@
+#title.round
+  %h1
+    Ads
+  %span.right
+    These are the ads
+#content
+  #content-container
+    %a{:href=>to_path("/ad/new")}
+      Create New Ad
+    - ads.each do |ad|
+      %div.ad
+        %stong
+          = ad.title
+        %a{:href=>to_path("/ad/#{ad.pid}")}
+          [ EDIT THIS AD CODE ]
+        
+
+= sidebar

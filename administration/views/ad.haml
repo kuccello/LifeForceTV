@@ -1,0 +1,35 @@
+#title.round
+  %h1
+    = ad.title
+  %span.right
+    You may edit the ad here
+#content
+  #content-container
+
+    .box.round
+      = flash_message()
+
+      %form{ :method=>"post", :action=>"/admin/ad/#{ad.pid}" }
+
+
+        %h2
+          Details
+
+        %ul
+          %li
+            %label{:for=>"title"}
+              Title
+            %input.text.medium{:type=>"text",:name=>"title",:value=>ad.title}
+
+
+
+          %li
+            Body
+            %br
+            %textarea{:rows=>"10",:cols=>"50",:name=>"code"}
+              = ad.content
+
+          #curcon
+            = ad.content
+
+          %input{:type=>"submit", :value=>"Save"}

@@ -10,7 +10,7 @@ require ::File.join(::File.dirname(__FILE__), 'utils/string')
 $LIFEFORCE_INSTALLED = false
 $SITE_NAME = "LifeForceTV"
 $TRANSACTION_CONTEXT = "lifeforce"
-$LIFEFORCE_VERSION = "6.0"
+$LIFEFORCE_VERSION = "6.1"
 $lifeforce_configuration_setup_flag = true
 
 $LIFEFORCE_INSTALLED = ::File.exist?(::File.dirname(__FILE__)+"/installed.rb")

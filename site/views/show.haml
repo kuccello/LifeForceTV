@@ -2,9 +2,6 @@
 
 -# if show && show.poster
 -#  %img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show.name }
-%a.appear.show_details_link{:href=>show ? show.uri : '#' }
-  = show.name
-  Details
 
 - if show_episodes.size > 0
   #featured_home.clearfix
@@ -12,14 +9,31 @@
       -# %img#slider_main_img{ :src => "/scripts/timthumb.php?src=#{(show_episodes.size > 0 ? show_episodes[0].poster : '/images/img1.jpg')}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show_episodes[0].name }
       %img#slider_main_img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show.name }
       .post_info_holder.clearfix
-        .post_category
+
+        .appear{:style=>"float:left;"}
+          %a#slider_rating
+            &nbsp;
+
+        .post_category.appear
+          %a#slider_video{:href=>"#", :rel=>"shadowbox;width=715;height=435;player=swf"}
+          
+        .post_category.appear
+          %a#slider_img_tit.appear{ :href => "#" }
+
+        .post_category.appear
           %a#slider_img_desc{ :href => "#" }
-            = show.name
 
-        .disappear
-          = show.description
+        .post_name.appear
+          %a#slider_airdate
+            &nbsp;
+        .post_name.appear
+          %a#slider_description
+            &nbsp;
 
-        .post_name
+
+        
+
+        .post_name{:style=>"display:none;"}
           %a#slider_video{:rel=>"shadowbox;width=715;height=435;player=swf"}
             %script{:type=>"text/javascript"}
               $().ready(function(){
@@ -32,6 +46,16 @@
                 $().ready(function(){
                 //$("form:first").trigger("submit")
                 $("##{episode_id}").trigger("click");
+                setTimeout("$('#slider_video').trigger('click');",1000);
+
+                //Shadowbox.play();
+                });
+            - else
+              %script{:type=>"text/javascript"}
+                $().ready(function(){
+                //$("form:first").trigger("submit")
+                $($("#slider_ul > li")[0]).trigger("click");
+                //$("##{episode_id}").trigger("click");
                 });
 
         #post_details
@@ -56,10 +80,26 @@
                   \/
                 %a.slider_desc{ :href => "#" }
                   = episode.name
+
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
                 %a.slider_swf{ :href => episode.hd_swf_url, :rel=>"shadowbox;width=715;height=435;player=swf"}
                   \/ PLAY /
-            %li
+                %a.slider_airdate{ :href=> "#"}
+                  - ed = episode.released_date
+                  Air Date: 
+                  = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
+                %a.slider_description{ :href=>"#"}
+                  - ed = episode.description["long"]
+                  - if ed
+                    = ed.content
+                  - else
+                    No description
+                %a.slider_rating{:href=>""}
+                  - # content-rating
+                  - if episode.content_rating
+                    %img{:src=>"/images/tvratings/#{episode.content_rating}.gif",:width=>"60"}
+                  - else
+                    %img{:src=>"/images/tvratings/TV-G.gif",:width=>"60"}
 
           /
             END "slider_ul"  //
@@ -77,10 +117,106 @@
   /
     END "featured_home"  //
 
-  %div
-    RELATED SHOWS?
-  %div
-    External Links?
+  #message_buttons
+    .button1
+      %a
+        Info
+    .button2
+      %a
+        &nbsp;
+
+
+  #content_wrap
+    #inner_content
+
+
+      .entry
+
+        .title_holder
+          %h1
+            About
+            = show.name
+          %h3
+            Quick Facts
+            %span
+              quick 1      
+        /
+          END "title_holder"  //
+        .entry_content
+          %p
+            = show.description
+        /
+          END "entry_content"  //
+      /
+        END "entry"  //
+
+      .entry
+
+        .title_holder
+          %h1
+            Credits
+
+        /
+          END "title_holder"  //
+        .entry_content
+          CREDITS TO GO HERE
+
+        /
+          END "entry_content"  //
+      /
+        END "entry"  //
+
+      .entry
+
+        .title_holder
+          %h1
+            Gallery
+
+        /
+          END "title_holder"  //
+        .entry_content
+          GALLERY IMAGES?
+
+        /
+          END "entry_content"  //
+      /
+        END "entry"  //
+
+      .entry
+
+        .title_holder
+          %h1
+            Episode List By Name / Number
+
+        /
+          END "title_holder"  //
+        .entry_content
+          EPISODES
+
+        /
+          END "entry_content"  //
+      /
+        END "entry"  //
+
+
+    #sidebar_home
+      
+
+      .widget
+        %h3.widget_title
+          Generas
+        .widget_content
+          %ul
+            %li
+
+              %a{:href=>"#"}
+                Genera1
+            %li
+              %a{:href=>"#"}
+                Genera2
+            %li
+              %a{:href=>"#"}
+                Genera3
 
 - else
   Nothing here yet

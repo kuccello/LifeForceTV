@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Byte Club</title>
+<link>http://byteclub.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+	<itunes:image href="http://a.images.blip.tv/ByteClub-300x300_show_image665.jpg" />
+	<amp:logo>http://a.images.blip.tv/ByteClub-300x300_show_image665.jpg</amp:logo>
+
+
+
+
+
+
+<description>Byte Club</description>
+
+
+
+<itunes:author>Byte Club</itunes:author>
+<itunes:block>no</itunes:block>
+
+<itunes:category text="Technology" />
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Fri, 30 Jan 2009 14:01:12 +0000</lastBuildDate>
+<pubDate>Fri, 30 Jan 2009 14:01:12 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">738C60D2-EED6-11DD-8883-885BBF3DFC97</guid>
+  <link>http://blip.tv/file/1719576</link>
+  <title>Byte Club - Ep17 - Octopz</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1728174</blip:posts_id>
+  <blip:item_id>1719576</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-30T14:01:12Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>320</blip:runtime>
+  <blip:embedLookup>grA86b4SAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA86b4SAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1728174&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-ByteClubEp17Octopz463.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[www.byteclub.tv. This week we drop in on Octopz to find out about their online collaboration software, and their interesting approach to marketing.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-ByteClubEp17Octopz463-378.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA86b4SAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+www.byteclub.tv. This week we drop in on Octopz to find out about their online collaboration software, and their interesting approach to marketing.
+
+]]></description>
+  <comments>http://blip.tv/file/1719576</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>octopz</category>
+  <category>lifeforce</category>
+  <category>online</category>
+  <category>collaboration</category>
+  <category>3d</category>
+  <category>models</category>
+  <category>ron</category>
+  <category>mckenzie.</category>
+  <category>barry</category>
+  <category>fogarty</category>
+  <category>paul</category>
+  <category>nykamp</category>
+  <pubDate>Fri, 30 Jan 2009 14:01:12 +0000</pubDate>
+  <enclosure length="85547884" type="video/quicktime" url="http://blip.tv/file/get/ByteClub-ByteClubEp17Octopz539.mov"/>
+  <itunes:keywords>byteclub, byte, club, octopz, lifeforce, online, collaboration, 3d, models, ron, mckenzie., barry, fogarty, paul, nykamp</itunes:keywords>
+  <itunes:artwork>ByteClub-ByteClubEp17Octopz463.jpg</itunes:artwork>
+  <media:keywords>byteclub, byte, club, octopz, lifeforce, online, collaboration, 3d, models, ron, mckenzie., barry, fogarty, paul, nykamp</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="85547884" height="480" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/ByteClub-ByteClubEp17Octopz539.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="21690968" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-ByteClubEp17Octopz274.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1719576"><![CDATA[<embed src="http://blip.tv/play/grA86b4SAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Byte Club - Ep17 - Octopz</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-ByteClubEp17Octopz463.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">380347C2-E956-11DD-B9C7-ED23E3994AD8</guid>
+  <link>http://blip.tv/file/1695724</link>
+  <title>Byte Club - Ep16 - Marble Media</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1704311</blip:posts_id>
+  <blip:item_id>1695724</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-23T14:00:40Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>261</blip:runtime>
+  <blip:embedLookup>grA86INbAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA86INbAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1704311&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-ByteClubEp16MarbleMedia774.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[www.byteclub.tv. This week we visit content creation studio Marble Media to hear about their upcoming projects and recent successes in the video space.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-ByteClubEp16MarbleMedia774-703.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA86INbAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+www.byteclub.tv. This week we visit content creation studio Marble Media to hear about their upcoming projects and recent successes in the video space.
+
+]]></description>
+  <comments>http://blip.tv/file/1695724</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>marble</category>
+  <category>media</category>
+  <category>canadian</category>
+  <category>new</category>
+  <category>award</category>
+  <category>lifeforce</category>
+  <category>this</category>
+  <category>is</category>
+  <category>daniel</category>
+  <category>cook</category>
+  <category>emily</category>
+  <category>yeung</category>
+  <category>adrenaline</category>
+  <category>project</category>
+  <category>video</category>
+  <category>tv</category>
+  <category>production</category>
+  <category>company</category>
+  <category>mark</category>
+  <category>bishop</category>
+  <category>matt</category>
+  <category>hornburg</category>
+  <pubDate>Fri, 23 Jan 2009 14:00:40 +0000</pubDate>
+  <enclosure length="71283917" type="video/quicktime" url="http://blip.tv/file/get/ByteClub-ByteClubEp16MarbleMedia662.mov"/>
+  <itunes:keywords>byteclub, byte, club, marble, media, canadian, new, award, lifeforce, this, is, daniel, cook, emily, yeung, adrenaline, project, video, tv, production, company, mark, bishop, matt, hornburg</itunes:keywords>
+  <media:keywords>byteclub, byte, club, marble, media, canadian, new, award, lifeforce, this, is, daniel, cook, emily, yeung, adrenaline, project, video, tv, production, company, mark, bishop, matt, hornburg</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="71283917" height="480" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/ByteClub-ByteClubEp16MarbleMedia662.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="18207202" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-ByteClubEp16MarbleMedia473.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1695724"><![CDATA[<embed src="http://blip.tv/play/grA86INbAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Byte Club - Ep16 - Marble Media</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-ByteClubEp16MarbleMedia774.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">2F4A5C82-DEC1-11DD-89BE-DFD56B0808E0</guid>
+  <link>http://blip.tv/file/1654183</link>
+  <title>Ep17 - Octopz</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662724</blip:posts_id>
+  <blip:item_id>1654183</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-10T02:48:39Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>320</blip:runtime>
+  <blip:embedLookup>grA85b5oAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b5oAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662724&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep17Octopz267.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club visits Octopz to find out about their 3d modeling software and how they share it with companies around the world.www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep17Octopz267-344.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b5oAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>Byte Club visits Octopz to find out about their 3d modeling software and how they share it with companies around the world.</p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654183</comments>
+  <category>Technology</category>
+  <category>byte club</category>
+  <category>byte club</category>
+  <category>octopz</category>
+  <category>mars</category>
+  <category>incubation</category>
+  <category>technology</category>
+  <category>toronto</category>
+  <category>hi tech</category>
+  <category>company culture</category>
+  <category>lifeforce entertainment</category>
+  <category>cribs</category>
+  <category>internet</category>
+  <category>coding</category>
+  <category>rails</category>
+  <category>database</category>
+  <category>java</category>
+  <category>ruby</category>
+  <category>code</category>
+  <pubDate>Sat, 10 Jan 2009 02:48:39 +0000</pubDate>
+  <enclosure length="40463996" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep17Octopz602.flv"/>
+  <itunes:keywords>byte club, byte club, octopz, mars, incubation, technology, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</itunes:keywords>
+  <itunes:artwork>ByteClub-Ep17Octopz267.jpg</itunes:artwork>
+  <media:keywords>byte club, byte club, octopz, mars, incubation, technology, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="40463996" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep17Octopz602.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="68778004" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep17Octopz465.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654183"><![CDATA[<embed src="http://blip.tv/play/grA85b5oAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep17 - Octopz</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep17Octopz267.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">20BD7C82-DEBF-11DD-AEC0-F21780956F87</guid>
+  <link>http://blip.tv/file/1654154</link>
+  <title>Ep15 - C4Media</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662695</blip:posts_id>
+  <blip:item_id>1654154</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-10T02:33:56Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>189</blip:runtime>
+  <blip:embedLookup>grA85b5LAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b5LAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662695&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep16C4Media709.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week we visit C4Media to speak with the creators of the successful tech blog; InfoQ.www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep16C4Media709-344.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b5LAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week we visit C4Media to speak with the creators of the successful tech blog; InfoQ.</p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654154</comments>
+  <category>Technology</category>
+  <category>byte</category>
+  <category>byteclub</category>
+  <category>c4</category>
+  <category>c4media</category>
+  <category>club</category>
+  <category>development</category>
+  <category>infoq</category>
+  <category>java</category>
+  <category>lifeforce</category>
+  <category>media</category>
+  <category>net</category>
+  <category>qcon</category>
+  <category>ruby</category>
+  <category>soa</category>
+  <category>software</category>
+  <pubDate>Sat, 10 Jan 2009 02:33:56 +0000</pubDate>
+  <enclosure length="22812236" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep16C4Media127.flv"/>
+  <itunes:keywords>byte, byteclub, c4, c4media, club, development, infoq, java, lifeforce, media, net, qcon, ruby, soa, software</itunes:keywords>
+  <media:keywords>byte, byteclub, c4, c4media, club, development, infoq, java, lifeforce, media, net, qcon, ruby, soa, software</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="22812236" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep16C4Media127.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="39988914" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep16C4Media720.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654154"><![CDATA[<embed src="http://blip.tv/play/grA85b5LAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep15 - C4Media</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep16C4Media709.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">510BCA00-DEBB-11DD-9EC4-A3547AACDC68</guid>
+  <link>http://blip.tv/file/1654101</link>
+  <title>Ep16 - marblemedia</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662642</blip:posts_id>
+  <blip:item_id>1654101</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-10T02:06:39Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>261</blip:runtime>
+  <blip:embedLookup>grA85b4WAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b4WAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662642&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep16MarbleMedia156.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week Byte Club visits film and tv production company marblemedia to check out their production slate. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b4WAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week Byte Club visits film and tv production company marblemedia to check out their production slate. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654101</comments>
+  <category>Technology</category>
+  <category>byte club</category>
+  <category>byte club</category>
+  <category>technology</category>
+  <category>marble media</category>
+  <category>daniel cook</category>
+  <category>adrenaline project</category>
+  <category>toronto</category>
+  <category>hi tech</category>
+  <category>company culture</category>
+  <category>lifeforce entertainment</category>
+  <category>cribs</category>
+  <category>internet</category>
+  <category>coding</category>
+  <category>rails</category>
+  <category>database</category>
+  <category>java</category>
+  <category>ruby</category>
+  <category>code</category>
+  <pubDate>Sat, 10 Jan 2009 02:06:39 +0000</pubDate>
+  <enclosure length="32810180" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep16MarbleMedia166.flv"/>
+  <itunes:keywords>byte club, byte club, technology, marble media, daniel cook, adrenaline project, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</itunes:keywords>
+  <itunes:artwork>ByteClub-Ep16MarbleMedia156.jpg</itunes:artwork>
+  <media:keywords>byte club, byte club, technology, marble media, daniel cook, adrenaline project, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="32810180" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep16MarbleMedia166.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web" expression="full" fileSize="56257683" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep16MarbleMedia513.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654101"><![CDATA[<embed src="http://blip.tv/play/grA85b4WAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep16 - marblemedia</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep16MarbleMedia156.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">4610334A-DEC3-11DD-99D5-817F3DE847A9</guid>
+  <link>http://blip.tv/file/1654212</link>
+  <title>Ep14 - Learnhub</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662753</blip:posts_id>
+  <blip:item_id>1654212</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-08T03:03:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>299</blip:runtime>
+  <blip:embedLookup>grA85b8FAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b8FAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662753&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep14Learnhub273.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week Byte Club explores LearnHub and discovers new ways to learn traditional concepts in a collaborative online environment.www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep14Learnhub273-435.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b8FAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week Byte Club explores LearnHub and discovers new ways to learn traditional concepts in a collaborative online environment.</p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654212</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>learnhub</category>
+  <category>learn</category>
+  <category>hub</category>
+  <category>online</category>
+  <category>education</category>
+  <category>lifeforce</category>
+  <category>socia</category>
+  <category>learning</category>
+  <category>network</category>
+  <category>knowledge</category>
+  <category>school</category>
+  <category>byte club</category>
+  <category>byte club</category>
+  <category>technolody</category>
+  <category>toronto</category>
+  <category>hi tech</category>
+  <category>company culture</category>
+  <category>lifeforce entertainment</category>
+  <category>cribs</category>
+  <category>internet</category>
+  <category>coding</category>
+  <category>rails</category>
+  <category>database</category>
+  <category>java</category>
+  <category>ruby</category>
+  <category>code</category>
+  <pubDate>Thu, 08 Jan 2009 03:03:00 +0000</pubDate>
+  <enclosure length="36973312" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep14Learnhub958.flv"/>
+  <itunes:keywords>byteclub, byte, club, learnhub, learn, hub, online, education, lifeforce, socia, learning, network, knowledge, school, byte club, byte club, technolody, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</itunes:keywords>
+  <media:keywords>byteclub, byte, club, learnhub, learn, hub, online, education, lifeforce, socia, learning, network, knowledge, school, byte club, byte club, technolody, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="36973312" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep14Learnhub958.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="64305255" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep14Learnhub713.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654212"><![CDATA[<embed src="http://blip.tv/play/grA85b8FAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep14 - Learnhub</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep14Learnhub273.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">22722BD2-DEB9-11DD-8844-EA2DD03B8928</guid>
+  <link>http://blip.tv/file/1654065</link>
+  <title>Ep13 - Filemobile</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662606</blip:posts_id>
+  <blip:item_id>1654065</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-01-01T01:51:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>268</blip:runtime>
+  <blip:embedLookup>grA85b1yAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b1yAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662606&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep13Filemobile426.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week we visit Filemobile to learn about their award wining social media platform, Media Factory. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b1yAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+This week we visit Filemobile to learn about their award wining social media platform, Media Factory. www.lifeforcetv.com/byteclub
+
+]]></description>
+  <comments>http://blip.tv/file/1654065</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>filemobile</category>
+  <category>file</category>
+  <category>mobile</category>
+  <category>mediafactory</category>
+  <category>media</category>
+  <category>factory</category>
+  <category>social</category>
+  <category>network</category>
+  <category>lifeforce</category>
+  <category>profit</category>
+  <category>hot</category>
+  <category>50</category>
+  <category>ugc</category>
+  <category>user</category>
+  <category>generated</category>
+  <category>content</category>
+  <pubDate>Thu, 01 Jan 2009 01:51:00 +0000</pubDate>
+  <enclosure length="33026734" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep13Filemobile874.flv"/>
+  <itunes:keywords>byteclub, byte, club, filemobile, file, mobile, mediafactory, media, factory, social, network, lifeforce, profit, hot, 50, ugc, user, generated, content</itunes:keywords>
+  <media:keywords>byteclub, byte, club, filemobile, file, mobile, mediafactory, media, factory, social, network, lifeforce, profit, hot, 50, ugc, user, generated, content</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="33026734" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep13Filemobile874.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="57388748" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep13Filemobile339.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654065"><![CDATA[<embed src="http://blip.tv/play/grA85b1yAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep13 - Filemobile</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep13Filemobile426.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">A05721E2-DEC8-11DD-B041-E064DDB6640F</guid>
+  <link>http://blip.tv/file/1654256</link>
+  <title>Ep12 - Sericon Technology</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662797</blip:posts_id>
+  <blip:item_id>1654256</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-12-18T03:41:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>341</blip:runtime>
+  <blip:embedLookup>grA85b8xAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b8xAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662797&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep12SericonTechnology135.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week we drop in on Sericon Technologies to learn about web security and how their SSL technology helps keep the web safe. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep12SericonTechnology135-424.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b8xAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week we drop in on Sericon Technologies to learn about web security and how their SSL technology helps keep the web safe. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654256</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>sericon</category>
+  <category>technology</category>
+  <category>ssl</category>
+  <category>certificate</category>
+  <category>lifeforce</category>
+  <category>toronto</category>
+  <category>autossl</category>
+  <pubDate>Thu, 18 Dec 2008 03:41:00 +0000</pubDate>
+  <enclosure length="43131627" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep12SericonTechnology751.flv"/>
+  <itunes:keywords>byteclub, byte, club, sericon, technology, ssl, certificate, lifeforce, toronto, autossl</itunes:keywords>
+  <media:keywords>byteclub, byte, club, sericon, technology, ssl, certificate, lifeforce, toronto, autossl</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="43131627" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep12SericonTechnology751.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="73416946" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep12SericonTechnology733.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654256"><![CDATA[<embed src="http://blip.tv/play/grA85b8xAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep12 - Sericon Technology</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep12SericonTechnology135.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">5DCF482A-DEC5-11DD-9CDB-D281D7E6516E</guid>
+  <link>http://blip.tv/file/1654224</link>
+  <title>Ep11 - Refresh Partners</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662765</blip:posts_id>
+  <blip:item_id>1654224</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-12-11T03:18:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>252</blip:runtime>
+  <blip:embedLookup>grA85b8RAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b8RAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662765&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep11RefreshPartners814.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week we talk to Refresh Partners to learn about they build their popular Facebook applications. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep11RefreshPartners814-483.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b8RAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week we talk to Refresh Partners to learn about they build their popular Facebook applications. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654224</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>refresh</category>
+  <category>partners</category>
+  <category>facebook</category>
+  <category>application</category>
+  <category>boss</category>
+  <category>button</category>
+  <category>toronto</category>
+  <category>lifeforce</category>
+  <category>colin</category>
+  <category>smillie</category>
+  <pubDate>Thu, 11 Dec 2008 03:18:00 +0000</pubDate>
+  <enclosure length="31181675" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep11RefreshPartners570.flv"/>
+  <itunes:keywords>byteclub, byte, club, refresh, partners, facebook, application, boss, button, toronto, lifeforce, colin, smillie</itunes:keywords>
+  <media:keywords>byteclub, byte, club, refresh, partners, facebook, application, boss, button, toronto, lifeforce, colin, smillie</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="31181675" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep11RefreshPartners570.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="53865123" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep11RefreshPartners758.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654224"><![CDATA[<embed src="http://blip.tv/play/grA85b8RAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep11 - Refresh Partners</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep11RefreshPartners814.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">778957EE-DEBE-11DD-953D-DB929E57449E</guid>
+  <link>http://blip.tv/file/1654145</link>
+  <title>Ep10 - Clear Sky Media</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662686</blip:posts_id>
+  <blip:item_id>1654145</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-12-04T02:29:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>247</blip:runtime>
+  <blip:embedLookup>grA85b5CAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b5CAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662686&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep10ClearSkyMedia660.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week, Byte Club visits clearsky media to find out about their money saving web service, Red Flag Deals. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b5CAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week, Byte Club visits clearsky media to find out about their money saving web service, Red Flag Deals. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654145</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>clearsky</category>
+  <category>media</category>
+  <category>redflag</category>
+  <category>deals</category>
+  <category>redflagdeals.com</category>
+  <category>toronto</category>
+  <category>lifeforce</category>
+  <category>discounts</category>
+  <category>red</category>
+  <category>flag</category>
+  <pubDate>Thu, 04 Dec 2008 02:29:00 +0000</pubDate>
+  <enclosure length="30287859" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep10ClearSkyMedia172.flv"/>
+  <itunes:keywords>byteclub, byte, club, clearsky, media, redflag, deals, redflagdeals.com, toronto, lifeforce, discounts, red, flag</itunes:keywords>
+  <media:keywords>byteclub, byte, club, clearsky, media, redflag, deals, redflagdeals.com, toronto, lifeforce, discounts, red, flag</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="30287859" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep10ClearSkyMedia172.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="52426629" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep10ClearSkyMedia882.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654145"><![CDATA[<embed src="http://blip.tv/play/grA85b5CAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep10 - Clear Sky Media</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep10ClearSkyMedia660.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">741F204C-DEC4-11DD-A1EE-A423B0A5EF89</guid>
+  <link>http://blip.tv/file/1654220</link>
+  <title>Ep9 - Zerofootprint</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662761</blip:posts_id>
+  <blip:item_id>1654220</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-11-27T03:12:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>330</blip:runtime>
+  <blip:embedLookup>grA85b8NAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b8NAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662761&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep9Zerofootprint246.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week Byte Club talks to Zero Footprint about carbon offsetting and green technologies. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep9Zerofootprint246-609.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b8NAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week Byte Club talks to Zero Footprint about carbon offsetting and green technologies. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654220</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>ron</category>
+  <category>dembo</category>
+  <category>zero</category>
+  <category>footprint</category>
+  <category>green</category>
+  <category>energy</category>
+  <category>carbon</category>
+  <category>offset</category>
+  <category>jay</category>
+  <category>goldman</category>
+  <category>michael</category>
+  <category>glenn</category>
+  <category>caluculator</category>
+  <category>lifeforce</category>
+  <pubDate>Thu, 27 Nov 2008 03:12:00 +0000</pubDate>
+  <enclosure length="40697051" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep9Zerofootprint398.flv"/>
+  <itunes:keywords>byteclub, byte, club, ron, dembo, zero, footprint, green, energy, carbon, offset, jay, goldman, michael, glenn, caluculator, lifeforce</itunes:keywords>
+  <media:keywords>byteclub, byte, club, ron, dembo, zero, footprint, green, energy, carbon, offset, jay, goldman, michael, glenn, caluculator, lifeforce</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="40697051" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep9Zerofootprint398.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="70818721" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep9Zerofootprint971.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654220"><![CDATA[<embed src="http://blip.tv/play/grA85b8NAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep9 - Zerofootprint</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep9Zerofootprint246.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">7666F5C6-DEC6-11DD-BEA7-99494003B9D0</guid>
+  <link>http://blip.tv/file/1654236</link>
+  <title>Ep8 - Toronto Transit Commission</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662777</blip:posts_id>
+  <blip:item_id>1654236</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-11-20T03:26:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>297</blip:runtime>
+  <blip:embedLookup>grA85b8dAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b8dAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662777&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep8TorontoTransitCommission116.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[In this episode we speak with Adam Giambrone, chair of the TTC to learn about their green initiatives, and planned expansion. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep8TorontoTransitCommission116-308.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b8dAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>In this episode we speak with Adam Giambrone, chair of the TTC to learn about their green initiatives, and planned expansion. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654236</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>ttc</category>
+  <category>toronto</category>
+  <category>transit</category>
+  <category>commission</category>
+  <category>adam</category>
+  <category>giambrone</category>
+  <category>lifeforce</category>
+  <category>gardiner</category>
+  <category>subway</category>
+  <category>streetcar</category>
+  <category>bus</category>
+  <category>route</category>
+  <category>improvements</category>
+  <category>green</category>
+  <category>energy</category>
+  <pubDate>Thu, 20 Nov 2008 03:26:00 +0000</pubDate>
+  <enclosure length="37437512" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep8TorontoTransitCommission244.flv"/>
+  <itunes:keywords>byteclub, byte, club, ttc, toronto, transit, commission, adam, giambrone, lifeforce, gardiner, subway, streetcar, bus, route, improvements, green, energy</itunes:keywords>
+  <media:keywords>byteclub, byte, club, ttc, toronto, transit, commission, adam, giambrone, lifeforce, gardiner, subway, streetcar, bus, route, improvements, green, energy</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="37437512" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep8TorontoTransitCommission244.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="63947483" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep8TorontoTransitCommission616.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654236"><![CDATA[<embed src="http://blip.tv/play/grA85b8dAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep8 - Toronto Transit Commission</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep8TorontoTransitCommission116.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">915B3346-DEBD-11DD-AC3C-A3216F72060E</guid>
+  <link>http://blip.tv/file/1654131</link>
+  <title>Ep7 - University of Toronto</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662672</blip:posts_id>
+  <blip:item_id>1654131</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-11-20T02:22:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>284</blip:runtime>
+  <blip:embedLookup>grA85b40Ag</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b40Ag</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662672&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep7UniversityOfToronto833.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club visits the Computer Science department at the University of Toronto to find out what the students are working on. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b40Ag%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>Byte Club visits the Computer Science department at the University of Toronto to find out what the students are working on. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654131</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>university</category>
+  <category>toronto</category>
+  <category>computer</category>
+  <category>science</category>
+  <category>wii</category>
+  <category>greg</category>
+  <category>wilson</category>
+  <category>school</category>
+  <category>lifeforce</category>
+  <category>education</category>
+  <pubDate>Thu, 20 Nov 2008 02:22:00 +0000</pubDate>
+  <enclosure length="36276931" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep7UniversityOfToronto650.flv"/>
+  <itunes:keywords>byteclub, byte, club, university, toronto, computer, science, wii, greg, wilson, school, lifeforce, education</itunes:keywords>
+  <media:keywords>byteclub, byte, club, university, toronto, computer, science, wii, greg, wilson, school, lifeforce, education</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="36276931" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep7UniversityOfToronto650.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="61146991" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep7UniversityOfToronto353.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654131"><![CDATA[<embed src="http://blip.tv/play/grA85b40Ag%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep7 - University of Toronto</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep7UniversityOfToronto833.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">5E2B050A-DEC7-11DD-A9D9-B2E0CF9970A5</guid>
+  <link>http://blip.tv/file/1654244</link>
+  <title>Ep6 - Addrenaline Media</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662785</blip:posts_id>
+  <blip:item_id>1654244</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-11-13T03:32:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>251</blip:runtime>
+  <blip:embedLookup>grA85b8lAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b8lAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662785&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep6AddrenalineMedia101.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club visits web design firm Addrenaline Media to learn about 'lenses' and their design strategy. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep6AddrenalineMedia101-785.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b8lAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>Byte Club visits web design firm Addrenaline Media to learn about 'lenses' and their design strategy. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654244</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>addrenaline</category>
+  <category>media</category>
+  <category>lifeforce</category>
+  <category>entertainment</category>
+  <category>106</category>
+  <category>kyle</category>
+  <category>hosick</category>
+  <category>web</category>
+  <category>design</category>
+  <category>lens</category>
+  <category>kaite</category>
+  <category>bowes</category>
+  <category>application</category>
+  <category>development</category>
+  <pubDate>Thu, 13 Nov 2008 03:32:00 +0000</pubDate>
+  <enclosure length="30814399" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep6AddrenalineMedia541.flv"/>
+  <itunes:keywords>byteclub, byte, club, addrenaline, media, lifeforce, entertainment, 106, kyle, hosick, web, design, lens, kaite, bowes, application, development</itunes:keywords>
+  <media:keywords>byteclub, byte, club, addrenaline, media, lifeforce, entertainment, 106, kyle, hosick, web, design, lens, kaite, bowes, application, development</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="30814399" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep6AddrenalineMedia541.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="53907748" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep6AddrenalineMedia156.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654244"><![CDATA[<embed src="http://blip.tv/play/grA85b8lAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep6 - Addrenaline Media</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep6AddrenalineMedia101.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">5A7C33FA-DEBA-11DD-A36E-F5CB3D5D057F</guid>
+  <link>http://blip.tv/file/1654077</link>
+  <title>Ep5 - Devlin</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662618</blip:posts_id>
+  <blip:item_id>1654077</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-11-06T01:59:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>338</blip:runtime>
+  <blip:embedLookup>grA85b1+Ag</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b1+Ag</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662618&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep5Devlin459.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club visits Devlin eBusiness Architects to discover meet their web development team and learn about how they use video conferencing to bridge the distance gap. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b1%2BAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Byte Club visits Devlin eBusiness Architects to discover meet their web development team and learn about how they use video conferencing to bridge the distance gap. www.lifeforcetv.com/byteclub
+
+]]></description>
+  <comments>http://blip.tv/file/1654077</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>devlin</category>
+  <category>ebusiness</category>
+  <category>toronto</category>
+  <category>tech</category>
+  <category>catharine</category>
+  <category>lifeforce</category>
+  <category>web</category>
+  <category>development</category>
+  <category>www</category>
+  <category>world</category>
+  <category>wide</category>
+  <pubDate>Thu, 06 Nov 2008 01:59:00 +0000</pubDate>
+  <enclosure length="41620968" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep5Devlin648.flv"/>
+  <itunes:keywords>byteclub, byte, club, devlin, ebusiness, toronto, tech, catharine, lifeforce, web, development, www, world, wide</itunes:keywords>
+  <media:keywords>byteclub, byte, club, devlin, ebusiness, toronto, tech, catharine, lifeforce, web, development, www, world, wide</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="41620968" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep5Devlin648.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Source" expression="full" fileSize="72740458" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep5Devlin117.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654077"><![CDATA[<embed src="http://blip.tv/play/grA85b1%2BAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep5 - Devlin</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep5Devlin459.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">FF8AF340-DEBF-11DD-B588-DA36A84810D7</guid>
+  <link>http://blip.tv/file/1654165</link>
+  <title>Ep4 - Democamp 18</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662706</blip:posts_id>
+  <blip:item_id>1654165</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-10-30T01:40:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>240</blip:runtime>
+  <blip:embedLookup>grA85b5WAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b5WAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662706&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep4Democamp18520.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club drops in on Democamp 18 to meet the movers and shakers of the Toronto tech scene. .www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep4Democamp18520-105.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b5WAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>Byte Club drops in on Democamp 18 to meet the movers and shakers of the Toronto tech scene. .</p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654165</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>democamp</category>
+  <category>18</category>
+  <category>toronto</category>
+  <category>tech</category>
+  <category>joey</category>
+  <category>devilla</category>
+  <category>david</category>
+  <category>crowe</category>
+  <category>jay</category>
+  <category>goldman</category>
+  <category>kristan</category>
+  <category>uccello</category>
+  <category>krispy</category>
+  <category>lifeforce</category>
+  <category>demos</category>
+  <pubDate>Thu, 30 Oct 2008 01:40:00 +0000</pubDate>
+  <enclosure length="29732372" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep4Democamp18903.flv"/>
+  <itunes:keywords>byteclub, byte, club, democamp, 18, toronto, tech, joey, devilla, david, crowe, jay, goldman, kristan, uccello, krispy, lifeforce, demos</itunes:keywords>
+  <media:keywords>byteclub, byte, club, democamp, 18, toronto, tech, joey, devilla, david, crowe, jay, goldman, kristan, uccello, krispy, lifeforce, demos</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="29732372" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep4Democamp18903.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="51416871" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep4Democamp18896.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654165"><![CDATA[<embed src="http://blip.tv/play/grA85b5WAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep4 - Democamp 18</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep4Democamp18520.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">7D9E8D22-DEBC-11DD-B9B0-FFBFCA72C72F</guid>
+  <link>http://blip.tv/file/1654117</link>
+  <title>Ep3 - Ruby Fringe</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662658</blip:posts_id>
+  <blip:item_id>1654117</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-10-25T01:15:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>329</blip:runtime>
+  <blip:embedLookup>grA85b4mAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b4mAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662658&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep3RailsConference779.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club drops in on Ruby Fringe to explore one of the hottest tech conferences of the year. www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep3RailsConference779-399.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b4mAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>Byte Club drops in on Ruby Fringe to explore one of the hottest tech conferences of the year. </p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654117</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>unspace</category>
+  <category>ruby</category>
+  <category>on</category>
+  <category>rails</category>
+  <category>tech</category>
+  <category>company</category>
+  <category>toronto</category>
+  <category>pete</category>
+  <category>forde</category>
+  <category>lifeforce</category>
+  <category>entertainment</category>
+  <category>conference</category>
+  <category>zed</category>
+  <category>shaw</category>
+  <category>development</category>
+  <category>hampton</category>
+  <pubDate>Sat, 25 Oct 2008 01:15:00 +0000</pubDate>
+  <enclosure length="40147667" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep3RailsConference995.flv"/>
+  <itunes:keywords>byteclub, byte, club, unspace, ruby, on, rails, tech, company, toronto, pete, forde, lifeforce, entertainment, conference, zed, shaw, development, hampton</itunes:keywords>
+  <media:keywords>byteclub, byte, club, unspace, ruby, on, rails, tech, company, toronto, pete, forde, lifeforce, entertainment, conference, zed, shaw, development, hampton</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="40147667" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep3RailsConference995.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="70594611" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep3RailsConference382.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654117"><![CDATA[<embed src="http://blip.tv/play/grA85b4mAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep3 - Ruby Fringe</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep3RailsConference779.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">2EA973DE-DEC2-11DD-834C-8CE1D3A552E4</guid>
+  <link>http://blip.tv/file/1654197</link>
+  <title>Ep2 - Unspace</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1662738</blip:posts_id>
+  <blip:item_id>1654197</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-10-24T01:55:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>275</blip:runtime>
+  <blip:embedLookup>grA85b52Ag</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85b52Ag</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1662738&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep2Unspace849.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[This week we visit Unspace to find out what's new in their web development strategy.www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/ByteClub-Ep2Unspace849-398.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85b52Ag%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>This week we visit Unspace to find out what's new in their web development strategy.</p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1654197</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>unspace</category>
+  <category>ruby</category>
+  <category>on</category>
+  <category>rails</category>
+  <category>tech</category>
+  <category>company</category>
+  <category>toronto</category>
+  <category>pete</category>
+  <category>forde</category>
+  <category>lifeforce</category>
+  <category>entertainment</category>
+  <category>development</category>
+  <category>hampton</category>
+  <category>byte club</category>
+  <category>byte club</category>
+  <category>technolody</category>
+  <category>toronto</category>
+  <category>hi tech</category>
+  <category>company culture</category>
+  <category>lifeforce entertainment</category>
+  <category>cribs</category>
+  <category>internet</category>
+  <category>coding</category>
+  <category>rails</category>
+  <category>database</category>
+  <category>java</category>
+  <category>ruby</category>
+  <category>code</category>
+  <pubDate>Fri, 24 Oct 2008 01:55:00 +0000</pubDate>
+  <enclosure length="34067586" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep2Unspace115.flv"/>
+  <itunes:keywords>byteclub, byte, club, unspace, ruby, on, rails, tech, company, toronto, pete, forde, lifeforce, entertainment, development, hampton, byte club, byte club, technolody, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</itunes:keywords>
+  <media:keywords>byteclub, byte, club, unspace, ruby, on, rails, tech, company, toronto, pete, forde, lifeforce, entertainment, development, hampton, byte club, byte club, technolody, toronto, hi tech, company culture, lifeforce entertainment, cribs, internet, coding, rails, database, java, ruby, code</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="34067586" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep2Unspace115.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:role="Web High Resolution" expression="full" fileSize="59024650" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep2Unspace500.mp4"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1654197"><![CDATA[<embed src="http://blip.tv/play/grA85b52Ag%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep2 - Unspace</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep2Unspace849.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">5D93B0EE-DE98-11DD-AF89-F55CD301D3CD</guid>
+  <link>http://blip.tv/file/1653401</link>
+  <title>Ep1 - b5media</title>
+  <blip:user>ByteClub</blip:user>
+  <blip:userid>267372</blip:userid>
+  <blip:safeusername>byteclub</blip:safeusername>
+  <blip:show>Byte Club</blip:show>
+  <blip:showpage>http://byteclub.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1661940</blip:posts_id>
+  <blip:item_id>1653401</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-G</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2008-10-17T20:56:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Technology</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>1</blip:recommendable>
+  <blip:core>1</blip:core>
+  <blip:adminRating>1</blip:adminRating>
+  <blip:runtime>266</blip:runtime>
+  <blip:embedLookup>grA85bhYAg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/grA85bhYAg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1661940&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>ByteClub-Ep1B5media181.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Byte Club visits blogging company B5media to explore their company culture, and business strategy.www.lifeforcetv.com/byteclub]]></blip:puredescription>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/grA85bhYAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p>Byte Club visits blogging company B5media to explore their company culture, and business strategy.</p><p>www.lifeforcetv.com/byteclub</p>
+
+]]></description>
+  <comments>http://blip.tv/file/1653401</comments>
+  <category>Technology</category>
+  <category>byteclub</category>
+  <category>byte</category>
+  <category>club</category>
+  <category>b5media</category>
+  <category>b5</category>
+  <category>media</category>
+  <category>blogger.</category>
+  <category>tech</category>
+  <category>company</category>
+  <category>toronto</category>
+  <category>jeremy</category>
+  <category>wright</category>
+  <category>lifeforce</category>
+  <category>entertainment</category>
+  <category>blogs</category>
+  <category>network</category>
+  <category>joey</category>
+  <category>de</category>
+  <category>villa</category>
+  <category>accordion</category>
+  <pubDate>Fri, 17 Oct 2008 20:56:00 +0000</pubDate>
+  <enclosure length="31135326" type="video/flv" url="http://blip.tv/file/get/ByteClub-Ep1B5media256.flv"/>
+  <itunes:keywords>byteclub, byte, club, b5media, b5, media, blogger., tech, company, toronto, jeremy, wright, lifeforce, entertainment, blogs, network, joey, de, villa, accordion</itunes:keywords>
+  <media:keywords>byteclub, byte, club, b5media, b5, media, blogger., tech, company, toronto, jeremy, wright, lifeforce, entertainment, blogs, network, joey, de, villa, accordion</media:keywords>
+  <media:group>
+    <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffvp6f" expression="full" fileSize="31135326" height="360" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/ByteClub-Ep1B5media256.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="google" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="googlebranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="10" exc="0" position="postroll" pro="1.0" provider="google" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="googlebranded" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:acodec="faad" blip:role="Web High Resolution" blip:vcodec="ffh264" expression="full" fileSize="53774407" height="450" isDefault="false" type="video/mp4" url="http://blip.tv/file/get/ByteClub-Ep1B5media416.mp4" width="800"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" expression="full" fileSize="2993487" isDefault="false" type="audio/mpeg" url="http://blip.tv/file/get/ByteClub-Ep1B5media209.mp3"></media:content>
+    <media:content blip:role="web" expression="full" fileSize="2993487" height="360" isDefault="false" type="audio/mpeg" url="http://blip.tv/file/get/ByteClub-Ep1B5media709.mp3" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1653401"><![CDATA[<embed src="http://blip.tv/play/grA85bhYAg%2Em4v" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep1 - b5media</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/ByteClub-Ep1B5media181.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>

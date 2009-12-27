@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Radio Free Krakow</title>
+<link>http://lftvradioefreekrakow.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<description>Radio Free Krakow</description>
+
+
+<itunes:block>no</itunes:block>
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Thu, 03 Dec 2009 15:51:31 +0000</lastBuildDate>
+<pubDate>Thu, 03 Dec 2009 15:51:31 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">BA262A7A-E023-11DE-A9AA-E75A07484247</guid>
+  <link>http://blip.tv/file/2925999</link>
+  <title>Ep 7 - Are We On? (Part II)</title>
+  <blip:user>lftvradioefreekrakow</blip:user>
+  <blip:userid>444900</blip:userid>
+  <blip:safeusername>rfk</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://rfk.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2945739</blip:posts_id>
+  <blip:item_id>2925999</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-12-03T15:51:31Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>96</blip:runtime>
+  <blip:embedLookup>AYGz5i8C</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGz5i8C</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2945739&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Lftvradioefreekrakow-Ep7AreWeOnPartII378.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Now in real-time, we see the aftermath of Sol's pirate video broadcast from episode 1.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Lftvradioefreekrakow-Ep7AreWeOnPartII378-865.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGz5i8C" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<span>Now in real-time, we see the aftermath of Sol's pirate video broadcast from episode 1.</span>
+
+]]></description>
+  <comments>http://blip.tv/file/2925999</comments>
+  <category>Art</category>
+  <category>radio free krakow</category>
+  <category>rfk</category>
+  <category>resistance</category>
+  <category>digital</category>
+  <category>new media</category>
+  <category>interactive</category>
+  <category>if</category>
+  <category>immersive</category>
+  <category>hacker</category>
+  <category>cracker</category>
+  <category>rv</category>
+  <category>pirate</category>
+  <category>piracy</category>
+  <category>broadcast</category>
+  <category>van eck phreaking</category>
+  <category>surveillance</category>
+  <category>hard drive</category>
+  <category>webcam</category>
+  <category>podcast</category>
+  <category>vlog</category>
+  <category>video blog</category>
+  <category>danger</category>
+  <category>peril</category>
+  <category>off-grid</category>
+  <category>analogue</category>
+  <category>analog</category>
+  <category>flashbang</category>
+  <category>grenade</category>
+  <category>suv</category>
+  <category>para</category>
+  <pubDate>Thu, 03 Dec 2009 15:51:31 +0000</pubDate>
+  <enclosure length="24241087" type="video/quicktime" url="http://blip.tv/file/get/Lftvradioefreekrakow-Ep7AreWeOnPartII977.mov"/>
+  <itunes:keywords>radio free krakow, rfk, resistance, digital, new media, interactive, if, immersive, hacker, cracker, rv, pirate, piracy, broadcast, van eck phreaking, surveillance, hard drive, webcam, podcast, vlog, video blog, danger, peril, off-grid, analogue, analog, flashbang, grenade, suv, para</itunes:keywords>
+  <itunes:artwork>Lftvradioefreekrakow-Ep7AreWeOnPartII378.jpg</itunes:artwork>
+  <media:keywords>radio free krakow, rfk, resistance, digital, new media, interactive, if, immersive, hacker, cracker, rv, pirate, piracy, broadcast, van eck phreaking, surveillance, hard drive, webcam, podcast, vlog, video blog, danger, peril, off-grid, analogue, analog, flashbang, grenade, suv, para</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="24241087" height="450" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/Lftvradioefreekrakow-Ep7AreWeOnPartII977.mov" width="800"></media:content>
+    <media:content blip:acodec="mp3" blip:role="Web" blip:vcodec="ffvp6f" expression="full" fileSize="6223139" height="450" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/Lftvradioefreekrakow-Ep7AreWeOnPartII892.flv" width="800"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2925999"><![CDATA[<embed src="http://blip.tv/play/AYGz5i8C" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 7 - Are We On? (Part II)</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Lftvradioefreekrakow-Ep7AreWeOnPartII378.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">764D1A46-B9A6-11DE-A2FB-83AE6158203D</guid>
+  <link>http://blip.tv/file/2724678</link>
+  <title>Radio Free Krakow - EP 006</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2744562</blip:posts_id>
+  <blip:item_id>2724678</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-10-15T16:19:06Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>296</blip:runtime>
+  <blip:embedLookup>AYGnwlYC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGnwlYC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2744562&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-RadioFreeKrakowEP006455.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA["Where Do You Keep the Guns?" In need of direction, Sol turns to his friend Gaetz and finds that Gaetz is lost for reasons of his own.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP006455-567.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGnwlYC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+"Where Do You Keep the Guns?" In need of direction, Sol turns to his friend Gaetz and finds that Gaetz is lost for reasons of his own.
+
+]]></description>
+  <comments>http://blip.tv/file/2724678</comments>
+  <category>Movies and Television</category>
+  <category>thriller</category>
+  <category>conspiracy</category>
+  <category>radio</category>
+  <category>free</category>
+  <category>krakow</category>
+  <category>winnipeg</category>
+  <category>canada</category>
+  <pubDate>Thu, 15 Oct 2009 16:19:06 +0000</pubDate>
+  <enclosure length="71839826" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP006222.mov"/>
+  <itunes:keywords>thriller, conspiracy, radio, free, krakow, winnipeg, canada</itunes:keywords>
+  <itunes:artwork>RogueNationStudios-RadioFreeKrakowEP006455.jpg</itunes:artwork>
+  <media:keywords>thriller, conspiracy, radio, free, krakow, winnipeg, canada</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="71839826" height="450" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP006222.mov" width="800"></media:content>
+    <media:content blip:acodec="mp3" blip:role="Web" blip:vcodec="ffvp6f" expression="full" fileSize="18979914" height="450" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP006118.flv" width="800">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2724678"><![CDATA[<embed src="http://blip.tv/play/AYGnwlYC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Radio Free Krakow - EP 006</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP006455.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">D964A0DE-ADE1-11DE-B907-8C962A1ED2FF</guid>
+  <link>http://blip.tv/file/2663904</link>
+  <title>The enemy is near...</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2683798</blip:posts_id>
+  <blip:item_id>2663904</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-09-30T16:53:59Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>18</blip:runtime>
+  <blip:embedLookup>AYGj53oC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGj53oC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2683798&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-TheEnemyIsNear136.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[A message to my people. This had to come through many hands to get to you. Thank you, Mr. Beast, thank you sir. Join the fight at www.radiofreekrakow.net]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/RogueNationStudios-TheEnemyIsNear136-55.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGj53oC" type="application/x-shockwave-flash" width="480" height="389" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+A message to my people. This had to come through many hands to get to you. Thank you, Mr. Beast, thank you sir. Join the fight at www.radiofreekrakow.net
+
+]]></description>
+  <comments>http://blip.tv/file/2663904</comments>
+  <category>Movies and Television</category>
+  <category>thriller</category>
+  <category>conspiracy</category>
+  <category>krakow</category>
+  <category>winnipeg</category>
+  <category>canada</category>
+  <category>web</category>
+  <category>series</category>
+  <category>webisode</category>
+  <pubDate>Wed, 30 Sep 2009 16:53:59 +0000</pubDate>
+  <enclosure length="12694144" type="video/msvideo" url="http://blip.tv/file/get/RogueNationStudios-TheEnemyIsNear461.AVI"/>
+  <itunes:keywords>thriller, conspiracy, krakow, winnipeg, canada, web, series, webisode</itunes:keywords>
+  <itunes:artwork>RogueNationStudios-TheEnemyIsNear136.jpg</itunes:artwork>
+  <media:keywords>thriller, conspiracy, krakow, winnipeg, canada, web, series, webisode</media:keywords>
+  <media:group>
+    <media:content blip:acodec="pcm" blip:role="Source" blip:vcodec="ffmjpeg" expression="full" fileSize="12694144" height="479" isDefault="true" type="video/msvideo" url="http://blip.tv/file/get/RogueNationStudios-TheEnemyIsNear461.AVI" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="Web" blip:vcodec="ffvp6f" expression="full" fileSize="1112254" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-TheEnemyIsNear448.flv" width="640">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2663904"><![CDATA[<embed src="http://blip.tv/play/AYGj53oC" type="application/x-shockwave-flash" width="480" height="389" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>The enemy is near...</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/RogueNationStudios-TheEnemyIsNear136.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">ADA51780-A21A-11DE-8DD8-ED81D2234331</guid>
+  <link>http://blip.tv/file/2605743</link>
+  <title>Radio Free Krakow - EP005</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2625694</blip:posts_id>
+  <blip:item_id>2605743</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-09-15T17:10:33Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>212</blip:runtime>
+  <blip:embedLookup>AYGgogIC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGgogIC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2625694&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-RadioFreeKrakowEP005763.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA["Two Dozen Politicos" The stolen hard drive is almost completely decrypted when Viola puts two and two together just a fraction too late.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP005763-170.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGgogIC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+"Two Dozen Politicos" The stolen hard drive is almost completely decrypted when Viola puts two and two together just a fraction too late.
+
+]]></description>
+  <comments>http://blip.tv/file/2605743</comments>
+  <category>Movies and Television</category>
+  <category>radio</category>
+  <category>free</category>
+  <category>krakow</category>
+  <category>conspiracy</category>
+  <category>thriller</category>
+  <category>web</category>
+  <category>series</category>
+  <category>winnipeg</category>
+  <category>canada</category>
+  <category>vancouver</category>
+  <category>hard</category>
+  <category>drive</category>
+  <category>decrypt</category>
+  <category>encrypt</category>
+  <category>cracked</category>
+  <category>hacker</category>
+  <category>hack</category>
+  <pubDate>Tue, 15 Sep 2009 17:10:33 +0000</pubDate>
+  <enclosure length="51003278" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP005303.mov"/>
+  <itunes:keywords>radio, free, krakow, conspiracy, thriller, web, series, winnipeg, canada, vancouver, hard, drive, decrypt, encrypt, cracked, hacker, hack</itunes:keywords>
+  <itunes:artwork>RogueNationStudios-RadioFreeKrakowEP005763.jpg</itunes:artwork>
+  <media:keywords>radio, free, krakow, conspiracy, thriller, web, series, winnipeg, canada, vancouver, hard, drive, decrypt, encrypt, cracked, hacker, hack</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="51003278" height="450" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP005303.mov" width="800"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="14033955" height="450" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP005296.flv" width="800">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2605743"><![CDATA[<embed src="http://blip.tv/play/AYGgogIC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Radio Free Krakow - EP005</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP005763.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">B7E77E46-875C-11DE-B87D-DC26ACCE8955</guid>
+  <link>http://blip.tv/file/2466800</link>
+  <title>Radio Free Krakow - EP004</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2486814</blip:posts_id>
+  <blip:item_id>2466800</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-08-12T16:25:15Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>216</blip:runtime>
+  <blip:embedLookup>AYGX5QIC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGX5QIC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2486814&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-RadioFreeKrakowEP004242.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA["Don't Ever Apologize!" Jena sets up and eavesdrops on a meeting for the powers behind the throne and finds she's on the wrong end of a camera.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP004242-872.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGX5QIC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+"Don't Ever Apologize!" Jena sets up and eavesdrops on a meeting for the powers behind the throne and finds she's on the wrong end of a camera.
+
+]]></description>
+  <comments>http://blip.tv/file/2466800</comments>
+  <category>Movies and Television</category>
+  <category>conspiracy</category>
+  <category>radio</category>
+  <category>free</category>
+  <category>krakow</category>
+  <category>thriller</category>
+  <category>series</category>
+  <category>lifeforce</category>
+  <pubDate>Wed, 12 Aug 2009 16:25:15 +0000</pubDate>
+  <enclosure length="49518551" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP004661.mov"/>
+  <itunes:keywords>conspiracy, radio, free, krakow, thriller, series, lifeforce</itunes:keywords>
+  <media:keywords>conspiracy, radio, free, krakow, thriller, series, lifeforce</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="49518551" height="450" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP004661.mov" width="800"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="13746638" height="450" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP004285.flv" width="800">
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2466800"><![CDATA[<embed src="http://blip.tv/play/AYGX5QIC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Radio Free Krakow - EP004</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP004242.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">EEE1AB04-626F-11DE-95E4-97BB99F94C94</guid>
+  <link>http://blip.tv/file/2288927</link>
+  <title>Radio Free Krakow - EP003</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2303388</blip:posts_id>
+  <blip:item_id>2288927</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-26T16:39:35Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>272</blip:runtime>
+  <blip:embedLookup>AYGMzACXmmg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGMzACXmmg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2303388&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-RadioFreeKrakowEP003650.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Sol's latest web rant is an ongoing last will & testament.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP003650-892.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGMzACXmmg" type="application/x-shockwave-flash" width="800" height="480" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Sol's latest web rant is an ongoing last will & testament.
+
+]]></description>
+  <comments>http://blip.tv/file/2288927</comments>
+  <category>Movies and Television</category>
+  <category>conspiracy</category>
+  <category>net</category>
+  <category>neutrality</category>
+  <category>radio</category>
+  <category>free</category>
+  <category>krakow</category>
+  <category>rogue</category>
+  <category>nation</category>
+  <category>fitzgerald</category>
+  <category>puolitaipale</category>
+  <category>winnipeg</category>
+  <pubDate>Fri, 26 Jun 2009 16:39:35 +0000</pubDate>
+  <enclosure length="63561345" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP003767.mov"/>
+  <itunes:keywords>conspiracy, net, neutrality, radio, free, krakow, rogue, nation, fitzgerald, puolitaipale, winnipeg</itunes:keywords>
+  <media:keywords>conspiracy, net, neutrality, radio, free, krakow, rogue, nation, fitzgerald, puolitaipale, winnipeg</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="63561345" height="450" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP003767.mov" width="800">
+      <mediaad:content duration="5" exc="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" position="preroll" pro="1.0" provider="doubleclick" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content bottom="0" duration="20" exc="0" left="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;n=1;sz=540x350;ord=" position="overlay" pro="1.0" provider="doubleclick" start="10" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;n=1;sz=540x350;ord=" was_blend="1" wgt="1.0" width="100%"/>
+      <mediaad:content duration="20" exc="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" position="postroll" pro="1.0" provider="doubleclick" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="18234067" height="450" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP003498.flv" width="800">
+      <mediaad:content duration="5" exc="0" position="preroll" pro="1.0" provider="doubleclick" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content bottom="0" duration="20" exc="0" left="0" position="overlay" pro="1.0" provider="doubleclick" start="5" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;sz=540x350;ord=" was_blend="1" wgt="1.0" width="100%"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="20" exc="0" position="postroll" pro="1.0" provider="doubleclick" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2288927"><![CDATA[<embed src="http://blip.tv/play/AYGMzACXmmg" type="application/x-shockwave-flash" width="800" height="480" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Radio Free Krakow - EP003</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/RogueNationStudios-RadioFreeKrakowEP003650.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">9D8AA9B2-53C5-11DE-8DA3-F47CDE4D0CB9</guid>
+  <link>http://blip.tv/file/2212517</link>
+  <title>Radio Free KRakow - EP002</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2223418</blip:posts_id>
+  <blip:item_id>2212517</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-06-08T00:45:08Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>171</blip:runtime>
+  <blip:embedLookup>AYGH2x6Xmmg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGH2x6Xmmg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2223418&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-RadioFreeKRakowEP002296-363.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Knock-Knock Trini arranges a rendez-vous with a man who has has more to lose than he realizes. (Check out EP001 for the lead up to this episode.)]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/RogueNationStudios-RadioFreeKRakowEP002296-363-939.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGH2x6Xmmg" type="application/x-shockwave-flash" width="460" height="336" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Knock-Knock Trini arranges a rendez-vous with a man who has has more to lose than he realizes. (Check out EP001 for the lead up to this episode.)
+
+]]></description>
+  <comments>http://blip.tv/file/2212517</comments>
+  <category>Movies and Television</category>
+  <category>radio</category>
+  <category>free</category>
+  <category>krakow</category>
+  <category>rogue</category>
+  <category>nation</category>
+  <category>digital</category>
+  <category>anarchy</category>
+  <category>privacy</category>
+  <category>security</category>
+  <category>brad</category>
+  <category>pitt</category>
+  <category>george</category>
+  <category>clooney</category>
+  <category>britney</category>
+  <category>spears</category>
+  <category>thriller</category>
+  <category>alternate</category>
+  <category>reality</category>
+  <category>game</category>
+  <category>canada</category>
+  <category>winnipeg</category>
+  <pubDate>Mon, 08 Jun 2009 00:45:08 +0000</pubDate>
+  <enclosure length="26355761" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKRakowEP002296.mov"/>
+  <itunes:keywords>radio, free, krakow, rogue, nation, digital, anarchy, privacy, security, brad, pitt, george, clooney, britney, spears, thriller, alternate, reality, game, canada, winnipeg</itunes:keywords>
+  <media:keywords>radio, free, krakow, rogue, nation, digital, anarchy, privacy, security, brad, pitt, george, clooney, britney, spears, thriller, alternate, reality, game, canada, winnipeg</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="26355761" height="306" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKRakowEP002296.mov" width="460">
+      <mediaad:content duration="5" exc="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" position="preroll" pro="1.0" provider="doubleclick" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content bottom="0" duration="20" exc="0" left="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;n=1;sz=540x350;ord=" position="overlay" pro="1.0" provider="doubleclick" start="10" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;n=1;sz=540x350;ord=" was_blend="1" wgt="1.0" width="100%"/>
+      <mediaad:content duration="20" exc="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" position="postroll" pro="1.0" provider="doubleclick" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="11790799" height="306" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKRakowEP002406.flv" width="460">
+      <mediaad:content duration="5" exc="0" position="preroll" pro="1.0" provider="doubleclick" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content bottom="0" duration="20" exc="0" left="0" position="overlay" pro="1.0" provider="doubleclick" start="5" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;sz=540x350;ord=" was_blend="1" wgt="1.0" width="100%"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="20" exc="0" position="postroll" pro="1.0" provider="doubleclick" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2212517"><![CDATA[<embed src="http://blip.tv/play/AYGH2x6Xmmg" type="application/x-shockwave-flash" width="460" height="336" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Radio Free KRakow - EP002</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/RogueNationStudios-RadioFreeKRakowEP002296-363.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">8924D422-481A-11DE-A413-CDC8A4849F65</guid>
+  <link>http://blip.tv/file/2152147</link>
+  <title>Radio Free Krakow - EP001</title>
+  <blip:user>RogueNationStudios</blip:user>
+  <blip:userid>380164</blip:userid>
+  <blip:safeusername>radiofreekrakow</blip:safeusername>
+  <blip:show>Radio Free Krakow</blip:show>
+  <blip:showpage>http://radiofreekrakow.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2162828</blip:posts_id>
+  <blip:item_id>2152147</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-05-24T04:22:47Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>163</blip:runtime>
+  <blip:embedLookup>AYGEgXCXmmg</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGEgXCXmmg</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2162828&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>RogueNationStudios-RadioFreeKrakowEP001553-164.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA["Are We On?" Sol is a spider in a web of digital anarchy. Two months from now, his private video broadcast is violently interrupted.]]></blip:puredescription>
+  <blip:smallThumbnail>http://e.static.blip.tv/RogueNationStudios-RadioFreeKrakowEP001553-164-50.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGEgXCXmmg" type="application/x-shockwave-flash" width="320" height="210" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+"Are We On?" Sol is a spider in a web of digital anarchy. Two months from now, his private video broadcast is violently interrupted.
+
+]]></description>
+  <comments>http://blip.tv/file/2152147</comments>
+  <category>Movies and Television</category>
+  <category>conspiracy</category>
+  <category>thriller</category>
+  <category>webisode</category>
+  <category>anarchy</category>
+  <category>digital</category>
+  <category>revolution</category>
+  <pubDate>Sun, 24 May 2009 04:22:47 +0000</pubDate>
+  <enclosure length="19988094" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP001553.mov"/>
+  <itunes:keywords>conspiracy, thriller, webisode, anarchy, digital, revolution</itunes:keywords>
+  <media:keywords>conspiracy, thriller, webisode, anarchy, digital, revolution</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffodivx" expression="full" fileSize="19988094" height="180" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP001553.mov" width="320">
+      <mediaad:content duration="5" exc="1" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" position="preroll" pro="1.0" provider="doubleclick" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content bottom="0" duration="20" exc="1" left="0" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;n=1;sz=540x350;ord=" position="overlay" pro="1.0" provider="doubleclick" start="10" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;n=1;sz=540x350;ord=" was_blend="1" wgt="1.0" width="100%"/>
+      <mediaad:content duration="20" exc="1" link="http://ad.doubleclick.net/jump/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" position="postroll" pro="1.0" provider="doubleclick" target="quicktime" url="http://ad.doubleclick.net/ad/site209.tmus/radiofreekrakow;type=qtad;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+    </media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="10547602" height="180" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/RogueNationStudios-RadioFreeKrakowEP001896.flv" width="320">
+      <mediaad:content duration="5" exc="1" position="preroll" pro="1.0" provider="doubleclick" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=preroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+      <mediaad:content bottom="0" duration="20" exc="1" left="0" position="overlay" pro="1.0" provider="doubleclick" start="10" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=overlay;sz=540x350;ord=" was_blend="1" wgt="1.0" width="100%"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="yume" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="onesource" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+      <mediaad:content duration="20" exc="1" position="postroll" pro="1.0" provider="doubleclick" target="player" url="http://ad.doubleclick.net/adx/site209.tmus/radiofreekrakow;type=flash;dcopt=ist;dcmt=text/xml;cat=28;lic=-1;rat=-1;adm_rat=;position=postroll;sz=540x350;ord=" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="yume" was_blend="1" wgt="1.0"/>
+      <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+    </media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2152147"><![CDATA[<embed src="http://blip.tv/play/AYGEgXCXmmg" type="application/x-shockwave-flash" width="320" height="210" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Radio Free Krakow - EP001</media:title>
+  <media:thumbnail url="http://e.static.blip.tv/RogueNationStudios-RadioFreeKrakowEP001553-164.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>

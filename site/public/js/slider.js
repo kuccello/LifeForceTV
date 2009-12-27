@@ -253,6 +253,26 @@
           $('.disappear').hide();
           $('.appear').show();
 
+          air_date = $("#slider_airdate");
+
+          if(air_date) {
+
+            air_date.html($(this).find("a.slider_airdate").html());
+            //air_date.attr("href", $(this).find("a.slider_swf").attr("href"));
+            //air_date.attr("rel", $(this).find("a.slider_swf").attr("rel"));
+
+          }
+
+          desc = $("#slider_description");
+          if(desc){
+            desc.html($(this).find("a.slider_description").html());
+          }
+
+          rat = $("#slider_rating");
+          if(rat){
+              rat.html($(this).find("a.slider_rating").html());
+          }
+
           
           // FLIPPING THE IMAGE
           $("#slider_main_img").attr("src",$(this).find("a.slider_img").attr("href")); 

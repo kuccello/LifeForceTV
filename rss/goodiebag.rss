@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Goodie Bag TV</title>
+<link>http://lftvgoodiebag.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<description>Goodie Bag TV</description>
+
+
+<itunes:block>no</itunes:block>
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Mon, 04 May 2009 22:49:06 +0000</lastBuildDate>
+<pubDate>Mon, 04 May 2009 22:49:06 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">C60D5174-38FD-11DE-8F48-86E756FF3E97</guid>
+  <link>http://blip.tv/file/2071706</link>
+  <title>Polly Wally</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2082152</blip:posts_id>
+  <blip:item_id>2071706</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-05-04T22:49:06Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>256</blip:runtime>
+  <blip:embedLookup>Af+LTAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Af+LTAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2082152&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-PollyWally326.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The true story of a polyamorous guy searching for his non-monogamous queen.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-PollyWally326-165.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Af%2BLTAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The true story of a polyamorous guy searching for his non-monogamous queen.
+
+]]></description>
+  <comments>http://blip.tv/file/2071706</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>panexa</category>
+  <pubDate>Mon, 04 May 2009 22:49:06 +0000</pubDate>
+  <enclosure length="60121594" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-PollyWally185.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, panexa</itunes:keywords>
+  <itunes:artwork>LifeforceTV-PollyWally326.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, panexa</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="60121594" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-PollyWally185.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="16314938" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-PollyWally512.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2071706"><![CDATA[<embed src="http://blip.tv/play/Af%2BLTAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Polly Wally</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-PollyWally326.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">0BEB0BCA-38FC-11DE-8721-A0400FFF3ADA</guid>
+  <link>http://blip.tv/file/2071641</link>
+  <title>Coeds With Colds - Ep 2</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2082087</blip:posts_id>
+  <blip:item_id>2071641</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-05-04T22:36:45Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>90</blip:runtime>
+  <blip:embedLookup>Af+LCwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Af+LCwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2082087&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-CoedsWithColdsEp2455.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Watch hot coeds open up and take their medicine. Home of the sickest girls on the net!]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-CoedsWithColdsEp2455-947.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Af%2BLCwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Watch hot coeds open up and take their medicine. Home of the sickest girls on the net!
+
+]]></description>
+  <comments>http://blip.tv/file/2071641</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <pubDate>Mon, 04 May 2009 22:36:45 +0000</pubDate>
+  <enclosure length="20334952" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-CoedsWithColdsEp2126.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</itunes:keywords>
+  <itunes:artwork>LifeforceTV-CoedsWithColdsEp2455.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="20334952" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-CoedsWithColdsEp2126.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="5680358" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-CoedsWithColdsEp2701.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2071641"><![CDATA[<embed src="http://blip.tv/play/Af%2BLCwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Coeds With Colds - Ep 2</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-CoedsWithColdsEp2455.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">C55CA862-38FB-11DE-B790-F8ED8F10BB5B</guid>
+  <link>http://blip.tv/file/2071631</link>
+  <title>Coeds With Colds - Ep 1</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2082077</blip:posts_id>
+  <blip:item_id>2071631</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-05-04T22:34:46Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>93</blip:runtime>
+  <blip:embedLookup>Af+LAQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Af+LAQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2082077&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-CoedsWithColdsEp1655-96.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Watch hot coeds open up and take their medicine. Home of the sickest girls on the net!]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-CoedsWithColdsEp1655-96-418.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Af%2BLAQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Watch hot coeds open up and take their medicine. Home of the sickest girls on the net!
+
+]]></description>
+  <comments>http://blip.tv/file/2071631</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>coeds with colds</category>
+  <pubDate>Mon, 04 May 2009 22:34:46 +0000</pubDate>
+  <enclosure length="20477015" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-CoedsWithColdsEp1655.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, coeds with colds</itunes:keywords>
+  <itunes:artwork>LifeforceTV-CoedsWithColdsEp1655-96.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, coeds with colds</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="20477015" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-CoedsWithColdsEp1655.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="6218168" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-CoedsWithColdsEp1133.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2071631"><![CDATA[<embed src="http://blip.tv/play/Af%2BLAQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Coeds With Colds - Ep 1</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-CoedsWithColdsEp1655-96.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">6C4D0A54-38F2-11DE-A24A-BB35BF428BB9</guid>
+  <link>http://blip.tv/file/2071341</link>
+  <title>Panexa</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2081784</blip:posts_id>
+  <blip:item_id>2071341</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-05-04T21:27:51Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>88</blip:runtime>
+  <blip:embedLookup>Af+IXAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Af+IXAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2081784&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Panexa355-104.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Your lifestyle is one of the biggest factors in choosing how to live. That's why you trust Panexa.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Panexa355-104-590.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Af%2BIXAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Your lifestyle is one of the biggest factors in choosing how to live. That's why you trust Panexa.
+
+]]></description>
+  <comments>http://blip.tv/file/2071341</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>panexa</category>
+  <pubDate>Mon, 04 May 2009 21:27:51 +0000</pubDate>
+  <enclosure length="19447450" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Panexa355.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, panexa</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Panexa355-104.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, panexa</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="19447450" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Panexa355.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="5606716" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Panexa198.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2071341"><![CDATA[<embed src="http://blip.tv/play/Af%2BIXAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Panexa</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Panexa355-104.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">96846DB0-38EF-11DE-8CF4-AD58D10A960B</guid>
+  <link>http://blip.tv/file/2071261</link>
+  <title>Rod Brickman</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2081704</blip:posts_id>
+  <blip:item_id>2071261</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-05-04T21:07:34Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>182</blip:runtime>
+  <blip:embedLookup>Af+IDAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Af+IDAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2081704&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-RodBrickman164-257.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Look out DVD pirates: Agent Rob Brickman is on the case.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-RodBrickman164-257-42.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Af%2BIDAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Look out DVD pirates: Agent Rob Brickman is on the case.
+
+]]></description>
+  <comments>http://blip.tv/file/2071261</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>rod brickman</category>
+  <pubDate>Mon, 04 May 2009 21:07:34 +0000</pubDate>
+  <enclosure length="44055441" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-RodBrickman164.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, rod brickman</itunes:keywords>
+  <itunes:artwork>LifeforceTV-RodBrickman164-257.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, rod brickman</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="44055441" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-RodBrickman164.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="12498635" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-RodBrickman785.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2071261"><![CDATA[<embed src="http://blip.tv/play/Af%2BIDAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Rod Brickman</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-RodBrickman164-257.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">80C076A2-3117-11DE-AB6B-FE257BEA8595</guid>
+  <link>http://blip.tv/file/2033327</link>
+  <title>Talent is Hard Work</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043605</blip:posts_id>
+  <blip:item_id>2033327</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T21:33:08Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>122</blip:runtime>
+  <blip:embedLookup>AfzeOQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzeOQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043605&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TalentIsHardWork109.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Combine endless toil with dumb luck and you've got talent.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TalentIsHardWork109-448.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzeOQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Combine endless toil with dumb luck and you've got talent.
+
+]]></description>
+  <comments>http://blip.tv/file/2033327</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <pubDate>Fri, 24 Apr 2009 21:33:08 +0000</pubDate>
+  <enclosure length="26474335" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-TalentIsHardWork307.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TalentIsHardWork109.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="26474335" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-TalentIsHardWork307.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="7184448" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TalentIsHardWork953.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033327"><![CDATA[<embed src="http://blip.tv/play/AfzeOQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Talent is Hard Work</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TalentIsHardWork109.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">457C663C-3117-11DE-AC74-E6D1CADD8CFD</guid>
+  <link>http://blip.tv/file/2033319</link>
+  <title>The Distraction Machine</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043597</blip:posts_id>
+  <blip:item_id>2033319</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T21:31:28Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>80</blip:runtime>
+  <blip:embedLookup>AfzeMQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzeMQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043597&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TheDistractionMachine143.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Let's free ourselves from the tyranny of technology by destroying our computers.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TheDistractionMachine143-468.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzeMQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Let's free ourselves from the tyranny of technology by destroying our computers.
+
+]]></description>
+  <comments>http://blip.tv/file/2033319</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york. distractions</category>
+  <pubDate>Fri, 24 Apr 2009 21:31:28 +0000</pubDate>
+  <enclosure length="16165783" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-TheDistractionMachine945.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york. distractions</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TheDistractionMachine143.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york. distractions</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="16165783" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-TheDistractionMachine945.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="4408803" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TheDistractionMachine127.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033319"><![CDATA[<embed src="http://blip.tv/play/AfzeMQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>The Distraction Machine</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TheDistractionMachine143.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">230348D8-3116-11DE-B893-A035973DB352</guid>
+  <link>http://blip.tv/file/2033293</link>
+  <title>Slumdog Controversy</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043571</blip:posts_id>
+  <blip:item_id>2033293</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T21:23:21Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>128</blip:runtime>
+  <blip:embedLookup>AfzeFwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzeFwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043571&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-SlumdogControversy560.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[People in India are upset about the film "Slumdog Millionaire" and I can see why.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-SlumdogControversy560-182.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzeFwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+People in India are upset about the film "Slumdog Millionaire" and I can see why.
+
+]]></description>
+  <comments>http://blip.tv/file/2033293</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>slumdog</category>
+  <category>slumdog millionaire</category>
+  <category>slumdogmillionaire</category>
+  <pubDate>Fri, 24 Apr 2009 21:23:21 +0000</pubDate>
+  <enclosure length="29143814" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-SlumdogControversy629.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, slumdog, slumdog millionaire, slumdogmillionaire</itunes:keywords>
+  <itunes:artwork>LifeforceTV-SlumdogControversy560.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, slumdog, slumdog millionaire, slumdogmillionaire</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="29143814" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-SlumdogControversy629.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="8290028" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-SlumdogControversy651.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033293"><![CDATA[<embed src="http://blip.tv/play/AfzeFwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Slumdog Controversy</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-SlumdogControversy560.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">F00BFCF4-3115-11DE-B2FB-DB25C0CE1876</guid>
+  <link>http://blip.tv/file/2033286</link>
+  <title>I Love Progress Bars</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043564</blip:posts_id>
+  <blip:item_id>2033286</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T21:21:55Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>102</blip:runtime>
+  <blip:embedLookup>AfzeEAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzeEAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043564&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-ILoveProgressBars249.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[When can I go on to the next experience and then wait for that to end? A far-reaching treatise on progress bars and spinning stuff.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-ILoveProgressBars249-248.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzeEAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+When can I go on to the next experience and then wait for that to end? A far-reaching treatise on progress bars and spinning stuff.
+
+]]></description>
+  <comments>http://blip.tv/file/2033286</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>progress bars</category>
+  <pubDate>Fri, 24 Apr 2009 21:21:55 +0000</pubDate>
+  <enclosure length="22696847" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-ILoveProgressBars453.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, progress bars</itunes:keywords>
+  <itunes:artwork>LifeforceTV-ILoveProgressBars249.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, progress bars</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="22696847" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-ILoveProgressBars453.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="6108784" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-ILoveProgressBars177.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033286"><![CDATA[<embed src="http://blip.tv/play/AfzeEAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>I Love Progress Bars</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-ILoveProgressBars249.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">5CE171F8-3114-11DE-B5EF-93CAF8439BA7</guid>
+  <link>http://blip.tv/file/2033240</link>
+  <title>Punchline Piracy</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043518</blip:posts_id>
+  <blip:item_id>2033240</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T21:10:39Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>142</blip:runtime>
+  <blip:embedLookup>AfzdYgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzdYgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043518&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-PunchlinePiracy626.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Ever had someone steal the closer of your joke or anecdote? That's called punchline piracy and it's no joke.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-PunchlinePiracy626-390.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzdYgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Ever had someone steal the closer of your joke or anecdote? That's called punchline piracy and it's no joke.
+
+]]></description>
+  <comments>http://blip.tv/file/2033240</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>punchline piracy</category>
+  <pubDate>Fri, 24 Apr 2009 21:10:39 +0000</pubDate>
+  <enclosure length="31277494" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-PunchlinePiracy384.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, punchline piracy</itunes:keywords>
+  <itunes:artwork>LifeforceTV-PunchlinePiracy626.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, punchline piracy</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="31277494" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-PunchlinePiracy384.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="9036869" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-PunchlinePiracy516.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033240"><![CDATA[<embed src="http://blip.tv/play/AfzdYgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Punchline Piracy</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-PunchlinePiracy626.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">48F2AFA4-3114-11DE-9CEF-AFF40B16DCB4</guid>
+  <link>http://blip.tv/file/2033237</link>
+  <title>Trajan is the Movie Font</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043515</blip:posts_id>
+  <blip:item_id>2033237</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T21:10:06Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>118</blip:runtime>
+  <blip:embedLookup>AfzdXwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzdXwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043515&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TrajanIsTheMovieFont758.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Anybody else sick of all this Trajan? What is Trajan?]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TrajanIsTheMovieFont758-791.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzdXwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Anybody else sick of all this Trajan? What is Trajan?
+
+]]></description>
+  <comments>http://blip.tv/file/2033237</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>trajan</category>
+  <category>trajan is the movie font</category>
+  <category>fonts</category>
+  <pubDate>Fri, 24 Apr 2009 21:10:06 +0000</pubDate>
+  <enclosure length="26546265" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-TrajanIsTheMovieFont881.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, trajan, trajan is the movie font, fonts</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TrajanIsTheMovieFont758.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, trajan, trajan is the movie font, fonts</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="26546265" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-TrajanIsTheMovieFont881.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="7093443" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TrajanIsTheMovieFont795.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033237"><![CDATA[<embed src="http://blip.tv/play/AfzdXwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Trajan is the Movie Font</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TrajanIsTheMovieFont758.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">EE9E5A32-3111-11DE-9858-D908C2D4872F</guid>
+  <link>http://blip.tv/file/2033162</link>
+  <title>My Afternoon with Reverend Zero</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043440</blip:posts_id>
+  <blip:item_id>2033162</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T20:53:15Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>227</blip:runtime>
+  <blip:embedLookup>AfzdFAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzdFAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043440&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-MyAfternoonWithReverendZero160.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Spend some time with the atheist preacher in his Church of Nothing.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-MyAfternoonWithReverendZero160-685.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzdFAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Spend some time with the atheist preacher in his Church of Nothing.
+
+]]></description>
+  <comments>http://blip.tv/file/2033162</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>reverend zero</category>
+  <category>reverendzero</category>
+  <pubDate>Fri, 24 Apr 2009 20:53:15 +0000</pubDate>
+  <enclosure length="53122654" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-MyAfternoonWithReverendZero677.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, reverend zero, reverendzero</itunes:keywords>
+  <itunes:artwork>LifeforceTV-MyAfternoonWithReverendZero160.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, reverend zero, reverendzero</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="53122654" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-MyAfternoonWithReverendZero677.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="14284788" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-MyAfternoonWithReverendZero313.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033162"><![CDATA[<embed src="http://blip.tv/play/AfzdFAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>My Afternoon with Reverend Zero</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-MyAfternoonWithReverendZero160.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">6BBC4260-3110-11DE-B563-D2D95E91EC6A</guid>
+  <link>http://blip.tv/file/2033114</link>
+  <title>Americans Love Lists</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043392</blip:posts_id>
+  <blip:item_id>2033114</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T20:42:26Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>109</blip:runtime>
+  <blip:embedLookup>AfzcZAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzcZAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043392&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-AmericansLoveLists205.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[If William Shakespeare used PowerPoint, he could have saved a lotta time.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-AmericansLoveLists205-12.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzcZAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+If William Shakespeare used PowerPoint, he could have saved a lotta time.
+
+]]></description>
+  <comments>http://blip.tv/file/2033114</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <pubDate>Fri, 24 Apr 2009 20:42:26 +0000</pubDate>
+  <enclosure length="26064169" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-AmericansLoveLists507.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</itunes:keywords>
+  <itunes:artwork>LifeforceTV-AmericansLoveLists205.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="26064169" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-AmericansLoveLists507.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="6593801" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-AmericansLoveLists145.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033114"><![CDATA[<embed src="http://blip.tv/play/AfzcZAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Americans Love Lists</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-AmericansLoveLists205.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">B0BCF91A-310E-11DE-BEBC-F371A8AB87FD</guid>
+  <link>http://blip.tv/file/2033062</link>
+  <title>Thank You For All The Butt Cracks</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043340</blip:posts_id>
+  <blip:item_id>2033062</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T20:30:03Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>102</blip:runtime>
+  <blip:embedLookup>AfzcMAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzcMAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043340&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-ThankYouForAllTheButtCracks331.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-ThankYouForAllTheButtCracks331-146.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzcMAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+
+
+]]></description>
+  <comments>http://blip.tv/file/2033062</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>butt cracks</category>
+  <category>cracks</category>
+  <category>thatnk you for all the butt cracks</category>
+  <pubDate>Fri, 24 Apr 2009 20:30:03 +0000</pubDate>
+  <enclosure length="22032933" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-ThankYouForAllTheButtCracks924.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, butt cracks, cracks, thatnk you for all the butt cracks</itunes:keywords>
+  <itunes:artwork>LifeforceTV-ThankYouForAllTheButtCracks331.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, butt cracks, cracks, thatnk you for all the butt cracks</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="22032933" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-ThankYouForAllTheButtCracks924.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="6192053" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-ThankYouForAllTheButtCracks479.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033062"><![CDATA[<embed src="http://blip.tv/play/AfzcMAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Thank You For All The Butt Cracks</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-ThankYouForAllTheButtCracks331.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3F17B714-310E-11DE-B975-A370191FE62A</guid>
+  <link>http://blip.tv/file/2033049</link>
+  <title>Protecting and Maintaining you Heterosexual House of Cards</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043327</blip:posts_id>
+  <blip:item_id>2033049</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T20:26:52Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>133</blip:runtime>
+  <blip:embedLookup>AfzcIwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzcIwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043327&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards782.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The homophobes are more savvy than you think...]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards782-965.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzcIwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The homophobes are more savvy than you think...
+
+]]></description>
+  <comments>http://blip.tv/file/2033049</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <pubDate>Fri, 24 Apr 2009 20:26:52 +0000</pubDate>
+  <enclosure length="29818050" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards662.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</itunes:keywords>
+  <itunes:artwork>LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards782.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="29818050" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards662.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="7851159" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards215.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2033049"><![CDATA[<embed src="http://blip.tv/play/AfzcIwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Protecting and Maintaining you Heterosexual House of Cards</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-ProtectingAndMaintainingYouHeterosexualHouseOfCards782.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">630EAACE-3109-11DE-812E-E17385FCC983</guid>
+  <link>http://blip.tv/file/2032918</link>
+  <title>Yo! Gah!</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043196</blip:posts_id>
+  <blip:item_id>2032918</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T19:52:05Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>217</blip:runtime>
+  <blip:embedLookup>AfzbIAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzbIAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043196&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-YoGah718.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Jerry Bruntz is gonna knock the yoga world on its ass. Woooooo!]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-YoGah718-394.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzbIAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Jerry Bruntz is gonna knock the yoga world on its ass. Woooooo!
+
+]]></description>
+  <comments>http://blip.tv/file/2032918</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>yo! gah!</category>
+  <category>yoga</category>
+  <pubDate>Fri, 24 Apr 2009 19:52:05 +0000</pubDate>
+  <enclosure length="50778160" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-YoGah577.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, yo! gah!, yoga</itunes:keywords>
+  <itunes:artwork>LifeforceTV-YoGah718.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, yo! gah!, yoga</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="50778160" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-YoGah577.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="14129798" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-YoGah717.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2032918"><![CDATA[<embed src="http://blip.tv/play/AfzbIAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Yo! Gah!</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-YoGah718.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">2F21F70C-3109-11DE-87D7-BBB6B775EF7B</guid>
+  <link>http://blip.tv/file/2032914</link>
+  <title>Do You Take It?</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043192</blip:posts_id>
+  <blip:item_id>2032914</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T19:50:38Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>171</blip:runtime>
+  <blip:embedLookup>AfzbHAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzbHAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043192&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-DoYouTakeIt331.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[A racy music video that asks the crucial question, "Do you take it?".]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-DoYouTakeIt331-967.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzbHAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+A racy music video that asks the crucial question, "Do you take it?".
+
+]]></description>
+  <comments>http://blip.tv/file/2032914</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>the wet spots</category>
+  <category>wetspots</category>
+  <category>do you take it?</category>
+  <pubDate>Fri, 24 Apr 2009 19:50:38 +0000</pubDate>
+  <enclosure length="41640962" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-DoYouTakeIt970.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, the wet spots, wetspots, do you take it?</itunes:keywords>
+  <itunes:artwork>LifeforceTV-DoYouTakeIt331.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, the wet spots, wetspots, do you take it?</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="41640962" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-DoYouTakeIt970.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="11531325" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-DoYouTakeIt682.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2032914"><![CDATA[<embed src="http://blip.tv/play/AfzbHAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Do You Take It?</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-DoYouTakeIt331.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">EB51C112-3106-11DE-B924-C5220F928CAE</guid>
+  <link>http://blip.tv/file/2032847</link>
+  <title>The Triple Tofu Tower</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043125</blip:posts_id>
+  <blip:item_id>2032847</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T19:34:25Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>62</blip:runtime>
+  <blip:embedLookup>AfzaWQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzaWQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043125&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TheTripleTofuTower287.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[It's a super-colossal magnum opus of three hearty slabs of tofu!]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TheTripleTofuTower287-147.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzaWQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+It's a super-colossal magnum opus of three hearty slabs of tofu!
+
+]]></description>
+  <comments>http://blip.tv/file/2032847</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>triple tofu tower</category>
+  <category>tofu</category>
+  <pubDate>Fri, 24 Apr 2009 19:34:25 +0000</pubDate>
+  <enclosure length="15687256" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-TheTripleTofuTower888.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, triple tofu tower, tofu</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TheTripleTofuTower287.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, triple tofu tower, tofu</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="15687256" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-TheTripleTofuTower888.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="4545768" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TheTripleTofuTower203.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2032847"><![CDATA[<embed src="http://blip.tv/play/AfzaWQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>The Triple Tofu Tower</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TheTripleTofuTower287.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">C6F0DFB6-3105-11DE-925A-97B9F97EAD65</guid>
+  <link>http://blip.tv/file/2032817</link>
+  <title>GreatGIrl</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043095</blip:posts_id>
+  <blip:item_id>2032817</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T19:26:15Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>181</blip:runtime>
+  <blip:embedLookup>AfzaOwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzaOwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043095&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-GreatGIrl997.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The adventures of a feminist superhero. A charming combination of romance and ultra-violence.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-GreatGIrl997-942.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzaOwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The adventures of a feminist superhero. A charming combination of romance and ultra-violence.
+
+]]></description>
+  <comments>http://blip.tv/file/2032817</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>greatgirl</category>
+  <pubDate>Fri, 24 Apr 2009 19:26:15 +0000</pubDate>
+  <enclosure length="45624806" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-GreatGIrl170.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, greatgirl</itunes:keywords>
+  <itunes:artwork>LifeforceTV-GreatGIrl997.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, greatgirl</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="45624806" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-GreatGIrl170.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="12807735" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-GreatGIrl734.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2032817"><![CDATA[<embed src="http://blip.tv/play/AfzaOwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>GreatGIrl</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-GreatGIrl997.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">3419331E-3105-11DE-951B-BEA1C78B4CDE</guid>
+  <link>http://blip.tv/file/2032799</link>
+  <title>Fist Me This Christmas</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043077</blip:posts_id>
+  <blip:item_id>2032799</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T19:22:08Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>123</blip:runtime>
+  <blip:embedLookup>AfzaKQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzaKQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043077&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-FistMeThisChristmas219.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[XXXmas caroling with the Wet Spots and friends.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-FistMeThisChristmas219-190.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzaKQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+XXXmas caroling with the Wet Spots and friends.
+
+]]></description>
+  <comments>http://blip.tv/file/2032799</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>the wet spots</category>
+  <category>wetspots</category>
+  <category>fist me this christmas</category>
+  <pubDate>Fri, 24 Apr 2009 19:22:08 +0000</pubDate>
+  <enclosure length="26645821" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-FistMeThisChristmas592.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, the wet spots, wetspots, fist me this christmas</itunes:keywords>
+  <itunes:artwork>LifeforceTV-FistMeThisChristmas219.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, the wet spots, wetspots, fist me this christmas</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="26645821" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-FistMeThisChristmas592.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="8060409" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-FistMeThisChristmas103.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2032799"><![CDATA[<embed src="http://blip.tv/play/AfzaKQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Fist Me This Christmas</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-FistMeThisChristmas219.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">8202E748-3103-11DE-BC4E-A5C4A62AC920</guid>
+  <link>http://blip.tv/file/2032753</link>
+  <title>Nancy's New Age Bargain Warehouse</title>
+  <blip:user>lftvgoodiebag</blip:user>
+  <blip:userid>444899</blip:userid>
+  <blip:safeusername>lftvgoodiebag</blip:safeusername>
+  <blip:show>Goodie Bag TV</blip:show>
+  <blip:showpage>http://lftvgoodiebag.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2043031</blip:posts_id>
+  <blip:item_id>2032753</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-24T19:10:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>50</blip:runtime>
+  <blip:embedLookup>AfzZewI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfzZewI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2043031&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-NancysNewAgeBargainWarehouse574.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Rush on down before the end of this lunar cycle for life-affirming bargains!]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-NancysNewAgeBargainWarehouse574-811.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfzZewI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Rush on down before the end of this lunar cycle for life-affirming bargains!
+
+]]></description>
+  <comments>http://blip.tv/file/2032753</comments>
+  <category>Default Category</category>
+  <category>lifeforce</category>
+  <category>life force</category>
+  <category>lifeforce tv</category>
+  <category>lifeforcetv</category>
+  <category>goodiebag</category>
+  <category>goodie bag</category>
+  <category>kirby ferguson</category>
+  <category>kirbyferguson</category>
+  <category>webshow</category>
+  <category>funny</category>
+  <category>comedy</category>
+  <category>web show</category>
+  <category>toronto</category>
+  <category>newyork</category>
+  <category>new york</category>
+  <category>nancys new age bargain warehouse</category>
+  <pubDate>Fri, 24 Apr 2009 19:10:00 +0000</pubDate>
+  <enclosure length="11707462" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-NancysNewAgeBargainWarehouse383.mp4"/>
+  <itunes:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, nancys new age bargain warehouse</itunes:keywords>
+  <itunes:artwork>LifeforceTV-NancysNewAgeBargainWarehouse574.jpg</itunes:artwork>
+  <media:keywords>lifeforce, life force, lifeforce tv, lifeforcetv, goodiebag, goodie bag, kirby ferguson, kirbyferguson, webshow, funny, comedy, web show, toronto, newyork, new york, nancys new age bargain warehouse</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="11707462" height="480" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-NancysNewAgeBargainWarehouse383.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="3419611" height="480" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-NancysNewAgeBargainWarehouse560.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2032753"><![CDATA[<embed src="http://blip.tv/play/AfzZewI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Nancy's New Age Bargain Warehouse</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-NancysNewAgeBargainWarehouse574.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>

@@ -5,18 +5,28 @@
     %img#slider_main_img{ :src => "/images/lftv-poster.png" }
     .post_info_holder.clearfix
       .post_category.appear
+        %a#slider_video{:href=>"#", :rel=>"shadowbox;width=715;height=435;player=swf"}
+      .post_category.appear
         %a#slider_img_tit.appear{ :href => "#" }
 
-      .post_name.appear
+      .post_category.appear
         %a#slider_img_desc{ :href => "#" }
 
-      .post_category.appear
-        %a#slider_video{:href=>"#", :rel=>"shadowbox;width=715;height=435;player=swf"}
+      .post_name.appear
+        %a#slider_airdate
+          &nbsp;
+      .post_name.appear
+        %a#slider_description
+          &nbsp;
+
+
+
 
       %script{:type=>"text/javascript"}
         $().ready(function(){
         $('#slider_video').hide();
         $('.appear').hide();
+        $($("#slider_ul > li")[0]).trigger("click");        
         });
       /
         #post_details.appear
@@ -44,6 +54,16 @@
               %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
               %a.slider_swf{ :href => episode.ep.hd_swf_url, :rel=>"shadowbox;width=715;height=435;player=swf"}
                 \/ PLAY /
+              %a.slider_airdate{ :href=> "#"}
+                - ed = episode.ep.released_date
+                Air Date:
+                = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
+              %a.slider_description{ :href=>"#"}
+                - ed = episode.ep.description["long"]
+                - if ed
+                  = ed.content
+                - else
+                  No description
 
 
 

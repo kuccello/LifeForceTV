@@ -21,7 +21,7 @@ if $0 == __FILE__ then
       the_options = Xampl.make(Options) { | options |
         options.new_index_attribute("pid").persisted = true
         options.new_index_attribute("id")
-        options.resolve("http://www.soldierofcode.com/lifeforce", "Lifeforce", 'lifeforce')
+        options.resolve("http://www.soldierofcode.com/lifeforce", "Lifeforce", 'lifeforcens')
       }
 
       filenames = Dir.glob("./xml/**/*.xml")
@@ -33,14 +33,14 @@ if $0 == __FILE__ then
 
       #puts generator.print_elements("./generated-elements.xml")
 
-      file_name = File.join(File.dirname(__FILE__), "generated_model/Lifeforce.rb")
-      text = File.read(file_name)
-
-      fixed = text.gsub(/include Lifeforce::/, "include ")
-
-      File.open(file_name, "w") {|file| file.puts fixed}
-
-      $LOAD_PATH.unshift(directory)
+#      file_name = File.join(File.dirname(__FILE__), "generated_model/Lifeforce.rb")
+#      text = File.read(file_name)
+#
+#      fixed = text.gsub(/include Lifeforce::/, "include ")
+#
+#      File.open(file_name, "w") {|file| file.puts fixed}
+#
+#      $LOAD_PATH.unshift(directory)
 
       exit!
     end

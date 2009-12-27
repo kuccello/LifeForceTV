@@ -68,7 +68,7 @@ $transaction_context = "lifeforce-#{stamp.strftime('%Y-%m-%d-%H-%M-%S')}"
         INSTALLED
         File.open(local_filename, 'w') {|f| f.write(doc) }
 
-        require File.join(File.dirname(__FILE__), '../installed')
+        require File.join(File.dirname(__FILE__), '../_installed')
 
         session[:setup] = nil
       end

@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Take Me Back</title>
+<link>http://lftvtakemeback.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<description>Take Me Back</description>
+
+
+<itunes:block>no</itunes:block>
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Fri, 10 Jul 2009 02:11:17 +0000</lastBuildDate>
+<pubDate>Fri, 10 Jul 2009 02:11:17 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">F3E5B17C-6CF6-11DE-B937-F9E92F7E9F51</guid>
+  <link>http://blip.tv/file/2341170</link>
+  <title>Chapter 10</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2361254</blip:posts_id>
+  <blip:item_id>2341170</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-10T02:11:17Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>959</blip:runtime>
+  <blip:embedLookup>AYGQkAoC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGQkAoC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2361254&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter10732.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Can the two Als learn to set aside their differences after all they've been through, or will retribution and greed consume our hapless hero before it's too late? The story of Al and Allan comes to a close in this special extended final chapter of Take Me Back.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter10732-695.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGQkAoC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Can the two Als learn to set aside their differences after all they've been through, or will retribution and greed consume our hapless hero before it's too late? The story of Al and Allan comes to a close in this special extended final chapter of Take Me Back.</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2341170</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <category>finale</category>
+  <pubDate>Fri, 10 Jul 2009 02:11:17 +0000</pubDate>
+  <enclosure length="196483343" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Chapter10517.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic, finale</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter10732.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic, finale</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="196483343" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Chapter10517.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="61256355" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Chapter10396.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2341170"><![CDATA[<embed src="http://blip.tv/play/AYGQkAoC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 10</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter10732.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">C6E8CF4E-6C8B-11DE-94F6-A56E39EF38AF</guid>
+  <link>http://blip.tv/file/2338479</link>
+  <title>Chapter 9</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2358565</blip:posts_id>
+  <blip:item_id>2338479</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T13:24:06Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>479</blip:runtime>
+  <blip:embedLookup>AYGP+wkC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP+wkC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2358565&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter9413.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Allan's plan begins to unravel, while Neil takes advantage of the notebook he recently stole from him. A familiar face reappears and the gears for the final chapter are set into motion.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter9413-871.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP%2BwkC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Allan's plan begins to unravel, while Neil takes advantage of the notebook he recently stole from him. A familiar face reappears and the gears for the final chapter are set into motion.</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2338479</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 13:24:06 +0000</pubDate>
+  <enclosure length="103065032" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Chapter9351.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter9413.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="103065032" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Chapter9351.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="32641645" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Chapter9423.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2338479"><![CDATA[<embed src="http://blip.tv/play/AYGP%2BwkC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 9</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter9413.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">30F64F24-6C4B-11DE-B398-E9646E3C6B58</guid>
+  <link>http://blip.tv/file/2337385</link>
+  <title>Chapter 7</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357472</blip:posts_id>
+  <blip:item_id>2337385</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T05:41:46Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>409</blip:runtime>
+  <blip:embedLookup>AYGP8kQC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8kQC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357472&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter7730.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Allan tries to make amends with Emma, while Al waits patiently for the results of his last phone call.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter7730-196.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8kQC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Allan tries to make amends with Emma, while Al waits patiently for the results of his last phone call.</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337385</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 05:41:46 +0000</pubDate>
+  <enclosure length="85754849" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep7728.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter7730.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="85754849" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep7728.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="26050556" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep7936.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337385"><![CDATA[<embed src="http://blip.tv/play/AYGP8kQC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 7</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter7730.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">C126A486-6C46-11DE-97A5-F62103048955</guid>
+  <link>http://blip.tv/file/2337335</link>
+  <title>Chapter 4</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357422</blip:posts_id>
+  <blip:item_id>2337335</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T05:10:01Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>388</blip:runtime>
+  <blip:embedLookup>AYGP8hIC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8hIC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357422&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter4502.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Time passes and new routines form. Things are looking up for Al's impostor, while Al sees a glimmer of hope in a piece of junk. Will he escape the attic?]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter4502-234.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8hIC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Time passes and new routines form. Things are looking up for Al's impostor, while Al sees a glimmer of hope in a piece of junk. Will he escape the attic?</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337335</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 05:10:01 +0000</pubDate>
+  <enclosure length="81075659" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep4721.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter4502.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="81075659" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep4721.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="24805796" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep4665.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337335"><![CDATA[<embed src="http://blip.tv/play/AYGP8hIC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 4</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter4502.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">853C07F0-6C45-11DE-9F05-DD654B2D5B81</guid>
+  <link>http://blip.tv/file/2337297</link>
+  <title>Chapter 5</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357384</blip:posts_id>
+  <blip:item_id>2337297</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T05:01:11Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>385</blip:runtime>
+  <blip:embedLookup>AYGP8WwC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8WwC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357384&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter5572.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Allan and Emma get a little closer while Al puts his technological know-how to the test. Has he found a way out or will Allan take over his life before it's too late?]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter5572-207.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8WwC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Allan and Emma get a little closer while Al puts his technological know-how to the test. Has he found a way out or will Allan take over his life before it's too late?</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337297</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 05:01:11 +0000</pubDate>
+  <enclosure length="81436821" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep5461.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter5572.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="81436821" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep5461.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="24081454" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep5954.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337297"><![CDATA[<embed src="http://blip.tv/play/AYGP8WwC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 5</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter5572.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">425F30F0-6C41-11DE-991C-F0994C6C62C9</guid>
+  <link>http://blip.tv/file/2337249</link>
+  <title>Chapter 2</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357336</blip:posts_id>
+  <blip:item_id>2337249</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T04:30:40Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>307</blip:runtime>
+  <blip:embedLookup>AYGP8TwC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8TwC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357336&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter2615.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Al is trapped in a decrepit attic while a mysterious figure begins taking over his life.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter2615-276.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8TwC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Al is trapped in a decrepit attic while a mysterious figure begins taking over his life.</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337249</comments>
+  <category>Default Category</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <category>lifeforcetv</category>
+  <pubDate>Thu, 09 Jul 2009 04:30:40 +0000</pubDate>
+  <enclosure length="63272078" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep2444.mp4"/>
+  <itunes:keywords>take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic, lifeforcetv</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter2615.jpg</itunes:artwork>
+  <media:keywords>take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic, lifeforcetv</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="63272078" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep2444.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="19027832" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep2755.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337249"><![CDATA[<embed src="http://blip.tv/play/AYGP8TwC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 2</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter2615.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">2D4D0586-6C3F-11DE-853D-A075B95D83E6</guid>
+  <link>http://blip.tv/file/2337214</link>
+  <title>Chapter 6</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357301</blip:posts_id>
+  <blip:item_id>2337214</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T04:15:46Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>389</blip:runtime>
+  <blip:embedLookup>AYGP8RkC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8RkC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357301&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter6621.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Al reaches out for help with his makeshift telephone while Allan spends the evening with Emma. Is either one successful?]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter6621-247.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8RkC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Al reaches out for help with his makeshift telephone while Allan spends the evening with Emma. Is either one successful?</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337214</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 04:15:46 +0000</pubDate>
+  <enclosure length="80890532" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep6338.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter6621.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="80890532" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep6338.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="25866403" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep6911.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337214"><![CDATA[<embed src="http://blip.tv/play/AYGP8RkC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 6</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter6621.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">4E739AA2-6C3C-11DE-B0FF-A91FAC130C50</guid>
+  <link>http://blip.tv/file/2337172</link>
+  <title>Chapter 8</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357259</blip:posts_id>
+  <blip:item_id>2337172</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T03:55:13Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>479</blip:runtime>
+  <blip:embedLookup>AYGP8G8C</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8G8C</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357259&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter8345.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[With Neil on his side, Al tries to turn the tables on Allan and take control of the situation. Will his plan work? Will the mask finally come off?]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter8345-238.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8G8C" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>With Neil on his side, Al tries to turn the tables on Allan and take control of the situation. Will his plan work? Will the mask finally come off?</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337172</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 03:55:13 +0000</pubDate>
+  <enclosure length="100340333" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep8274.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter8345.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="100340333" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep8274.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="30773788" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep8269.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337172"><![CDATA[<embed src="http://blip.tv/play/AYGP8G8C" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 8</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter8345.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">E4D15D3A-6C38-11DE-A230-B79992D07862</guid>
+  <link>http://blip.tv/file/2337123</link>
+  <title>Chapter 3</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357210</blip:posts_id>
+  <blip:item_id>2337123</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T03:30:48Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>330</blip:runtime>
+  <blip:embedLookup>AYGP8D4C</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8D4C</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357210&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter3296.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Al's impostor settles comfortably into his shoes while Al tries to make some sense of his bizarre predicament.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter3296-769.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8D4C" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Al's impostor settles comfortably into his shoes while Al tries to make some sense of his bizarre predicament.</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337123</comments>
+  <category>Default Category</category>
+  <category>lifeforcetv</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>attic</category>
+  <pubDate>Thu, 09 Jul 2009 03:30:48 +0000</pubDate>
+  <enclosure length="68446202" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep3569.mp4"/>
+  <itunes:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter3296.jpg</itunes:artwork>
+  <media:keywords>lifeforcetv, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, episode, comedy, kidnap, quirky, attic</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="68446202" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep3569.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="21840871" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep3830.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337123"><![CDATA[<embed src="http://blip.tv/play/AYGP8D4C" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 3</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter3296.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">9ABDCA8C-6C36-11DE-874B-F839F917CB15</guid>
+  <link>http://blip.tv/file/2337083</link>
+  <title>Chapter 1</title>
+  <blip:user>lftvtakemeback</blip:user>
+  <blip:userid>444902</blip:userid>
+  <blip:safeusername>lftvtakemeback</blip:safeusername>
+  <blip:show>Take Me Back</blip:show>
+  <blip:showpage>http://lftvtakemeback.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>2357170</blip:posts_id>
+  <blip:item_id>2337083</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-07-09T03:14:24Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>422</blip:runtime>
+  <blip:embedLookup>AYGP8BYC</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYGP8BYC</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post2357170&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-Chapter1199.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Al's life turns upside down when a masked vigilante kidnaps him after an unusual day in his otherwise dull life.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-Chapter1199-95.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AYGP8BYC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+<p><span>Al's life turns upside down when a masked vigilante kidnaps him after an unusual day in his otherwise dull life.</span></p>
+
+]]></description>
+  <comments>http://blip.tv/file/2337083</comments>
+  <category>Default Category</category>
+  <category>takemeback</category>
+  <category>take me back</category>
+  <category>web series</category>
+  <category>joe baron</category>
+  <category>seth mendelson</category>
+  <category>funny</category>
+  <category>drama</category>
+  <category>romance</category>
+  <category>montreal</category>
+  <category>tegan</category>
+  <category>sara</category>
+  <category>episode</category>
+  <category>comedy</category>
+  <category>kidnap</category>
+  <category>quirky</category>
+  <category>taser</category>
+  <pubDate>Thu, 09 Jul 2009 03:14:24 +0000</pubDate>
+  <enclosure length="84768110" type="video/vnd.objectvideo" url="http://blip.tv/file/get/LifeforceTV-Ep1109.mp4"/>
+  <itunes:keywords>takemeback, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, tegan, sara, episode, comedy, kidnap, quirky, taser</itunes:keywords>
+  <itunes:artwork>LifeforceTV-Chapter1199.jpg</itunes:artwork>
+  <media:keywords>takemeback, take me back, web series, joe baron, seth mendelson, funny, drama, romance, montreal, tegan, sara, episode, comedy, kidnap, quirky, taser</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="84768110" height="360" isDefault="true" type="video/mp4" url="http://blip.tv/file/get/LifeforceTV-Ep1109.mp4" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="28598841" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-Ep1330.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/2337083"><![CDATA[<embed src="http://blip.tv/play/AYGP8BYC" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Chapter 1</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-Chapter1199.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>

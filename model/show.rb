@@ -2,67 +2,7 @@ require 'chronic'
 
 module Lifeforce
 
-  class ShowDate
-
-    attr_accessor :year, :month, :day_of_week, :day_of_month, :timestamp
-
-    def initialize(timestamp)
-      t = Time.at(timestamp)
-
-      @month = t.month
-      @year = t.year
-      @day_of_week = t.wday
-      @day_of_month = t.day
-      @timestamp = timestamp
-    end
-
-    def month_str
-      case @month
-        when 1
-          'Jan'
-        when 2
-          'Feb'
-        when 3
-          'Mar'
-        when 4
-          'Apr'
-        when 5
-          'May'
-        when 6
-          'Jun'
-        when 7
-          'Jul'
-        when 8
-          'Aug'
-        when 9
-          'Sept'
-        when 10
-          'Oct'
-        when 11
-          'Nov'
-        when 12
-          'Dec'
-      end
-    end
-
-    def day_of_week_str
-      case @day_of_week
-        when 1
-          'Sun'
-        when 2
-          'Mon'
-        when 3
-          'Tues'
-        when 4
-          'Wed'
-        when 5
-          'Thurs'
-        when 6
-          'Fri'
-        when 7
-          'Sat'
-      end
-    end
+  class ShowDate < HelperDate
   end
 
   class Show

@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'xampl'
-require File.join(File.dirname(__FILE__),"generated_model/Lifeforce")
+require File.join(File.dirname(__FILE__), "generated_model/LifeForce")
 
 module Lifeforce
 
@@ -23,17 +23,17 @@ module Lifeforce
     
     root = nil
     Lifeforce.transaction do
-      root = Lifeforce[$TRANSACTION_CONTEXT]
+      root = Lifeforcetv[$TRANSACTION_CONTEXT]
 
       unless root
 
-        root = Lifeforce.lookup($TRANSACTION_CONTEXT)
+        root = Lifeforcetv.lookup($TRANSACTION_CONTEXT)
 
         unless root
 
           $new_root_counter += 1
 
-          root = Lifeforce.new($TRANSACTION_CONTEXT) do | it |
+          root = Lifeforcetv.new($TRANSACTION_CONTEXT) do | it |
             #it.setup_defaults
           end
         end

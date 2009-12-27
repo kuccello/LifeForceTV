@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Team Epic</title>
+<link>http://lftvteamepic.blip.tv</link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<description>Team Epic</description>
+
+
+<itunes:block>no</itunes:block>
+
+<language>en</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Mon, 06 Apr 2009 23:32:55 +0000</lastBuildDate>
+<pubDate>Mon, 06 Apr 2009 23:32:55 +0000</pubDate>
+
+
+
+<item>
+  <guid isPermaLink="false">41499CA0-2303-11DE-A2A2-DA8F9EA55370</guid>
+  <link>http://blip.tv/file/1964577</link>
+  <title>Ep 15 - Metamorphosis</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1974518</blip:posts_id>
+  <blip:item_id>1964577</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-06T23:32:55Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>851</blip:runtime>
+  <blip:embedLookup>AfjCWgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfjCWgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1974518&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep115614-185.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Master Brood and Val are stuck in an elevator while the city is faced with the return of Chromos. Confused about the recent events surrounding the team, Val opens up to Master brood about her past in order to understand how they can proceed to work with the rest of the Team.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep115614-185-955.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfjCWgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Master Brood and Val are stuck in an elevator while the city is faced with the return of Chromos. Confused about the recent events surrounding the team, Val opens up to Master brood about her past in order to understand how they can proceed to work with the rest of the Team.
+
+]]></description>
+  <comments>http://blip.tv/file/1964577</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>epic</category>
+  <category>hero</category>
+  <category>superhero</category>
+  <category>action</category>
+  <category>adventure</category>
+  <category>comedy</category>
+  <category>toronto</category>
+  <category>canada</category>
+  <category>web</category>
+  <category>series</category>
+  <pubDate>Mon, 06 Apr 2009 23:32:55 +0000</pubDate>
+  <enclosure length="91445222" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep115614.mov"/>
+  <itunes:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep115614-185.jpg</itunes:artwork>
+  <media:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="91445222" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep115614.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="52610460" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep115186.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1964577"><![CDATA[<embed src="http://blip.tv/play/AfjCWgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 15 - Metamorphosis</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep115614-185.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">7B4981D4-2300-11DE-9728-BD32997BA4A0</guid>
+  <link>http://blip.tv/file/1964513</link>
+  <title>Ep 14 - Anyone can be a Hero</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1974453</blip:posts_id>
+  <blip:item_id>1964513</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-06T23:13:04Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>607</blip:runtime>
+  <blip:embedLookup>AfjCGQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfjCGQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1974453&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep114557-235.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After returning from fighting the fires in Chinatown, both Omni and him learn that Little Epic is missing. Omni attempts to search for clues about his whereabouts from Captain Epic&#8217;s memory, only to learn about how the Captain first met Little Epic many years ago.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep114557-235-677.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfjCGQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After returning from fighting the fires in Chinatown, both Omni and him learn that Little Epic is missing. Omni attempts to search for clues about his whereabouts from Captain Epic&#8217;s memory, only to learn about how the Captain first met Little Epic many years ago.
+
+]]></description>
+  <comments>http://blip.tv/file/1964513</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>epic</category>
+  <category>hero</category>
+  <category>superhero</category>
+  <category>action</category>
+  <category>adventure</category>
+  <category>comedy</category>
+  <category>toronto</category>
+  <category>canada</category>
+  <category>web</category>
+  <category>series</category>
+  <pubDate>Mon, 06 Apr 2009 23:13:04 +0000</pubDate>
+  <enclosure length="63580157" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep114557.mov"/>
+  <itunes:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep114557-235.jpg</itunes:artwork>
+  <media:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="63580157" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep114557.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="37097143" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep114581.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1964513"><![CDATA[<embed src="http://blip.tv/play/AfjCGQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 14 - Anyone can be a Hero</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep114557-235.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">1D19A46E-22FF-11DE-ADAC-E7485994AE03</guid>
+  <link>http://blip.tv/file/1964485</link>
+  <title>Ep 16 - The war has begun</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1974423</blip:posts_id>
+  <blip:item_id>1964485</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-06T23:03:16Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>847</blip:runtime>
+  <blip:embedLookup>AfjBewI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfjBewI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1974423&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep116758-538.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[With each member of the team separated and on their own, a special unknown elite force confronts them and the result is shocking. After witnessing Omni getting attacked, Roy searches for the rest of Team Epic to help, only to learn that they all have been detained. Chromos takes this opportunity to begin his campaign to begin the war against all superheroes.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep116758-538-682.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfjBewI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+With each member of the team separated and on their own, a special unknown elite force confronts them and the result is shocking. After witnessing Omni getting attacked, Roy searches for the rest of Team Epic to help, only to learn that they all have been detained. Chromos takes this opportunity to begin his campaign to begin the war against all superheroes.
+
+]]></description>
+  <comments>http://blip.tv/file/1964485</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>epic</category>
+  <category>hero</category>
+  <category>superhero</category>
+  <category>action</category>
+  <category>adventure</category>
+  <category>comedy</category>
+  <category>toronto</category>
+  <category>canada</category>
+  <category>web</category>
+  <category>series</category>
+  <pubDate>Mon, 06 Apr 2009 23:03:16 +0000</pubDate>
+  <enclosure length="90490702" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep116758.mov"/>
+  <itunes:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep116758-538.jpg</itunes:artwork>
+  <media:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="90490702" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep116758.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="51465831" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep116348.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1964485"><![CDATA[<embed src="http://blip.tv/play/AfjBewI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 16 - The war has begun</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep116758-538.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">6DC93CCC-22F9-11DE-A0DA-9F374C785CD7</guid>
+  <link>http://blip.tv/file/1964337</link>
+  <title>Ep 13 - Guilty or Not Guilty</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1974273</blip:posts_id>
+  <blip:item_id>1964337</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-06T22:22:35Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>784</blip:runtime>
+  <blip:embedLookup>AfjAZQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfjAZQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1974273&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep113427-780.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Meanwhile, upon hearing of HiJaq&#8217;s death, Chromos prepares to come out of retirement and reclaim his city. Captain Epic and Kimberly must decide what to do about the consequences of her unknown actions. They must show the public that superheroes are not above the law.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep113427-780-766.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfjAZQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Meanwhile, upon hearing of HiJaq&#8217;s death, Chromos prepares to come out of retirement and reclaim his city. Captain Epic and Kimberly must decide what to do about the consequences of her unknown actions. They must show the public that superheroes are not above the law.
+
+]]></description>
+  <comments>http://blip.tv/file/1964337</comments>
+  <category>Default Category</category>
+  <category>team</category>
+  <category>epic</category>
+  <category>hero</category>
+  <category>superhero</category>
+  <category>action</category>
+  <category>adventure</category>
+  <category>comedy</category>
+  <category>toronto</category>
+  <category>canada</category>
+  <category>web</category>
+  <category>series</category>
+  <pubDate>Mon, 06 Apr 2009 22:22:35 +0000</pubDate>
+  <enclosure length="1605632" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep113427.mov"/>
+  <itunes:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep113427-780.jpg</itunes:artwork>
+  <media:keywords>team, epic, hero, superhero, action, adventure, comedy, toronto, canada, web, series</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="1605632" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep113427.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="22968835" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep113801.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1964337"><![CDATA[<embed src="http://blip.tv/play/AfjAZQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 13 - Guilty or Not Guilty</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep113427-780.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">FF886FC0-20BA-11DE-859B-97DFE20DCEAB</guid>
+  <link>http://blip.tv/file/1954599</link>
+  <title>Ep 12 - Highway Mystery</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1964287</blip:posts_id>
+  <blip:item_id>1954599</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-04T01:50:39Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>619</blip:runtime>
+  <blip:embedLookup>AffyYwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AffyYwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1964287&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep112985-644.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After battling Glacier&#8217;s snow creatures, Captain Epic, Master Brood and Val discover the truth about her search for her children. Meanwhile in the city, Little Epic, Kimberly and Omni confront the ex-equity cadets Hijaq and Exile about the recent news about Chromos, which may lead to deathly consequences.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep112985-644-742.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AffyYwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After battling Glacier&#8217;s snow creatures, Captain Epic, Master Brood and Val discover the truth about her search for her children. Meanwhile in the city, Little Epic, Kimberly and Omni confront the ex-equity cadets Hijaq and Exile about the recent news about Chromos, which may lead to deathly consequences.
+
+]]></description>
+  <comments>http://blip.tv/file/1954599</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Sat, 04 Apr 2009 01:50:39 +0000</pubDate>
+  <enclosure length="65171725" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep112985.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep112985-644.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="65171725" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep112985.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="39691133" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep112485.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1954599"><![CDATA[<embed src="http://blip.tv/play/AffyYwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 12 - Highway Mystery</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep112985-644.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">0ECFC2FA-209B-11DE-A153-81C772938D81</guid>
+  <link>http://blip.tv/file/1954045</link>
+  <title>Ep 9 - Chaos on the Homefront</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1963732</blip:posts_id>
+  <blip:item_id>1954045</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-03T22:02:00Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>700</blip:runtime>
+  <blip:embedLookup>AffuOAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AffuOAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1963732&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep109993-13.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The team is having hard time getting along as they all live in Kimberly&#8217;s apartment together. The two ex-equity cadets, HiJaq and Exile are starving in the streets as they come to their final conflict; to continue their search for Chromos and their parents, or return to the Academy.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep109993-13-377.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AffuOAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The team is having hard time getting along as they all live in Kimberly&#8217;s apartment together. The two ex-equity cadets, HiJaq and Exile are starving in the streets as they come to their final conflict; to continue their search for Chromos and their parents, or return to the Academy.
+
+]]></description>
+  <comments>http://blip.tv/file/1954045</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Fri, 03 Apr 2009 22:02:00 +0000</pubDate>
+  <enclosure length="74620771" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep109993.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep109993-13.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="74620771" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep109993.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="43303267" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep109684.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1954045"><![CDATA[<embed src="http://blip.tv/play/AffuOAI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 9 - Chaos on the Homefront</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep109993-13.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">9FA28CCE-2099-11DE-AD3D-9F9B6E4060AA</guid>
+  <link>http://blip.tv/file/1954003</link>
+  <title>Ep 11 - The Wrath of Mother Nature</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1963690</blip:posts_id>
+  <blip:item_id>1954003</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-03T21:51:44Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>991</blip:runtime>
+  <blip:embedLookup>AffuDgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AffuDgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1963690&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep111160-307.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Hijaq decides to go on her own to search for Chromos and uses the media to announcement to the world about his continued active presence in Canada. The team learns of Glacier&#8217;s approach to the city and they decide engage her to prevent more death and destruction.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep111160-307-853.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AffuDgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Hijaq decides to go on her own to search for Chromos and uses the media to announcement to the world about his continued active presence in Canada. The team learns of Glacier&#8217;s approach to the city and they decide engage her to prevent more death and destruction.
+
+]]></description>
+  <comments>http://blip.tv/file/1954003</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Fri, 03 Apr 2009 21:51:44 +0000</pubDate>
+  <enclosure length="107057022" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep111160.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep111160-307.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="107057022" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep111160.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="64703736" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep111353.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1954003"><![CDATA[<embed src="http://blip.tv/play/AffuDgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 11 - The Wrath of Mother Nature</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep111160-307.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">FC21FE1A-2096-11DE-BCAF-95736937738F</guid>
+  <link>http://blip.tv/file/1953951</link>
+  <title>Ep 8 - The Ambush</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1963638</blip:posts_id>
+  <blip:item_id>1953951</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-03T21:32:51Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>1033</blip:runtime>
+  <blip:embedLookup>AfftWgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfftWgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1963638&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep108452-29.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[As the team is ambushed at the safe house, they realize that these villain&#8217;s powers all match their own in strength, speed and agility. In an epic battle, Team Epic must find a way to rise and overcome this situation, as other unknown forces are observing them as Canada&#8217;s new superhero team.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep108452-29-713.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfftWgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+As the team is ambushed at the safe house, they realize that these villain&#8217;s powers all match their own in strength, speed and agility. In an epic battle, Team Epic must find a way to rise and overcome this situation, as other unknown forces are observing them as Canada&#8217;s new superhero team.
+
+]]></description>
+  <comments>http://blip.tv/file/1953951</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Fri, 03 Apr 2009 21:32:51 +0000</pubDate>
+  <enclosure length="110926488" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep108452.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep108452-29.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="110926488" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep108452.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="66789483" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep108318.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1953951"><![CDATA[<embed src="http://blip.tv/play/AfftWgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 8 - The Ambush</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep108452-29.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">1AAF3F12-2094-11DE-A735-E61D611E0342</guid>
+  <link>http://blip.tv/file/1953887</link>
+  <title>Ep 10 - Save who you can</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1963574</blip:posts_id>
+  <blip:item_id>1953887</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-03T21:12:14Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>870</blip:runtime>
+  <blip:embedLookup>AfftGgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfftGgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1963574&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep110436-501.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[An old ally of the Canadian Shield is on a destructive rampage toward Toronto. Chromos hears of her fury and goes to stop her before she reaches the city. Kimberly spends some time with friends to get away from the chaos of the team at her home.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep110436-501-280.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfftGgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+An old ally of the Canadian Shield is on a destructive rampage toward Toronto. Chromos hears of her fury and goes to stop her before she reaches the city. Kimberly spends some time with friends to get away from the chaos of the team at her home.
+
+]]></description>
+  <comments>http://blip.tv/file/1953887</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Fri, 03 Apr 2009 21:12:14 +0000</pubDate>
+  <enclosure length="84092593" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep110436.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep110436-501.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="84092593" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep110436.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="55163209" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep110441.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1953887"><![CDATA[<embed src="http://blip.tv/play/AfftGgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 10 - Save who you can</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep110436-501.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">F7E638EC-2088-11DE-AB83-B09D059A03C1</guid>
+  <link>http://blip.tv/file/1953638</link>
+  <title>Ep 7 - Careful what you ask for</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1963325</blip:posts_id>
+  <blip:item_id>1953638</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-03T19:52:31Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>743</blip:runtime>
+  <blip:embedLookup>AffrIQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AffrIQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1963325&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep107363-910.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Captain Epic approaches Bernard Embers for clues on the death of the Canadian Shield. Bernard indicates that some big time villains held up in a safe house in town may lead him to more information. The Team decides to go take care of them; with knowing that a mystery man is manipulating the situation.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep107363-910-585.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AffrIQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Captain Epic approaches Bernard Embers for clues on the death of the Canadian Shield. Bernard indicates that some big time villains held up in a safe house in town may lead him to more information. The Team decides to go take care of them; with knowing that a mystery man is manipulating the situation.
+
+]]></description>
+  <comments>http://blip.tv/file/1953638</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Fri, 03 Apr 2009 19:52:31 +0000</pubDate>
+  <enclosure length="79728142" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep107363.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep107363-910.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="79728142" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep107363.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="46541286" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep107990.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1953638"><![CDATA[<embed src="http://blip.tv/play/AffrIQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 7 - Careful what you ask for</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep107363-910.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">9D2DA2EE-1F36-11DE-8407-9D2F412DDD1C</guid>
+  <link>http://blip.tv/file/1946768</link>
+  <title>Ep 6 -The Search for Answers</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1956430</blip:posts_id>
+  <blip:item_id>1946768</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-02T03:30:29Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>782</blip:runtime>
+  <blip:embedLookup>Afe1MgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Afe1MgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1956430&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep106399-570.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Uncertain of what their next step should be, the team decides to split up to search for clues into the death of the Canadian Shield. Some of them return to the scene of the Canadian Shield&#8217;s last battle, while Captain Epic and Little Epic respond to emergencies around the city.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep106399-570-642.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Afe1MgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Uncertain of what their next step should be, the team decides to split up to search for clues into the death of the Canadian Shield. Some of them return to the scene of the Canadian Shield&#8217;s last battle, while Captain Epic and Little Epic respond to emergencies around the city.
+
+]]></description>
+  <comments>http://blip.tv/file/1946768</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Thu, 02 Apr 2009 03:30:29 +0000</pubDate>
+  <enclosure length="82695842" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep106399.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep106399-570.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="82695842" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep106399.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="50787033" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep106529.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1946768"><![CDATA[<embed src="http://blip.tv/play/Afe1MgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 6 -The Search for Answers</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep106399-570.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">D59DA38E-1F33-11DE-BDE7-9D6E316D2D8E</guid>
+  <link>http://blip.tv/file/1946726</link>
+  <title>Ep 5 - Illusion or Reality</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1956387</blip:posts_id>
+  <blip:item_id>1946726</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-02T03:10:35Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>673</blip:runtime>
+  <blip:embedLookup>Afe1BwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Afe1BwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1956387&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep105530-665.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The team is awakened early in the morning by a very distressed Omniscient. After having the same nightmare night after night, Omni enters the minds of the rest of the team to show them what he has seen; The death of the Canadian Shield. It does not look, however, like it was an accident.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep105530-665-453.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Afe1BwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The team is awakened early in the morning by a very distressed Omniscient. After having the same nightmare night after night, Omni enters the minds of the rest of the team to show them what he has seen; The death of the Canadian Shield. It does not look, however, like it was an accident.
+
+]]></description>
+  <comments>http://blip.tv/file/1946726</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Thu, 02 Apr 2009 03:10:35 +0000</pubDate>
+  <enclosure length="63723514" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep105530.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep105530-665.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="63723514" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep105530.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="43001493" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep105341.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1946726"><![CDATA[<embed src="http://blip.tv/play/Afe1BwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 5 - Illusion or Reality</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep105530-665.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">6EDAD0D2-1F32-11DE-BFB5-FC0C0686E044</guid>
+  <link>http://blip.tv/file/1946697</link>
+  <title>Ep 1 - A Gathering of Supers</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1956358</blip:posts_id>
+  <blip:item_id>1946697</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-02T03:00:33Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>919</blip:runtime>
+  <blip:embedLookup>Afe0agI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Afe0agI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1956358&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep101307-201.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After the death of Canada&#8217;s greatest Superhero &#8216;The Canadian Shield&#8217;, heroes from near and far make their way to Toronto to pay their respects. Among these heroes is Captain Epic, an old ally of the Shield and a hero in his own right. During the course of the funeral, Captain Epic and his side-kick Little Epic rekindle old friendships and generate new ones.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep101307-201-64.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Afe0agI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After the death of Canada&#8217;s greatest Superhero &#8216;The Canadian Shield&#8217;, heroes from near and far make their way to Toronto to pay their respects. Among these heroes is Captain Epic, an old ally of the Shield and a hero in his own right. During the course of the funeral, Captain Epic and his side-kick Little Epic rekindle old friendships and generate new ones.
+
+]]></description>
+  <comments>http://blip.tv/file/1946697</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Thu, 02 Apr 2009 03:00:33 +0000</pubDate>
+  <enclosure length="88920318" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep101307.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep101307-201.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="88920318" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep101307.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="60511718" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep101428.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1946697"><![CDATA[<embed src="http://blip.tv/play/Afe0agI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 1 - A Gathering of Supers</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep101307-201.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">A351E45C-1F2F-11DE-AA39-A2295396A1A9</guid>
+  <link>http://blip.tv/file/1946650</link>
+  <title>Ep 2 - Undercover Hero</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1956311</blip:posts_id>
+  <blip:item_id>1946650</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-02T02:40:33Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>860</blip:runtime>
+  <blip:embedLookup>Afe0OwI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Afe0OwI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1956311&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep102270-547.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[After receiving a strange clue about some villains in town, Captain Epic recruits his old friends to help him find the villains. Captain Epic goes undercover at a local high school to investigate. The rest of the superheroes search the area to find more clues about these unknown villains in the area.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep102270-547-978.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Afe0OwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+After receiving a strange clue about some villains in town, Captain Epic recruits his old friends to help him find the villains. Captain Epic goes undercover at a local high school to investigate. The rest of the superheroes search the area to find more clues about these unknown villains in the area.
+
+]]></description>
+  <comments>http://blip.tv/file/1946650</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Thu, 02 Apr 2009 02:40:33 +0000</pubDate>
+  <enclosure length="91072319" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep102270.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep102270-547.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="91072319" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep102270.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="56291056" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep102852.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1946650"><![CDATA[<embed src="http://blip.tv/play/Afe0OwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 2 - Undercover Hero</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep102270-547.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">D82222B2-1F2C-11DE-A09B-8F77F46CAC97</guid>
+  <link>http://blip.tv/file/1946602</link>
+  <title>Ep 3 - Smells Like a Fight</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1956262</blip:posts_id>
+  <blip:item_id>1946602</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-02T02:20:33Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>867</blip:runtime>
+  <blip:embedLookup>Afe0CgI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/Afe0CgI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1956262&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep103129-15.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[The villains ambush some of the superheroes at Roy&#8217;s house as they follow the clues for the unknown hacker. Captain Epic shows up to save Roy&#8217;s family and the superheroes. During an epic battle between Captain Epic and Exile, the villain Hijaq performs her own search for the clues to the identity of the super villain Chromos.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep103129-15-773.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/Afe0CgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+The villains ambush some of the superheroes at Roy&#8217;s house as they follow the clues for the unknown hacker. Captain Epic shows up to save Roy&#8217;s family and the superheroes. During an epic battle between Captain Epic and Exile, the villain Hijaq performs her own search for the clues to the identity of the super villain Chromos.
+
+]]></description>
+  <comments>http://blip.tv/file/1946602</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Thu, 02 Apr 2009 02:20:33 +0000</pubDate>
+  <enclosure length="84178935" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep103129.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep103129-15.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="84178935" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep103129.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="53525883" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep103645.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1946602"><![CDATA[<embed src="http://blip.tv/play/Afe0CgI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 3 - Smells Like a Fight</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep103129-15.jpg"/>
+</item>
+
+
+
+
+<item>
+  <guid isPermaLink="false">0821B2C8-1F2A-11DE-93F7-EDFF2C4FA5FF</guid>
+  <link>http://blip.tv/file/1946533</link>
+  <title>Ep 4 - A Name to Call Our Own</title>
+  <blip:user>lftvteamepic</blip:user>
+  <blip:userid>444897</blip:userid>
+  <blip:safeusername>teamepic</blip:safeusername>
+  <blip:show>Team Epic</blip:show>
+  <blip:showpage>http://teamepic.blip.tv/</blip:showpage>
+  <blip:picture>http://blip.tv/skin/blipnew/placeholder_user.gif</blip:picture>
+  <blip:posts_id>1956193</blip:posts_id>
+  <blip:item_id>1946533</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2009-04-02T02:00:25Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel></blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating></blip:adminRating>
+  <blip:runtime>586</blip:runtime>
+  <blip:embedLookup>AfezRQI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AfezRQI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post1956193&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>LifeforceTV-TeamEpic_Ep104632-432.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Hijaq and Exile are confronted by Chromos warning them to leave town and to stop searching for him. The superheroes have a gracious dinner by Roy&#8217;s mothers to thank them for saving their lives. They decide to stay around in Toronto and to form a team to protect the city; called Team Epic!!]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep104632-432-634.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <description><![CDATA[
+
+
+<embed src="http://blip.tv/play/AfezRQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+<br />
+
+Hijaq and Exile are confronted by Chromos warning them to leave town and to stop searching for him. The superheroes have a gracious dinner by Roy&#8217;s mothers to thank them for saving their lives. They decide to stay around in Toronto and to form a team to protect the city; called Team Epic!!
+
+]]></description>
+  <comments>http://blip.tv/file/1946533</comments>
+  <category>Default Category</category>
+  <category>teamepic</category>
+  <category>lifeforce tv</category>
+  <category>team epic</category>
+  <category>epic</category>
+  <category>lifeforcetv</category>
+  <category>superhero</category>
+  <category>heroes</category>
+  <category>canada</category>
+  <category>toronto</category>
+  <category>comics</category>
+  <category>comic book</category>
+  <category>villains</category>
+  <category>books</category>
+  <category>fighting</category>
+  <category>crime</category>
+  <pubDate>Thu, 02 Apr 2009 02:00:25 +0000</pubDate>
+  <enclosure length="54147312" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep104632.mov"/>
+  <itunes:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</itunes:keywords>
+  <itunes:artwork>LifeforceTV-TeamEpic_Ep104632-432.jpg</itunes:artwork>
+  <media:keywords>teamepic, lifeforce tv, team epic, epic, lifeforcetv, superhero, heroes, canada, toronto, comics, comic book, villains, books, fighting, crime</media:keywords>
+  <media:group>
+    <media:content blip:acodec="faad" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="54147312" height="360" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep104632.mov" width="640"></media:content>
+    <media:content blip:acodec="mp3" blip:role="web" blip:vcodec="ffvp6f" expression="full" fileSize="37280326" height="360" isDefault="false" type="video/x-flv" url="http://blip.tv/file/get/LifeforceTV-TeamEpic_Ep104987.flv" width="640"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/1946533"><![CDATA[<embed src="http://blip.tv/play/AfezRQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"></embed> ]]></media:player>
+  <media:title>Ep 4 - A Name to Call Our Own</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/LifeforceTV-TeamEpic_Ep104632-432.jpg"/>
+</item>
+
+
+
+
+
+
+</channel>
+</rss>
