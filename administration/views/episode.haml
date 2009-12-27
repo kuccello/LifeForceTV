@@ -176,3 +176,24 @@
               %input{:type=>"checkbox", :name=>"episode_showcase_add", :value=>"true"}
 
           %input{:type=>"submit", :value=>"Save"}
+
+    .box.round
+      %h2
+        Credits
+
+      %a{:href=>to_path("/credit/episode/#{episode.pid}/new")}
+        New Credit
+
+
+      %ul
+        - episode.credit.each do |credit|
+          %li
+            %a{:href=>to_path("/credit/episode/#{episode.pid}/#{credit.pid}")}
+              [
+              = credit.zorder
+              ] Name:
+              = credit.name
+              , Title:
+              = credit.role
+            %a{:href=>to_path("/credit/#{credit.pid}/episode/#{episode.pid}/delete")}
+              [ DELETE ]

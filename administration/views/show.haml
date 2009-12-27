@@ -120,4 +120,21 @@
       %h2
         Credits
 
+      %a{:href=>to_path("/credit/show/#{show.pid}/new")}
+        New Credit
+
+
+      %ul
+        - show.credit.each do |credit|
+          %li
+            %a{:href=>to_path("/credit/show/#{show.pid}/#{credit.pid}")}
+              [
+              = credit.zorder
+              ] Name:
+              = credit.name
+              , Title:
+              = credit.role
+            %a{:href=>to_path("/credit/#{credit.pid}/show/#{show.pid}/delete")}
+              [ DELETE ]
+
 = sidebar

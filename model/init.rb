@@ -17,4 +17,5 @@ require File.join(File.dirname(__FILE__),"season")
 require File.join(File.dirname(__FILE__),"search")
 require File.join(File.dirname(__FILE__),"adsense")
 require File.join(File.dirname(__FILE__),"analytics")
+require File.join(File.dirname(__FILE__),"credit")
 puts ">> done loading models"

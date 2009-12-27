@@ -33,8 +33,17 @@ module Lifeforce
       sd
     end
 
+    def ordered_credits
+      ordered_credits = []
+
+      crs = self.credit
+      ordered_credits = crs.sort { |a, b| a.zorder.to_i <=> b.zorder.to_i } if crs
+      ordered_credits.reverse
+      
+      ordered_credits
+    end
+
     def released?
-      puts "#{__FILE__}:#{__LINE__} #{__method__} #{self.release_date_unix}"
       (self.status == STATUS_LIVE) && (self.release_date_unix.to_i < Time.new.to_i)
     end
 

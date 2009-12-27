@@ -340,4 +340,66 @@ class LifeForceAdmin < Sinatra::Base
     haml :ad, :locals=>{:ad=>ad}
   end
 
+  get '/credit/show/:show_pid/new' do
+    show_pid = params[:show_pid]
+    show = Lifeforce::Show.get_by_pid(show_pid)
+
+    cr = Lifeforce::Credit.make_new_show_credit(show,params)
+    haml :credit, :locals=>{:credit=>cr,:kind=>"show",:val=>show_pid}
+  end
+
+  get '/credit/episode/:episode_pid/new' do
+    episode_pid = params[:episode_pid]
+    episode = Lifeforce::Episode.get_by_pid(episode_pid)
+
+    cr = Lifeforce::Credit.make_new_epidose_credit(episode,params)
+    puts "#{__FILE__}:#{__LINE__} #{__method__} CR: #{cr.pid}"
+    haml :credit, :locals=>{:credit=>cr,:kind=>"episode",:val=>episode_pid}
+  end
+
+  get '/credit/show/:show_pid/:credit_pid' do
+    credit_pid = params[:credit_pid]
+    credit = Lifeforce::Credit.get_by_pid(credit_pid)
+    show_pid = params[:show_pid]
+
+    haml :credit, :locals=>{:credit=>credit,:kind=>"show",:val=>show_pid}
+  end
+
+  get '/credit/episode/:episode_pid/:credit_pid' do
+    credit_pid = params[:credit_pid]
+    credit = Lifeforce::Credit.get_by_pid(credit_pid)
+    episode_pid = params[:episode_pid]
+    haml :credit, :locals=>{:credit=>credit,:kind=>"episode",:val=>episode_pid}
+  end
+
+  post '/credit/:credit_pid' do
+    credit_pid = params[:credit_pid]
+    credit = Lifeforce::Credit.get_by_pid(credit_pid)
+    credit.update_data(params)
+    flash[:success] = "Updated Credit!"
+
+    redirect "/admin/show/#{params[:val]}/edit" if params[:kind] == "show"
+    redirect "/admin/episode/#{params[:val]}/edit" if params[:kind] == "episode"
+    "OPPS! HEY you forgot to inlude the kind and val!"
+  end
+
+  get '/credit/:credit_pid/show/:show_pid/delete' do
+    show_pid = params[:show_pid]
+    show = Lifeforce::Show.get_by_pid(show_pid)
+    credit_pid = params[:credit_pid]
+    credit = Lifeforce::Credit.get_by_pid(credit_pid)
+    Lifeforce::Credit.remove_credit_from_show(show,credit)
+    flash[:message] = "credit deleted"
+    redirect "/admin/show/#{show_pid}/edit"
+  end
+  get '/credit/:credit_pid/episode/:episode_pid/delete' do
+    episode_pid = params[:episode_pid]
+    episode = Lifeforce::Episode.get_by_pid(episode_pid)
+    credit_pid = params[:credit_pid]
+    credit = Lifeforce::Credit.get_by_pid(credit_pid)
+    Lifeforce::Credit.remove_credit_from_episode(episode,credit)
+    flash[:message] = "credit deleted"
+    redirect "/admin/episode/#{episode_pid}/edit"
+  end
+
 end

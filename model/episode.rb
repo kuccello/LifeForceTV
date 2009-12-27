@@ -18,6 +18,16 @@ module Lifeforce
 
     end
 
+    def ordered_credits
+      ordered_credits = []
+
+      crs = self.credit
+      ordered_credits = crs.sort { |a, b| a.zorder.to_i <=> b.zorder.to_i } if crs
+      ordered_credits.reverse
+
+      ordered_credits
+    end
+
     def released_date
       EpisodeDate.new(self.release_date_unix.to_i)
     end

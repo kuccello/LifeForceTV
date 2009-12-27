@@ -121,6 +121,11 @@
              is-default=""
              mime-type=""
              url=""/>
+
+      <!--
+        Episode Level Credit
+      -->
+      <credit pid=""/>
     </episode>
 
     <!--
@@ -129,6 +134,7 @@
     <related-show id="" show-pid=""/>
     <genera pid=""/>
     <css><![CDATA[THE CSS FOR THE EPISODE]]></css>
+    <credit pid=""/>
   </show>
 
   <!--
@@ -175,6 +181,13 @@
   <analytics pid="">
     This is where the analytics code block goes
   </analytics>
+
+  <credit pid=""
+            name=""
+            role=""
+            image=""
+            desc=""
+            zorder=""/>
 </lifeforcetv>
 
 

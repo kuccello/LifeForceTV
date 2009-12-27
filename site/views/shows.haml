@@ -12,19 +12,33 @@
     .widget
       %h3.widget_title
         Genera Filter
+      - if params[:genera] || params[:order] || params[:rating]
+        .widget_content
+          - if params[:genera]
+            [
+            %a{:href=>"/shows?#{params[:order] ? 'order='+params[:order] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+              X
+            ] Remove genera filter
+            %br
+          - if params[:rating]
+            [
+            %a{:href=>"/shows?#{params[:order] ? 'order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+              X
+            ] Remove rating filter
+            %br
+          - if params[:order]
+            [
+            %a{:href=>"/shows?#{params[:genera] ? 'genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+              X
+            ] Remove order filter
+            
+
       .widget_content
         %ul
-          %li
-
-            %a{:href=>"#"}
-              Genera1
-          %li
-            %a{:href=>"#"}
-              Genera2
-          %li
-            %a{:href=>"#"}
-              Genera3
-
+          - generas.each do |genera|
+            %li
+              %a{:href=>"/shows?genera=#{genera.pid}#{params[:order] ? '&order='+params[:order] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+                = genera.name
 
     .widget
       %h3.widget_title
@@ -32,15 +46,23 @@
       .widget_content
         %ul
           %li
-
-            %a{:href=>"#"}
+            %a{:href=>"/shows?rating=TV-C#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+              TV-C
+          %li
+            %a{:href=>"/shows?rating=TV-8#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+              TV-8
+          %li
+            %a{:href=>"/shows?rating=TV-G#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
               TV-G
           %li
-            %a{:href=>"#"}
+            %a{:href=>"/shows?rating=TV-PG#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
               TV-PG
           %li
-            %a{:href=>"#"}
-              TV-R
+            %a{:href=>"/shows?rating=TV-14#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+              TV-14
+          %li
+            %a{:href=>"/shows?rating=TV-18#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+              TV-18
 
 
     .widget
@@ -50,42 +72,17 @@
         %ul
 
           %li
-            %a{:href=>"#"}
+            %a{:href=>"/shows?order=ades#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Alphabetical Descending
-
           %li
-            %a{:href=>"#"}
+            %a{:href=>"/shows?order=aass#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Alphabetical Assending
           %li
-            %a{:href=>"#"}
-              Newest Episode First
-          %li
-            %a{:href=>"#"}
-              Newest Episode Last
-          %li
-            %a{:href=>"#"}
+            %a{:href=>"/shows?order=nsf#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Newest Show First
           %li
-            %a{:href=>"#"}
+            %a{:href=>"/shows?order=nsl#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Newest Show Last
-
-    .widget
-      %h3.widget_title
-        Production Company
-      .widget_content
-        %ul
-          %li
-
-            %a{:href=>"#"}
-              LifeForce Entertainment
-          %li
-            %a{:href=>"#"}
-              CBC
-          %li
-            %a{:href=>"#"}
-              Handful
-          %li
-            \...
 
   /
     END "sidebar_home"  //

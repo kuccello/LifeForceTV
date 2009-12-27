@@ -66,12 +66,14 @@ class LifeForceSite < Sinatra::Base
   end
 
   get '/shows' do
-
+    generas = Lifeforce::Genera.all
     genera = Lifeforce::Genera.get_by_pid(params[:genera])
+    rating = params[:rating]
+    order  = params[:order]
     shows = all_released_shows unless genera
     shows = Lifeforce::Show.find_by_genera(genera) if genera
 
-    haml :shows, :locals=>{:shows=>shows}
+    haml :shows, :locals=>{:shows=>shows,:generas=>generas}
   end
 
   get '/generas' do
@@ -93,7 +95,7 @@ class LifeForceSite < Sinatra::Base
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
     episode_id = params[:episode_url_id]
 
-    haml :show, :locals=>{:show=>show,:episode_id=>episode_id,:override_style=>"/css/shows/#{show.pid}.css"}
+    haml :show, :locals=>{:show=>show,:episode_id=>episode_id,:override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
 
   get '/:show_url_id' do

@@ -1,0 +1,42 @@
+#title.round
+  %h1
+    Credit
+  %span.right
+    You may edit the note here
+#content
+  #content-container
+
+    .box.round
+      = flash_message()
+      %form{ :method=>"post", :action=>"/admin/credit/#{credit.pid}" }
+        %h2
+          Details
+        %ul
+          %li
+            %label
+              Name
+            %input.text.medium{:type=>"text",:name=>"name",:value=>credit.name}
+
+          %li
+            %label
+              Role (ie. director)
+            %input.text.medium{:type=>"text",:name=>"role",:value=>credit.role}
+          %li
+            %label
+              Image URL (ie: http://example.com/images/img1.jpg)
+            %input.text.medium{:type=>"text",:name=>"image",:value=>credit.image}
+
+          %li
+            Description
+            %br
+            ="<textarea rows='10' cols='50' name='desc'>#{credit.desc}</textarea>"
+
+          %li
+            %label
+              Order (small numbers before big ones)
+            %input.text.medium{:type=>"text",:name=>"zorder",:value=>credit.zorder}
+
+          %input{:type=>"hidden",:name=>"kind",:value=>kind}
+          %input{:type=>"hidden",:name=>"val",:value=>val}
+
+          %input{:type=>"submit", :value=>"Save"}
