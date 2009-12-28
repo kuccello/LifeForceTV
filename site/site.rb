@@ -69,40 +69,72 @@ class LifeForceSite < Sinatra::Base
     generas = Lifeforce::Genera.all
     genera = Lifeforce::Genera.get_by_pid(params[:genera])
     rating = params[:rating]
-    order  = params[:order]
+    order = params[:order]
     shows = all_released_shows unless genera
+
     shows = Lifeforce::Show.find_by_genera(genera) if genera
 
-    haml :shows, :locals=>{:shows=>shows,:generas=>generas}
+    if rating then
+      new_shows = []
+      shows.each do |sh|
+        new_shows << sh if sh.rating == rating
+      end
+      shows = new_shows
+    end
+
+    if order then
+      new_shows = []
+
+      # ades - alpha desc
+      # aass - alpha asc
+      # nsf - new show first
+      # nsl - new show last
+      case order
+        when "ades"
+          new_shows = shows.sort { |a, b| a.name <=> b.name }
+          shows = new_shows
+        when "aass"
+          new_shows = shows.sort { |a, b| a.name <=> b.name }
+          shows = new_shows.reverse
+        when "nsf"
+          new_shows = shows.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i }
+          shows = new_shows.reverse
+        when "nsl"
+          new_shows = shows.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i }
+          shows = new_shows
+      end
+    end
+
+    haml :shows, :locals=>{:shows=>shows, :generas=>generas}
   end
 
-  get '/generas' do
-    generas = Lifeforce::Genera.all
-    haml :generas, :locals=>{:generas=>generas}
-  end
-
-  get '/genera/:genera_id' do
-    # search for all shows and episodes that have the genera identified
-
-    shows = nil
-    episodes = nil
-
-    haml "NOT IMPLEMENTED YET"
-  end
+#  get '/generas' do
+#    generas = Lifeforce::Genera.all
+#    haml :generas, :locals=>{:generas=>generas}
+#  end
+#
+#  get '/genera/:genera_id' do
+#    # search for all shows and episodes that have the genera identified
+#
+#    shows = nil
+#    episodes = nil
+#
+#    haml "NOT IMPLEMENTED YET"
+#  end
 
   get '/:show_url_id/:episode_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
     episode_id = params[:episode_url_id]
 
-    haml :show, :locals=>{:show=>show,:episode_id=>episode_id,:override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
+    haml :show, :locals=>{:show=>show, :episode_id=>episode_id, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
 
   get '/:show_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
 
-    haml :show, :locals=>{:show=>show,:override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
+    haml :show, :locals=>{:show=>show, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
 
 end
