@@ -1,5 +1,4 @@
-%h3
-  Shows
+&nbsp;
 
 #content_wrap
   #inner_content
@@ -7,6 +6,9 @@
     - shows.each do |show|
       = partial("showhighlight",{:show=>show})
 
+    - if shows.size == 0
+      %strong
+        No Shows Found Matching Criteria
 
   #sidebar_home
     .widget

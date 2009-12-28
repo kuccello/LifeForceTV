@@ -203,19 +203,19 @@
                       = episode.name
                     %p
                       = episode.description['long'].content
-                    %strong
-                      Credits:
-                    %ul
-                    - episode.ordered_credits.each do |cr|
-                      %li
-                        %div
-                          = cr.name
-                          ,
-                          = cr.role
-                          - if cr.image && cr.image.length > 0
-                            %img{:src=>cr.image,:width=>"26"}
-                          %p
-                            = cr.desc
+                  %strong
+                    Credits:
+                  %ul
+                  - episode.ordered_credits.each do |cr|
+                    %li
+                      %div
+                        = cr.name
+                        ,
+                        = cr.role
+                        - if cr.image && cr.image.length > 0
+                          %img{:src=>cr.image,:width=>"26"}
+                        %p
+                          = cr.desc
 
         /
           END "entry_content"  //
@@ -231,16 +231,11 @@
           Generas
         .widget_content
           %ul
-            %li
+            - show.genera.each do |genera|
+              %li
+                %a{:href=>"/shows?genera=#{genera.pid}"}
+                  = genera.name
 
-              %a{:href=>"#"}
-                Genera1
-            %li
-              %a{:href=>"#"}
-                Genera2
-            %li
-              %a{:href=>"#"}
-                Genera3
 
 - else
   Nothing here yet
