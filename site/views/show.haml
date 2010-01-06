@@ -164,25 +164,22 @@
               %li
                 %div
                   = cr.name
+                  \-
+                  = cr.role
+                  %p
+                    %em
+                      = cr.description
+                  - if cr.image && cr.image.length > 0
+                    %img{:src=>cr.image,:width=>"50px"}
 
 
         /
           END "entry_content"  //
       /
         END "entry"  //
+
       /
-        .entry
-          .title_holder
-            %h1
-              Gallery
-        /
-          END "title_holder"  //
-        .entry_content
-          GALLERY IMAGES?
-        /
-          END "entry_content"  //
-      /
-        END "entry"  //
+        A GALLERY?
 
       .entry
 

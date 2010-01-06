@@ -46,23 +46,23 @@
               - if episode.description['long']
                 = episode.description['long'].content
 
-          %li
+          %li.hide
             %label
               HD SWF Url
             %input.text.medium{:type=>"text",:name=>"hd_swf_url",:value=>episode.hd_swf_url}
 
-          %li
+          %li.hide
             HD EMBED CODE:
             %br
             %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_hd"}
               = episode.embed_hd
 
-          %li
+          %li.hide
             %label
               SD SWF Url
             %input.text.medium{:type=>"text",:name=>"hd_swf_url",:value=>episode.sd_swf_url}    
 
-          %li
+          %li.hide
             SD EMBED CODE:
             %br
             %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_sd"}
@@ -92,7 +92,7 @@
 
           %li
             %label{:for=>"episode_rating"}
-              Content Rating [G, PG, PG-13, R, NC-17, XXX]:
+              Content Rating:
             %select{:name=>"episode_rating"}
               - if episode.content_rating
                 %option
@@ -110,19 +110,12 @@
               %option
                 TV-18
 
-
-
-            - #%input{:type=>"text",:name=>"episode_rating",:value=>episode.content_rating}
-
-          %li
-            GENERAS
-
-          %li
+          %li.hide
             %label{:for=>"episode_language"}
               Language
             %input{:type=>"text",:name=>"episode_language",:value=>episode.language}
 
-          %li
+          %li.hide
             SEASON - TODO
 
           %li
@@ -130,7 +123,7 @@
               Sequence Order [episode # accross all seasons] - ex. 101, 102, 103, 201, 202, 203, 3001, 3002 etc...:
             %input{:type=>"text",:name=>"episode_sequence",:value=>episode.sequence_order}
 
-          %li
+          %li.hide
             %label{:for=>"episode_length"}
               Episode length [hh:mm:ss]
             %input{:type=>"text",:name=>"episode_length",:value=>episode.length}
@@ -140,14 +133,14 @@
               URL ID: for seo stuff
             %input{:type=>"text",:name=>"episode_url",:value=>episode.url_id}
 
-          %li
+          %li.hide
             Videos (
             = episode.video.size
             )
             %hr
-
-          - episode.video.each do |video|
-            = partial("episode_video_li",{:video=>video, :episode=>episode})
+          %span.hide
+            - episode.video.each do |video|
+              = partial("episode_video_li",{:video=>video, :episode=>episode})
             
 
           %li
@@ -159,7 +152,7 @@
             %input{:type=>"file",:name=>"episode_poster_image"}
             %img{:src=>episode.poster}
 
-          %li
+          %li.hide
             %label{:for=>"episode_thumbnail_image"}
               Thumbnail Image:
             %input{:type=>"file",:name=>"episode_thumbnail_image"}

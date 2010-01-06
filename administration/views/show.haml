@@ -57,25 +57,25 @@
               Release Date:
             %input{:type=>"text",:id=>"release_date", :name=>"show_release_date", :value=>show.release_date, :style=>"float:left"}
 
-          %li
+          %li.hide
             %label{:for=>"show_rating"}
               Rating:
             %input{:type=>"text",:name=>"show_rating",:value=>show.rating}
 
-          %li
+          %li.hide
             %label{:for=>"show_big_image"}
               Big Image:
             %input{:type=>"file",:name=>"show_big_image"}
             %img{:src=>show.big_image}
 
-          %li
+          %li.hide
             %label{:for=>"show_highlight_image"}
               Highlight Image:
             %input{:type=>"file",:name=>"show_highlight_image"}
             %img{:src=>show.highlight_image}
 
 
-          %li
+          %li.hide
             %label{:for=>"show_small_image"}
               Small Image:
             %input{:type=>"file",:name=>"show_small_image"}

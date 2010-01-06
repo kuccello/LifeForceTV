@@ -103,12 +103,16 @@ module Lifeforce
     end
 
     def generas
-      generas = []
-      self.genera.each do |genera|
-        generas << {genera.pid.to_sym => genera.name}
-      end
-      generas
+      self.genera
     end
+
+#    def generas
+#      generas = []
+#      self.genera.each do |genera|
+#        generas << {genera.pid.to_sym => genera.name}
+#      end
+#      generas
+#    end
 
     def long_description
     end
@@ -190,7 +194,7 @@ module Lifeforce
 
         sp_generas.each do |g|
           gen = Genera.make_new_genera(g)
-          gen.add_show(self)
+          gen.add_episode(self)
           new_generas << gen
         end
       end
