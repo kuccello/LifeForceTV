@@ -234,7 +234,7 @@ This show has no highlight description.
       episodes = []
       le = live_episodes
       episodes = live_episodes.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i } if le
-      episodes.reverse
+      episodes.reverse.sort {|a,b| a.sequence_order.to_i <=> b.sequence_order.to_i}
     end
 
     def live_episodes
