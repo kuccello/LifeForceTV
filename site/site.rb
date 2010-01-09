@@ -67,7 +67,7 @@ class LifeForceSite < Sinatra::Base
 
   get '/shows' do
     generas = Lifeforce::Genera.all
-    genera = Lifeforce::Genera.get_by_pid(params[:genera])
+    genera = Lifeforce::Genera.get_by_pid(params[:genre])
     rating = params[:rating]
     order = params[:order]
     shows = all_released_shows unless genera

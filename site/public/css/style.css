@@ -32,7 +32,7 @@ a:hover {
 /* General Styles */
 
 body {
-	background: #e5e5e5 url(../images/background.jpg);
+	background: #666 url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding-bottom: 60px;
@@ -45,6 +45,10 @@ body {
 
 .clear {
 	clear: both;
+}
+
+#lclogo {
+	margin-top: -10px;
 }
 
 .clearfix:after {
@@ -99,6 +103,7 @@ body {
 	width: 920px;
 	background: #FFF;
 	padding: 0px 20px 10px 20px;
+	margin-top: -20px;
 }
 
 /* Top Panel - Here is Navigation and search box*/
@@ -120,6 +125,8 @@ body {
 	font-size: 14px;
 	text-transform: uppercase;
 	list-style: none;
+	position: relative;
+	display: block;
 }
 
 #navigation li {
@@ -239,7 +246,7 @@ body {
 #featured_home {
 	width: 920px;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 0;
 }
 
 #featured_home .bigimg {

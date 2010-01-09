@@ -22,11 +22,11 @@
       %a.comment_counter{ :href => show.uri }
         = show.episode_count
     %h3
-      Generas
+      Genre's
       %span
         - genera_size = show.generas.size
         - show.generas.each_with_index do |genera,idx|
-          %a{ :href => "/shows?genera=#{genera.pid}" }
+          %a{ :href => "/shows?genre=#{genera.pid}" }
             = genera.name
           = ((idx+1) < genera_size ) ? "," : ''
 

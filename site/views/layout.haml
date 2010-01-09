@@ -48,7 +48,8 @@
       echo "<xml:namespace ns=\"urn:schemas-microsoft-com:vml\" prefix=\"v\" />\n";
       }
     #wrapper
-      #border_top
+      /
+        #border_top
       /
         END "border_top"  //
       #header.clearfix
@@ -73,37 +74,34 @@
       /
         END "container"  //
       #footer.clearfix
-        %br
+        %div{:style=>"width:100%;text-align:center;color:#fff"}
+          %br
+          |
+          %a{:href=>"/about"}
+            About
+          |
 
-        |
-        %a{:href=>"/about"}
-          About
-        |
-        %a{:href=>"/faq"}
-          FAQ
-        |
-        %a{:href=>"/advertising"}
-          Advertising
-        |
-        %a{:href=>"/addshow"}
-          Add Your Show
-        |
-        %a{:href=>"/contact"}
-          Contact
-        |
-        %a{:href=>"/tos"}
-          Terms Of Service
-        |
-        %a{:href=>"/privacy"}
-          Privacy Policy
-        |
-        #footer_left
+          %a{:href=>"/advertising"}
+            Advertising
+          |
+          %a{:href=>"/addshow"}
+            Add Your Show
+          |
+          %a{:href=>"/contact"}
+            Contact
+          |
+          %a{:href=>"/tos"}
+            Terms Of Service
+          |
+          %a{:href=>"/privacy"}
+            Privacy Policy
+          |
+
+          %br
           &copy; Copyright 2009
           = $SITE_NAME
-        #footer_right
-          %a{ :href => "/" }
-            %img{ :src => "/images/logo_footer.png", :alt => "Logo" }
-        #footer_bottom
+          %br
+        
 
 
       /

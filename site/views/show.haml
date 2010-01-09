@@ -74,11 +74,13 @@
             - show_episodes.each do |episode|
               %li{:id=>episode.url_id}
                 %img{ :src => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=100&amp;w=52&amp;zc=0", :alt => episode.name }
-                %a.slider_tit{ :href => "#" }
+                %a.slider_tit{ :href => episode.s.uri }
+                  Show:
                   \/
                   = episode.s.name
                   \/
-                %a.slider_desc{ :href => "#" }
+                %a.slider_desc{ :href => episode.uri }
+                  Episode: 
                   = episode.name
 
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
@@ -136,10 +138,7 @@
           %h1
             About
             = show.name
-          %h3
-            Quick Facts
-            %span
-              quick 1      
+               
         /
           END "title_holder"  //
         .entry_content
@@ -225,12 +224,12 @@
 
       .widget
         %h3.widget_title
-          Generas
+          Genre's
         .widget_content
           %ul
             - show.genera.each do |genera|
               %li
-                %a{:href=>"/shows?genera=#{genera.pid}"}
+                %a{:href=>"/shows?genre=#{genera.pid}"}
                   = genera.name
 
 
