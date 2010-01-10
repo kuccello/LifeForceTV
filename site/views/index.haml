@@ -15,13 +15,6 @@
       %a#slider_img_tit.appear{ :href => "#" }
       %a#slider_video{:href=>"#", :rel=>"shadowbox;width=715;height=435;player=swf"}
       %a#slider_img_desc{ :href => "#" }
-      /
-        .post_name.appear
-          %a#slider_description
-            &nbsp;
-
-
-
 
       %script{:type=>"text/javascript"}
         $().ready(function(){
@@ -31,9 +24,7 @@
         $($("#slider_ul > li")[0]).trigger("click");
         
         });
-      /
-        #post_details.appear
-          THis is some text
+      
     /
       END "post_info_holder"  //
   /
@@ -82,8 +73,6 @@
                   %img{:src=>"/images/tvratings/#{episode.ep.content_rating}.gif",:width=>"60"}
                 - else
                   %img{:src=>"/images/tvratings/TV-G.gif",:width=>"60"}
-
-
 
         /
           END "slider_ul"  //

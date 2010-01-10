@@ -28,6 +28,10 @@ class LifeForceSite < Sinatra::Base
     'Sorry there was a nasty error - ' + env['sinatra.error'].name
   end
 
+  get '/raw/:haml' do
+    haml :"raw-haml/#{params[:haml]}", :layout=>false  
+  end
+
   get '/' do
     haml :index
   end

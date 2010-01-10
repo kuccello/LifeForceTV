@@ -1134,6 +1134,18 @@ div.slider_show_poster img{
 	background-repeat: no-repeat;
 }
 
+#footer div a {
+	text-transform: lowercase;
+	text-decoration: none;
+	color: silver;
+}
+
+#footer div a:hover {
+	text-transform: lowercase;
+	text-decoration: overline;
+	color: #00b5f8;
+}
+
 /* Contact Form */
 
 form.contact_form {

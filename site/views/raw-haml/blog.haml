@@ -9,11 +9,11 @@
       DD_belatedPNG.fix('#search input.field, #search input.field:focus, #featured_home .bigimg .post_category a,#featured_home .bigimg .post_name a, #message_buttons .button2 a, #message_buttons .button2 a:hover, #inner_content .date, img');
       </script>
       <![endif]
-    %script{ :src => "js/dropdown.js", :type => "text/javascript" }
-    %script{ :src => "js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
+    %script{ :src => "/js/dropdown.js", :type => "text/javascript" }
+    %script{ :src => "/js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
     %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
-    %link{ :rel => "stylesheet", :type => "text/css", :href => "css/style.css" }
-    %link{ :rel => "stylesheet", :href => "css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
+    %link{ :rel => "stylesheet", :href => "/css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
     %title
       LondonCreative+
   %body
@@ -24,7 +24,7 @@
       #header.clearfix
         #logo
           %a{ :href => "index.php" }
-            %img#lclogo{ :src => "images/logo.png", :alt => "LondonCreative+" }
+            %img#lclogo{ :src => "/images/logo.png", :alt => "LondonCreative+" }
         /
           END "logo"  //
         #header_contacts
@@ -137,7 +137,7 @@
           #inner_content
             .entry
               %a{ :href => "#" }
-                %img{ :src => "images/postimg1.jpg", :alt => "postimg1" }
+                %img{ :src => "/images/postimg1.jpg", :alt => "postimg1" }
               .date.clearfix
                 .date_holder
                   %span.month
@@ -175,7 +175,7 @@
               END "entry"  //
             .entry
               %a{ :href => "#" }
-                %img{ :src => "images/postimg2.jpg", :alt => "postimg2" }
+                %img{ :src => "/images/postimg2.jpg", :alt => "postimg2" }
               .date.clearfix
                 .date_holder
                   %span.month
@@ -213,7 +213,7 @@
               END "entry"  //
             .entry
               %a{ :href => "#" }
-                %img{ :src => "images/postimg3.jpg", :alt => "postimg3" }
+                %img{ :src => "/images/postimg3.jpg", :alt => "postimg3" }
               .date.clearfix
                 .date_holder
                   %span.month
@@ -386,7 +386,7 @@
           © Copyright 2009 by LondonCreative+
         #footer_right
           %a{ :href => "index.php" }
-            %img{ :src => "images/logo_footer.png", :alt => "Logo" }
+            %img{ :src => "/images/logo_footer.png", :alt => "Logo" }
         #footer_bottom
       /
         END "footer"  //

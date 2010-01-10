@@ -1,17 +1,57 @@
-%h1
-  About LifeforceTV
-%p
-  LifeforceTV is Canada's online broadcast network, where distribute
-  Canadian made web series from content creators throughout the country.
-  Our goal is to prove that high quality, professionally produced content,
-  goes beyond the television set, and onto the fastest growing medium of our
-  generation; the Internet. We play shows that we want to watch. Shows that
-  are fun, loose, educational, and funny. LifeforceTV is our new media
-  alternative to traditional broadcast, and we're happy you're here to
-  check it out. Leave a comment, post in the forum, and let us know how
-  we can make your user experience here better.
-%p
-  Enjoy the Shows!
+#inner_content
+  .entry
+    .entry_content
+      %h1
+        About LifeForceTV.com
+      %p
+        LifeforceTV is Canada's online broadcast network, where distribute
+        Canadian made web series from content creators throughout the country.
+        Our goal is to prove that high quality, professionally produced content,
+        goes beyond the television set, and onto the fastest growing medium of our
+        generation; the Internet. We play shows that we want to watch. Shows that
+        are fun, loose, educational, and funny. LifeforceTV is our new media
+        alternative to traditional broadcast, and we're happy you're here to
+        check it out. Leave a comment, post in the forum, and let us know how
+        we can make your user experience here better.
+      %p
+        Enjoy the Shows!
 
-%p
-  \-The LifeforceTV Team
+      %p
+        \-The LifeforceTV Team
+    /
+      END "entry_content"  //
+  /
+    END "entry"  //
+/
+  END "inner_content"  //
+#sidebar_home
+  .widget
+    %h3.widget_title
+      Most Recent Episode
+    .widget_content
+      - episode = most_recent_episode
+      .mre_ep
+        .mini_img_block{:style=>"text-align:center"}
+          %a{ :href => episode.s.uri }
+            %div{:style=>"float:left;align:left"}
+              %img{ :src => "/scripts/timthumb.php?src=#{episode.s.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.s.name }
+          %a.mini_ep_link{:href=>episode.uri}
+            %div{:style=>"float:left;align:left;padding-left: 10px;"}
+              %img{ :src => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.name }
+
+
+        .ep_links{:style=>"clear:both;display:block;"}
+          %p{:style=>'text-align:center'}
+            %a.mini_ep_link{:href=>episode.uri}
+              = episode.name
+          %p.air_date{:style=>'text-align:center'}
+            - ed = episode.released_date
+            Air Date:
+            = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
+
+        .ep_desc{:style=>"display:block;clear:both;"}
+          %p
+            = episode.description['long'].content
+/
+  END "sidebar_home"  //
+

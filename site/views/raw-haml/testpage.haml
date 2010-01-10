@@ -4,7 +4,7 @@
     %script{ :type => "text/javascript", :src => "http://code.jquery.com/jquery-latest.js" }
     /
       [if lt IE 7.]>
-      <script ype="text/javascript" src="js/DD_belatedPNG.js"></script>
+      <script ype="text/javascript" src="/js/DD_belatedPNG.js"></script>
       <script>
       DD_belatedPNG.fix('#search input.field, #search input.field:focus, #featured_home .bigimg .post_category a,#featured_home .bigimg .post_name a, #message_buttons .button2 a, #message_buttons .button2 a:hover, #inner_content .date, img');
       </script>
@@ -12,8 +12,8 @@
     %script{ :src => "js/dropdown.js", :type => "text/javascript" }
     %script{ :src => "js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
     %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
-    %link{ :rel => "stylesheet", :type => "text/css", :href => "css/style.css" }
-    %link{ :rel => "stylesheet", :href => "css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
+    %link{ :rel => "stylesheet", :href => "/css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
     %title
       LondonCreative+
   %body
@@ -23,8 +23,8 @@
         END "border_top"  //
       #header.clearfix
         #logo
-          %a{ :href => "index.php" }
-            %img#lclogo{ :src => "images/logo.png", :alt => "LondonCreative+" }
+          %a{ :href => "/index.php" }
+            %img#lclogo{ :src => "/images/logo.png", :alt => "LondonCreative+" }
         /
           END "logo"  //
         #header_contacts
@@ -38,88 +38,88 @@
           #navigation
             %ul
               %li
-                %a.main_category{ :href => "index.php" }
+                %a.main_category{ :href => "/index.php" }
                   Home
               %li.active
-                %a.main_category{ :href => "theme_description.html" }
+                %a.main_category{ :href => "/theme_description.html" }
                   About
                 %ul
                   %li
-                    %a{ :href => "testpage.html" }
+                    %a{ :href => "/testpage.html" }
                       HTML Test Page
                   %li
-                    %a{ :href => "theme_description.html" }
+                    %a{ :href => "/theme_description.html" }
                       Theme Description
                   %li
-                    %a{ :href => "#" }
+                    %a{ :href => "/#" }
                       Dropdown Test
                     %ul
                       %li
-                        %a{ :href => "#" }
+                        %a{ :href => "/#" }
                           Dropdown Test
                         %ul
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                         /
                           END dropdown level 3  //
                       %li
-                        %a{ :href => "#" }
+                        %a{ :href => "/#" }
                           Dropdown Test
                         %ul
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                           %li
-                            %a{ :href => "#" }
+                            %a{ :href => "/#" }
                               Dropdown Test
                         /
                           END dropdown level 3  //
                       %li
-                        %a{ :href => "#" }
+                        %a{ :href => "/#" }
                           Dropdown Test
                     /
                       END dropdown level 2  //
                 /
                   END dropdown level 1  //
               %li
-                %a.main_category{ :href => "portfolio.html" }
+                %a.main_category{ :href => "/portfolio.html" }
                   Portfolio
                 %ul
                   %li
-                    %a{ :href => "portfolio.html" }
+                    %a{ :href => "/portfolio.html" }
                       Web design
                   %li
-                    %a{ :href => "portfolio.html" }
+                    %a{ :href => "/portfolio.html" }
                       Print Design
                   %li
-                    %a{ :href => "portfolio.html" }
+                    %a{ :href => "/portfolio.html" }
                       Corporate Identity
                   %li
-                    %a{ :href => "portfolio.html" }
+                    %a{ :href => "/portfolio.html" }
                       Branding
                   %li
-                    %a{ :href => "portfolio.html" }
+                    %a{ :href => "/portfolio.html" }
                       Advertising
                 /
                   END dropdown level 1  //
               %li
-                %a.main_category{ :href => "blog.html" }
+                %a.main_category{ :href => "/blog.html" }
                   Blog
               %li
-                %a.main_category{ :href => "contact.php" }
+                %a.main_category{ :href => "/contact.php" }
                   Contact
             /
               END for whole navigation UL  //
@@ -138,13 +138,13 @@
             .entry
               .entry_content
                 %h1
-                  %a{ :href => "#" }
+                  %a{ :href => "/#" }
                     Common XHTML Elements
                 %h3
                   Text and Image
                 %p
-                  %a{ :href => "#" }
-                    %img.float_left{ :src => "images/screen_widget.jpg", :alt => "screenshot" }
+                  %a{ :href => "/#" }
+                    %img.float_left{ :src => "/images/screen_widget.jpg", :alt => "screenshot" }
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
                   Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
                   posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum
@@ -155,7 +155,7 @@
                   posuere nunc justo tempus leo.
                 %p
                   A
-                  %a{ :href => "#" }
+                  %a{ :href => "/#" }
                     link
                   ,
                   %acronym{ :title => "this really isn't a very good description" }
@@ -225,7 +225,7 @@
                       Augue non nibh
                     %td
                       Commodo
-                      %a{ :href => "#" }
+                      %a{ :href => "/#" }
                         metus
                       vestibulum hdhdh djdjdj djdjdj
                   %tr
@@ -249,7 +249,7 @@
                       Sed vestibulum
                     %td
                       Cras
-                      %a{ :href => "#" }
+                      %a{ :href => "/#" }
                         lobortis
                       commodo
               /
@@ -272,7 +272,7 @@
               %h3.widget_title
                 Informations about this theme
               .widget_content
-                %img{ :src => "images/screen_widget.jpg", :alt => "Screenshot", :style => "float:left; margin:0 10px 2px 0;" }
+                %img{ :src => "/images/screen_widget.jpg", :alt => "Screenshot", :style => "float:left; margin:0 10px 2px 0;" }
                 %p
                   This is a text widget. You can have them as many as you like.
                   %br
@@ -295,8 +295,8 @@
         #footer_left
           © Copyright 2009 by LondonCreative+
         #footer_right
-          %a{ :href => "index.php" }
-            %img{ :src => "images/logo_footer.png", :alt => "Logo" }
+          %a{ :href => "/index.php" }
+            %img{ :src => "/images/logo_footer.png", :alt => "Logo" }
         #footer_bottom
       /
         END "footer"  //

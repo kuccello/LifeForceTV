@@ -4,7 +4,7 @@
     %script{ :type => "text/javascript", :src => "http://code.jquery.com/jquery-latest.js" }
     /
       [if lt IE 7.]>
-      <script ype="text/javascript" src="js/DD_belatedPNG.js"></script>
+      <script ype="text/javascript" src="/js/DD_belatedPNG.js"></script>
       <script>
       DD_belatedPNG.fix('#search input.field, #search input.field:focus, #featured_home .bigimg .post_category a,#featured_home .bigimg .post_name a, #message_buttons .button2 a, #message_buttons .button2 a:hover, #inner_content .date, img');
       </script>
@@ -46,11 +46,11 @@
       }
       );
       });
-    %script{ :src => "js/dropdown.js", :type => "text/javascript" }
-    %script{ :src => "js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
+    %script{ :src => "/js/dropdown.js", :type => "text/javascript" }
+    %script{ :src => "/js/jquery.prettyPhoto.js", :type => "text/javascript", :charset => "utf-8" }
     %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
-    %link{ :rel => "stylesheet", :type => "text/css", :href => "css/style.css" }
-    %link{ :rel => "stylesheet", :href => "css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
+    %link{ :rel => "stylesheet", :href => "/css/prettyPhoto.css", :type => "text/css", :media => "screen", :charset => "utf-8" }
     %title
       LondonCreative+
   %body
@@ -61,7 +61,7 @@
       #header.clearfix
         #logo
           %a{ :href => "index.php" }
-            %img#lclogo{ :src => "images/logo.png", :alt => "LondonCreative+" }
+            %img#lclogo{ :src => "/images/logo.png", :alt => "LondonCreative+" }
         /
           END "logo"  //
         #header_contacts
@@ -202,7 +202,7 @@
               %h3.widget_title
                 Informations about this theme
               .widget_content
-                %img{ :src => "images/screen_widget.jpg", :alt => "Screenshot", :style => "float:left; margin:0 10px 2px 0;" }
+                %img{ :src => "/images/screen_widget.jpg", :alt => "Screenshot", :style => "float:left; margin:0 10px 2px 0;" }
                 %p
                   This is a text widget. You can have them as many as you like.
                   %br
@@ -226,7 +226,7 @@
           © Copyright 2009 by LondonCreative+
         #footer_right
           %a{ :href => "index.php" }
-            %img{ :src => "images/logo_footer.png", :alt => "Logo" }
+            %img{ :src => "/images/logo_footer.png", :alt => "Logo" }
         #footer_bottom
       /
         END "footer"  //
