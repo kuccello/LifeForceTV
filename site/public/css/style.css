@@ -295,6 +295,13 @@ a:hover .icon_h {
 	margin-top: 260px;
 }
 
+#slider_rating {
+	float: left;
+	position: relative;
+	margin-top: -340px;
+	margin-left: 10px;
+}
+
 a.mini_ep_link {
 	text-decoration: none;
 	font-weight: bold;
@@ -331,6 +338,23 @@ a.mini_ep_link {
 	float: right;
 	
 }
+
+img .icon_n {
+	display: inline;
+}
+
+img:hover .icon_n {
+	display: none;
+}
+
+img .icon_h {
+	display: none;
+}
+
+img:hover .icon_h {
+	display: inline;
+}
+
 
 #slider_img_desc:hover{
 	color: #00b5f8;

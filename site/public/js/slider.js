@@ -276,7 +276,8 @@
           
           // FLIPPING THE IMAGE
           $("#slider_main_img").attr("src",$(this).find("a.slider_img").attr("href")); 
-           $("#slider_main_img").fadeTo(150, 1); // FADING MAIN IMAGE TO NORMAL
+          $("#slider_main_img").fadeTo(150, 1); // FADING MAIN IMAGE TO NORMAL
+            
         });
   
        
