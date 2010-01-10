@@ -149,34 +149,7 @@
       /
         END "entry"  //
 
-      .entry
-
-        .title_holder
-          %h1
-            Credits
-
-        /
-          END "title_holder"  //
-        .entry_content
-          %ul
-            - show.ordered_credits.each do |cr|
-              %li
-                %div
-                  = cr.name
-                  \-
-                  = cr.role
-                  %p
-                    %em
-                      = cr.description
-                  - if cr.image && cr.image.length > 0
-                    %img{:src=>cr.image,:width=>"50px"}
-
-
-        /
-          END "entry_content"  //
-      /
-        END "entry"  //
-
+      
       /
         A GALLERY?
 
@@ -232,6 +205,20 @@
                 %a{:href=>"/shows?genre=#{genera.pid}"}
                   = genera.name
 
+      .widget
+        %h3.widget_title
+          Credits
+        .widget_content
+          - show.ordered_credits.each do |cr|
+            .credit
+              = cr.name
+              \-
+              = cr.role
+              %p
+                %em
+                  = cr.desc
+              - if cr.image && cr.image.length > 0
+                %img{:src=>cr.image,:width=>"50px"}
 
 - else
   Nothing here yet

@@ -265,7 +265,7 @@
 
           desc = $("#slider_description");
           if(desc){
-            desc.html($(this).find("a.slider_description").html());
+            desc.html( $(this).find("a.slider_description").html());
           }
 
           rat = $("#slider_rating");

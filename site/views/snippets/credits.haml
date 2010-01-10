@@ -1,0 +1,14 @@
+.widget
+  %h3.widget_title
+    Credits
+  .widget_content
+    - credits.each do |cr|
+      .credit
+        = cr.name
+        \-
+        = cr.role
+        %p
+          %em
+            = cr.desc
+        - if cr.image && cr.image.length > 0
+          %img{:src=>cr.image,:width=>"50px"}

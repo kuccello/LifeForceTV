@@ -49,5 +49,13 @@ module LifeForceSiteHelpers
     def layout_ad
       Lifeforce::AdSense.get_layout_ad
     end
+
+    def most_recent_episode
+      Lifeforce::Show.most_recent_episode
+    end
+
+    def ad_300x300
+      "<div class='ad_300x300'>300x300 Ad Here</div>"
+    end
   end
 end

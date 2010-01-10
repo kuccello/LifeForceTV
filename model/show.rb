@@ -15,6 +15,17 @@ module Lifeforce
       "/#{self.url_id}"
     end
 
+    def Show.most_recent_episode
+      latest_ep = nil
+      Lifeforce.root.show.each do |sh|
+        sh.live_episodes.each do |ep|
+          latest_ep = ep if latest_ep == nil
+          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+        end
+      end
+      latest_ep
+    end
+
     def latest_episode
       # TODO -- this is not right
 #      ShowDate.new(self.release_date_unix.to_i)
@@ -39,7 +50,7 @@ module Lifeforce
       crs = self.credit
       ordered_credits = crs.sort { |a, b| a.zorder.to_i <=> b.zorder.to_i } if crs
       ordered_credits.reverse
-      
+
       ordered_credits
     end
 
@@ -234,7 +245,7 @@ This show has no highlight description.
       episodes = []
       le = live_episodes
       episodes = live_episodes.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i } if le
-      episodes.reverse.sort {|a,b| a.sequence_order.to_i <=> b.sequence_order.to_i}
+      episodes.reverse.sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
     end
 
     def live_episodes
@@ -304,7 +315,7 @@ This show has no highlight description.
         self.release_date = show_release_date
         # we need to chronic this date string...
         begin
-        self.release_date_unix =  Chronic.parse(show_release_date).to_i  # Date.parse(show_release_date).to_i.to_s
+          self.release_date_unix = Chronic.parse(show_release_date).to_i # Date.parse(show_release_date).to_i.to_s
         rescue => e
           puts "#{__FILE__}:#{__LINE__} #{__method__} ERROR PROCESSING DATE: #{show_release_date} -- #{e}"
         end
