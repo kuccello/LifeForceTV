@@ -64,6 +64,7 @@
               %a.slider_description{ :href=>"#"}
                 - ed = episode.ep.description["long"]
                 - if ed
+                  Episode Synopsis: 
                   = ed.content
                 - else
                   No description

@@ -113,6 +113,7 @@
                 %a.slider_description{ :href=>"#"}
                   - ed = episode.description["long"]
                   - if ed
+                    Episode Synopsis:
                     = ed.content
                   - else
                     No description
@@ -141,11 +142,11 @@
 
   #message_buttons
     .button1
-      %a
-        Info
+      %a{:href=>"/"}
+        Featured Shows
     .button2
-      %a
-        &nbsp;
+      %a{:href=>"/shows"}
+        All Shows
 
 
   #content_wrap
