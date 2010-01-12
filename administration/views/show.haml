@@ -29,6 +29,13 @@
             %textarea{:rows=>"10",:cols=>"30",:name=>"show_description"}
               = show.description
 
+          /
+            %li
+              Highlight Description
+              %br
+              %textarea{:rows=>"10",:cols=>"30",:name=>"show_highlight_description"}
+                = show.highlight_description
+
           %li
             %label{:for=>"show_status"}
               Status:

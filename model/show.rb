@@ -87,6 +87,35 @@ This show has no highlight description.
       end
     end
 
+    def highlight_description=(desc)
+      Lifeforce.transaction do
+        highlight = self.description['highlight']
+        highlight = self.new_description('highlight') unless highlight
+        highlight.content = desc
+      end
+    end
+
+    def normal_description
+      desc = ''
+      desc = self.description['long'] if self.description
+      if desc then
+        return desc.content if desc.class.name != "String"
+        return desc
+      else
+        return <<-c
+This show has no description.
+        c
+      end
+    end
+
+    def normal_description=(desc)
+      Lifeforce.transaction do
+        highlight = self.description['long']
+        highlight = self.new_description('long') unless highlight
+        highlight.content = desc
+      end
+    end
+
     def Show.get_by_pid(pid)
 
       Lifeforce.transaction do
@@ -289,6 +318,7 @@ This show has no highlight description.
 
       show_name = params[:show_name]
       show_description = params[:show_description]
+      show_highlight = params[:show_highlight_description]
       show_status = params[:show_status]
       show_release_date = params[:show_release_date]
       show_rating = params[:show_rating]
@@ -310,6 +340,7 @@ This show has no highlight description.
 
       Lifeforce.transaction do
         self.name = show_name
+        #self.highlight_description = show_highlight
         self.description = show_description
         self.status = show_status
         self.release_date = show_release_date
