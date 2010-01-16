@@ -29,6 +29,10 @@
           - episode = most_recent_episode(idx)
           - if episode
             .mre_ep
+              %p.air_date{:style=>'text-align:center'}
+                - ed = episode.released_date
+                Air Date:
+                = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
               .mini_img_block{:style=>"text-align:center"}
                 %a{ :href => episode.s.uri }
                   %div{:style=>"float:left;align:left"}
@@ -42,10 +46,7 @@
                 %p{:style=>'text-align:center'}
                   %a.mini_ep_link{:href=>episode.uri}
                     = episode.name
-                %p.air_date{:style=>'text-align:center'}
-                  - ed = episode.released_date
-                  Air Date:
-                  = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
+
 
 
 
