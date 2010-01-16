@@ -1453,4 +1453,11 @@ form.contact_form #send {
 	font-weight: bold;
 }
 
+.episode_block{
+	display: block;	
+}
 
+#inner_content div.entry div.entry_content div.episode_list div.episode_block {
+	width: 540px;
+	clear: both;
+}

@@ -185,41 +185,15 @@
           END "title_holder"  //
         .entry_content
           .episode_list
-            - show_episodes.each do |episode|
-              .episode_info
-                %div{:style=>"min-height:55px"}
-                  %a.mini_ep_link{:href=>episode.uri}
-                    %div{:style=>"float:left;"}
-                      %img{ :src => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=90&amp;w=160&amp;zc=0", :alt => episode.name }
-                    .episode_name
-                      = episode.name
-                    .episode_running_time
-                      Running Time:
-                      = episode.running_time
-                    .episode_seq
-                      Episode Number:
-                      = episode.sequence_order
-                    %p.episode_description
-                      = episode.description['long'].content
-
-                  .ep_credits
-                    %strong.credits_title
-                      Credits:
-
-                    .cast_header
-                      Cast:
-                    %ul.credits_list
-                    - episode.ordered_cast.each do |cr|
-                      %li.credit_item
-                        %div
-                          = cr.name
-                          ,
-                          = cr.role
-                          - if cr.image && cr.image.length > 0
-                            %img{:src=>cr.image,:width=>"26"}
-                          %p
-                            = cr.desc
-
+            - sep = show_episodes
+            - rows = (sep.size / 3).to_i
+            - rows += 1 if ((sep.size % 3) > 0)
+            - 0.upto(rows).each do |row|
+              .episode_block
+                - 0.upto(2) do |i|
+                  - if sep[i+(row*3)]
+                    = haml :'snippets/episode_block',:layout=>false,:locals=>{:episode=>sep[i+(row*3)]} 
+              
 
         /
           END "entry_content"  //
