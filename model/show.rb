@@ -15,25 +15,30 @@ module Lifeforce
       "/#{self.url_id}"
     end
 
-    def Show.most_recent_episode
+    def Show.most_recent_episode(index=0)
       latest_ep = nil
       Lifeforce.root.show.each do |sh|
-        sh.live_episodes.each do |ep|
+#        puts "#{__FILE__}:#{__LINE__} #{__method__} #{sh.released_episodes.size} episodes in #{sh.name}"
+        sh.released_episodes.each_with_index do |ep,idx|
           latest_ep = ep if latest_ep == nil
-          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+#          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+          latest_ep = ep if idx == index
         end
       end
       latest_ep
     end
 
-    def latest_episode
-      # TODO -- this is not right
-#      ShowDate.new(self.release_date_unix.to_i)
+    def latest_episode(index=0)
       latest_ep = nil
-      self.live_episodes.each do |ep|
-#        puts "#{__FILE__}:#{__LINE__} #{__method__} #{ep.release_date_unix} - #{ep.name}"
-        latest_ep = ep if latest_ep == nil
-        latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+      
+
+#      self.live_episodes.each do |ep|
+##        puts "#{__FILE__}:#{__LINE__} #{__method__} #{ep.release_date_unix} - #{ep.name}"
+#        latest_ep = ep if latest_ep == nil
+#        latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+#      end
+      self.released_episodes.each_with_index do |ep,idx|
+        latest_ep = ep if idx == index
       end
 
       sd = ShowDate.new(latest_ep.release_date_unix.to_i) if latest_ep
@@ -52,6 +57,18 @@ module Lifeforce
       ordered_credits.reverse
 
       ordered_credits
+    end
+
+    def ordered_crew
+      oc = self.ordered_credits
+      ocr = oc.select{|c| !c.is_cast? }
+      ocr
+    end
+
+    def ordered_cast
+      oc = self.ordered_credits
+      ocr = oc.select{|c| c.is_cast? }
+      ocr
     end
 
     def released?
@@ -277,6 +294,22 @@ This show has no description.
       episodes.reverse.sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
     end
 
+    def sorted_released_episodes
+      episodes = []
+      le = released_episodes
+      episodes = le.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i } if le
+      e = episodes.reverse.sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
+#      puts "#{__FILE__}:#{__LINE__} #{__method__} SHOW SEES #{e.size} RELEASED EPISODES"
+      e
+    end
+
+    def released_episodes
+      le = live_episodes
+      r = le.select{|e| e.is_released?}
+#      puts "#{__FILE__}:#{__LINE__} #{__method__} RELEASED EPISODES: #{r.size}"
+      r
+    end
+
     def live_episodes
       episodes_by_filter(Episode::STATUS_LIVE)
     end
@@ -318,7 +351,7 @@ This show has no description.
 
       show_name = params[:show_name]
       show_description = params[:show_description]
-      show_highlight = params[:show_highlight_description]
+      show_case_description = params[:show_case_description]
       show_status = params[:show_status]
       show_release_date = params[:show_release_date]
       show_rating = params[:show_rating]
@@ -342,6 +375,7 @@ This show has no description.
         self.name = show_name
         #self.highlight_description = show_highlight
         self.description = show_description
+        self.show_case_description = show_case_description
         self.status = show_status
         self.release_date = show_release_date
         # we need to chronic this date string...

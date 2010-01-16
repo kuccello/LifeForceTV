@@ -28,6 +28,18 @@ module Lifeforce
       ordered_credits
     end
 
+    def ordered_crew
+      oc = self.ordered_credits
+      ocr = oc.select{|c| !c.is_cast? }
+      ocr
+    end
+
+    def ordered_cast
+      oc = self.ordered_credits
+      ocr = oc.select{|c| c.is_cast? }
+      ocr
+    end
+
     def released_date
       EpisodeDate.new(self.release_date_unix.to_i)
     end
@@ -65,8 +77,26 @@ module Lifeforce
       end
     end
 
+    def r_hour
+      if self.release_hour && self.release_hour.length > 0
+        return self.release_hour
+      else
+        "0"
+      end
+    end
+
+    def r_minute
+      if self.release_minute && self.release_minute.length > 0
+        return self.release_minute
+      else
+        "0"
+      end
+    end
+
     def release_date_unix
-      Chronic.parse(self.release_date).to_i
+      stamp = "#{self.release_date} at #{self.r_hour.to_i<10 ? '0' : ''}#{self.r_hour}:#{self.r_minute.to_i<10 ? '0' : ''}#{self.r_minute}"
+#      puts "#{__FILE__}:#{__LINE__} #{__method__} STAMP: #{stamp}"
+      Chronic.parse(stamp).to_i
     end
 
     def Episode.get_by_uid(uid)
@@ -132,7 +162,8 @@ module Lifeforce
       # parse out the release_date of this episode
       # compare it with the current date
       # if the pdate is less then current date then its released
-      pdate = Chronic.parse(self.release_date)
+      pdate = release_date_unix #Chronic.parse(self.release_date)
+#      puts "#{__FILE__}:#{__LINE__} #{__method__} #{pdate} vs #{Time.new.to_i} -- released? #{(pdate.to_i < Time.new.to_i)}"
       flag = pdate.to_i < Time.new.to_i if pdate
 
       flag
@@ -184,6 +215,9 @@ module Lifeforce
       episode_video_embed_sd = params[:episode_video_embed_sd]
       episode_status = params[:episode_status]
       episode_release_date = params[:episode_release_date]
+      episode_release_hour = params[:episode_release_hour]
+      episode_release_minute = params[:episode_release_minute]
+
       episode_rating = params[:episode_rating]
       episode_language = params[:episode_language]
       episode_sequence = params[:episode_sequence]
@@ -232,6 +266,8 @@ module Lifeforce
         self.sd_swf_url = episode_sd_swf_url
         self.status = episode_status
         self.release_date = episode_release_date
+        self.release_hour = episode_release_hour
+        self.release_minute = episode_release_minute
         self.sequence_order = episode_sequence
         self.url_id = episode_url
         self.content_rating = episode_rating

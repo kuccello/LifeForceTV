@@ -10,6 +10,10 @@ module Lifeforce
       ad
     end
 
+    def is_cast?
+      self.type_of == 'cast'
+    end
+
     def update_data(params)
       Lifeforce.transaction do
         self.name = params['name']
@@ -17,6 +21,7 @@ module Lifeforce
         self.image = params['image']
         self.desc = params['desc']
         self.zorder = params['zorder']
+        self.type_of = params['type_of']
       end
     end
 

@@ -14,6 +14,17 @@
         %ul
           %li
             %label
+              Cast or Crew?
+            %select{:name=>"type_of"}
+              %option{:value=>(credit.type_of!='' ? credit.type_of : 'crew') }
+                = (credit.type_of!='' ? credit.type_of : 'crew')
+              %option{:value=>"cast"}
+                Cast
+              %option{:value=>"crew"}
+                Crew
+
+          %li
+            %label
               Name
             %input.text.medium{:type=>"text",:name=>"name",:value=>credit.name}
 

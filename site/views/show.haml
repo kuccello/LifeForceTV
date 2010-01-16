@@ -1,5 +1,4 @@
-- show_episodes = ( show ? show.sorted_episodes : [] )
-
+- show_episodes = ( show ? show.sorted_released_episodes : [] )
 -# if show && show.poster
 -#  %img{ :src => "/scripts/timthumb.php?src=#{show.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84", :alt => show.name }
 
@@ -99,7 +98,9 @@
                     %img.show_icon_img{ :src => "/scripts/timthumb.php?src=#{episode.s.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.s.name }
 
                 %a.slider_desc{ :href => episode.uri }
-                  Episode: 
+                  Ep
+                  = episode.sequence_order
+                  \:
                   = episode.name
 
                 %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
@@ -200,19 +201,25 @@
                       = episode.sequence_order
                     %p.episode_description
                       = episode.description['long'].content
-                  %strong.credits_title
-                    Credits:
-                  %ul.credits_list
-                  - episode.ordered_credits.each do |cr|
-                    %li.credit_item
-                      %div
-                        = cr.name
-                        ,
-                        = cr.role
-                        - if cr.image && cr.image.length > 0
-                          %img{:src=>cr.image,:width=>"26"}
-                        %p
-                          = cr.desc
+
+                  .ep_credits
+                    %strong.credits_title
+                      Credits:
+
+                    .cast_header
+                      Cast:
+                    %ul.credits_list
+                    - episode.ordered_cast.each do |cr|
+                      %li.credit_item
+                        %div
+                          = cr.name
+                          ,
+                          = cr.role
+                          - if cr.image && cr.image.length > 0
+                            %img{:src=>cr.image,:width=>"26"}
+                          %p
+                            = cr.desc
+
 
         /
           END "entry_content"  //
@@ -237,16 +244,40 @@
         %h3.widget_title
           Credits
         .widget_content
-          - show.ordered_credits.each do |cr|
-            .credit
-              = cr.name
-              \-
-              = cr.role
-              %p
-                %em
-                  = cr.desc
-              - if cr.image && cr.image.length > 0
-                %img{:src=>cr.image,:width=>"50px"}
+
+          .show_cast
+            .cast_title
+              Cast:
+            - show.ordered_cast.each do |cr|
+              .credit
+                %img{:src=>"/images/credit.png",:alt=>cr.name}
+                .credit_name
+                  = cr.name
+                .credit_role
+                  = cr.role
+                .credit_desc
+                  %em
+                    = cr.desc
+                - if cr.image && cr.image.length > 0
+                  %img{:src=>cr.image,:width=>"50px"}
+          .show_crew
+            .crew_title
+              Crew:
+            - show.ordered_crew.each do |cr|
+              .credit
+                %img{:src=>"/images/credit.png",:alt=>cr.name}
+                .credit_name
+                  = cr.name
+                .credit_role
+                  = cr.role
+                .credit_desc
+                  %em
+                    = cr.desc
+                - if cr.image && cr.image.length > 0
+                  %img{:src=>cr.image,:width=>"50px"}
+
+      .widget{:style=>"text-align:center;"}
+        %img{:src=>"/images/ex_ad_300x300.jpg"}
 
 - else
   Nothing here yet

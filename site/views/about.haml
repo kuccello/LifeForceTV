@@ -26,31 +26,17 @@
 #sidebar_home
   .widget
     %h3.widget_title
-      Most Recent Episode
+      Add Your Show To Our Network
     .widget_content
-      - episode = most_recent_episode
-      .mre_ep
-        .mini_img_block{:style=>"text-align:center"}
-          %a{ :href => episode.s.uri }
-            %div{:style=>"float:left;align:left"}
-              %img{ :src => "/scripts/timthumb.php?src=#{episode.s.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.s.name }
-          %a.mini_ep_link{:href=>episode.uri}
-            %div{:style=>"float:left;align:left;padding-left: 10px;"}
-              %img{ :src => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.name }
+      %p
+        Do you have a Canadian web series that you'd like to add to the LifeforceTV network?
+        We're currently accepting shows to come on as a content partner under a non-exclusive
+        agreement.
+      %p
+        For more information on how to join the network, drop us a line at info@lifeforcetv.com
 
-
-        .ep_links{:style=>"clear:both;display:block;"}
-          %p{:style=>'text-align:center'}
-            %a.mini_ep_link{:href=>episode.uri}
-              = episode.name
-          %p.air_date{:style=>'text-align:center'}
-            - ed = episode.released_date
-            Air Date:
-            = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
-
-        .ep_desc{:style=>"display:block;clear:both;"}
-          %p
-            = episode.description['long'].content
+      %p
+        \-The LifeforceTV Team
 /
   END "sidebar_home"  //
 

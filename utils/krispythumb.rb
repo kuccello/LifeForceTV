@@ -38,7 +38,7 @@ class KrispyThumb
       new_height = 100
     end
 
-    wh = "-#{new_width}x#{new_height}"
+    wh = "#{new_width}x#{new_height}"
     append_filename = append_filename(path, wh)
     if File.exists?(append_filename) && force_rebuild
       begin
@@ -56,7 +56,7 @@ class KrispyThumb
       begin
         system( convert )
         if zoom_crop == 1 then
-          puts "#{__FILE__}:#{__LINE__} #{__method__} ZOOM WIDTHxHEIGHT: #{zoom_crop_width}x#{zoom_crop_height}"
+#          puts "#{__FILE__}:#{__LINE__} #{__method__} ZOOM WIDTHxHEIGHT: #{zoom_crop_width}x#{zoom_crop_height}"
           system "convert #{append_filename} -crop #{zoom_crop_width}x#{zoom_crop_height}+#{zoom_crop_width_offset}+#{zoom_crop_height_offset} +repage #{append_filename}"
         end
       rescue => e

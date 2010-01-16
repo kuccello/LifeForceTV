@@ -1,6 +1,6 @@
 puts ">> Loading models..."
 require File.join(File.dirname(__FILE__),"time_date")
-require File.join(File.dirname(__FILE__), "generated_model/LifeForce")
+require File.join(File.dirname(__FILE__), "generated_model/Lifeforce")
 require File.join(File.dirname(__FILE__),"lifeforce")
 require File.join(File.dirname(__FILE__),"member")
 require File.join(File.dirname(__FILE__),"show")

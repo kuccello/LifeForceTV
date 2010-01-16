@@ -50,8 +50,8 @@ module LifeForceSiteHelpers
       Lifeforce::AdSense.get_layout_ad
     end
 
-    def most_recent_episode
-      Lifeforce::Show.most_recent_episode
+    def most_recent_episode(index=0)
+      Lifeforce::Show.most_recent_episode(index)
     end
 
     def ad_300x300

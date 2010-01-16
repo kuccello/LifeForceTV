@@ -1,4 +1,7 @@
-/* @override http://localhost:8080/css/style.css */
+/* @override 
+	http://localhost:8080/css/style.css
+	http://qs-6.remote.apps.local:8080/css/style.css
+*/
 
 @charset "utf-8";
 
@@ -1358,3 +1361,91 @@ form.contact_form #send {
 	float: left;
 	padding: 0 15px 5px 0;
 }
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info {
+	width: 180px;
+	float: left;
+	min-height: 320px;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link div img {
+	margin-left: 9px;
+	border: 3px solid #ccc;
+}
+
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link div.episode_name {
+	padding: 9px;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link div.episode_running_time {
+	padding-left: 9px;
+	color: #000;
+	font-size: 0.7em;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link div.episode_seq {
+	padding-left: 9px;
+	color: #000;
+	font-size: 0.7em;
+}
+
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link p.episode_description {
+	font-style: italic;
+	color: #000;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	padding-left: 9px;
+	min-height: 60px;
+}
+
+#inner_content div.entry div.entry_content p {
+	text-align: justify;
+}
+
+#inner_content div.entry div.title_holder h1 {
+	padding: 5px;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_info div div.ep_credits {
+	margin-left: 9px;
+	padding-bottom: 20px;	
+}
+
+#sidebar_home div.widget div.widget_content ul {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+#sidebar_home div.widget div.widget_content div.credit img {
+	float: left;
+	padding-right: 5px;
+}
+
+#sidebar_home div.widget div.widget_content div.show_cast div.credit div.credit_name {
+	font-weight: bold;
+}
+
+#sidebar_home div.widget div.widget_content div.credit div.credit_role {
+	text-transform: uppercase;
+}
+
+#sidebar_home div.widget div.widget_content div.show_cast div.cast_title {
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+
+#sidebar_home div.widget div.widget_content div.show_crew div.crew_title {
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+
+#sidebar_home div.widget div.widget_content ul li a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+

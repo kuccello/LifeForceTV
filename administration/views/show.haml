@@ -29,12 +29,12 @@
             %textarea{:rows=>"10",:cols=>"30",:name=>"show_description"}
               = show.description
 
-          /
-            %li
-              Highlight Description
-              %br
-              %textarea{:rows=>"10",:cols=>"30",:name=>"show_highlight_description"}
-                = show.highlight_description
+
+          %li
+            Highlight Description
+            %br
+            %textarea{:rows=>"10",:cols=>"30",:name=>"show_case_description"}
+              = show.show_case_description
 
           %li
             %label{:for=>"show_status"}
@@ -129,10 +129,12 @@
 
       %a{:href=>to_path("/credit/show/#{show.pid}/new")}
         New Credit
-
-
+      %br
+      %br
+      %span
+        CAST:
       %ul
-        - show.credit.each do |credit|
+        - show.ordered_cast.each do |credit|
           %li
             %a{:href=>to_path("/credit/show/#{show.pid}/#{credit.pid}")}
               [
@@ -141,7 +143,24 @@
               = credit.name
               , Title:
               = credit.role
-            %a{:href=>to_path("/credit/#{credit.pid}/show/#{show.pid}/delete")}
+            %a{:href=>to_path("/credit/#{credit.pid}/show/#{show.pid}/delete"),:style=>"padding-left:50px"}
               [ DELETE ]
+
+
+      %span
+        CREW:
+      %ul
+        - show.ordered_crew.each_with_index do |credit,idx|
+          %li{:style=>(idx % 2 == 1 ? 'background: #ccc' : '')}
+            %a{:href=>to_path("/credit/show/#{show.pid}/#{credit.pid}")}
+              [
+              = credit.zorder
+              ] Name:
+              = credit.name
+              , Title:
+              = credit.role
+            %a{:href=>to_path("/credit/#{credit.pid}/show/#{show.pid}/delete"),:style=>"padding-left:50px"}
+              [ DELETE ]
+
 
 = sidebar
