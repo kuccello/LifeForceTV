@@ -38,7 +38,7 @@ class KrispyThumb
       new_height = 100
     end
 
-    wh = "#{new_width}x#{new_height}"
+    wh = "-#{new_width}x#{new_height}"
     append_filename = append_filename(path, wh)
     if File.exists?(append_filename) && force_rebuild
       begin
