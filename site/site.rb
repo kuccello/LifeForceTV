@@ -75,7 +75,7 @@ class LifeForceSite < Sinatra::Base
     rating = params[:rating]
     order = params[:order]
     shows = all_released_shows unless genera
-
+    puts "#{__FILE__}:#{__LINE__} #{__method__} #{Lifeforce.root.show.size} -- shows: #{shows.size}"
     shows = Lifeforce::Show.find_by_genera(genera) if genera
 
     if rating then
