@@ -1,6 +1,7 @@
 /* @override 
 	http://localhost:8080/css/style.css
 	http://qs-6.remote.apps.local:8080/css/style.css
+	http://lftv.com:8080/css/style.css
 */
 
 @charset "utf-8";
@@ -1429,6 +1430,10 @@ form.contact_form #send {
 
 #sidebar_home div.widget div.widget_content div.credit div.credit_role {
 	text-transform: uppercase;
+}
+
+#sidebar_home div.widget div.widget_content div.show_crew div.credit {
+	min-height: 50px;
 }
 
 #sidebar_home div.widget div.widget_content div.show_cast div.cast_title {
