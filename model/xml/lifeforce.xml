@@ -187,7 +187,9 @@
             role=""
             image=""
             desc=""
-            zorder=""/>
+            zorder=""
+            type_of="cast|crew"
+          />
 </lifeforcetv>
 
 

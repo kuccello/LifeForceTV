@@ -146,6 +146,32 @@ module Lifeforce
       "/#{s.url_id}/#{self.url_id}"
     end
 
+    def running_time
+      tstr = '00:00:00'
+      begin
+        len = self.length.to_i
+
+        len_m = (len / 60).to_i
+        len_r = (len % 60).to_i
+
+        len_h = (len_r / 60).to_i
+        len_r = (len_r % 60).to_i
+
+        len_s = len_r
+
+        hour = len_h
+        minute = len_m
+        seconds = len_s
+
+        h = hour > 0 ? "#{hour<10?'0':''}#{hour}:" : ''
+
+        tstr = "#{h}#{minute<10?'0':''}#{minute}:#{seconds<10?'0':''}#{seconds}"
+      rescue => e
+        tstr = "#{self.length}"
+      end
+      tstr
+    end
+
     def update(params)
       show = s
 
