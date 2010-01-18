@@ -38,12 +38,39 @@
       %img#round_max.round{ :src => "/images/slider_round.png", :alt => "round" }
       %img#sign_max.sign{ :src => "/images/slider_round_minus.png", :alt => "minus" }
     #thumbs.thumbs
+      %script{:type=>"text/javascript"}
+        $().ready(function(){
+        $('li .info_thumb').hover(function(){
+        group = jQuery("div.info_thumb_group", this);
+        $(group).removeClass('hide_info');
+        $(group).addClass('show_info');
+        },function(){
+        group = jQuery(".info_thumb_group", this);
+        $(group).removeClass('show_info');
+        $(group).addClass('hide_info');
+        });
+        });
+        
       #sl_content.slider_content
         %ul#slider_ul
           - showcase_episodes.each do |episode|
             - ed = episode.ep.released_date
             %li
-              %img{ :src => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=120&amp;w=182&amp;zc=1&amp;zw=182&amp;zh=120&amp;zow=0&amp;zoh=0", :alt => episode.ep.name }
+              .info_thumb
+                %img.thumbnail_episode{ :src => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=120&amp;w=182&amp;zc=1&amp;zw=182&amp;zh=120&amp;zow=0&amp;zoh=0", :alt => episode.ep.name }
+                .info_thumb_group.hide_info
+                  .info_thumb_name
+                    %span.ep_thumb_show
+                      = episode.ep.s.name
+                    %br
+                    %span.ep_thumb_name
+                      Ep.
+                      = episode.ep.sequence_order
+                      \:
+                      = episode.ep.name
+
+
+
               %a.slider_tit{ :href => episode.ep.s.uri }
                 .show_icon
                   %img.show_icon_frame{:src=>"/images/show_icon_frame.png"}
@@ -56,6 +83,10 @@
                 = episode.ep.sequence_order
                 \:
                 = episode.ep.name
+                .running_time
+                  [
+                  = episode.ep.running_time
+                  ]
                 
               %a.slider_img{ :href => "/scripts/timthumb.php?src=#{episode.ep.poster}&amp;h=518&amp;w=920&amp;zc=1&amp;zw=920&amp;zh=350&amp;zow=0&amp;zoh=84" }
               %a.slider_swf{ :href => episode.ep.hd_swf_url, :rel=>"shadowbox;width=715;height=435;player=swf"}

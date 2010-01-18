@@ -4,30 +4,28 @@
       %div{:style=>"float:left;"}
         %img{ :src => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=90&amp;w=160&amp;zc=0", :alt => episode.name }
       .episode_name
-        = episode.name
-      .episode_running_time
-        Running Time:
-        = episode.running_time
-      .episode_seq
-        Episode Number:
         = episode.sequence_order
+        \-
+        = episode.name
+
       %p.episode_description
         = episode.description['long'].content
+        [#{episode.running_time}]
+    - if episode.ordered_cast.size > 0
+      .ep_credits
+        %strong.credits_title
+          Credits:
 
-    .ep_credits
-      %strong.credits_title
-        Credits:
-
-      .cast_header
-        Cast:
-      %ul.credits_list
-      - episode.ordered_cast.each do |cr|
-        %li.credit_item
-          %div
-            = cr.name
-            ,
-            = cr.role
-            - if cr.image && cr.image.length > 0
-              %img{:src=>cr.image,:width=>"26"}
-            %p
-              = cr.desc
+        .cast_header
+          Cast:
+        %ul.credits_list
+        - episode.ordered_cast.each do |cr|
+          %li.credit_item
+            %div
+              = cr.name
+              ,
+              = cr.role
+              - if cr.image && cr.image.length > 0
+                %img{:src=>cr.image,:width=>"26"}
+              %p
+                = cr.desc

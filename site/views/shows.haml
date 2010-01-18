@@ -10,12 +10,12 @@
         No Shows Found Matching Criteria
 
   #sidebar_home
-    .widget
-      %h3.widget_title
-        Genera Filter
-      - if params[:genera] || params[:order] || params[:rating]
+    - if params[:genre] || params[:order] || params[:rating]
+      .widget
+        %h3.widget_title
+          Filters
         .widget_content
-          - if params[:genera]
+          - if params[:genre]
             [
             %a{:href=>"/shows?#{params[:order] ? 'order='+params[:order] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               X
@@ -23,22 +23,24 @@
             %br
           - if params[:rating]
             [
-            %a{:href=>"/shows?#{params[:order] ? 'order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?#{params[:order] ? 'order='+params[:order] : ''}#{params[:genre] ? '&genera='+params[:genre] : ''}"}
               X
             ] Remove rating filter
             %br
           - if params[:order]
             [
-            %a{:href=>"/shows?#{params[:genera] ? 'genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+            %a{:href=>"/shows?#{params[:genre] ? 'genera='+params[:genre] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               X
             ] Remove order filter
-            
 
+    .widget
+      %h3.widget_title
+        Genera Filter
       .widget_content
         %ul
           - generas.each do |genera|
             %li
-              %a{:href=>"/shows?genera=#{genera.pid}#{params[:order] ? '&order='+params[:order] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+              %a{:href=>"/shows?genre=#{genera.pid}#{params[:order] ? '&order='+params[:order] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
                 = genera.name
 
     .widget
@@ -47,22 +49,22 @@
       .widget_content
         %ul
           %li
-            %a{:href=>"/shows?rating=TV-C#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?rating=TV-C#{params[:order] ? '&order='+params[:order] : ''}#{params[:genre] ? '&genre='+params[:genre] : ''}"}
               TV-C
           %li
-            %a{:href=>"/shows?rating=TV-8#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?rating=TV-8#{params[:order] ? '&order='+params[:order] : ''}#{params[:genre] ? '&genre='+params[:genre] : ''}"}
               TV-8
           %li
-            %a{:href=>"/shows?rating=TV-G#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?rating=TV-G#{params[:order] ? '&order='+params[:order] : ''}#{params[:genre] ? '&genre='+params[:genre] : ''}"}
               TV-G
           %li
-            %a{:href=>"/shows?rating=TV-PG#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?rating=TV-PG#{params[:order] ? '&order='+params[:order] : ''}#{params[:genre] ? '&genre='+params[:genre] : ''}"}
               TV-PG
           %li
-            %a{:href=>"/shows?rating=TV-14#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?rating=TV-14#{params[:order] ? '&order='+params[:order] : ''}#{params[:genre] ? '&genre='+params[:genre] : ''}"}
               TV-14
           %li
-            %a{:href=>"/shows?rating=TV-18#{params[:order] ? '&order='+params[:order] : ''}#{params[:genera] ? '&genera='+params[:genera] : ''}"}
+            %a{:href=>"/shows?rating=TV-18#{params[:order] ? '&order='+params[:order] : ''}#{params[:genre] ? '&genre='+params[:genre] : ''}"}
               TV-18
 
 
@@ -73,16 +75,16 @@
         %ul
 
           %li
-            %a{:href=>"/shows?order=ades#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+            %a{:href=>"/shows?order=ades#{params[:genre] ? '&genre='+params[:genre] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Alphabetical Descending
           %li
-            %a{:href=>"/shows?order=aass#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+            %a{:href=>"/shows?order=aass#{params[:genre] ? '&genre='+params[:genre] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Alphabetical Assending
           %li
-            %a{:href=>"/shows?order=nsf#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+            %a{:href=>"/shows?order=nsf#{params[:genre] ? '&genre='+params[:genre] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Newest Show First
           %li
-            %a{:href=>"/shows?order=nsl#{params[:genera] ? '&genera='+params[:genera] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
+            %a{:href=>"/shows?order=nsl#{params[:genre] ? '&genre='+params[:genre] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Newest Show Last
 
   /

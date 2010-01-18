@@ -118,6 +118,15 @@
               = show.bgimage
             %img{:src=>show.bgimage,:width=>"530px"}
 
+          %li
+            %label{:for=>"show_highlight_image"}
+              Thin Image (560x170):
+            %input{:type=>"file",:name=>"show_highlight_image"}
+            %p
+              PATH:
+              = show.highlight_image
+            %img{:src=>show.highlight_image}
+
         %input{:type=>"submit", :value=>"Save"}
 
     = partial("episodes_box",{ :show => show })

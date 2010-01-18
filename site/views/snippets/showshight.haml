@@ -1,10 +1,10 @@
 #message_buttons
   .button1
-    %a{ :href => "/shows" }
+    %a{ :href => "/shows?order=nsf" }
       Newest Shows
   .button2
-    %a{ :href => "#" }
-      News
+    %a{ :href => "/shows" }
+      All Shows
 /
   END "message_buttons"  //
 #content_wrap
@@ -13,39 +13,14 @@
     - showcase_shows.each do |show_showcase|
       = partial("showhighlight",{:show=>show_showcase.s})
 
-    %a{:href=>"/shows"}
+    %a.watch_more{:href=>"/shows"}
       Watch More Shows
   
   #sidebar_home
     - default_showcase.sorted_notes.each do |note|
       = partial("widgit",{:note=>note.n})
 
-    .widget
-      %h3.widget_title
-        Most Recent Episodes
-      .widget_content
-
-        - [0,1,2].each do |idx|
-          - episode = most_recent_episode(idx)
-          - if episode
-            .mre_ep
-              %p.air_date{:style=>'text-align:center'}
-                - ed = episode.released_date
-                Air Date:
-                = "#{ed.month_str} #{ed.day_of_month}, #{ed.year}"
-              .mini_img_block{:style=>"text-align:center"}
-                %a{ :href => episode.s.uri }
-                  %div{:style=>"float:left;align:left"}
-                    %img{ :src => "/scripts/timthumb.php?src=#{episode.s.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.s.name }
-                %a.mini_ep_link{:href=>episode.uri}
-                  %div{:style=>"float:left;align:left;padding-left: 10px;"}
-                    %img{ :src => "/scripts/timthumb.php?src=#{episode.poster}&amp;h=81&amp;w=155&amp;zc=0", :alt => episode.name }
-
-
-              .ep_links{:style=>"clear:both;display:block;"}
-                %p{:style=>'text-align:center'}
-                  %a.mini_ep_link{:href=>episode.uri}
-                    = episode.name
+    = haml :'snippets/recent_episodes2',:layout=>false
 
 
 

@@ -311,6 +311,11 @@ a.mini_ep_link {
 	font-weight: bold;
 	position: relative;
 	text-transform: uppercase;
+	color: #00b5f8;;
+}
+
+a.mini_ep_link:hover {
+	color: #737373;
 }
 
 #sidebar_home .ep_links .air_date {
@@ -551,7 +556,6 @@ div.slider_show_poster img{
 
 #featured_home .slider .thumbs img {
 	display: block;
-	float: left;
 	cursor: pointer;
 	display: inline;
 	position: relative;
@@ -623,9 +627,8 @@ div.slider_show_poster img{
 	width: 255px;
 	height: 50px;
 	display: block;
-	background: #666 url(../images/camera_icon.png);
-	background-repeat: no-repeat;
-	background-position: 20px 10px;
+	/*background: #666 url(../images/camera_icon.png);*/
+	background: #666 url(../images/people_icon.jpg) no-repeat 0 0;
 	font-size: 22px;
 	font-weight: bold;
 	line-height: 50px;
@@ -637,9 +640,8 @@ div.slider_show_poster img{
 }
 
 #message_buttons .button2 a:hover {
-	background: #00b5f8 url(../images/camera_icon.png);
 	background-repeat: no-repeat;
-	background-position: 20px 10px;
+	background-position: 0px -50px;
 }
 
 /* Main Content */
@@ -891,8 +893,8 @@ div.slider_show_poster img{
 	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
 }
 
-#inner_content .entry img {
-	
+.boarderd_image {
+	border: 1px solid #ccc;
 }
 
 #inner_content .entry .title_holder {
@@ -905,6 +907,8 @@ div.slider_show_poster img{
 	font-size: 28px;
 	letter-spacing: -1px;
 	font-weight: bold;
+	margin-top: -1px;
+	margin-bottom: -1px;
 }
 
 #inner_content .entry .title_holder	h3 a {
@@ -956,14 +960,15 @@ div.slider_show_poster img{
 /* Entries - Post Meta Date */
 
 #inner_content .date {
-	background: url(../images/transparent_black_80.png);
+	background: url(../images/transblk-40.png);
 	color: #FFF;
 	width: 100px;
 	height: 50px;
 	font-weight: bold;
 	position: absolute;
 	right: 10px;
-	top: 20px;
+	/*top: 130px;*/
+	top: 20px
 }
 
 #inner_content .date .date_holder {
@@ -1079,6 +1084,14 @@ div.slider_show_poster img{
 	padding: 15px 15px 25px 15px;
 	position: relative;
 	bottom: 14px;
+}
+
+#sidebar_home .widget_content a{
+	color: #00b5f8;
+}
+
+#sidebar_home .widget_content a:hover{
+	color: #666;
 }
 
 #sidebar_home ul.widget_ul {
@@ -1321,6 +1334,27 @@ form.contact_form #send {
 	margin: 0 0 15px 0;
 }
 
+#inner_content div.entry div.entry_content div.episode_list div.episode_block div.episode_info div a.mini_ep_link div.episode_running_time {
+	text-transform: none;
+	padding-top: 0;
+	margin-top: -14px;
+	color: gray;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_block div.episode_info div a.mini_ep_link div.episode_running_time {
+	width: 40px;
+	position: relative;
+	margin-top: -17px;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_block div.episode_info div a.mini_ep_link div.episode_name {
+	float: ;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_block div.episode_info div a.mini_ep_link p.episode_description {
+	color: gray;
+}
+
 #inner_content .entry .entry_content ul,ol {
 	margin: 0 0 0 20px;
 }
@@ -1366,7 +1400,81 @@ form.contact_form #send {
 #inner_content div.entry div.entry_content div.episode_list div.episode_info {
 	width: 180px;
 	float: left;
-	min-height: 320px;
+}
+
+#sidebar_home div.widget div.widget_content div.most_recent_episodes img.rep_thumb {
+	float: left;
+	margin-right: 10px;
+}
+
+#inner_content a.watch_more {
+	text-decoration: none;
+	font-weight: bold;
+	color: #00b5f8;
+	font-size: 2em;
+}
+
+
+#slider_ul .info_thumb{
+	-moz-margin-start:0;
+	width: 190px;
+	color: white;
+	font-size: 0.9em;
+	line-height: 1.0em;
+	min-height: 100px;
+}
+
+.hide_info{
+	display: none;
+}
+
+.show_info{
+	display: inline;
+}
+
+#slider_ul li div.info_thumb div.info_thumb_group{
+	width: 180px;
+	-moz-margin-start:0;
+	position: relative;
+	float: left;
+	min-height: 100px;
+	margin-top: -120px;
+	padding-left: 2px;
+}
+
+#slider_ul li div.info_thumb div.info_thumb_group span.ep_thumb_show{
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_block div.episode_info div a.mini_ep_link div.episode_name {
+	
+}
+
+#slider_ul li div.info_thumb div.info_thumb_group span.ep_thumb_name{
+	
+	padding: 5px;
+}
+
+#slider_ul li div.info_thumb div.info_thumb_name{
+	position: relative;
+	background: url('/images/transblk-40.png');
+}
+
+#slider_ul li div.info_thumb div.info_thumb_seq{
+	position: relative;
+	background: url('/images/transblk-40.png');
+}
+
+
+#slider_ul li div.info_thumb div.info_thumb_show{
+	position: relative;
+	background: url('/images/transblk-40.png');
+}
+
+
+#sidebar_home div.widget div.widget_content div.most_recent_episodes .ep_links {
+	min-height: 100px;
 }
 
 #inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link div img {
@@ -1398,11 +1506,21 @@ form.contact_form #send {
 	font-size: 0.7em;
 	line-height: 1.3em;
 	padding-left: 9px;
-	min-height: 60px;
+	text-transform: none;
+	text-align: left;
 }
 
 #inner_content div.entry div.entry_content p {
 	text-align: justify;
+}
+
+#inner_content div.entry div.entry_content div.episode_list div.episode_block div.episode_info div a.mini_ep_link p.episode_description {
+	margin-top: -10px;
+}
+
+#inner_content div.entry div.entry_content p {
+	line-height: 1.2em;
+	margin-top: -5px;
 }
 
 #inner_content div.entry div.title_holder h1 {
@@ -1436,16 +1554,22 @@ form.contact_form #send {
 	min-height: 50px;
 }
 
+#slider_img_desc div.running_time {
+	display: inline;
+	font-size: 0.5em;
+}
+
 #sidebar_home div.widget div.widget_content div.show_cast div.cast_title {
 	font-weight: bold;
-	font-size: 2em;
 	padding-bottom: 10px;
+	font-size: 1.5em;
 }
 
 #sidebar_home div.widget div.widget_content div.show_crew div.crew_title {
 	font-weight: bold;
-	font-size: 2em;
 	padding-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 12px;
 }
 
 #sidebar_home div.widget div.widget_content ul li a{
@@ -1461,3 +1585,5 @@ form.contact_form #send {
 	width: 540px;
 	clear: both;
 }
+
+

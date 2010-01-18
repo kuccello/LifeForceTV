@@ -92,10 +92,28 @@
           %li
             %label{:style=>"float:left"}
               Release Time:
-            %input{:type=>"text",:id=>"release_time_hour",:name=>"episode_release_hour", :value=>episode.release_hour}
+            %select{:name=>"episode_release_hour"}
+              - if episode.release_hour
+                %option{:value=>episode.release_hour}
+                  = "#{episode.release_hour} #{episode.release_hour.to_i<12 ? 'am' : 'pm'}"
+              %option{:value=>"0"}
+                Midnight
+              - 1.upto(23).each do |t|
+                %option{:value=>"#{t}"}
+                  ="#{t} #{t<12 ? 'am' : 'pm'}"
+
+
             \:
-            %input{:type=>"text",:id=>"release_time_minute",:name=>"episode_release_minute", :value=>episode.release_minute}
-            (hh:mm)
+
+            %select{:name=>"episode_release_minute"}
+              - if episode.release_minute
+                %option{:value=>episode.release_minute}
+                  = "#{episode.release_minute.to_i < 10 ? '0':''}#{episode.release_minute}"
+              - 0.upto(59).each do |t|
+                %option{:value=>"#{t}"}
+                  ="#{t<10 ? '0':''}#{t}"
+
+
 
           %li
             %label{:for=>"episode_rating"}
