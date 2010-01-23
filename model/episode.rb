@@ -102,8 +102,10 @@ module Lifeforce
     def Episode.get_by_uid(uid)
       episode = nil
       Lifeforce.transaction do
-        Lifeforce.root.episode.each do |ep|
-          episode = ep if ep.url_id = uid
+        Lifeforce.root.show.each do |sh|
+          sh.episode.each do |ep|
+            episode = ep if ep.url_id = uid
+          end
         end
       end
       episode
@@ -288,7 +290,7 @@ module Lifeforce
 
         new_generas.each do |gc|
           self << gc
-          
+
         end
       end
 

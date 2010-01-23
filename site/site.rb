@@ -22,6 +22,7 @@ class LifeForceSite < Sinatra::Base
   before do
     $DESCRIPTION = $DEFAULT_DESC
     $KEYWORDS = $DEFAULT_KEY
+    $TITLE = $DEFAULT_TITLE
   end
 
   not_found do
@@ -32,33 +33,40 @@ class LifeForceSite < Sinatra::Base
     'Sorry there was a nasty error - ' + env['sinatra.error'].name
   end
 
-  get '/raw/:haml' do
-    haml :"raw-haml/#{params[:haml]}", :layout=>false  
-  end
+#  get '/raw/:haml' do
+#    haml :"raw-haml/#{params[:haml]}", :layout=>false
+#  end
 
   get '/' do
     haml :index
   end
 
   get '/about' do
+    $TITLE = "#{$DEFAULT_TITLE} - About"
     haml :about
   end
   get '/faq' do
+    $TITLE = "#{$DEFAULT_TITLE} - Frequently Asked Questions"
     haml :faq
   end
   get '/advertising' do
+    $TITLE = "#{$DEFAULT_TITLE} - Advertising With LifeForceTV"
     haml :advertising
   end
   get '/addshow' do
+    $TITLE = "#{$DEFAULT_TITLE} - Add Your Show"
     haml :addshow
   end
   get '/contact' do
+    $TITLE = "#{$DEFAULT_TITLE} - Contact Information"
     haml :contact
   end
   get '/tos' do
+    $TITLE = "#{$DEFAULT_TITLE} - Terms Of Service"
     haml :tos
   end
   get '/privacy' do
+    $TITLE = "#{$DEFAULT_TITLE} - Privacy Policy"
     haml :privacy
   end
 
@@ -74,6 +82,7 @@ class LifeForceSite < Sinatra::Base
 #  end
 
   get '/shows' do
+    $TITLE = "#{$DEFAULT_TITLE} - Complete Show Lineup"
     generas = Lifeforce::Genera.all
     genera = Lifeforce::Genera.get_by_pid(params[:genre])
     rating = params[:rating]
@@ -139,11 +148,18 @@ class LifeForceSite < Sinatra::Base
   end
 
   get '/:show_url_id/:episode_url_id' do
+#    puts "#{__FILE__}:#{__LINE__} #{__method__} -- "
+#    request.env.each do |k,v|
+#      puts "#{k}\t\t= #{v}"
+#    end
+#    puts "#{__FILE__}:#{__LINE__} #{__method__} --"
+
+    pass if params[:show_url_id] == "images"
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
     episode_id = params[:episode_url_id]
 
-    ep = Lifeforce::Episode.get_by_uid(episode_id)
+    ep = show.episode_by_url_id(episode_id)
 
     $DESCRIPTION = "#{ep.description.first.content} - #{show.description}"
     generas = []
@@ -151,6 +167,8 @@ class LifeForceSite < Sinatra::Base
       generas << gx.name
     end
     $KEYWORDS = "#{ep.name}, #{generas.join(',')}, #{show.name}"
+
+    $TITLE = "#{show.name}: Ep [#{ep.sequence_order}] #{ep.name} - #{$DEFAULT_TITLE}"
 
     haml :show, :locals=>{:show=>show, :episode_id=>episode_id, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
@@ -165,6 +183,7 @@ class LifeForceSite < Sinatra::Base
       generas << gx.name
     end
     $KEYWORDS = "#{show.name}, #{generas.join(',')}"
+    $TITLE = "#{show.name} - #{$DEFAULT_TITLE}"
 
     haml :show, :locals=>{:show=>show, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
