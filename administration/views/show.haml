@@ -37,6 +37,26 @@
               = show.show_case_description
 
           %li
+            %label{:for=>"episode_rating"}
+              Content Rating:
+            %select{:name=>"episode_rating"}
+              - if show.episode.first.content_rating
+                %option
+                  = show.episode.first.content_rating
+              %option
+                TV-C
+              %option
+                TV-8
+              %option
+                TV-G
+              %option
+                TV-PG
+              %option
+                TV-14
+              %option
+                TV-18
+
+          %li
             %label{:for=>"show_status"}
               Status:
             %select{:name=>"show_status"}

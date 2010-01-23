@@ -357,6 +357,7 @@ This show has no description.
       show_rating = params[:show_rating]
       show_url_id = params[:show_url_id]
       show_css = params[:show_css]
+      episode_content_rating = params[:episode_rating]
 
       genera_list = params[:genera_list]
 
@@ -401,6 +402,12 @@ This show has no description.
           css = self.new_css
           css.content = show_css
         end
+
+        self.episode.each do |e|
+          e.content_rating = episode_content_rating
+        end
+
+
         dir = File.join(File.dirname(__FILE__), "../site/public/css/shows")
         css_filepath = "#{dir}/#{self.pid}.css"
         if File.exists?(css_filepath)
