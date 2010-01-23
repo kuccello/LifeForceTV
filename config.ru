@@ -7,6 +7,12 @@ require 'mcnamara'
 
 require ::File.join(::File.dirname(__FILE__), 'utils/string')
 
+$DEFAULT_DESC = "Canada's online broadcast network showcasing original web series created by Canada's top internet producers. Lifeforcetv.com is a new way to enjoy television with no required subscription, fees, or territory restrictions."
+$DEFAULT_KEY = "canadian web series, canadian web shows, online video, canada's online broadcast network, lifeforcetv, lifeforce, shows, canada, filmmakers, tv, entertainment, episodes, watch"
+
+$DESCRIPTION = $DEFAULT_DESC
+$KEYWORDS = $DEFAULT_KEY
+
 $LIFEFORCE_INSTALLED = false
 $SITE_NAME = "LifeForceTV"
 $TRANSACTION_CONTEXT = "lifeforce"

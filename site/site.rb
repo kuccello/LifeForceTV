@@ -19,6 +19,10 @@ class LifeForceSite < Sinatra::Base
 
   use SOC::McNamara, "#{File.dirname(__FILE__) + '/public/css'}"
 
+  before do
+    $DESCRIPTION = $DEFAULT_DESC
+    $KEYWORDS = $DEFAULT_KEY
+  end
 
   not_found do
     "NOT FOUND!!! 404"
@@ -65,9 +69,9 @@ class LifeForceSite < Sinatra::Base
     redirect uri
   end
 
-  get '/1' do
-    haml :'raw-haml/index', :layout=>false
-  end
+#  get '/1' do
+#    haml :'raw-haml/index', :layout=>false
+#  end
 
   get '/shows' do
     generas = Lifeforce::Genera.all
@@ -139,12 +143,28 @@ class LifeForceSite < Sinatra::Base
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
     episode_id = params[:episode_url_id]
 
+    ep = Lifeforce::Episode.get_by_uid(episode_id)
+
+    $DESCRIPTION = "#{ep.description.first.content} - #{show.description}"
+    generas = []
+    ep.generas.each do |gx|
+      generas << gx.name
+    end
+    $KEYWORDS = "#{ep.name}, #{generas.join(',')}, #{show.name}"
+
     haml :show, :locals=>{:show=>show, :episode_id=>episode_id, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
 
   get '/:show_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
+
+    $DESCRIPTION = "#{show.description}"
+    generas = []
+    show.generas.each do |gx|
+      generas << gx.name
+    end
+    $KEYWORDS = "#{show.name}, #{generas.join(',')}"
 
     haml :show, :locals=>{:show=>show, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
   end
