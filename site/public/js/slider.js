@@ -20,7 +20,7 @@
       // PARAMETERS:
       var $rotate_plus_sign_about = 180;    // degrees
       var $rotate_minus_sign_about = -180;  // degrees
-      var $width_of_the_image = 220;        // width of ONE image in pixels, including the margin !!
+      var $width_of_the_image = 170;        // width of ONE image in pixels, including the margin !!
       var $speed_of_moving = 0;             // in miliseconds, speed which are the images moving
       
       // SLIDER MAX is the minus sign
@@ -34,7 +34,7 @@
       var $es = $("#thumbs").find("li").size();   // el = Elements in Slider
       var $es_width = $width_of_the_image;
      
-      $("#sl_content").css("width", $es_width * $es + 200);
+      $("#sl_content").css("width", $es_width * $es + 100);
 	    var $kook = 0;
       var $step = 0;
       var $actual_step = 0; 

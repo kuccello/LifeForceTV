@@ -126,6 +126,14 @@ class LifeForceSite < Sinatra::Base
 #    haml "NOT IMPLEMENTED YET"
 #  end
 
+  get '/:show_url_id/episode/:episode_url_id' do
+#    show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
+#    episode_id = params[:episode_url_id]
+#
+#    haml :show, :locals=>{:show=>show, :episode_id=>episode_id, :override_style=>"/css/shows/#{(show ? show.pid : 'default')}.css"}
+    redirect "/#{params[:show_url_id]}/#{params[:episode_url_id]}", 301
+  end
+
   get '/:show_url_id/:episode_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])

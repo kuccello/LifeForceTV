@@ -19,7 +19,11 @@ class KrispyThumb
     @request = request
     src = request.params['src']
     path = "#{@base_path}#{src}" #src #clean_source(src)
-    last_modified = File.new(path).mtime
+    last_modified = 0
+    begin
+      last_modified = File.new(path).mtime
+    rescue
+    end
 
     new_width = request.params['w'] ? request.params['w'].to_i : 0
     new_height = request.params['h'] ? request.params['h'].to_i : 0

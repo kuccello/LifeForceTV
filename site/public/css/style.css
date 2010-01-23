@@ -296,7 +296,7 @@ a:hover .icon_h {
 }
 
 #slider_airdate {
-	margin-top: 260px;
+	margin-top: 257px;
 }
 
 #slider_rating {
@@ -403,10 +403,19 @@ img:hover .icon_h {
     overflow: visible;
 	display: inline-block;
 	position: relative;
-	width: 100%;
+	width: 910px;
 	font-weight: bold;
 	color: #fff;
-	text-align: center;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#slider_description div.ep_synopsis_title {
+	width: 125px;
+	float: left;
+	font-weight: bold;
+	font-style: italic;
+	color: #00b5f8;
 }
 
 div.slider_show_poster {
@@ -1405,6 +1414,7 @@ form.contact_form #send {
 #sidebar_home div.widget div.widget_content div.most_recent_episodes img.rep_thumb {
 	float: left;
 	margin-right: 10px;
+	width: 90px;
 }
 
 #inner_content a.watch_more {
@@ -1474,7 +1484,9 @@ form.contact_form #send {
 
 
 #sidebar_home div.widget div.widget_content div.most_recent_episodes .ep_links {
-	min-height: 100px;
+	min-height: 55px;
+	font-size: 0.8em;
+	line-height: 1.7em;
 }
 
 #inner_content div.entry div.entry_content div.episode_list div.episode_info div a.mini_ep_link div img {
