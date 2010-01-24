@@ -408,6 +408,27 @@ img:hover .icon_h {
 	color: #fff;
 	text-align: left;
 	padding-left: 10px;
+	line-height: 1em;
+}
+
+a.credit_more {
+	float: right;
+	clear: both;
+	margin-top: -48px;
+}
+
+a.credit_less {
+	float: right;
+	clear: both;
+	margin-top: -48px;
+}
+
+div.credit {
+	min-height: 60px;
+}
+
+#sidebar_home div.widget div.widget_content div.show_crew div.credit {
+	min-height: 60px;
 }
 
 #slider_description div.ep_synopsis_title {
@@ -1563,7 +1584,7 @@ form.contact_form #send {
 }
 
 #sidebar_home div.widget div.widget_content div.show_crew div.credit {
-	min-height: 50px;
+	min-height: 60px;
 }
 
 #slider_img_desc div.running_time {

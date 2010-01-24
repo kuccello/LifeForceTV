@@ -176,7 +176,7 @@ class LifeForceSite < Sinatra::Base
   get '/:show_url_id' do
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
-
+    pass unless show
     $DESCRIPTION = "#{show.description}"
     generas = []
     show.generas.each do |gx|

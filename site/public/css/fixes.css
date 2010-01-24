@@ -1,1 +1,5 @@
 /* This is a placeholder for the overrides */
+#sidebar_home .widget_content h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}

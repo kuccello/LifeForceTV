@@ -20,7 +20,7 @@
       // PARAMETERS:
       var $rotate_plus_sign_about = 180;    // degrees
       var $rotate_minus_sign_about = -180;  // degrees
-      var $width_of_the_image = 170;        // width of ONE image in pixels, including the margin !!
+      var $width_of_the_image = 210;        // width of ONE image in pixels, including the margin !!
       var $speed_of_moving = 0;             // in miliseconds, speed which are the images moving
       
       // SLIDER MAX is the minus sign

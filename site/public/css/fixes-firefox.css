@@ -16,3 +16,8 @@
 	bottom: 14px;
     margin-top: 14px;
 }
+
+#sidebar_home .widget_content h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}

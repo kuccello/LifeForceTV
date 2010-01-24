@@ -254,7 +254,26 @@
         %h3.widget_title
           Credits
         .widget_content
+          %script{:type=>"text/javascript"}
+            $().ready(function(){
+            $(".credit_less").hide();
+            $('.credit_desc').hide();
+            
+            $(".credit_less").click(function(){
+            jQuery(this).siblings('.credit_more').show();
+            jQuery(this).hide();
+            jQuery(this).siblings('.credit_desc').hide();
+            return false;
+            });
 
+            $(".credit_more").click(function(){
+            jQuery(this).hide();
+            jQuery(this).siblings('.credit_less').show();
+            jQuery(this).siblings('.credit_desc').show();
+            return false;
+            });
+
+            });
           .show_cast
             .cast_title
               Cast
@@ -265,11 +284,16 @@
                   = cr.name
                 .credit_role
                   = cr.role
-                .credit_desc
-                  %em
-                    = cr.desc
-                - if cr.image && cr.image.length > 0
-                  %img{:src=>cr.image,:width=>"50px"}
+                - if cr.desc && cr.desc.strip.length > 0
+                  %a.credit_more{:href=>"#"}
+                    [ more ]
+                  %a.credit_less{:href=>"#"}
+                    [ less ]
+                  .credit_desc
+                    %em
+                      = cr.desc
+                  - if cr.image && cr.image.length > 0
+                    %img{:src=>cr.image,:width=>"50px"}
           .show_crew
             .crew_title
               Crew
@@ -280,11 +304,16 @@
                   = cr.name
                 .credit_role
                   = cr.role
-                .credit_desc
-                  %em
-                    = cr.desc
-                - if cr.image && cr.image.length > 0
-                  %img{:src=>cr.image,:width=>"50px"}
+                - if cr.desc && cr.desc.strip.length > 0
+                  %a.credit_more{:href=>"#"}
+                    [ more ]
+                  %a.credit_less{:href=>"#"}
+                    [ less ]
+                  .credit_desc
+                    %em
+                      = cr.desc
+                  - if cr.image && cr.image.length > 0
+                    %img{:src=>cr.image,:width=>"50px"}
 
       .widget{:style=>"text-align:center;"}
         = haml :'snippets/sidebar_300x300', :layout=>false
