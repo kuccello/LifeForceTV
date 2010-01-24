@@ -1187,7 +1187,7 @@ div.slider_show_poster img{
 }
 
 #footer div a:hover {
-	text-decoration: overline;
+    text-decoration: none;
 	color: #00b5f8;
 }
 
