@@ -19,7 +19,7 @@ module Lifeforce
       latest_ep = nil
       Lifeforce.root.show.each do |sh|
 #        puts "#{__FILE__}:#{__LINE__} #{__method__} #{sh.released_episodes.size} episodes in #{sh.name}"
-        sh.released_episodes.each_with_index do |ep,idx|
+        sh.sorted_released_episodes(true).each_with_index do |ep,idx|
           latest_ep = ep if latest_ep == nil
 #          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
           latest_ep = ep if idx == index
@@ -294,12 +294,15 @@ This show has no description.
       episodes.reverse.sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
     end
 
-    def sorted_released_episodes
+    def sorted_released_episodes(reverse=false)
       episodes = []
       le = released_episodes
       episodes = le.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i } if le
       e = episodes.reverse.sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
 #      puts "#{__FILE__}:#{__LINE__} #{__method__} SHOW SEES #{e.size} RELEASED EPISODES"
+      if reverse
+        e = e.reverse
+      end
       e
     end
 

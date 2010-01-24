@@ -87,6 +87,14 @@
             %a{:href=>"/shows?order=nsl#{params[:genre] ? '&genre='+params[:genre] : ''}#{params[:rating] ? '&rating='+params[:rating] : ''}"}
               Newest Show Last
 
+    .widget{:style=>"text-align:center;"}
+      = haml :'snippets/sidebar_300x300', :layout=>false
+
+    = haml :'snippets/recent_episodes2',:layout=>false
+
+    .widget{:style=>"text-align:center;"}
+      = haml :'snippets/sidebar_300x300', :layout=>false
+
   /
     END "sidebar_home"  //
 /

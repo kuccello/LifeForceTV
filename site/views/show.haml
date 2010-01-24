@@ -221,7 +221,7 @@
           END "title_holder"  //
         .entry_content
           .episode_list
-            - sep = show_episodes
+            - sep = show_episodes.reverse
             - rows = (sep.size / 3).to_i
             - rows += 1 if ((sep.size % 3) > 0)
             - 0.upto(rows).each do |row|
