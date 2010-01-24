@@ -2,9 +2,11 @@
 	http://localhost:8080/css/style.css
 	http://qs-6.remote.apps.local:8080/css/style.css
 	http://lftv.com:8080/css/style.css
+	http://lftv.com/css/style.css
 */
 
 @charset "utf-8";
+
 
 /* CSS Document */
 
@@ -261,6 +263,16 @@ body {
 }
 
 #featured_home .bigimg img {
+}
+
+div.message {
+	font-weight: bold;
+	background-color: #00b5f8;
+	text-align: center;
+	font-size: 2.0em;
+	padding: 10px;
+	color: white;
+	border-style: solid;
 }
 
 a .icon_n {
