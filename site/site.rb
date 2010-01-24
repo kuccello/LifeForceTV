@@ -37,6 +37,26 @@ class LifeForceSite < Sinatra::Base
 #    haml :"raw-haml/#{params[:haml]}", :layout=>false
 #  end
 
+  post '/send' do
+    email_body = <<-eee
+CONTACT FORM SUBMISSION
+=========================
+Date: #{Time.new}
+Name: #{params[:name]}
+Email: #{params[:email]}
+
+Text:
+----------------------
+#{params[:text]}
+----------------------
+            eee
+            begin
+              Gelding.mail(:to => "mike@lifeforcefilms.com", :from => "no-reply@lifeforcetv.com", :subject => "[LFTV] Contact Submission", :body => email_body)
+            rescue => e
+              puts "#{__FILE__}:#{__LINE__} #{__method__} EMAIL FAILD TO SEND => #{e} --\n#{e.backtrace}"
+            end
+  end
+
   get '/' do
     haml :index
   end
