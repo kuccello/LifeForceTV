@@ -1187,7 +1187,6 @@ div.slider_show_poster img{
 }
 
 #footer div a:hover {
-	text-transform: lowercase;
 	text-decoration: overline;
 	color: #00b5f8;
 }
