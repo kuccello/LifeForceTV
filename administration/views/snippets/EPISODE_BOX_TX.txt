@@ -1,0 +1,8 @@
+%li.hide
+            Videos (
+            = episode.video.size
+            )
+            %hr
+          %span.hide
+            - episode.video.each do |video|
+              = partial("episode_video_li",{:video=>video, :episode=>episode})

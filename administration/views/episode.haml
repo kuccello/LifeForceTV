@@ -46,23 +46,23 @@
               - if episode.description['long']
                 = episode.description['long'].content
 
-          %li.hide
+          %li
             %label
               HD SWF Url
             %input.text.medium{:type=>"text",:name=>"hd_swf_url",:value=>episode.hd_swf_url}
 
-          %li.hide
+          %li
             HD EMBED CODE:
             %br
             %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_hd"}
               = episode.embed_hd
 
-          %li.hide
+          %li
             %label
               SD SWF Url
             %input.text.medium{:type=>"text",:name=>"hd_swf_url",:value=>episode.sd_swf_url}    
 
-          %li.hide
+          %li
             SD EMBED CODE:
             %br
             %textarea{:rows=>"10",:cols=>"50",:name=>"episode_video_embed_sd"}
@@ -158,14 +158,7 @@
               URL ID: for seo stuff
             %input{:type=>"text",:name=>"episode_url",:value=>episode.url_id}
 
-          %li.hide
-            Videos (
-            = episode.video.size
-            )
-            %hr
-          %span.hide
-            - episode.video.each do |video|
-              = partial("episode_video_li",{:video=>video, :episode=>episode})
+          
             
 
           %li

@@ -1,0 +1,23 @@
+%li.hide
+            %label{:for=>"show_rating"}
+              Rating:
+            %input{:type=>"text",:name=>"show_rating",:value=>show.rating}
+
+          %li.hide
+            %label{:for=>"show_big_image"}
+              Big Image:
+            %input{:type=>"file",:name=>"show_big_image"}
+            %img{:src=>show.big_image}
+
+          %li.hide
+            %label{:for=>"show_highlight_image"}
+              Highlight Image:
+            %input{:type=>"file",:name=>"show_highlight_image"}
+            %img{:src=>show.highlight_image}
+
+
+          %li.hide
+            %label{:for=>"show_small_image"}
+              Small Image:
+            %input{:type=>"file",:name=>"show_small_image"}
+            %img{:src=>show.small_image}
