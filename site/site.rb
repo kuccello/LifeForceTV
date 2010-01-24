@@ -49,12 +49,17 @@ Text:
 ----------------------
 #{params[:text]}
 ----------------------
-            eee
-            begin
-              Gelding.mail(:to => "mike@lifeforcefilms.com", :from => "no-reply@lifeforcetv.com", :subject => "[LFTV] Contact Submission", :body => email_body)
-            rescue => e
-              puts "#{__FILE__}:#{__LINE__} #{__method__} EMAIL FAILD TO SEND => #{e} --\n#{e.backtrace}"
-            end
+    eee
+    begin
+      Gelding.mail(:to => "mike@lifeforcefilms.com", :from => "no-reply@lifeforcetv.com", :subject => "[LFTV] Contact Submission", :body => email_body)
+    rescue => e
+      puts "#{__FILE__}:#{__LINE__} #{__method__} EMAIL FAILD TO SEND => #{e} --\n#{e.backtrace}"
+    end
+
+    flash[:email_sent] = "We have recevied your message! Thanks!"
+
+    redirect '/contact'
+
   end
 
   get '/' do
@@ -108,7 +113,7 @@ Text:
     rating = params[:rating]
     order = params[:order]
     shows = all_released_shows unless genera
-    
+
     shows = Lifeforce::Show.find_by_genera(genera) if genera
 
     if rating then

@@ -1,6 +1,11 @@
 #inner_content
   .entry
     .entry_content
+
+      - if flash[:email_sent]
+        .message
+          We have received your message. Thanks! 
+
       %h1
         Contact Us
       %p
