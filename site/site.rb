@@ -182,6 +182,9 @@ Text:
     pass if params[:show_url_id] == "images"
 
     show = Lifeforce::Show.get_by_url_id(params[:show_url_id])
+
+    pass unless show
+
     episode_id = params[:episode_url_id]
 
     ep = show.episode_by_url_id(episode_id)
