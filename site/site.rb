@@ -37,6 +37,46 @@ class LifeForceSite < Sinatra::Base
 #    haml :"raw-haml/#{params[:haml]}", :layout=>false
 #  end
 
+  get '/:show_name/rss' do
+    content_type "application/rss+xml"
+    <<-hhh
+<?xml version="1.0"?>
+<rss version="0.91">
+  <channel>
+    <title>ALL RSS FOR LIFEFORCE TV IS CURRENTLY OFF-LINE</title>
+    <link>http://lifeforcetv.com</link>
+    <description>Currently, rss is off line.</description>
+    <language>en-us</language>
+    <item>
+      <title>No RSS for a little while</title>
+      <description>We just switched server providers and some of our systems have yet to come back online.</description>
+    </item>
+  </channel>
+</rss>
+
+    hhh
+  end
+
+  get '/rss/news' do
+    content_type "application/rss+xml"
+    <<-hhh
+<?xml version="1.0"?>
+<rss version="0.91">
+  <channel>
+    <title>ALL RSS FOR LIFEFORCE TV IS CURRENTLY OFF-LINE</title>
+    <link>http://lifeforcetv.com</link>
+    <description>Currently, rss is off line.</description>
+    <language>en-us</language>
+    <item>
+      <title>No RSS for a little while</title>
+      <description>We just switched server providers and some of our systems have yet to come back online.</description>
+    </item>
+  </channel>
+</rss>
+
+    hhh
+  end
+
   post '/send' do
     email_body = <<-eee
 CONTACT FORM SUBMISSION
