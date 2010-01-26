@@ -4,6 +4,7 @@ require 'haml'
 require 'rack-flash'
 require 'chronic'
 require 'mcnamara'
+require 'dirge'
 
 require ::File.join(::File.dirname(__FILE__), 'utils/string')
 
@@ -21,19 +22,21 @@ $TRANSACTION_CONTEXT = "lifeforce"
 $LIFEFORCE_VERSION = "6.1"
 $lifeforce_configuration_setup_flag = true
 
-$LIFEFORCE_INSTALLED = ::File.exist?(::File.dirname(__FILE__)+"/installed.rb")
+$LIFEFORCE_INSTALLED = ::File.exist?(~"/installed.rb")
 puts "Is #{$SITE_NAME} installed?: #{$LIFEFORCE_INSTALLED}"
 if $LIFEFORCE_INSTALLED then
-  require ::File.join(::File.dirname(__FILE__), "installed" )
+  require ~"installed"
 end
 
-require ::File.join(::File.dirname(__FILE__), 'model/init')
+#require ~'middleware/timer'
+require ~'model/init'
 
-require ::File.join(::File.dirname(__FILE__), 'administration/admin')
-require ::File.join(::File.dirname(__FILE__), 'site/site')
-require ::File.join(::File.dirname(__FILE__), 'adservice/adservice')
-require ::File.join(::File.dirname(__FILE__), 'setup/setup')
+require ~'administration/admin'
+require ~'site/site'
+require ~'adservice/adservice'
+require ~'setup/setup'
 
+#use CodeTimer
 
 use Rack::Session::Pool, :expire_after => 60 * 30 #60 * 60 * 24 * 365
 use Rack::Flash

@@ -135,6 +135,15 @@ Text:
     haml :privacy
   end
 
+  get '/scrambled/uri/for/recent/episode/update' do
+    recent_eps = []
+    0.upto(3) do |i|
+      recent_eps << most_recent_episode(i)
+    end
+    Lifeforce::MostRecentEpisodes.build(recent_eps)
+    "Done."
+  end
+
   get '/scripts/timthumb.php' do
     kt = KrispyThumb.new(File.join(File.dirname(__FILE__), 'public'))
     uri = kt.process(request)

@@ -1,21 +1,22 @@
 puts ">> Loading models..."
-require File.join(File.dirname(__FILE__),"time_date")
-require File.join(File.dirname(__FILE__), "generated_model/Lifeforce")
-require File.join(File.dirname(__FILE__),"lifeforce")
-require File.join(File.dirname(__FILE__),"member")
-require File.join(File.dirname(__FILE__),"show")
-require File.join(File.dirname(__FILE__),"episode")
-require File.join(File.dirname(__FILE__),"video")
-require File.join(File.dirname(__FILE__),"showcase")
-require File.join(File.dirname(__FILE__),"sys_message")
-require File.join(File.dirname(__FILE__),"note")
-require File.join(File.dirname(__FILE__),"description")
-require File.join(File.dirname(__FILE__),"genera")
-require File.join(File.dirname(__FILE__),"related-show")
-require File.join(File.dirname(__FILE__),"resource")
-require File.join(File.dirname(__FILE__),"season")
-require File.join(File.dirname(__FILE__),"search")
-require File.join(File.dirname(__FILE__),"adsense")
-require File.join(File.dirname(__FILE__),"analytics")
-require File.join(File.dirname(__FILE__),"credit")
+require ~"time_date"
+require ~ "generated_model/Lifeforce"
+require ~"lifeforce"
+require ~"member"
+require ~"show"
+require ~"episode"
+require ~"video"
+require ~"showcase"
+require ~"sys_message"
+require ~"note"
+require ~"description"
+require ~"genera"
+require ~"related-show"
+require ~"resource"
+require ~"season"
+require ~"search"
+require ~"adsense"
+require ~"analytics"
+require ~"credit"
+require ~"most_recent_episodes"
 puts ">> done loading models"

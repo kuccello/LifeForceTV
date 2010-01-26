@@ -28,6 +28,37 @@ module Lifeforce
       latest_ep
     end
 
+    def Show.most_recent_episodes
+      ep1 = nil
+      ep2 = nil
+      ep3 = nil
+      ep4 = nil
+      Lifeforce.root.show.each do |sh|
+        sh.episode.each do |episode|
+          if episode.status == Episode::STATUS_LIVE
+            if ep1 && episode.release_date_unix.to_i > ep1.release_date_unix.to_i
+              ep1 = episode
+            elsif ep2 && episode.release_date_unix.to_i > ep2.release_date_unix.to_i
+              ep2 = episode
+            elsif ep3 && episode.release_date_unix.to_i > ep3.release_date_unix.to_i
+              ep3 = episode
+            elsif ep4 && episode.release_date_unix.to_i > ep4.release_date_unix.to_i
+              ep4 = episode
+            elsif !ep1
+              ep1 = episode
+            elsif !ep2
+              ep2 = episode
+            elsif !ep3
+              ep3 = episode
+            elsif !ep4
+              ep4 = episode
+            end
+          end
+        end
+      end
+      [ep1,ep2,ep3,ep4]
+    end
+
     def latest_episode(index=0)
       latest_ep = nil
       

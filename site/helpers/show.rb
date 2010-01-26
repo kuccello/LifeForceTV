@@ -54,6 +54,11 @@ module LifeForceSiteHelpers
       Lifeforce::Show.most_recent_episode(index)
     end
 
+    def most_recent_episodes
+      #Lifeforce::Show.most_recent_episodes
+      Lifeforce::MostRecentEpisodes.get
+    end
+
     def ad_300x300
       "<div class='ad_300x300'>300x300 Ad Here</div>"
     end

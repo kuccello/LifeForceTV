@@ -12,6 +12,10 @@
 -->
 <lifeforcetv pid="" xmlns="http://www.soldierofcode.com/lifeforce">
 
+  <most-recent-episodes pid="">
+    <ep-ref id="" show="" episode="" />
+  </most-recent-episodes>
+
   <!--
     Member
   -->

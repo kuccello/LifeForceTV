@@ -11,14 +11,15 @@
   #inner_content
     - showcase_shows = default_showcase.sorted_shows
     - showcase_shows.each do |show_showcase|
-      = partial("showhighlight",{:show=>show_showcase.s})
+      = haml :"snippets/showhighlight", :layout=>false, :locals=>{:show=>show_showcase.s}
+
 
     %a.watch_more{:href=>"/shows"}
       Watch More Shows
-  
+
   #sidebar_home
     - default_showcase.sorted_notes.each do |note|
-      = partial("widgit",{:note=>note.n})
+      = haml :"snippets/widgit", :layout=>false, :locals=>{:note=>note.n}
 
     = haml :'snippets/recent_episodes2',:layout=>false
 
