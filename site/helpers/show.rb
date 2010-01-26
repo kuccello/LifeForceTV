@@ -54,6 +54,11 @@ module LifeForceSiteHelpers
       Lifeforce::Show.most_recent_episode(index)
     end
 
+    def get_list_of_mre
+      puts "#{__FILE__}:#{__LINE__} #{__method__} HERE"
+      Lifeforce::Show.most_recent_episodes(4)
+    end
+
     def most_recent_episodes
       #Lifeforce::Show.most_recent_episodes
       Lifeforce::MostRecentEpisodes.get

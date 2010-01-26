@@ -21,13 +21,11 @@
     - default_showcase.sorted_notes.each do |note|
       = haml :"snippets/widgit", :layout=>false, :locals=>{:note=>note.n}
 
-    = haml :'snippets/recent_episodes2',:layout=>false
-
-
-
-
     .widget{:style=>"text-align:center;"}
       = haml :'snippets/sidebar_300x300', :layout=>false
+
+    = haml :'snippets/recent_episodes2',:layout=>false
+
     .widget{:style=>"text-align:center;"}
       = haml :'snippets/sidebar_300x300', :layout=>false
 

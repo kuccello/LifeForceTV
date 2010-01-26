@@ -1,7 +1,20 @@
 module Lifeforce
   class MostRecentEpisodes
 
+#    def self.normalize
+#      Lifeforce.transaction do
+#        Lifeforce.root.show.each do |s|
+#          s.episode.each do |e|
+#            Lifeforce.root. unless Lifeforce.root.episode[e.pid]
+#          end
+#        end
+#      end
+#    end
+
     def self.build(ep_arr)
+      Lifeforce.transaction do
+        Lifeforce.root.remove_most_recent_episodes(Lifeforce.root.most_recent_episodes.first)
+      end
 
       Lifeforce.transaction do
         mre = Lifeforce.root.most_recent_episodes["default"]

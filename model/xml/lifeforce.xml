@@ -53,6 +53,8 @@
             name=""
             description=""/>
 
+  <!-- <episode pid=""/> -->
+
   <!--
     Show
   -->
@@ -65,6 +67,7 @@
         highlight-image=""
         small-image=""
         description=""
+        show_case_description=""
         rating=""
         poster=""
         bgimage=""

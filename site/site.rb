@@ -136,13 +136,21 @@ Text:
   end
 
   get '/scrambled/uri/for/recent/episode/update' do
+    puts "#{__FILE__}:#{__LINE__} #{__method__} ?????? WHAT!"
     recent_eps = []
-    0.upto(3) do |i|
-      recent_eps << most_recent_episode(i)
+#    0.upto(3) do |i|
+      recent_eps = get_list_of_mre
+    recent_eps.each do |r|
+      puts "#{__FILE__}:#{__LINE__} #{__method__} #{r.name}"
     end
+#    end
     Lifeforce::MostRecentEpisodes.build(recent_eps)
     "Done."
   end
+
+#  get '/scrambled/uri/for/episode/root' do
+#    Lifeforce::MostRecentEpisodes.normalize
+#  end
 
   get '/scripts/timthumb.php' do
     kt = KrispyThumb.new(File.join(File.dirname(__FILE__), 'public'))

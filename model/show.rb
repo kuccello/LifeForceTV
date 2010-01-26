@@ -16,59 +16,107 @@ module Lifeforce
     end
 
     def Show.most_recent_episode(index=0)
-      latest_ep = nil
-      Lifeforce.root.show.each do |sh|
-#        puts "#{__FILE__}:#{__LINE__} #{__method__} #{sh.released_episodes.size} episodes in #{sh.name}"
-        sh.sorted_released_episodes(true).each_with_index do |ep,idx|
-          latest_ep = ep if latest_ep == nil
-#          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
-          latest_ep = ep if idx == index
+      episodes = []
+      root = Lifeforce.root
+
+      root.show.each do |s|
+        s.episode.each do |e|
+          episodes << e if e.is_released?
         end
       end
+
+
+      latest_ep = nil
+
+      episodes.sort{ |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i }
+
+      latest_ep = episodes[index]
+#      Lifeforce.root.show.each do |sh|
+##        puts "#{__FILE__}:#{__LINE__} #{__method__} #{sh.released_episodes.size} episodes in #{sh.name}"
+#        sh.sorted_released_episodes(true).each_with_index do |ep,idx|
+#          latest_ep = ep if latest_ep == nil
+#          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+##          latest_ep = ep if idx == index
+#        end
+#      end
       latest_ep
     end
 
-    def Show.most_recent_episodes
-      ep1 = nil
-      ep2 = nil
-      ep3 = nil
-      ep4 = nil
-      Lifeforce.root.show.each do |sh|
-        sh.episode.each do |episode|
-          if episode.status == Episode::STATUS_LIVE
-            if ep1 && episode.release_date_unix.to_i > ep1.release_date_unix.to_i
-              ep1 = episode
-            elsif ep2 && episode.release_date_unix.to_i > ep2.release_date_unix.to_i
-              ep2 = episode
-            elsif ep3 && episode.release_date_unix.to_i > ep3.release_date_unix.to_i
-              ep3 = episode
-            elsif ep4 && episode.release_date_unix.to_i > ep4.release_date_unix.to_i
-              ep4 = episode
-            elsif !ep1
-              ep1 = episode
-            elsif !ep2
-              ep2 = episode
-            elsif !ep3
-              ep3 = episode
-            elsif !ep4
-              ep4 = episode
-            end
+
+    def Show.most_recent_episodes(num=0)
+      episodes = []
+      root = Lifeforce.root
+
+      root.show.each do |s|
+#        puts "#{__FILE__}:#{__LINE__} #{__method__} SHOW: #{s.name}"
+        s.episode.each do |e|
+          if e.is_released?
+            episodes << e
+#            puts "#{__FILE__}:#{__LINE__} #{__method__} EP ADDED: #{e.name} - #{Time.at(e.release_date_unix.to_i)}"
+          else
+#            puts "#{__FILE__}:#{__LINE__} #{__method__} EP SKIPPED: #{e.name} - #{Time.at(e.release_date_unix.to_i)}"
           end
         end
       end
-      [ep1,ep2,ep3,ep4]
+
+
+      latest_eps = []
+
+      episodes = episodes.sort{ |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i }
+
+      latest_eps = episodes.reverse[0..num]
+#      Lifeforce.root.show.each do |sh|
+##        puts "#{__FILE__}:#{__LINE__} #{__method__} #{sh.released_episodes.size} episodes in #{sh.name}"
+#        sh.sorted_released_episodes(true).each_with_index do |ep,idx|
+#          latest_ep = ep if latest_ep == nil
+#          latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
+##          latest_ep = ep if idx == index
+#        end
+#      end
+      latest_eps
     end
+
+#    def Show.most_recent_episodes
+#      ep1 = nil
+#      ep2 = nil
+#      ep3 = nil
+#      ep4 = nil
+#      Lifeforce.root.show.each do |sh|
+#        sh.episode.each do |episode|
+#          if episode.status == Episode::STATUS_LIVE
+#            if ep1 && episode.release_date_unix.to_i > ep1.release_date_unix.to_i
+#              ep1 = episode
+#            elsif ep2 && episode.release_date_unix.to_i > ep2.release_date_unix.to_i
+#              ep2 = episode
+#            elsif ep3 && episode.release_date_unix.to_i > ep3.release_date_unix.to_i
+#              ep3 = episode
+#            elsif ep4 && episode.release_date_unix.to_i > ep4.release_date_unix.to_i
+#              ep4 = episode
+#            elsif !ep1
+#              ep1 = episode
+#            elsif !ep2
+#              ep2 = episode
+#            elsif !ep3
+#              ep3 = episode
+#            elsif !ep4
+#              ep4 = episode
+#            end
+#          end
+#        end
+#      end
+#      [ep1,ep2,ep3,ep4]
+#    end
 
     def latest_episode(index=0)
       latest_ep = nil
-      
+
 
 #      self.live_episodes.each do |ep|
 ##        puts "#{__FILE__}:#{__LINE__} #{__method__} #{ep.release_date_unix} - #{ep.name}"
 #        latest_ep = ep if latest_ep == nil
 #        latest_ep = ep if latest_ep.release_date_unix.to_i < ep.release_date_unix.to_i
 #      end
-      self.released_episodes.each_with_index do |ep,idx|
+      self.released_episodes.each_with_index do |ep, idx|
         latest_ep = ep if idx == index
       end
 
@@ -329,7 +377,7 @@ This show has no description.
       episodes = []
       le = released_episodes
       episodes = le.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i } if le
-      e = episodes.reverse.sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
+      e = episodes.reverse.sort { |a, b| a.release_date_unix.to_i <=> b.release_date_unix.to_i }
 #      puts "#{__FILE__}:#{__LINE__} #{__method__} SHOW SEES #{e.size} RELEASED EPISODES"
       if reverse
         e = e.reverse
@@ -345,7 +393,8 @@ This show has no description.
     end
 
     def live_episodes
-      episodes_by_filter(Episode::STATUS_LIVE)
+      le = episodes_by_filter(Episode::STATUS_LIVE).sort {|a, b| a.sequence_order.to_i <=> b.sequence_order.to_i}
+      le.reverse
     end
 
     def pending_episodes
