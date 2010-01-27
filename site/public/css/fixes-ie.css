@@ -1,0 +1,15 @@
+#featured_home .slider .thumbs {
+	position: absolute;
+	left: 60px;
+	width: 800px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#sidebar_home h3.widget_title {
+	margin:14px 0;
+}
+
+#sidebar_home .widget_content {
+	margin-top: 0;
+}
