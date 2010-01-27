@@ -51,6 +51,14 @@
       echo "<!- - Declare the VML namespace - ->\n";
       echo "<xml:namespace ns=\"urn:schemas-microsoft-com:vml\" prefix=\"v\" />\n";
       }
+
+    - if request.env['soldierofcode.spy-vs-spy'].browser == "MSIE"
+      /
+        Include the VML behavior
+      %style="v\\:image { behavior:url(#default#VML); display:inline-block ; -ms-interpolation-mode: bicubic}"
+      /
+        Declare the VML namespace
+      = '<xml:namespace ns=\"urn:schemas-microsoft-com:vml\" prefix=\"v\" />'
     #wrapper
       /
         #border_top
