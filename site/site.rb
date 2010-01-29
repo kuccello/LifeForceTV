@@ -37,6 +37,10 @@ class LifeForceSite < Sinatra::Base
 #    haml :"raw-haml/#{params[:haml]}", :layout=>false
 #  end
 
+  get '/mensroom' do
+    redirect 'http://mensroom.tv?ref=lifeforce.tv'
+  end
+
   get '/:show_name/rss' do
     content_type "application/rss+xml"
     <<-hhh
