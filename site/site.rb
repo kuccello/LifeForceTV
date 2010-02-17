@@ -23,6 +23,11 @@ class LifeForceSite < Sinatra::Base
     $DESCRIPTION = $DEFAULT_DESC
     $KEYWORDS = $DEFAULT_KEY
     $TITLE = $DEFAULT_TITLE
+    
+    spy_vs_spy = env['soldierofcode.spy-vs-spy']
+    if spy_vs_spy.browser == 'MSIE' && request.env['REQUEST_URI'] != '/ie' then
+      redirect '/ie'
+    end
   end
 
   not_found do
@@ -39,6 +44,10 @@ class LifeForceSite < Sinatra::Base
 
   get '/mensroom' do
     redirect 'http://mensroom.tv?ref=lifeforce.tv'
+  end
+  
+  get '/ie' do
+    haml :ie, :layout=>false
   end
 
   get '/:show_name/rss' do
