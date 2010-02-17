@@ -1,0 +1,45 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title
+      404 - Page NOT FOUND
+    %meta{ :name => "generator", :content => "404 - Page NOT FOUND" }
+    %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
+    %meta{ :name => "Keywords", :content => "404 - Page NOT FOUND" }
+    %meta{ :name => "Description", :content => "404 - Page NOT FOUND" }
+    %meta{ :name => "robots", :content => "all" }
+    %link{ :rel => "stylesheet", :href => "/css/errors/style.css", :type => "text/css", :media => "screen" }
+  %body
+    /
+      Wrapper Starts
+    #wrapper
+      /
+        404 Wrap Starts
+      #page-nf-wrap1
+        /
+          404 Error Image Starts
+        %p
+          %img{ :src => "/images/errors/images/404-green.jpg", :alt => "404" }
+        /
+          404 Error Image Ends
+        /
+          404 Error Text Starts
+        %p
+          %span.green
+            Sorry
+          , it appears the page you were looking for doesn't exist anymore or might have been moved.
+        /
+          404 Error Text Ends
+        %a{:href=>"/",:alt=>"Start from the beginning"}
+          Maybe you should click here.
+        /
+          Search Starts
+          %form.clearfix{ :action => "#" }
+            %input.input.floatleft{ :type => "text" }
+            %input.search-btn.floatleft{ :type => "submit", :value => "" }
+        /
+          Search Ends
+      /
+        404 Wrap Ends
+    /
+      Wrapper Ends

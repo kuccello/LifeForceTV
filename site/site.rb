@@ -26,7 +26,7 @@ class LifeForceSite < Sinatra::Base
   end
 
   not_found do
-    "NOT FOUND!!! 404"
+    haml :'404', :layout=>false
   end
 
   error do

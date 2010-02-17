@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#fff;
+	font:11px/20px Tahoma,Helvetica,sans-serif;
+	color:#272727;
+}
+
+/* Layout Styles Starts */
+
+#wrapper{
+	width:900px;
+	margin:0 auto;
+	padding:125px 0 0 0;
+}
+	#page-nf-wrap{
+		width:580px;
+		margin:0 auto;
+		background:url(images/404-wrap-bg.jpg) repeat-y;
+	}
+		#page-nf{
+			background:url(images/404-wrap-top.jpg) no-repeat top;
+		}
+			#page-nf-inner{
+				background:url(images/404-wrap-bottom.jpg) no-repeat bottom;
+				padding:54px 39px;
+				font-family:"Myriad Pro Cond";
+				font-size:24px;
+				line-height:30px;
+			}
+				#page-nf-inner span, #page-nf-inner span.green, #page-nf-inner span.pink, #page-nf-inner span.red, #page-nf-inner span.pale, #page-nf-inner span.orange, #page-nf-wrap1 span, #page-nf-wrap1 span.green, #page-nf-wrap1 span.pink, #page-nf-wrap1 span.red, #page-nf-wrap1 span.pale, #page-nf-wrap1 span.orange{
+					color:#088ab1;
+					font-weight:bolder;
+				}
+				#page-nf-inner span.green, #page-nf-wrap1 span.green{
+					color:#73a605;
+				}
+				#page-nf-inner span.pink, #page-nf-wrap1 span.pink{
+					color:#fa29ba;
+				}
+				#page-nf-inner span.red, #page-nf-wrap1 span.red{
+					color:#ff0000;
+				}
+				#page-nf-inner span.pale, #page-nf-wrap1 span.pale{
+					color:#748a85;
+				}
+				#page-nf-inner span.orange, #page-nf-wrap1 span.orange{
+					color:#ee7f0f;
+				}
+				#page-nf-inner form, #page-nf-wrap1 form{
+					width:300px;
+					padding:25px 0 0 0;
+					margin:0 auto;
+				}
+#page-nf-wrap1{
+	width:580px;
+	margin:0 auto;
+	padding:54px 39px;
+	font-family:"Myriad Pro Cond";
+	font-size:24px;
+	line-height:30px;
+}
+#page-nf-wrap1 form{
+	margin:0;
+}
+
+/* Layout Styles Ends */
+
+
+
+/* Form Styles */
+
+.input{
+	border:1px solid #a5a5a5;
+	background:none;
+	cursor:text;
+	padding:5px;
+	width:200px;
+}
+textarea.input{
+	width:415px;
+	height:100px;
+}
+.input:focus, .textarea:focus{
+	border:1px solid #000;
+}
+.search-btn{
+	background:url(images/search-btn.jpg) no-repeat;
+	width:71px;
+	height:27px;
+	border:none;
+	outline:none;
+	margin:0 0 0 5px;
+	cursor:pointer;
+}
+
+/* Form Styles */
+
+
+
+
+/* Genric Styles Starts */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+a {
+	color:#222;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {text-decoration:underline;color:#098ab4;}
+h1{font-size:32px;}
+h2{font-size:26px;}
+h3{font-size:23px;}
+h4{font-size:16px;}
+h5, h6{font-size:14px;}
+h1,h2,h3,h4,h5,h6{margin:0 0 15px 0; color:#231f20;font-family:"Myriad Pro Cond","Trebuchet MS";font-weight:normal;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{ color:#231f20;font-weight:normal;}							
+img{border:none;}
+.clear{clear:both;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.normal, .normal a{font-weight:normal;}
+.textbold{font-weight:bold;}
+
+
+/* Genric Styles Ends */
+
+
