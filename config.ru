@@ -17,7 +17,7 @@ $KEYWORDS = $DEFAULT_KEY
 $TITLE = $DEFAULT_TITLE
 
 $LIFEFORCE_INSTALLED = false
-$SITE_NAME = "LifeForceTV"
+$SITE_NAME = "LifeforceTV"
 $TRANSACTION_CONTEXT = "lifeforce"
 $LIFEFORCE_VERSION = "6.1"
 $lifeforce_configuration_setup_flag = true
