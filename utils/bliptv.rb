@@ -64,7 +64,7 @@ module Lifeforce
     end
 
     def get_swf_code(blip_hash)
-      "http://blip.tv/play/#{blip_hash}"
+      "http://blip.tv/play/#{blip_hash}A%mv4"
     end
 
     def get_embed_code(blip_hash)

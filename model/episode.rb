@@ -1,3 +1,4 @@
+require 'uri'
 module Lifeforce
 
   class EpisodeDate < HelperDate
@@ -204,6 +205,14 @@ module Lifeforce
       end
       tstr
     end
+    
+    def escaped_hd_url
+      URI.escape(self.hd_swf_url) if self.hd_swf_url
+    end
+    
+    def escaped_sd_url
+      URI.escape(self.sd_swf_url) if self.sd_swf_url
+    end
 
     def update(params)
       show = s
@@ -228,7 +237,9 @@ module Lifeforce
       episode_poster_image = params[:episode_poster_image]
       episode_thumbnail_image = params[:episode_thumbnail_image]
       episode_hd_swf_url = params[:hd_swf_url]
+      #episode_hd_swf_url = URI.escape(episode_hd_swf_url); if episode_hd_swf_url
       episode_sd_swf_url = params[:sd_swf_url]
+      #episode_sd_swf_url = URI.escape(episode_sd_swf_url); if episode_sd_swf_url
       video_is_default = params[:video_is_default]
 
       ep_showcase_rm = params[:episode_showcase_remove]
