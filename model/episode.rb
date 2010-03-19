@@ -207,11 +207,13 @@ module Lifeforce
     end
     
     def escaped_hd_url
-      URI.escape(self.hd_swf_url) if self.hd_swf_url
+      #URI.escape(self.hd_swf_url) if self.hd_swf_url
+      self.hd_swf_url
     end
     
     def escaped_sd_url
-      URI.escape(self.sd_swf_url) if self.sd_swf_url
+      #URI.escape(self.sd_swf_url) if self.sd_swf_url
+      self.sd_swf_url
     end
 
     def update(params)
